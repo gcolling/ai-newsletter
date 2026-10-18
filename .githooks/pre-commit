@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks commits that would publish personal data or secrets.
+# Enable once per clone: git config core.hooksPath .githooks
+exec node src/dev/privacy-check.ts --hook
