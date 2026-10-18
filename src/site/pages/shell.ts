@@ -8,13 +8,13 @@ export function themeToggle(): Html {
 }
 
 /** Frame for the quieter pages (archive, about, 404): brand on top, one readable column. */
-export function shell(content: Html, current: "archive" | "about" | ""): Html {
+export function shell(content: Html, current: "archive" | "about" | "saved" | ""): Html {
   const link = (path: string, label: string, id: typeof current) =>
     html`<a href="${href(path)}"${id === current ? html` aria-current="page"` : ""}>${label}</a>`;
   return html`<div class="doc">
 <header class="doc-head">
 <a class="brand" href="${href()}">${site.name}</a>
-<nav aria-label="Site">${link("", "Today", "")}${link("week/", "This week", "")}${link("archive/", "Archive", "archive")}${link("about/", "How it works", "about")}${link("feed.xml", "RSS", "")}</nav>
+<nav aria-label="Site">${link("", "Today", "")}${link("week/", "This week", "")}${link("saved/", "Saved", "saved")}${link("archive/", "Archive", "archive")}${link("about/", "How it works", "about")}${link("feed.xml", "RSS", "")}</nav>
 </header>
 <main class="doc-main">
 ${content}

@@ -609,17 +609,32 @@ kbd {
 .btn.ghost {
   background: rgb(255 255 255 / 0.14);
 }
-.keys {
-  margin-left: auto;
-  font-size: 12px;
-  opacity: 0.7;
+.btn.ghost[aria-pressed="true"] {
+  background: var(--on-gem);
+  color: var(--c);
 }
-.keys kbd {
-  background: rgb(255 255 255 / 0.16);
+.btn.next {
+  margin-left: auto;
+}
+.keys {
+  font-weight: 500;
+  margin-left: 10px;
+}
+@media (hover: none) {
+  .keys {
+    display: none;
+  }
+}
+.row.is-saved .row-meta::after {
+  content: " · Saved";
+  color: var(--soft);
+  font-weight: 600;
 }
 
 /* Up next: the following stories in this view, ready to pick. */
 .up-next h3 {
+  display: flex;
+  justify-content: space-between;
   font-size: 12px;
   font-weight: 600;
   color: var(--faint);
@@ -897,7 +912,68 @@ body.is-locked {
 }
 .doc-head nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 4px;
+}
+.pill-btn {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 99px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+  color: var(--soft);
+}
+.pill-btn:hover {
+  color: var(--ink);
+}
+.saved-tools {
+  display: flex;
+  gap: 8px;
+  margin: -16px 0 24px;
+}
+.saved-tools[hidden],
+.saved-empty[hidden] {
+  display: none;
+}
+.saved-item {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+.saved-item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+  grid-row: span 2;
+  align-self: start;
+  margin-top: 7px;
+}
+.saved-title {
+  font: 450 20px / 1.25 var(--serif);
+  text-decoration: none;
+}
+.saved-title:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.saved-item .pill-btn {
+  grid-row: span 2;
+  align-self: center;
+}
+.saved-meta {
+  grid-column: 2;
+  font-size: 13px;
+  color: var(--soft);
+}
+.saved-empty {
+  color: var(--soft);
+  font-size: 16px;
 }
 .doc-head nav a {
   font-size: 14px;

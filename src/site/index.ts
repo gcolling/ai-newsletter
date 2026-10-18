@@ -12,6 +12,7 @@ import { aboutPage } from "./pages/about.ts";
 import { archivePage } from "./pages/archive.ts";
 import { issuePage } from "./pages/issue.ts";
 import { notFoundPage } from "./pages/not-found.ts";
+import { savedPage } from "./pages/saved.ts";
 import { weekPage } from "./pages/week.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -91,6 +92,7 @@ export async function build(issues: Issue[]) {
   if (week) await write("week/index.html", week);
   await write("archive/index.html", archivePage(issues));
   await write("about/index.html", aboutPage());
+  await write("saved/index.html", savedPage());
   await write("404.html", notFoundPage());
   await write("feed.xml", atomFeed(issues));
 }

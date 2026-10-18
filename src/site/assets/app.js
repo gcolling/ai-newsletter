@@ -15,10 +15,109 @@
     },
   };
 
+  // Saved stories: kept in this browser only, newest first.
+  const saved = {
+    list: () => store.get("saved-v1", []),
+    write(list) {
+      store.set("saved-v1", list);
+      updateSavedLinks();
+    },
+    has: (id) => saved.list().some((s) => s.id === id),
+  };
+
+  const safeHref = (url) => {
+    try {
+      const parsed = new URL(url);
+      return parsed.protocol === "https:" || parsed.protocol === "http:" ? parsed.href : "#";
+    } catch {
+      return "#";
+    }
+  };
+
   setUpTheme();
   humanizeTimes();
+  updateSavedLinks();
   const app = document.querySelector(".app");
   if (app) setUpReader(app);
+  const savedList = document.querySelector("[data-saved-list]");
+  if (savedList) setUpSavedPage(savedList);
+
+  function updateSavedLinks() {
+    const count = saved.list().length;
+    for (const a of document.querySelectorAll("[data-saved-link]")) {
+      a.textContent = count ? `Saved · ${count}` : "Saved";
+    }
+  }
+
+  // Briefly swaps a button's label, e.g. "Link copied".
+  function flash(button, text) {
+    button.dataset.label ??= button.textContent;
+    button.textContent = text;
+    setTimeout(() => {
+      button.textContent = button.dataset.label;
+    }, 1600);
+  }
+
+  function setUpSavedPage(list) {
+    const empty = document.querySelector("[data-saved-empty]");
+    const tools = document.querySelector("[data-saved-tools]");
+    const day = new Intl.DateTimeFormat(undefined, { day: "numeric", month: "short" });
+    const draw = () => {
+      const items = saved.list();
+      list.replaceChildren(
+        ...items.map((item) => {
+          const li = document.createElement("li");
+          li.className = "saved-item";
+          li.style.setProperty("--c", item.color);
+          const link = document.createElement("a");
+          link.className = "saved-title";
+          link.href = safeHref(item.url);
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = item.title;
+          const meta = document.createElement("span");
+          meta.className = "saved-meta";
+          meta.textContent = `${item.source} · saved ${day.format(new Date(item.savedAt))}`;
+          const remove = document.createElement("button");
+          remove.type = "button";
+          remove.className = "pill-btn";
+          remove.dataset.remove = item.id;
+          remove.textContent = "Remove";
+          li.append(link, meta, remove);
+          return li;
+        }),
+      );
+      empty.hidden = items.length > 0;
+      tools.hidden = items.length === 0;
+    };
+    document.addEventListener("click", async (e) => {
+      const target = e.target instanceof Element ? e.target : null;
+      const remove = target?.closest("[data-remove]");
+      if (remove) {
+        saved.write(saved.list().filter((s) => s.id !== remove.dataset.remove));
+        return draw();
+      }
+      const copy = target?.closest("[data-saved-copy]");
+      if (copy) {
+        const md = saved
+          .list()
+          .map((s) => `- [${s.title.replace(/[[\]]/g, "\\$&")}](${safeHref(s.url)}) — ${s.source}`)
+          .join("\n");
+        try {
+          await navigator.clipboard.writeText(md);
+          flash(copy, "Copied");
+        } catch {
+          flash(copy, "Copy failed");
+        }
+        return;
+      }
+      if (target?.closest("[data-saved-clear]") && confirm("Remove every saved story?")) {
+        saved.write([]);
+        draw();
+      }
+    });
+    draw();
+  }
 
   // Theme: Auto follows the system; Light and Dark are remembered. The head script applies a saved
   // choice before first paint, so this only keeps the button and the attribute in step.
@@ -99,6 +198,58 @@
     let current = null;
     let shownAt = 0;
     let focusObserver = null;
+
+    function paintSaved(id) {
+      const on = saved.has(id);
+      const button = stories.get(id)?.querySelector("[data-save]");
+      if (button) {
+        button.textContent = on ? "Saved" : "Save";
+        button.setAttribute("aria-pressed", String(on));
+      }
+      document.getElementById(`r-${id}`)?.classList.toggle("is-saved", on);
+    }
+
+    function toggleSave(id) {
+      const row = document.getElementById(`r-${id}`);
+      const link = stories.get(id)?.querySelector("[data-open]");
+      if (!row || !link) return;
+      const list = saved.list();
+      if (list.some((s) => s.id === id)) {
+        saved.write(list.filter((s) => s.id !== id));
+      } else {
+        saved.write([
+          {
+            id,
+            title: row.querySelector(".row-title").textContent,
+            url: link.href,
+            source: row.querySelector(".row-src").textContent,
+            color: row.style.getPropertyValue("--c"),
+            savedAt: new Date().toISOString(),
+          },
+          ...list,
+        ]);
+      }
+      paintSaved(id);
+    }
+
+    // The phone share sheet where it exists, otherwise copy the link.
+    async function share(id) {
+      const story = stories.get(id);
+      const link = story?.querySelector("[data-open]");
+      const button = story?.querySelector("[data-share]");
+      if (!link || !button) return;
+      try {
+        if (navigator.share && matchMedia("(hover: none)").matches) {
+          await navigator.share({
+            title: story.querySelector(".story-title").textContent.trim(),
+            url: link.href,
+          });
+        } else {
+          await navigator.clipboard.writeText(link.href);
+          flash(button, "Link copied");
+        }
+      } catch {}
+    }
 
     function markRead(id) {
       if (!id || read.has(id)) return;
@@ -299,6 +450,8 @@
       const goto = target.closest("[data-goto]");
       if (goto) return select(goto.dataset.goto);
       if (target.closest("[data-next]")) return step(1);
+      if (target.closest("[data-save]")) return toggleSave(current);
+      if (target.closest("[data-share]")) return share(current);
       if (target.closest("[data-focus]")) return setFocus(!isFocus());
       if (target.closest("[data-open]")) markRead(current);
     });
@@ -328,6 +481,7 @@
         ArrowUp: () => step(-1),
         ArrowLeft: () => step(-1),
         o: open,
+        s: () => toggleSave(current),
         Enter: () => (e.target.closest?.("a, button") ? null : open()),
         f: () => setFocus(!isFocus()),
         "/": () => {
@@ -344,7 +498,10 @@
 
     window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
 
-    for (const row of rows) if (read.has(row.dataset.id)) row.classList.add("is-read");
+    for (const row of rows) {
+      if (read.has(row.dataset.id)) row.classList.add("is-read");
+      paintSaved(row.dataset.id);
+    }
     applyView(location.hash.slice(1) || "top");
   }
 })();

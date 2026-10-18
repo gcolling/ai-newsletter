@@ -107,8 +107,9 @@ ${summary}
 <div class="actions">
 <a class="btn go" href="${safeUrl(story.url)}" target="_blank" rel="noopener noreferrer" data-open>Read at ${destination(story)} <span aria-hidden="true">↗</span></a>
 ${discussionLink(story)}
-<button class="btn ghost" type="button" data-next>Next story</button>
-<span class="keys" aria-hidden="true"><kbd>J</kbd><kbd>K</kbd> move · <kbd>F</kbd> focus · <kbd>/</kbd> search</span>
+<button class="btn ghost" type="button" data-save aria-pressed="false">Save</button>
+<button class="btn ghost" type="button" data-share>Share</button>
+<button class="btn ghost next" type="button" data-next>Next <span aria-hidden="true">→</span></button>
 </div>
 </div>
 </article>`;
@@ -159,7 +160,7 @@ ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n
 </nav>
 <footer class="rail-foot">
 ${days}
-<nav class="links" aria-label="More">${other}<a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
+<nav class="links" aria-label="More">${other}<a href="${href("saved/")}" data-saved-link>Saved</a><a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
 <p>Built ${timeUtc(issue.generatedAt)} from ${ok} of ${total} sources. Ranked by rules, not a model.</p>
 ${themeToggle()}
 </footer>
@@ -196,7 +197,7 @@ ${issue.stories.map(card)}
 </section>
 </div>
 <section class="up-next" data-up-next aria-label="Up next" hidden>
-<h3>Up next</h3>
+<h3>Up next <span class="keys" aria-hidden="true"><kbd>J</kbd> <kbd>K</kbd> move · <kbd>S</kbd> save · <kbd>F</kbd> focus · <kbd>/</kbd> search</span></h3>
 <div class="up-next-cards" data-up-next-cards></div>
 </section>
 </main>
