@@ -9,9 +9,7 @@
   "sources": {
     "total": 65,
     "ok": 64,
-    "failed": [
-      "make-blog"
-    ]
+    "failed": ["make-blog"]
   },
   "stories": [
     {
@@ -40,10 +38,7 @@
       "section": "news",
       "topic": "policy",
       "score": 71.4,
-      "reasons": [
-        "Covered by 3 outlets",
-        "Matched: scraping, AI training"
-      ]
+      "reasons": ["Covered by 3 outlets", "Matched: scraping, AI training"]
     },
     {
       "id": "i44r8blf2f",
@@ -60,10 +55,7 @@
       "section": "community",
       "topic": "models",
       "score": 66.2,
-      "reasons": [
-        "899 points · 675 comments on Hacker News",
-        "Matched: DeepSeek, open weights"
-      ],
+      "reasons": ["899 points · 675 comments on Hacker News", "Matched: DeepSeek, open weights"],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50131111",
@@ -86,10 +78,7 @@
       "section": "community",
       "topic": "tools",
       "score": 58.9,
-      "reasons": [
-        "462 points · 465 comments on Hacker News",
-        "Matched: Claude Code, code review"
-      ],
+      "reasons": ["462 points · 465 comments on Hacker News", "Matched: Claude Code, code review"],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50132222",
@@ -112,10 +101,7 @@
       "section": "community",
       "topic": "research",
       "score": 52.1,
-      "reasons": [
-        "611 points · 556 comments on Hacker News",
-        "Matched: benchmarks"
-      ],
+      "reasons": ["611 points · 556 comments on Hacker News", "Matched: benchmarks"],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50133333",
@@ -138,9 +124,7 @@
       "section": "news",
       "topic": "agents",
       "score": 41.3,
-      "reasons": [
-        "Matched: AI agents"
-      ]
+      "reasons": ["Matched: AI agents"]
     },
     {
       "id": "hqgc1klfcv",
@@ -157,9 +141,7 @@
       "section": "news",
       "topic": "industry",
       "score": 38.6,
-      "reasons": [
-        "Matched: OpenAI, Anthropic"
-      ]
+      "reasons": ["Matched: OpenAI, Anthropic"]
     },
     {
       "id": "mm6vlfz5jd",
@@ -176,9 +158,7 @@
       "section": "news",
       "topic": "industry",
       "score": 36.1,
-      "reasons": [
-        "Matched: Anthropic"
-      ]
+      "reasons": ["Matched: Anthropic"]
     },
     {
       "id": "j1xhxkhex4",
@@ -195,10 +175,7 @@
       "section": "news",
       "topic": "tools",
       "score": 35.2,
-      "reasons": [
-        "214 points · 89 comments on Hacker News",
-        "Matched: AI code review"
-      ],
+      "reasons": ["214 points · 89 comments on Hacker News", "Matched: AI code review"],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50134444",
@@ -221,10 +198,7 @@
       "section": "essays",
       "topic": "tools",
       "score": 34,
-      "reasons": [
-        "From a followed writer",
-        "Matched: coding agents"
-      ]
+      "reasons": ["From a followed writer", "Matched: coding agents"]
     },
     {
       "id": "puwv67qhi2",
@@ -241,9 +215,7 @@
       "section": "papers",
       "topic": "research",
       "score": 33.8,
-      "reasons": [
-        "667 upvotes on Hugging Face"
-      ],
+      "reasons": ["667 upvotes on Hugging Face"],
       "paper": {
         "upvotes": 667,
         "arxivId": "2610.21601"
@@ -264,9 +236,7 @@
       "section": "news",
       "topic": "policy",
       "score": 31.4,
-      "reasons": [
-        "Matched: AI agents, credentials"
-      ]
+      "reasons": ["Matched: AI agents, credentials"]
     },
     {
       "id": "9dbsnkmxxf",
@@ -283,9 +253,7 @@
       "section": "news",
       "topic": "models",
       "score": 30.2,
-      "reasons": [
-        "Matched: ChatGPT"
-      ]
+      "reasons": ["Matched: ChatGPT"]
     },
     {
       "id": "bybomxcpbd",
@@ -302,9 +270,7 @@
       "section": "papers",
       "topic": "research",
       "score": 30.1,
-      "reasons": [
-        "353 upvotes on Hugging Face"
-      ],
+      "reasons": ["353 upvotes on Hugging Face"],
       "paper": {
         "upvotes": 353,
         "arxivId": "2610.21777"
@@ -325,9 +291,7 @@
       "section": "automation",
       "topic": "automation",
       "score": 29.5,
-      "reasons": [
-        "Matched: durable execution, MCP"
-      ]
+      "reasons": ["Matched: durable execution, MCP"]
     },
     {
       "id": "hbinhqim0c",
@@ -344,9 +308,7 @@
       "section": "news",
       "topic": "infra",
       "score": 27.9,
-      "reasons": [
-        "Matched: on-device models"
-      ]
+      "reasons": ["Matched: on-device models"]
     },
     {
       "id": "dk3zhus8ow",
@@ -363,9 +325,7 @@
       "section": "automation",
       "topic": "automation",
       "score": 27,
-      "reasons": [
-        "Matched: workflow automation, AI agent"
-      ]
+      "reasons": ["Matched: workflow automation, AI agent"]
     },
     {
       "id": "szpujvzoql",
@@ -382,10 +342,7 @@
       "section": "essays",
       "topic": "agents",
       "score": 26,
-      "reasons": [
-        "From a followed writer",
-        "Matched: context engineering"
-      ]
+      "reasons": ["From a followed writer", "Matched: context engineering"]
     },
     {
       "id": "oqi8ptedk6",
@@ -402,9 +359,7 @@
       "section": "community",
       "topic": "tools",
       "score": 24.6,
-      "reasons": [
-        "177 points · 54 comments on Hacker News"
-      ],
+      "reasons": ["177 points · 54 comments on Hacker News"],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50135555",
@@ -427,9 +382,7 @@
       "section": "releases",
       "topic": "tools",
       "score": 19,
-      "reasons": [
-        "New release"
-      ],
+      "reasons": ["New release"],
       "release": {
         "repo": "anthropics/claude-code",
         "version": "v2.4.1"
@@ -450,9 +403,7 @@
       "section": "releases",
       "topic": "tools",
       "score": 13,
-      "reasons": [
-        "New release"
-      ],
+      "reasons": ["New release"],
       "release": {
         "repo": "microsoft/playwright",
         "version": "v1.58.0"
@@ -473,9 +424,7 @@
       "section": "releases",
       "topic": "infra",
       "score": 7.5,
-      "reasons": [
-        "New release"
-      ],
+      "reasons": ["New release"],
       "release": {
         "repo": "ollama/ollama",
         "version": "v0.40.8"

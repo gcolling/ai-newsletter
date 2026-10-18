@@ -54,6 +54,21 @@ describe("issue page", () => {
     assert.ok(top.every((s) => s.section !== "releases"));
   });
 
+  it("lets at most two papers into the top stories", async () => {
+    const issue = await fixture("2026-10-18");
+    const [first] = issue.stories;
+    assert.ok(first);
+    const papers = Array.from({ length: 5 }, (_, i) => ({
+      ...first,
+      id: `paper${i}`,
+      section: "papers" as const,
+      score: 100 - i,
+    }));
+    const top = topStories({ ...issue, stories: [...papers, ...issue.stories] });
+    assert.equal(top.filter((s) => s.section === "papers").length, 2);
+    assert.equal(top.length, 12);
+  });
+
   it("neutralises hostile feed content", async () => {
     const issue = await fixture("2026-10-18");
     const [first] = issue.stories;

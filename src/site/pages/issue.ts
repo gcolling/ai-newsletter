@@ -21,9 +21,17 @@ interface Neighbours {
   older?: Issue;
 }
 
-/** Stories that can open the day: everything except release notes. */
+/** Stories that open the day: best first, no release notes, and papers can't crowd out the news. */
 export function topStories(issue: Issue): Story[] {
-  return issue.stories.filter((s) => s.section !== "releases").slice(0, render.topCount);
+  const top: Story[] = [];
+  let papers = 0;
+  for (const story of issue.stories) {
+    if (top.length === render.topCount) break;
+    if (story.section === "releases") continue;
+    if (story.section === "papers" && ++papers > render.maxTopPapers) continue;
+    top.push(story);
+  }
+  return top;
 }
 
 /** Every view a story belongs to, as a space-separated token list for the client. */

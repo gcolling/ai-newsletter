@@ -32,4 +32,6 @@ export const paths = {
 export const render = {
   /** Size of the "Top stories" view. */
   topCount: 12,
+  /** Papers allowed in the top stories; the rest stay under "Papers". */
+  maxTopPapers: 2,
 };

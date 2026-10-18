@@ -3,8 +3,8 @@
   --canvas: #eef0f3;
   --pane: #ffffff;
   --ink: #0f1217;
-  --soft: #5d6470;
-  --faint: #8a919c;
+  --soft: #4f5662;
+  --faint: #666d78;
   --line: #e2e5ea;
   --hover: rgb(255 255 255 / 0.6);
   --lift: 0 1px 2px rgb(15 18 23 / 0.06), 0 0 0 1px rgb(15 18 23 / 0.04);
@@ -21,7 +21,7 @@
     --pane: #181b21;
     --ink: #eceef2;
     --soft: #a3a9b4;
-    --faint: #6e7581;
+    --faint: #7d8490;
     --line: #262a33;
     --hover: rgb(255 255 255 / 0.04);
     --lift: 0 0 0 1px rgb(255 255 255 / 0.07);
