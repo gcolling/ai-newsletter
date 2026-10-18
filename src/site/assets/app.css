@@ -351,6 +351,11 @@ kbd {
 .search:focus-within kbd {
   display: none;
 }
+@media (hover: none) {
+  .search kbd {
+    display: none;
+  }
+}
 .list-empty {
   padding: 24px 14px;
   color: var(--soft);
@@ -958,8 +963,13 @@ code {
 
 .steps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+}
+@media (max-width: 600px) {
+  .steps {
+    grid-template-columns: 1fr;
+  }
 }
 .steps div {
   background: var(--pane);
