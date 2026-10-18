@@ -82,12 +82,13 @@ builds the site and deploys it.
 
 ## Repository settings
 
-Once, in this order. The force push has to come before the branch rules, which forbid it.
+Everything below applies to this repository only. Do it once, in this order: the force push has
+to come before the branch rules, which forbid it.
 
-1. **Your account → Settings → Emails:** turn on _Keep my email addresses private_ and _Block
-   command line pushes that expose my email_. Commits made on the website then use your noreply
-   address too, which the privacy check requires.
-2. Replace the old first commit, which carried a personal email: `git push --force-with-lease origin main`.
+1. Replace the old first commit, which carried a personal email: `git push --force-with-lease origin main`.
+2. Commit with your GitHub noreply address in this clone only (`git config user.email
+   <id>+<username>@users.noreply.github.com`, without `--global`). The pre-commit hook and CI
+   reject anything else.
 3. **Settings → Pages:** set _Source_ to _GitHub Actions_.
 4. **Settings → Actions → General:** keep _Workflow permissions_ on read-only; each workflow asks for
    the write access it needs.
@@ -100,6 +101,22 @@ Once, in this order. The force push has to come before the branch rules, which f
    deletions_, _Block force pushes_, _Require a pull request before merging_ (0 approvals is fine
    when working alone) and _Require status checks to pass_ with the CI `check` job. The daily
    Publish run writes to the `data` branch, so the rules don't get in its way.
+
+**Merging pull requests.** A merge made on the website is authored with your account's default
+email, which may not be the noreply one. Either merge from the terminal, which lets you set the
+author:
+
+```bash
+gh pr merge --squash --delete-branch --author-email "$(git config user.email)"
+```
+
+or pick the noreply address under _Commit email_ in the website's merge box. CI on `main` fails if
+a personal email slips through, but by then it is public, so prevention is the habit to keep.
+
+GitHub also has account-wide switches (_Settings → Emails → Keep my email addresses private_ and
+_Block command line pushes that expose my email_). They protect every repository at once, but they
+also change website commits and command-line pushes in all your other projects, so they are left
+out here on purpose.
 
 ## Changing what you get
 
