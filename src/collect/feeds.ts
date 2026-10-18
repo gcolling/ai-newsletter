@@ -5,7 +5,7 @@ import type { Window } from "./rank.ts";
 import {
   isBareTag,
   isExcludedTag,
-  newestPerRepo,
+  newestPerSource,
   releaseRepo,
   releaseSummary,
   releaseTag,
@@ -164,5 +164,5 @@ export function feedCandidates(source: Source, body: string, context: FeedContex
     if (isDenied(c.title, c.summary)) return false;
     return !source.keywordFilter || isRelevant(c.title, c.summary);
   });
-  return source.section === "releases" ? newestPerRepo(kept) : kept;
+  return source.section === "releases" ? newestPerSource(kept) : kept;
 }

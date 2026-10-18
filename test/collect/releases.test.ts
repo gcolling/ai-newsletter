@@ -5,7 +5,7 @@ import {
   cleanReleaseLine,
   isBareTag,
   isExcludedTag,
-  newestPerRepo,
+  newestPerSource,
   releaseSummary,
   releaseTag,
   releaseTitle,
@@ -130,8 +130,8 @@ describe("isBareTag", () => {
   });
 });
 
-describe("newestPerRepo", () => {
-  it("keeps only the newest release of each repo", () => {
+describe("newestPerSource", () => {
+  it("keeps only the newest release of each source", () => {
     const older = story({
       title: "Claude Code 2.1.301",
       publishedAt: hoursAgo(10),
@@ -143,10 +143,11 @@ describe("newestPerRepo", () => {
       release: { repo: "anthropics/claude-code", version: "2.1.302" },
     });
     const other = story({
+      sourceId: "gh-ollama",
       title: "Ollama 0.40.6",
       release: { repo: "ollama/ollama", version: "0.40.6" },
     });
-    const kept = newestPerRepo([older, newer, other]).map((c) => c.title);
+    const kept = newestPerSource([older, newer, other]).map((c) => c.title);
     assert.deepEqual(kept.sort(), ["Claude Code 2.1.302", "Ollama 0.40.6"]);
   });
 });
@@ -209,6 +210,21 @@ describe("release feeds end to end", () => {
     assert.equal(
       codex?.url,
       "https://developers.openai.com/codex/changelog/#github-release-414286110",
+    );
+  });
+});
+
+describe("newestPerSource with changelog repos", () => {
+  it("collapses a changelog whose entries link different repos", () => {
+    const a = story({ title: "Codex 0.1", release: { repo: "openai/codex", version: "0.1" } });
+    const b = story({
+      title: "Codex 0.2",
+      publishedAt: hoursAgo(1),
+      release: { repo: "some/dependency", version: "0.2" },
+    });
+    assert.deepEqual(
+      newestPerSource([a, b]).map((c) => c.title),
+      ["Codex 0.2"],
     );
   });
 });

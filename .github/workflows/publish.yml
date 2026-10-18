@@ -29,7 +29,8 @@ jobs:
           node-version-file: .node-version
           cache: npm
 
-      - run: npm ci
+      # No dependency needs install scripts, and this job holds a write token.
+      - run: npm ci --ignore-scripts
 
       - name: Check out the data branch into ./data
         run: |

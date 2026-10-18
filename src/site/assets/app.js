@@ -118,7 +118,10 @@
       if (copy) {
         const md = saved
           .list()
-          .map((s) => `- [${s.title.replace(/[[\]]/g, "\\$&")}](${safeHref(s.url)}) — ${s.source}`)
+          // <…> around the URL keeps parentheses in it intact (CommonMark link destination).
+          .map(
+            (s) => `- [${s.title.replace(/[[\]]/g, "\\$&")}](<${safeHref(s.url)}>) — ${s.source}`,
+          )
           .join("\n");
         try {
           await navigator.clipboard.writeText(md);
@@ -218,8 +221,7 @@
     let shownAt = 0;
     let focusObserver = null;
 
-    function paintSaved(id) {
-      const on = saved.has(id);
+    function paintSaved(id, on = saved.has(id)) {
       const button = stories.get(id)?.querySelector("[data-save]");
       if (button) {
         button.textContent = on ? "Saved" : "Save";
@@ -535,9 +537,10 @@
 
     window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
 
+    const savedIds = new Set(saved.list().map((s) => s.id));
     for (const row of rows) {
       if (read.has(row.dataset.id)) row.classList.add("is-read");
-      paintSaved(row.dataset.id);
+      paintSaved(row.dataset.id, savedIds.has(row.dataset.id));
     }
     applyView(location.hash.slice(1) || "top");
   }

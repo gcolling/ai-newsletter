@@ -33,11 +33,16 @@ export function findLeaks(text: string): { kind: string; match: string; line: nu
 
 if (import.meta.main) {
   const problems: string[] = [];
+  // As a hook, check exactly what is about to be committed (the index), not the working copy.
+  const hook = process.argv.includes("--hook");
+  const files = hook
+    ? git("diff", "--cached", "--name-only", "--diff-filter=ACMR", "-z")
+    : git("ls-files", "-z");
 
-  for (const file of git("ls-files", "-z").split("\0").filter(Boolean)) {
+  for (const file of files.split("\0").filter(Boolean)) {
     let text: string;
     try {
-      text = readFileSync(file, "utf8");
+      text = hook ? git("show", `:${file}`) : readFileSync(file, "utf8");
     } catch {
       continue;
     }
@@ -48,8 +53,14 @@ if (import.meta.main) {
   }
 
   const identities = new Set(git("log", "--format=%ae%n%ce").split("\n").filter(Boolean));
-  // As a pre-commit hook, also check the identity the new commit is about to use.
-  if (process.argv.includes("--hook")) identities.add(git("config", "user.email").trim());
+  // As a hook, also check the identity the new commit is about to use.
+  if (hook) {
+    try {
+      identities.add(git("config", "user.email").trim());
+    } catch {
+      problems.push("git user.email is not set: use your GitHub noreply address");
+    }
+  }
   for (const email of identities) {
     if (!SAFE_EMAIL.test(email))
       problems.push(`commit history  author or committer email: ${email}`);

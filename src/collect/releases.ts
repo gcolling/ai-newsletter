@@ -100,8 +100,11 @@ export function isBareTag(notesHtml: string): boolean {
   );
 }
 
-/** One story per repo and issue: the newest release wins, everything else is dropped. */
-export function newestPerRepo(candidates: Candidate[]): Candidate[] {
+/**
+ * One release story per source and issue: the newest wins. Keyed by source, not repo, because a
+ * changelog's repo is guessed from links in its notes and may differ from entry to entry.
+ */
+export function newestPerSource(candidates: Candidate[]): Candidate[] {
   const newest = new Map<string, Candidate>();
   const rest: Candidate[] = [];
   for (const c of candidates) {
@@ -109,8 +112,8 @@ export function newestPerRepo(candidates: Candidate[]): Candidate[] {
       rest.push(c);
       continue;
     }
-    const current = newest.get(c.release.repo);
-    if (!current || c.publishedAt > current.publishedAt) newest.set(c.release.repo, c);
+    const current = newest.get(c.source.id);
+    if (!current || c.publishedAt > current.publishedAt) newest.set(c.source.id, c);
   }
   return [...newest.values(), ...rest];
 }

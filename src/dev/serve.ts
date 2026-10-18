@@ -35,14 +35,33 @@ if (dataDir !== paths.data) {
   );
 }
 
-// A child process per build, so every template edit is picked up.
-function rebuild() {
+// A child process per build, so every template edit is picked up. Builds never overlap: each one
+// starts by clearing dist/, so a save during a build queues one more build instead.
+let building: Promise<void> | undefined;
+let again = false;
+
+function buildOnce() {
   return new Promise<void>((resolve) => {
     spawn(process.execPath, ["src/site/index.ts"], {
       stdio: "inherit",
       env: { ...process.env, DATA_DIR: dataDir },
     }).on("exit", () => resolve());
   });
+}
+
+async function rebuild(): Promise<void> {
+  if (building) {
+    again = true;
+    return building;
+  }
+  building = (async () => {
+    do {
+      again = false;
+      await buildOnce();
+    } while (again);
+  })();
+  await building;
+  building = undefined;
 }
 
 await rebuild();

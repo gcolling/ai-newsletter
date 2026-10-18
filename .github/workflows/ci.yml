@@ -27,7 +27,7 @@ jobs:
           node-version-file: .node-version
           cache: npm
 
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - name: No personal data or secrets
         run: npm run privacy
       - run: npm run typecheck
