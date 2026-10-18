@@ -1,8 +1,7 @@
 const env = process.env;
 
 export const site = {
-  /** Working title until the name is decided. */
-  name: "AI Daily",
+  name: "Facet",
   tagline: "AI, automation and integrations. Ranked by rules, not by a model.",
   /** Absolute origin + path of the published site, no trailing slash. CI sets it from GitHub Pages. */
   url: (env.SITE_URL ?? "http://localhost:4321").replace(/\/$/, ""),

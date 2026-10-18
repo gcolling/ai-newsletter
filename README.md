@@ -1,10 +1,8 @@
-# AI Daily
+# Facet
 
 A daily digest of AI, automation and integrations news for engineers. It reads ~64 sources every
 morning, keeps what matters and ranks it with plain, readable rules. **No language model picks,
 writes or summarises anything.**
-
-> _AI Daily_ is a working title.
 
 ```mermaid
 flowchart LR

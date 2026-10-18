@@ -126,11 +126,10 @@ kbd {
   display: none;
 }
 .brand {
-  font-weight: 650;
-  font-size: 13.5px;
-  letter-spacing: 0.01em;
+  font: italic 500 19px / 1 var(--serif);
+  letter-spacing: -0.01em;
   text-decoration: none;
-  color: var(--soft);
+  color: var(--ink);
 }
 
 /* ── Reader: three panes ──────────────────────────────────────────── */
