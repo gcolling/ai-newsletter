@@ -4,7 +4,7 @@ import { topics } from "../../topics.ts";
 import type { Section, Source } from "../../types.ts";
 import { outlet } from "../format.ts";
 import { type Html, html, safeUrl } from "../html.ts";
-import { layout } from "../layout.ts";
+import { href, layout } from "../layout.ts";
 import { shell } from "./shell.ts";
 
 const sectionNames: [Section, string][] = [
@@ -75,6 +75,15 @@ ${sectionNames.map(([id, name]) => {
   return html`<section><h3>${name} <em>${list.length}</em></h3><ul class="sources">${list.map(sourceItem)}</ul></section>`;
 })}
 </div>
+
+<h2 class="doc-h2">Feeds</h2>
+<p>Subscribe in any feed reader, or pipe a topic into Slack, email or an n8n or Zapier workflow with their RSS triggers.</p>
+<ul class="feeds">
+<li><a href="${href("feed.xml")}">Daily issue</a><span>One entry per day with the top stories</span></li>
+<li><a href="${href("feeds/top.xml")}">Top stories</a><span>One entry per story</span></li>
+${topics.map((t) => html`<li style="--c:${t.color}"><a href="${href(`feeds/${t.id}.xml`)}"><i aria-hidden="true"></i>${t.name}</a><span>Every story in this topic</span></li>`)}
+</ul>
+<p>The same data is available as JSON at <a href="${href("api/latest.json")}"><code>/api/latest.json</code></a> and <code>/api/issues/YYYY-MM-DD.json</code>.</p>
 
 <h2 class="doc-h2">Privacy</h2>
 <p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>

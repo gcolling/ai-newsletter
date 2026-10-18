@@ -42,6 +42,7 @@ export function layout(page: Page): string {
 <meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${assets.icon}" type="image/svg+xml">
 <link rel="alternate" type="application/atom+xml" title="${site.name}" href="${href("feed.xml")}">
+<link rel="alternate" type="application/atom+xml" title="${site.name}: top stories" href="${href("feeds/top.xml")}">
 <link rel="stylesheet" href="${assets.css}">
 <script>${raw(THEME_BOOT)}</script>
 <script src="${assets.js}" defer></script>

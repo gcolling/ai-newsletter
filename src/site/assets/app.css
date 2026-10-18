@@ -1255,3 +1255,33 @@ code {
   }
 }
 /* biome-ignore-end lint/complexity/noImportantStyles: the reduced-motion override has to win */
+
+/* feeds list on How it works */
+.feeds li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+  font-size: 14.5px;
+}
+.feeds a {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 220px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.feeds a:hover {
+  text-decoration: underline;
+}
+.feeds i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+}
+.feeds span {
+  color: var(--soft);
+}

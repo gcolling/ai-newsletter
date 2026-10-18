@@ -14,6 +14,7 @@ import { issuePage } from "./pages/issue.ts";
 import { notFoundPage } from "./pages/not-found.ts";
 import { savedPage } from "./pages/saved.ts";
 import { weekPage } from "./pages/week.ts";
+import { storyFeeds } from "./story-feeds.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
@@ -95,6 +96,7 @@ export async function build(issues: Issue[]) {
   await write("saved/index.html", savedPage());
   await write("404.html", notFoundPage());
   await write("feed.xml", atomFeed(issues));
+  for (const feed of storyFeeds(issues)) await write(feed.path, feed.xml);
 }
 
 if (import.meta.main) {
