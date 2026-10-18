@@ -15,10 +15,23 @@ import {
 } from "../format.ts";
 import { type Html, html, safeUrl } from "../html.ts";
 import { href, layout } from "../layout.ts";
+import { themeToggle } from "./shell.ts";
 
 interface Neighbours {
   newer?: Issue;
   older?: Issue;
+}
+
+/** Everything that differs between a day's issue and the week's best. */
+export interface ReaderOptions {
+  kind: "day" | "week";
+  heading: string;
+  subheading: string;
+  title: string;
+  description: string;
+  /** Site-relative path of the page. */
+  path: string;
+  near?: Neighbours;
 }
 
 /** Stories that open the day: best first, no release notes, and papers can't crowd out the news. */
@@ -56,7 +69,7 @@ function signal(story: Story): string {
 
 function row(story: Story, top: Set<string>): Html {
   const extra = signal(story);
-  return html`<li class="row" id="r-${story.id}" data-id="${story.id}" data-views="${viewsOf(story, top)}" style="--c:${colorOf(story)}">
+  return html`<li class="row" id="r-${story.id}" data-id="${story.id}" data-topic="${story.topic}" data-views="${viewsOf(story, top)}" style="--c:${colorOf(story)}">
 <a class="row-link" href="${safeUrl(story.url)}" rel="noopener noreferrer">
 <span class="dot" aria-hidden="true"></span>
 <span class="row-src">${outlet(story.source.name)} · ${topicName(story)}</span>
@@ -95,17 +108,17 @@ ${summary}
 <a class="btn go" href="${safeUrl(story.url)}" target="_blank" rel="noopener noreferrer" data-open>Read at ${destination(story)} <span aria-hidden="true">↗</span></a>
 ${discussionLink(story)}
 <button class="btn ghost" type="button" data-next>Next story</button>
-<span class="keys" aria-hidden="true"><kbd>J</kbd><kbd>K</kbd> move · <kbd>F</kbd> focus</span>
+<span class="keys" aria-hidden="true"><kbd>J</kbd><kbd>K</kbd> move · <kbd>F</kbd> focus · <kbd>/</kbd> search</span>
 </div>
 </div>
 </article>`;
 }
 
-function viewLink(id: string, label: Html | string, count: number, color?: string): Html {
-  return html`<a class="view" href="#${id}" data-view="${id}">${color ? html`<i style="--c:${color}" aria-hidden="true"></i>` : ""}<span>${label}</span><em>${count}</em></a>`;
+function viewLink(id: string, label: string, count: number, color?: string): Html {
+  return html`<a class="view" href="#${id}" data-view="${id}"${color ? html` data-topic="${id}"` : ""}>${color ? html`<i style="--c:${color}" aria-hidden="true"></i>` : ""}<span>${label}</span><em>${count}</em></a>`;
 }
 
-function rail(issue: Issue, top: Story[], near: Neighbours): Html {
+function rail(issue: Issue, top: Story[], opts: ReaderOptions): Html {
   const count = (pred: (s: Story) => boolean) => issue.stories.filter(pred).length;
   const topicLinks = topics
     .map((t) => ({ t, n: count((s) => s.topic === t.id) }))
@@ -116,44 +129,56 @@ function rail(issue: Issue, top: Story[], near: Neighbours): Html {
     ["papers", "Papers", count((s) => s.section === "papers")],
     ["discussed", "Discussed", count((s) => Boolean(s.discussion))],
   ] as const;
+  const { near } = opts;
   const { ok, total } = issue.sources;
+  const days =
+    near?.older || near?.newer
+      ? html`<nav class="days" aria-label="Other issues">
+${near.older ? html`<a href="${href(issuePath(near.older.date))}" rel="prev">‹ ${shortDay(near.older.date)}</a>` : html`<span></span>`}
+${near.newer ? html`<a href="${href(issuePath(near.newer.date))}" rel="next">${shortDay(near.newer.date)} ›</a>` : html`<span></span>`}
+</nav>`
+      : "";
+  const other =
+    opts.kind === "week"
+      ? html`<a href="${href()}">Today</a>`
+      : html`<a href="${href("week/")}">This week</a>`;
   return html`<aside class="rail">
 <header class="day">
 <a class="brand" href="${href()}">${site.name}</a>
-<h1 class="day-name">${weekday(issue.date)}</h1>
-<p class="day-date">${dayMonth(issue.date)} · ${plural(issue.stories.length, "story", "stories")}</p>
+<h1 class="day-name">${opts.heading}</h1>
+<p class="day-date">${opts.subheading}</p>
 </header>
 <nav class="views" aria-label="Filter stories">
 ${viewLink("top", "Top stories", top.length)}
 ${viewLink("all", "Everything", issue.stories.length)}
-<p class="group">Topics</p>
+<p class="group"><span>Topics</span><button class="group-edit" type="button" data-edit-topics aria-pressed="false">Edit</button></p>
+<p class="edit-hint" hidden>Click a topic to pin it to Top stories, again to mute it, again to reset.</p>
 ${topicLinks}
 <hr>
 ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n))}
 </nav>
 <footer class="rail-foot">
-<nav class="days" aria-label="Other issues">
-${near.older ? html`<a href="${href(issuePath(near.older.date))}" rel="prev">‹ ${shortDay(near.older.date)}</a>` : html`<span></span>`}
-<a href="${href("archive/")}">Archive</a>
-${near.newer ? html`<a href="${href(issuePath(near.newer.date))}" rel="next">${shortDay(near.newer.date)} ›</a>` : html`<span></span>`}
-</nav>
-<p>Built ${timeUtc(issue.generatedAt)} from ${ok} of ${total} sources. <a href="${href("about/")}">Ranked by rules, not a model.</a> <a href="${href("feed.xml")}">RSS</a></p>
+${days}
+<nav class="links" aria-label="More">${other}<a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
+<p>Built ${timeUtc(issue.generatedAt)} from ${ok} of ${total} sources. Ranked by rules, not a model.</p>
+${themeToggle()}
 </footer>
 </aside>`;
 }
 
-export function issuePage(issue: Issue, near: Neighbours, isLatest: boolean): string {
+export function readerPage(issue: Issue, opts: ReaderOptions): string {
   const top = topStories(issue);
   const topIds = new Set(top.map((s) => s.id));
-  const lead = top[0] ?? issue.stories[0];
+  const unit = opts.kind === "week" ? "week" : "day";
   const body = html`<div class="app" data-date="${issue.date}">
-${rail(issue, top, near)}
+${rail(issue, top, opts)}
 <section class="list" aria-labelledby="view-title">
 <header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
+<label class="search"><span class="sr-only">Filter stories</span><input type="search" data-search placeholder="Filter stories" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
 <ol class="rows">
 ${issue.stories.map((s) => row(s, topIds))}
 </ol>
-<p class="list-empty" hidden>Nothing here today.</p>
+<p class="list-empty" hidden>Nothing matches. Try another view or clear the filter.</p>
 </section>
 <main class="stage" aria-label="Story">
 <div class="stage-card">
@@ -165,7 +190,7 @@ ${issue.stories.map((s) => row(s, topIds))}
 ${issue.stories.map(card)}
 <section class="story end" data-end aria-label="End of view">
 <div class="story-body">
-<h2 class="story-title">That’s the day.</h2>
+<h2 class="story-title">That’s the ${unit}.</h2>
 <p class="summary">You’ve reached the end of this view. Pick another on the left, browse <a href="${href("archive/")}">past issues</a>, or come back tomorrow morning.</p>
 </div>
 </section>
@@ -176,17 +201,27 @@ ${issue.stories.map(card)}
 </section>
 </main>
 </div>`;
-  const title = isLatest
-    ? `${site.name} · ${weekday(issue.date)} ${dayMonth(issue.date)}`
-    : `${weekday(issue.date)} ${dayMonth(issue.date)} · ${site.name}`;
-  const description = lead
-    ? `${plural(issue.stories.length, "story", "stories")} today. Leading: ${lead.title}`
-    : site.tagline;
   return layout({
-    title,
-    description,
-    path: isLatest ? "" : issuePath(issue.date),
+    title: opts.title,
+    description: opts.description,
+    path: opts.path,
     body,
     bodyClass: "reader",
+  });
+}
+
+export function issuePage(issue: Issue, near: Neighbours, isLatest: boolean): string {
+  const lead = topStories(issue)[0] ?? issue.stories[0];
+  const day = `${weekday(issue.date)} ${dayMonth(issue.date)}`;
+  return readerPage(issue, {
+    kind: "day",
+    heading: weekday(issue.date),
+    subheading: `${dayMonth(issue.date)} · ${plural(issue.stories.length, "story", "stories")}`,
+    title: isLatest ? `${site.name} · ${day}` : `${day} · ${site.name}`,
+    description: lead
+      ? `${plural(issue.stories.length, "story", "stories")} today. Leading: ${lead.title}`
+      : site.tagline,
+    path: isLatest ? "" : issuePath(issue.date),
+    near,
   });
 }

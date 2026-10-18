@@ -1,215 +1,51 @@
-// Progressive enhancement for the reader. Without this file every story is still a plain link.
+// Progressive enhancement. Without this file every story is still a plain link.
 (() => {
-  const app = document.querySelector(".app");
-  if (!app) return humanizeTimes();
+  const store = {
+    get(key, fallback) {
+      try {
+        return JSON.parse(localStorage.getItem(key)) ?? fallback;
+      } catch {
+        return fallback;
+      }
+    },
+    set(key, value) {
+      try {
+        localStorage.setItem(key, JSON.stringify(value));
+      } catch {}
+    },
+  };
 
-  const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
-  const rows = $$(".row", app);
-  const stories = new Map($$(".story[data-id]", app).map((el) => [el.dataset.id, el]));
-  const stage = app.querySelector(".stage");
-  const stageCard = app.querySelector(".stage-card");
-  const upNext = app.querySelector("[data-up-next]");
-  const upNextCards = app.querySelector("[data-up-next-cards]");
-  const pos = app.querySelector("[data-pos]");
-  const ticks = app.querySelector("[data-ticks]");
-  const focusBtn = app.querySelector("[data-focus]");
-  const endCard = app.querySelector("[data-end]");
-  const viewLinks = $$("[data-view]", app);
-  const viewTitle = document.getElementById("view-title");
-  const viewMeta = app.querySelector("[data-view-meta]");
-  const empty = app.querySelector(".list-empty");
-  const narrow = matchMedia("(max-width: 900px)");
-
-  const READ_KEY = "read-v1";
-  const read = new Set(load(READ_KEY, []));
-  let order = [];
-  let current = null;
-  let shownAt = 0;
-  let focusObserver = null;
-
-  function load(key, fallback) {
-    try {
-      return JSON.parse(localStorage.getItem(key)) ?? fallback;
-    } catch {
-      return fallback;
-    }
-  }
-
-  function markRead(id) {
-    if (!id || read.has(id)) return;
-    read.add(id);
-    document.getElementById(`r-${id}`)?.classList.add("is-read");
-    try {
-      localStorage.setItem(READ_KEY, JSON.stringify([...read].slice(-3000)));
-    } catch {}
-  }
-
-  function applyView(view) {
-    if (!viewLinks.some((a) => a.dataset.view === view)) view = "top";
-    for (const a of viewLinks) a.setAttribute("aria-current", String(a.dataset.view === view));
-    order = [];
-    for (const row of rows) {
-      const inView = row.dataset.views.split(" ").includes(view);
-      row.hidden = !inView;
-      stories.get(row.dataset.id)?.toggleAttribute("data-out", !inView);
-      if (inView) order.push(row.dataset.id);
-    }
-    const label = viewLinks.find((a) => a.dataset.view === view)?.querySelector("span");
-    viewTitle.textContent = label?.textContent ?? "Top stories";
-    const minutes = Math.max(1, Math.round(order.length / 2));
-    viewMeta.textContent = `${order.length} · about ${minutes} min`;
-    empty.hidden = order.length > 0;
-    select(order.includes(current) ? current : order[0], { scrollStory: isFocus() });
-  }
-
-  function select(id, { scrollStory = false } = {}) {
-    if (current && current !== id && Date.now() - shownAt > 1500) markRead(current);
-    const story = stories.get(id);
-    for (const el of stories.values()) el.classList.toggle("is-current", el === story);
-    for (const row of rows) row.classList.toggle("is-current", row.dataset.id === id);
-    current = id ?? null;
-    shownAt = Date.now();
-    if (!story) return;
-    stageCard.style.setProperty("--stage", story.style.getPropertyValue("--c"));
-    const index = order.indexOf(id);
-    pos.textContent = `${index + 1} of ${order.length}`;
-    drawTicks(index);
-    drawUpNext(index);
-    document.getElementById(`r-${id}`)?.scrollIntoView({ block: "nearest" });
-    if (scrollStory) story.scrollIntoView({ block: "start" });
-  }
-
-  // The next few stories in this view, built from the list rows so there's no second copy of the data.
-  function drawUpNext(index) {
-    const next = order.slice(index + 1, index + 4);
-    upNext.hidden = next.length === 0;
-    upNextCards.replaceChildren(
-      ...next.map((id) => {
-        const row = document.getElementById(`r-${id}`);
-        const card = document.createElement("button");
-        card.type = "button";
-        card.className = "next-card";
-        card.dataset.goto = id;
-        card.style.setProperty("--c", row.style.getPropertyValue("--c"));
-        for (const [cls, from] of [
-          ["k", ".row-src"],
-          ["t", ".row-title"],
-          ["m", ".row-meta"],
-        ]) {
-          const part = document.createElement("span");
-          part.className = cls;
-          part.textContent = row.querySelector(from)?.textContent ?? "";
-          card.append(part);
-        }
-        return card;
-      }),
-    );
-  }
-
-  function drawTicks(index) {
-    const n = order.length;
-    ticks.classList.toggle("bar", n > 24);
-    if (n > 24) {
-      ticks.replaceChildren();
-      ticks.style.setProperty("--p", `${((index + 1) / n) * 100}%`);
-      return;
-    }
-    ticks.style.setProperty("--n", n);
-    ticks.replaceChildren(
-      ...order.map((_, i) => {
-        const tick = document.createElement("i");
-        if (i <= index) tick.className = "on";
-        return tick;
-      }),
-    );
-  }
-
-  function step(delta) {
-    const next = order[order.indexOf(current) + delta];
-    if (next) return select(next, { scrollStory: isFocus() });
-    if (delta > 0 && isFocus()) endCard.scrollIntoView({ block: "start" });
-  }
-
-  const isFocus = () => app.classList.contains("is-focus");
-
-  function setFocus(on) {
-    if (on === isFocus()) return;
-    app.classList.toggle("is-focus", on);
-    document.body.classList.toggle("is-locked", on);
-    focusBtn.textContent = on ? "Close" : "Focus";
-    focusBtn.setAttribute("aria-pressed", String(on));
-    if (on) {
-      stories.get(current)?.scrollIntoView({ block: "start" });
-      focusObserver = new IntersectionObserver(
-        (entries) => {
-          for (const e of entries) {
-            const id = e.target.dataset.id;
-            if (e.isIntersecting && id && id !== current) select(id);
-          }
-        },
-        { root: stage, threshold: 0.6 },
-      );
-      for (const el of stories.values()) focusObserver.observe(el);
-    } else {
-      focusObserver?.disconnect();
-      document.getElementById(`r-${current}`)?.scrollIntoView({ block: "center" });
-    }
-  }
-
-  function open() {
-    const link = stories.get(current)?.querySelector("[data-open]");
-    if (!link) return;
-    markRead(current);
-    window.open(link.href, "_blank", "noopener,noreferrer");
-  }
-
-  // Events
-  app.addEventListener("click", (e) => {
-    const target = e.target instanceof Element ? e.target : null;
-    const rowLink = target?.closest(".row-link");
-    if (rowLink && !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)) {
-      e.preventDefault();
-      select(rowLink.parentElement.dataset.id);
-      if (narrow.matches) setFocus(true);
-      return;
-    }
-    const view = target?.closest("[data-view]");
-    if (view) {
-      e.preventDefault();
-      history.replaceState(null, "", `#${view.dataset.view}`);
-      return applyView(view.dataset.view);
-    }
-    const goto = target?.closest("[data-goto]");
-    if (goto) return select(goto.dataset.goto);
-    if (target?.closest("[data-next]")) return step(1);
-    if (target?.closest("[data-focus]")) return setFocus(!isFocus());
-    if (target?.closest("[data-open]")) markRead(current);
-  });
-
-  document.addEventListener("keydown", (e) => {
-    if (e.metaKey || e.ctrlKey || e.altKey || e.target.closest?.("input, textarea, select")) return;
-    const keys = {
-      j: () => step(1),
-      ArrowDown: () => step(1),
-      ArrowRight: () => step(1),
-      k: () => step(-1),
-      ArrowUp: () => step(-1),
-      ArrowLeft: () => step(-1),
-      o: open,
-      Enter: () => (e.target.closest?.("a, button") ? null : open()),
-      f: () => setFocus(!isFocus()),
-      Escape: () => setFocus(false),
-    };
-    const action = keys[e.key];
-    if (!action) return;
-    if (action() !== null) e.preventDefault();
-  });
-
-  window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
-
-  for (const row of rows) if (read.has(row.dataset.id)) row.classList.add("is-read");
+  setUpTheme();
   humanizeTimes();
-  applyView(location.hash.slice(1) || "top");
+  const app = document.querySelector(".app");
+  if (app) setUpReader(app);
+
+  // Theme: Auto follows the system; Light and Dark are remembered. The head script applies a saved
+  // choice before first paint, so this only keeps the button and the attribute in step.
+  function setUpTheme() {
+    const order = ["auto", "light", "dark"];
+    const label = { auto: "Auto", light: "Light", dark: "Dark" };
+    let theme = order.includes(document.documentElement.dataset.theme)
+      ? document.documentElement.dataset.theme
+      : "auto";
+    const buttons = document.querySelectorAll("[data-theme-toggle]");
+    const paint = () => {
+      if (theme === "auto") delete document.documentElement.dataset.theme;
+      else document.documentElement.dataset.theme = theme;
+      for (const b of buttons) b.textContent = `Theme: ${label[theme]}`;
+    };
+    for (const b of buttons) {
+      b.addEventListener("click", () => {
+        theme = order[(order.indexOf(theme) + 1) % order.length];
+        try {
+          if (theme === "auto") localStorage.removeItem("theme");
+          else localStorage.setItem("theme", theme);
+        } catch {}
+        paint();
+      });
+    }
+    paint();
+  }
 
   // Relative times for fresh stories, local clock times for older ones.
   function humanizeTimes() {
@@ -230,5 +66,285 @@
         t.textContent = `${Math.round(minutes / 60)} h ago`;
       else t.textContent = local.format(date);
     }
+  }
+
+  function setUpReader(app) {
+    const $$ = (sel) => [...app.querySelectorAll(sel)];
+    const $ = (sel) => app.querySelector(sel);
+    const rows = $$(".row");
+    const stories = new Map($$(".story[data-id]").map((el) => [el.dataset.id, el]));
+    const stage = $(".stage");
+    const stageCard = $(".stage-card");
+    const pos = $("[data-pos]");
+    const ticks = $("[data-ticks]");
+    const focusBtn = $("[data-focus]");
+    const endCard = $("[data-end]");
+    const upNext = $("[data-up-next]");
+    const upNextCards = $("[data-up-next-cards]");
+    const viewLinks = $$("[data-view]");
+    const viewTitle = document.getElementById("view-title");
+    const viewMeta = $("[data-view-meta]");
+    const empty = $(".list-empty");
+    const search = $("[data-search]");
+    const editBtn = $("[data-edit-topics]");
+    const editHint = $(".edit-hint");
+    const nav = $(".views");
+    const narrow = matchMedia("(max-width: 900px)");
+
+    const read = new Set(store.get("read-v1", []));
+    /** topic id → "pin" | "mute" */
+    const prefs = store.get("topics-v1", {});
+    let view = "top";
+    let order = [];
+    let current = null;
+    let shownAt = 0;
+    let focusObserver = null;
+
+    function markRead(id) {
+      if (!id || read.has(id)) return;
+      read.add(id);
+      document.getElementById(`r-${id}`)?.classList.add("is-read");
+      store.set("read-v1", [...read].slice(-3000));
+    }
+
+    // Muted topics leave every view but their own; pinned topics join Top stories in full.
+    function inView(row, v) {
+      const topic = row.dataset.topic;
+      if (v === topic) return true;
+      if (prefs[topic] === "mute") return false;
+      const views = row.dataset.views.split(" ");
+      return views.includes(v) || (v === "top" && prefs[topic] === "pin");
+    }
+
+    function matches(row, words) {
+      const text = row.textContent.toLowerCase();
+      return words.every((w) => text.includes(w));
+    }
+
+    function applyView(next = view) {
+      view = viewLinks.some((a) => a.dataset.view === next) ? next : "top";
+      const words = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+      order = [];
+      for (const row of rows) {
+        const shown = inView(row, view) && matches(row, words);
+        row.hidden = !shown;
+        stories.get(row.dataset.id)?.toggleAttribute("data-out", !shown);
+        if (shown) order.push(row.dataset.id);
+      }
+      for (const a of viewLinks) {
+        a.setAttribute("aria-current", String(a.dataset.view === view));
+        const pref = prefs[a.dataset.topic];
+        if (pref) a.dataset.pref = pref;
+        else delete a.dataset.pref;
+        const em = a.querySelector("em");
+        if (em) {
+          em.textContent =
+            pref === "pin"
+              ? "pinned"
+              : pref === "mute"
+                ? "muted"
+                : rows.filter((r) => inView(r, a.dataset.view)).length;
+        }
+      }
+      const label = viewLinks.find((a) => a.dataset.view === view)?.querySelector("span");
+      viewTitle.textContent = label?.textContent ?? "Top stories";
+      const minutes = Math.max(1, Math.round(order.length / 2));
+      viewMeta.textContent = words.length
+        ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
+        : `${order.length} · about ${minutes} min`;
+      empty.hidden = order.length > 0;
+      select(order.includes(current) ? current : order[0], { scrollStory: isFocus() });
+    }
+
+    function select(id, { scrollStory = false } = {}) {
+      if (current && current !== id && Date.now() - shownAt > 1500) markRead(current);
+      const story = stories.get(id);
+      for (const el of stories.values()) el.classList.toggle("is-current", el === story);
+      for (const row of rows) row.classList.toggle("is-current", row.dataset.id === id);
+      current = id ?? null;
+      shownAt = Date.now();
+      stageCard.hidden = !story;
+      if (!story) {
+        upNext.hidden = true;
+        return;
+      }
+      stageCard.style.setProperty("--stage", story.style.getPropertyValue("--c"));
+      const index = order.indexOf(id);
+      pos.textContent = `${index + 1} of ${order.length}`;
+      drawTicks(index);
+      drawUpNext(index);
+      document.getElementById(`r-${id}`)?.scrollIntoView({ block: "nearest" });
+      if (scrollStory) story.scrollIntoView({ block: "start" });
+    }
+
+    // The next few stories in this view, built from the list rows so there's no second copy of the data.
+    function drawUpNext(index) {
+      const next = order.slice(index + 1, index + 4);
+      upNext.hidden = next.length === 0;
+      upNextCards.replaceChildren(
+        ...next.map((id) => {
+          const row = document.getElementById(`r-${id}`);
+          const card = document.createElement("button");
+          card.type = "button";
+          card.className = "next-card";
+          card.dataset.goto = id;
+          card.style.setProperty("--c", row.style.getPropertyValue("--c"));
+          for (const [cls, from] of [
+            ["k", ".row-src"],
+            ["t", ".row-title"],
+            ["m", ".row-meta"],
+          ]) {
+            const part = document.createElement("span");
+            part.className = cls;
+            part.textContent = row.querySelector(from)?.textContent ?? "";
+            card.append(part);
+          }
+          return card;
+        }),
+      );
+    }
+
+    function drawTicks(index) {
+      const n = order.length;
+      ticks.classList.toggle("bar", n > 24);
+      if (n > 24) {
+        ticks.replaceChildren();
+        ticks.style.setProperty("--p", `${((index + 1) / n) * 100}%`);
+        return;
+      }
+      ticks.style.setProperty("--n", n);
+      ticks.replaceChildren(
+        ...order.map((_, i) => {
+          const tick = document.createElement("i");
+          if (i <= index) tick.className = "on";
+          return tick;
+        }),
+      );
+    }
+
+    function step(delta) {
+      const next = order[order.indexOf(current) + delta];
+      if (next) return select(next, { scrollStory: isFocus() });
+      if (delta > 0 && isFocus()) endCard.scrollIntoView({ block: "start" });
+    }
+
+    const isFocus = () => app.classList.contains("is-focus");
+
+    function setFocus(on) {
+      if (on === isFocus() || (on && !current)) return;
+      app.classList.toggle("is-focus", on);
+      document.body.classList.toggle("is-locked", on);
+      focusBtn.textContent = on ? "Close" : "Focus";
+      focusBtn.setAttribute("aria-pressed", String(on));
+      if (on) {
+        stories.get(current)?.scrollIntoView({ block: "start" });
+        focusObserver = new IntersectionObserver(
+          (entries) => {
+            for (const e of entries) {
+              const id = e.target.dataset.id;
+              if (e.isIntersecting && id && id !== current) select(id);
+            }
+          },
+          { root: stage, threshold: 0.6 },
+        );
+        for (const el of stories.values()) focusObserver.observe(el);
+      } else {
+        focusObserver?.disconnect();
+        document.getElementById(`r-${current}`)?.scrollIntoView({ block: "center" });
+      }
+    }
+
+    function open() {
+      const link = stories.get(current)?.querySelector("[data-open]");
+      if (!link) return;
+      markRead(current);
+      window.open(link.href, "_blank", "noopener,noreferrer");
+    }
+
+    const editing = () => nav.classList.contains("is-editing");
+
+    function setEditing(on) {
+      nav.classList.toggle("is-editing", on);
+      editBtn.textContent = on ? "Done" : "Edit";
+      editBtn.setAttribute("aria-pressed", String(on));
+      editHint.hidden = !on;
+    }
+
+    function cyclePref(topic) {
+      const next = !prefs[topic] ? "pin" : prefs[topic] === "pin" ? "mute" : undefined;
+      if (next) prefs[topic] = next;
+      else delete prefs[topic];
+      store.set("topics-v1", prefs);
+      applyView();
+    }
+
+    app.addEventListener("click", (e) => {
+      const target = e.target instanceof Element ? e.target : null;
+      if (!target) return;
+      const rowLink = target.closest(".row-link");
+      if (rowLink && !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)) {
+        e.preventDefault();
+        select(rowLink.parentElement.dataset.id);
+        if (narrow.matches) setFocus(true);
+        return;
+      }
+      if (target.closest("[data-edit-topics]")) return setEditing(!editing());
+      const link = target.closest("[data-view]");
+      if (link) {
+        e.preventDefault();
+        if (editing() && link.dataset.topic) return cyclePref(link.dataset.topic);
+        history.replaceState(null, "", `#${link.dataset.view}`);
+        return applyView(link.dataset.view);
+      }
+      const goto = target.closest("[data-goto]");
+      if (goto) return select(goto.dataset.goto);
+      if (target.closest("[data-next]")) return step(1);
+      if (target.closest("[data-focus]")) return setFocus(!isFocus());
+      if (target.closest("[data-open]")) markRead(current);
+    });
+
+    search.addEventListener("input", () => applyView());
+    search.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        search.value = "";
+        applyView();
+        search.blur();
+      } else if (e.key === "Enter" || e.key === "ArrowDown") {
+        e.preventDefault();
+        search.blur();
+        if (narrow.matches && current) setFocus(true);
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || e.target.closest?.("input, textarea, select")) {
+        return;
+      }
+      const keys = {
+        j: () => step(1),
+        ArrowDown: () => step(1),
+        ArrowRight: () => step(1),
+        k: () => step(-1),
+        ArrowUp: () => step(-1),
+        ArrowLeft: () => step(-1),
+        o: open,
+        Enter: () => (e.target.closest?.("a, button") ? null : open()),
+        f: () => setFocus(!isFocus()),
+        "/": () => {
+          setFocus(false);
+          search.focus();
+          search.select();
+        },
+        Escape: () => (isFocus() ? setFocus(false) : setEditing(false)),
+      };
+      const action = keys[e.key];
+      if (!action) return;
+      if (action() !== null) e.preventDefault();
+    });
+
+    window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
+
+    for (const row of rows) if (read.has(row.dataset.id)) row.classList.add("is-read");
+    applyView(location.hash.slice(1) || "top");
   }
 })();

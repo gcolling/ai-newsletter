@@ -77,14 +77,18 @@ ${sectionNames.map(([id, name]) => {
 </div>
 
 <h2 class="doc-h2">Privacy</h2>
-<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks are kept in your browser’s local storage and never leave it.</p>
+<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>
+
+<h2 class="doc-h2">Make it yours</h2>
+<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>This week</b> collects the 20 strongest stories of the last seven days, for catching up after time off.</p>
 
 <h2 class="doc-h2">Keyboard</h2>
 <dl class="keys-list">
 <div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>Next and previous story</dd></div>
 <div><dt><kbd>O</kbd></dt><dd>Open the story in a new tab</dd></div>
 <div><dt><kbd>F</kbd></dt><dd>Focus: one story per screen</dd></div>
-<div><dt><kbd>Esc</kbd></dt><dd>Leave focus</dd></div>
+<div><dt><kbd>/</kbd></dt><dd>Filter the list by any word</dd></div>
+<div><dt><kbd>Esc</kbd></dt><dd>Leave focus or clear the filter</dd></div>
 </dl>`;
   return layout({
     title: `How it works · ${site.name}`,

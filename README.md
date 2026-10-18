@@ -18,8 +18,10 @@ flowchart LR
 ## Reading it
 
 - **Desktop:** topics on the left, the day’s list in the middle, the story on a colored stage on the
-  right. <kbd>J</kbd>/<kbd>K</kbd> to move, <kbd>O</kbd> to open, <kbd>F</kbd> for focus mode.
+  right. <kbd>J</kbd>/<kbd>K</kbd> to move, <kbd>O</kbd> to open, <kbd>F</kbd> for focus mode,
+  <kbd>/</kbd> to filter. Pin or mute topics with **Edit**; light, dark or automatic theme.
 - **Phone:** the list is home. Tap a story to read it full screen, then swipe up for the next.
+- **This week:** `/week/` collects the 20 strongest stories of the last seven days.
 - **Feed reader:** subscribe to `/feed.xml`. One entry per day with the top stories.
 - **JSON:** `/api/latest.json` and `/api/issues/YYYY-MM-DD.json`.
 

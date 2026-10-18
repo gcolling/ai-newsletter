@@ -34,4 +34,6 @@ export const render = {
   topCount: 12,
   /** Papers allowed in the top stories; the rest stay under "Papers". */
   maxTopPapers: 2,
+  /** Size of the "This week" page. */
+  weekCount: 20,
 };

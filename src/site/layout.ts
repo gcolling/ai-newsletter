@@ -10,6 +10,10 @@ export const href = (path = "") => site.basePath + path.replace(/^\//, "");
 /** Absolute URL for feeds and social cards. */
 export const absolute = (path = "") => `${site.url}/${path.replace(/^\//, "")}`;
 
+/** Runs before first paint: marks JS as available and applies a saved theme, so nothing flashes. */
+const THEME_BOOT =
+  'var d=document.documentElement;d.className="js";try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}';
+
 interface Page {
   title: string;
   description: string;
@@ -39,7 +43,7 @@ export function layout(page: Page): string {
 <link rel="icon" href="${assets.icon}" type="image/svg+xml">
 <link rel="alternate" type="application/atom+xml" title="${site.name}" href="${href("feed.xml")}">
 <link rel="stylesheet" href="${assets.css}">
-<script>${raw('document.documentElement.className="js"')}</script>
+<script>${raw(THEME_BOOT)}</script>
 <script src="${assets.js}" defer></script>
 </head>
 <body class="${page.bodyClass ?? ""}">

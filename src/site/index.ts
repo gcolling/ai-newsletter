@@ -12,6 +12,7 @@ import { aboutPage } from "./pages/about.ts";
 import { archivePage } from "./pages/archive.ts";
 import { issuePage } from "./pages/issue.ts";
 import { notFoundPage } from "./pages/not-found.ts";
+import { weekPage } from "./pages/week.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
@@ -86,6 +87,8 @@ export async function build(issues: Issue[]) {
     await write(`api/issues/${issue.date}.json`, JSON.stringify(issue));
   }
   if (latest) await write("api/latest.json", JSON.stringify(latest));
+  const week = weekPage(issues);
+  if (week) await write("week/index.html", week);
   await write("archive/index.html", archivePage(issues));
   await write("about/index.html", aboutPage());
   await write("404.html", notFoundPage());

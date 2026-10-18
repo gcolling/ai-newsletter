@@ -15,8 +15,9 @@
   color-scheme: light dark;
 }
 
+/* Dark follows the system unless the reader picked a theme (data-theme, set before first paint). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --canvas: #0d0f13;
     --pane: #181b21;
     --ink: #eceef2;
@@ -26,6 +27,20 @@
     --hover: rgb(255 255 255 / 0.04);
     --lift: 0 0 0 1px rgb(255 255 255 / 0.07);
   }
+}
+:root[data-theme="dark"] {
+  --canvas: #0d0f13;
+  --pane: #181b21;
+  --ink: #eceef2;
+  --soft: #a3a9b4;
+  --faint: #7d8490;
+  --line: #262a33;
+  --hover: rgb(255 255 255 / 0.04);
+  --lift: 0 0 0 1px rgb(255 255 255 / 0.07);
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
 }
 
 /* ── Base ─────────────────────────────────────────────────────────── */
@@ -84,6 +99,31 @@ kbd {
   border-radius: 5px;
   text-align: center;
   background: rgb(127 127 127 / 0.16);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.theme-toggle {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--soft);
+  padding: 5px 10px;
+  border-radius: 99px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+}
+.theme-toggle:hover {
+  color: var(--ink);
+}
+.no-js .theme-toggle,
+.no-js .search,
+.no-js .group-edit {
+  display: none;
 }
 .brand {
   font-weight: 650;
@@ -163,10 +203,52 @@ kbd {
   opacity: 1;
 }
 .group {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   font-size: 11.5px;
   font-weight: 600;
   color: var(--faint);
   padding: 12px 10px 4px;
+}
+.group-edit {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--soft);
+  padding: 2px 6px;
+  margin: -2px -6px;
+  border-radius: 6px;
+}
+.group-edit:hover,
+.group-edit[aria-pressed="true"] {
+  color: var(--ink);
+  background: var(--pane);
+  box-shadow: var(--lift);
+}
+.edit-hint {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--soft);
+  padding: 2px 10px 8px;
+}
+.view[data-pref="mute"] span {
+  text-decoration: line-through;
+  color: var(--faint);
+}
+.view[data-pref="mute"] i {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--c);
+}
+.view[data-pref] em {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--soft);
+}
+.is-editing .view[data-topic] {
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.is-editing .view[data-topic]:hover {
+  box-shadow: inset 0 0 0 1px var(--faint);
 }
 .views hr {
   border: 0;
@@ -194,6 +276,23 @@ kbd {
 .days a {
   text-decoration: none;
 }
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+.links a {
+  text-decoration: none;
+}
+.links a:hover {
+  color: var(--ink);
+}
+.rail-foot .theme-toggle {
+  margin-top: 10px;
+}
 .days a:hover {
   color: var(--ink);
 }
@@ -217,6 +316,40 @@ kbd {
 .list-head span {
   font-size: 13px;
   color: var(--soft);
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin: 0 6px 10px 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+}
+.search:focus-within {
+  box-shadow: 0 0 0 2px var(--ink);
+}
+.search input {
+  flex: 1;
+  min-width: 0;
+  height: 36px;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: var(--ink);
+  font: 500 14px var(--sans);
+}
+.search input::placeholder {
+  color: var(--faint);
+}
+.search input::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+.search kbd {
+  color: var(--faint);
+}
+.search:focus-within kbd {
+  display: none;
 }
 .list-empty {
   padding: 24px 14px;
@@ -652,10 +785,32 @@ body.is-locked {
   .views::-webkit-scrollbar {
     display: none;
   }
-  .views .group,
   .views hr,
+  .views .edit-hint,
   .view em {
     display: none;
+  }
+  .view[data-pref] em {
+    display: inline;
+  }
+  .views .group {
+    order: 99;
+    flex: none;
+    padding: 0;
+  }
+  .views .group span {
+    display: none;
+  }
+  .views .group-edit {
+    margin: 0;
+    padding: 7px 12px;
+    border-radius: 99px;
+    font-size: 13.5px;
+    background: var(--pane);
+    box-shadow: var(--lift);
+  }
+  .search {
+    margin: 0 0 10px;
   }
   .view {
     flex: none;
@@ -778,6 +933,11 @@ body.is-locked {
   margin: 56px 0 12px;
 }
 .doc-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
   margin-top: 72px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
