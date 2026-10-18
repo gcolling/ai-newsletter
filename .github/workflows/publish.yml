@@ -1,0 +1,83 @@
+name: Publish
+
+# Every morning: collect the day's issue, keep it on the `data` branch, rebuild and deploy the site.
+# Also runs on pushes to main (to ship code changes) and by hand from the Actions tab.
+on:
+  schedule:
+    - cron: "17 5 * * *" # 05:17 UTC; GitHub's scheduler can lag, so this leaves room before 06:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # push the day's issue to the data branch
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check out the data branch into ./data
+        run: |
+          if git fetch --depth=1 origin data; then
+            git worktree add -B data data FETCH_HEAD
+          else
+            git worktree add --orphan -b data data
+          fi
+
+      - name: Collect today's issue
+        run: npm run collect
+
+      - name: Save the issue to the data branch
+        working-directory: data
+        run: |
+          git add issues
+          if git diff --cached --quiet; then
+            echo "No new stories."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit --quiet -m "Issue $(date -u +%F)"
+          git push --quiet origin data
+
+      - id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - name: Build the site
+        run: npm run build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
