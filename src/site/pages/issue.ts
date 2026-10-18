@@ -15,6 +15,7 @@ import {
 } from "../format.ts";
 import { type Html, html, safeUrl } from "../html.ts";
 import { href, layout } from "../layout.ts";
+import { type Mention, termsOf, topMentions } from "../mentions.ts";
 import { themeToggle } from "./shell.ts";
 
 interface Neighbours {
@@ -32,14 +33,17 @@ export interface ReaderOptions {
   /** Site-relative path of the page. */
   path: string;
   near?: Neighbours;
+  /** Terms shown above the list; clicking one filters by it. */
+  mentions: Mention[];
+  mentionsLabel: string;
 }
 
 /** Stories that open the day: best first, no release notes, and papers can't crowd out the news. */
-export function topStories(issue: Issue): Story[] {
+export function topStories(issue: Issue, count = render.topCount): Story[] {
   const top: Story[] = [];
   let papers = 0;
   for (const story of issue.stories) {
-    if (top.length === render.topCount) break;
+    if (top.length === count) break;
     if (story.section === "releases") continue;
     if (story.section === "papers" && ++papers > render.maxTopPapers) continue;
     top.push(story);
@@ -69,7 +73,7 @@ function signal(story: Story): string {
 
 function row(story: Story, top: Set<string>): Html {
   const extra = signal(story);
-  return html`<li class="row" id="r-${story.id}" data-id="${story.id}" data-topic="${story.topic}" data-views="${viewsOf(story, top)}" style="--c:${colorOf(story)}">
+  return html`<li class="row" id="r-${story.id}" data-id="${story.id}" data-topic="${story.topic}" data-views="${viewsOf(story, top)}" data-terms="${termsOf(story).join("|")}" style="--c:${colorOf(story)}">
 <a class="row-link" href="${safeUrl(story.url)}" rel="noopener noreferrer">
 <span class="dot" aria-hidden="true"></span>
 <span class="row-src">${outlet(story.source.name)} · ${topicName(story)}</span>
@@ -77,6 +81,22 @@ function row(story: Story, top: Set<string>): Html {
 <span class="row-meta"><time datetime="${story.publishedAt}">${stamp(story.publishedAt)}</time>${extra ? ` · ${extra}` : ""}</span>
 </a>
 </li>`;
+}
+
+function mentionsStrip(mentions: Mention[], label: string): Html | "" {
+  if (mentions.length === 0) return "";
+  const delta = (m: Mention) => {
+    if (m.previous === undefined) return "";
+    const d = m.count - m.previous;
+    if (m.previous === 0) return html` <span class="delta up">new</span>`;
+    return d === 0
+      ? ""
+      : html` <span class="delta ${d > 0 ? "up" : "down"}">${d > 0 ? "+" : "−"}${Math.abs(d)}</span>`;
+  };
+  return html`<section class="mentions" aria-label="${label}"><h3>${label}</h3><div class="mention-chips">${mentions.map(
+    (m) =>
+      html`<button type="button" class="mention" data-term="${m.term}" aria-pressed="false">${m.term} <b>${m.count}</b>${delta(m)}</button>`,
+  )}</div></section>`;
 }
 
 function discussionLink(story: Story): Html | "" {
@@ -169,13 +189,14 @@ ${themeToggle()}
 }
 
 export function readerPage(issue: Issue, opts: ReaderOptions): string {
-  const top = topStories(issue);
+  const top = topStories(issue, opts.kind === "week" ? render.weekCount : render.topCount);
   const topIds = new Set(top.map((s) => s.id));
   const unit = opts.kind === "week" ? "week" : "day";
   const body = html`<div class="app" data-date="${issue.date}">
 ${rail(issue, top, opts)}
 <section class="list" aria-labelledby="view-title">
 <header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
+${mentionsStrip(opts.mentions, opts.mentionsLabel)}
 <label class="search"><span class="sr-only">Filter stories</span><input type="search" data-search placeholder="Filter stories" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
 <ol class="rows">
 ${issue.stories.map((s) => row(s, topIds))}
@@ -225,5 +246,7 @@ export function issuePage(issue: Issue, near: Neighbours, isLatest: boolean): st
       : site.tagline,
     path: isLatest ? "" : issuePath(issue.date),
     near,
+    mentions: topMentions(issue.stories, undefined, 6),
+    mentionsLabel: "Most mentioned today",
   });
 }

@@ -1291,3 +1291,65 @@ code {
   font-weight: 600;
   margin-bottom: 6px;
 }
+
+/* Most mentioned: term chips above the list */
+.mentions {
+  margin: 0 6px 12px 10px;
+}
+.mentions h3 {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--faint);
+  margin-bottom: 7px;
+}
+.mention-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.mention {
+  font-size: 12.5px;
+  font-weight: 560;
+  padding: 5px 10px;
+  border-radius: 99px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+}
+.mention b {
+  font-weight: 650;
+  color: var(--soft);
+  font-variant-numeric: tabular-nums;
+}
+.mention[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--canvas);
+}
+.mention[aria-pressed="true"] b {
+  color: inherit;
+}
+.delta {
+  font-size: 11px;
+  font-weight: 650;
+}
+.delta.up {
+  color: #0d7a4f;
+}
+.delta.down {
+  color: var(--faint);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .delta.up {
+    color: #5fd4a6;
+  }
+}
+:root[data-theme="dark"] .delta.up {
+  color: #5fd4a6;
+}
+.no-js .mentions {
+  display: none;
+}
+@media (max-width: 900px) {
+  .mentions {
+    margin: 0 0 12px;
+  }
+}

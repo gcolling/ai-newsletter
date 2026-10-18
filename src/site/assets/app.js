@@ -202,6 +202,8 @@
     const viewMeta = $("[data-view-meta]");
     const empty = $(".list-empty");
     const search = $("[data-search]");
+    const termChips = $$("[data-term]");
+    let term = null;
     const editBtn = $("[data-edit-topics]");
     const editHint = $(".edit-hint");
     const nav = $(".views");
@@ -285,8 +287,18 @@
     }
 
     function matches(row, words) {
+      if (term && !row.dataset.terms.split("|").includes(term)) return false;
       const text = row.textContent.toLowerCase();
       return words.every((w) => text.includes(w));
+    }
+
+    // A term chip narrows Everything to the stories that mention it; pressing it again clears it.
+    function setTerm(next) {
+      term = next;
+      for (const chip of termChips)
+        chip.setAttribute("aria-pressed", String(chip.dataset.term === term));
+      if (term && view !== "all") history.replaceState(null, "", "#all");
+      applyView(term ? "all" : view);
     }
 
     function applyView(next = view) {
@@ -317,9 +329,11 @@
       const label = viewLinks.find((a) => a.dataset.view === view)?.querySelector("span");
       viewTitle.textContent = label?.textContent ?? "Top stories";
       const minutes = Math.max(1, Math.round(order.length / 2));
-      viewMeta.textContent = words.length
-        ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
-        : `${order.length} · about ${minutes} min`;
+      viewMeta.textContent = term
+        ? `${order.length} mention ${term}`
+        : words.length
+          ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
+          : `${order.length} · about ${minutes} min`;
       empty.hidden = order.length > 0;
       select(order.includes(current) ? current : order[0], { scrollStory: isFocus() });
     }
@@ -464,6 +478,8 @@
         history.replaceState(null, "", `#${link.dataset.view}`);
         return applyView(link.dataset.view);
       }
+      const chip = target.closest("[data-term]");
+      if (chip) return setTerm(term === chip.dataset.term ? null : chip.dataset.term);
       const goto = target.closest("[data-goto]");
       if (goto) return select(goto.dataset.goto);
       if (target.closest("[data-next]")) return step(1);
@@ -506,7 +522,11 @@
           search.focus();
           search.select();
         },
-        Escape: () => (isFocus() ? setFocus(false) : setEditing(false)),
+        Escape: () => {
+          if (isFocus()) return setFocus(false);
+          if (term) return setTerm(null);
+          setEditing(false);
+        },
       };
       const action = keys[e.key];
       if (!action) return;
