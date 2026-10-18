@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T06:00:00.000Z",
+  "window": {
+    "from": "2026-10-17T06:00:00.000Z",
+    "to": "2026-10-18T06:00:00.000Z"
+  },
+  "sources": {
+    "total": 65,
+    "ok": 64,
+    "failed": [
+      "make-blog"
+    ]
+  },
+  "stories": [
+    {
+      "id": "fdhsmoge6g",
+      "host": "theverge.com",
+      "also": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language/"
+        },
+        {
+          "source": "Nieman Lab",
+          "title": "Meta’s new terms may let it crawl publishers’ sites",
+          "url": "https://www.niemanlab.org/2026/10/meta-terms/"
+        }
+      ],
+      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI.",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "url": "https://www.theverge.com/news/meta-terms-scraping",
+      "publishedAt": "2026-10-18T01:54:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 71.4,
+      "reasons": [
+        "Covered by 3 outlets",
+        "Matched: scraping, AI training"
+      ]
+    },
+    {
+      "id": "i44r8blf2f",
+      "host": "huggingface.co",
+      "also": [],
+      "summary": "",
+      "title": "DeepSeek V4.1 Flash 1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "publishedAt": "2026-10-18T00:48:00.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 66.2,
+      "reasons": [
+        "899 points · 675 comments on Hacker News",
+        "Matched: DeepSeek, open weights"
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50131111",
+        "points": 899,
+        "comments": 675
+      }
+    },
+    {
+      "id": "i1hzhvykly",
+      "host": "claude.dev",
+      "also": [],
+      "summary": "",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "publishedAt": "2026-10-17T23:30:00.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 58.9,
+      "reasons": [
+        "462 points · 465 comments on Hacker News",
+        "Matched: Claude Code, code review"
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50132222",
+        "points": 462,
+        "comments": 465
+      }
+    },
+    {
+      "id": "hpfo1bxszf",
+      "host": "mercor.com",
+      "also": [],
+      "summary": "",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "publishedAt": "2026-10-17T21:12:00.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "research",
+      "score": 52.1,
+      "reasons": [
+        "611 points · 556 comments on Hacker News",
+        "Matched: benchmarks"
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50133333",
+        "points": 611,
+        "comments": 556
+      }
+    },
+    {
+      "id": "b34guk0w7q",
+      "host": "theverge.com",
+      "also": [],
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation to buying new shoes.",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/agents-blocked",
+      "publishedAt": "2026-10-17T18:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 41.3,
+      "reasons": [
+        "Matched: AI agents"
+      ]
+    },
+    {
+      "id": "hqgc1klfcv",
+      "host": "techcrunch.com",
+      "also": [],
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-openai-default/",
+      "publishedAt": "2026-10-17T20:48:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 38.6,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ]
+    },
+    {
+      "id": "mm6vlfz5jd",
+      "host": "techcrunch.com",
+      "also": [],
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-workforce/",
+      "publishedAt": "2026-10-17T20:24:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 36.1,
+      "reasons": [
+        "Matched: Anthropic"
+      ]
+    },
+    {
+      "id": "j1xhxkhex4",
+      "host": "theregister.com",
+      "also": [],
+      "summary": "Automated reviewers surfaced more issues than the maintainers could triage before the planned release.",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed/5303471",
+      "publishedAt": "2026-10-17T16:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 35.2,
+      "reasons": [
+        "214 points · 89 comments on Hacker News",
+        "Matched: AI code review"
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50134444",
+        "points": 214,
+        "comments": 89
+      }
+    },
+    {
+      "id": "1rhmxrv1e5",
+      "host": "simonwillison.net",
+      "also": [],
+      "summary": "Notes on a talk about how version control changes when most commits come from coding agents.",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/source-control/",
+      "publishedAt": "2026-10-17T09:00:00.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 34,
+      "reasons": [
+        "From a followed writer",
+        "Matched: coding agents"
+      ]
+    },
+    {
+      "id": "puwv67qhi2",
+      "host": "huggingface.co",
+      "also": [],
+      "summary": "We study how policy shifts induced by reinforcement learning can be transferred to smaller students through on-policy distillation gated by directional agreement.",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 33.8,
+      "reasons": [
+        "667 upvotes on Hugging Face"
+      ],
+      "paper": {
+        "upvotes": 667,
+        "arxivId": "2610.21601"
+      }
+    },
+    {
+      "id": "g3ayxpt9rn",
+      "host": "techcrunch.com",
+      "also": [],
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-rogue-ai-agents/",
+      "publishedAt": "2026-10-17T10:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 31.4,
+      "reasons": [
+        "Matched: AI agents, credentials"
+      ]
+    },
+    {
+      "id": "9dbsnkmxxf",
+      "host": "theverge.com",
+      "also": [],
+      "summary": "OpenAI’s ChatGPT Atlas browser is gone, but now ChatGPT’s Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open.",
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "url": "https://www.theverge.com/news/chatgpt-chrome-tabs",
+      "publishedAt": "2026-10-17T12:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 30.2,
+      "reasons": [
+        "Matched: ChatGPT"
+      ]
+    },
+    {
+      "id": "bybomxcpbd",
+      "host": "huggingface.co",
+      "also": [],
+      "summary": "A continuously refreshed benchmark of real GitHub issues for evaluating coding agents without contamination.",
+      "title": "AgentBench-Live: Evaluating Coding Agents on Real Repository Issues",
+      "url": "https://huggingface.co/papers/2610.21777",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 30.1,
+      "reasons": [
+        "353 upvotes on Hugging Face"
+      ],
+      "paper": {
+        "upvotes": 353,
+        "arxivId": "2610.21777"
+      }
+    },
+    {
+      "id": "5p3ap3xv16",
+      "host": "temporal.io",
+      "also": [],
+      "summary": "How to keep long-running agent workflows reliable across crashes, retries and human approvals, with MCP tools as activities.",
+      "title": "Building durable AI agents with Temporal and MCP",
+      "url": "https://temporal.io/blog/durable-ai-agents-mcp",
+      "publishedAt": "2026-10-17T17:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 29.5,
+      "reasons": [
+        "Matched: durable execution, MCP"
+      ]
+    },
+    {
+      "id": "hbinhqim0c",
+      "host": "theverge.com",
+      "also": [],
+      "summary": "A partnership aimed at running Meta’s models locally on Apple silicon.",
+      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "url": "https://www.theverge.com/news/meta-apple-muse-mac",
+      "publishedAt": "2026-10-17T08:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.9,
+      "reasons": [
+        "Matched: on-device models"
+      ]
+    },
+    {
+      "id": "dk3zhus8ow",
+      "host": "blog.n8n.io",
+      "also": [],
+      "summary": "The new release adds human-in-the-loop approval for agent tool calls and persistent memory across workflow runs.",
+      "title": "n8n 2.44: AI agent nodes get tool approval and memory",
+      "url": "https://blog.n8n.io/n8n-2-44/",
+      "publishedAt": "2026-10-17T14:00:00.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 27,
+      "reasons": [
+        "Matched: workflow automation, AI agent"
+      ]
+    },
+    {
+      "id": "szpujvzoql",
+      "host": "dbreunig.com",
+      "also": [],
+      "summary": "Why the bottleneck moved from wording prompts to deciding what goes into the context window, and how to test it.",
+      "title": "Context engineering is the new prompt engineering",
+      "url": "https://www.dbreunig.com/2026/10/14/context-engineering.html",
+      "publishedAt": "2026-10-17T07:00:00.000Z",
+      "source": {
+        "id": "drew-breunig",
+        "name": "Drew Breunig"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 26,
+      "reasons": [
+        "From a followed writer",
+        "Matched: context engineering"
+      ]
+    },
+    {
+      "id": "oqi8ptedk6",
+      "host": "sphinx-six-theta.vercel.app",
+      "also": [],
+      "summary": "",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "publishedAt": "2026-10-17T18:00:00.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 24.6,
+      "reasons": [
+        "177 points · 54 comments on Hacker News"
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50135555",
+        "points": 177,
+        "comments": 54
+      }
+    },
+    {
+      "id": "d8eg7m7uxr",
+      "host": "github.com",
+      "also": [],
+      "summary": "Fixes a regression in subagent permission prompts and speeds up large repository indexing.",
+      "title": "Claude Code 2.4.1",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.4.1",
+      "publishedAt": "2026-10-18T04:30:00.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 19,
+      "reasons": [
+        "New release"
+      ],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "v2.4.1"
+      }
+    },
+    {
+      "id": "4mxrnlqm8w",
+      "host": "github.com",
+      "also": [],
+      "summary": "Test agents can now generate and heal locators through the Playwright MCP server.",
+      "title": "Playwright 1.58",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.58.0",
+      "publishedAt": "2026-10-17T12:00:00.000Z",
+      "source": {
+        "id": "gh-playwright",
+        "name": "Playwright"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 13,
+      "reasons": [
+        "New release"
+      ],
+      "release": {
+        "repo": "microsoft/playwright",
+        "version": "v1.58.0"
+      }
+    },
+    {
+      "id": "r0my4pc3gx",
+      "host": "github.com",
+      "also": [],
+      "summary": "Adds support for DeepSeek V4.1 Flash and improves memory estimates on Apple silicon.",
+      "title": "Ollama 0.40.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+      "publishedAt": "2026-10-18T03:00:00.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 7.5,
+      "reasons": [
+        "New release"
+      ],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "v0.40.8"
+      }
+    }
+  ]
+}
