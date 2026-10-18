@@ -7,6 +7,9 @@
   const rows = $$(".row", app);
   const stories = new Map($$(".story[data-id]", app).map((el) => [el.dataset.id, el]));
   const stage = app.querySelector(".stage");
+  const stageCard = app.querySelector(".stage-card");
+  const upNext = app.querySelector("[data-up-next]");
+  const upNextCards = app.querySelector("[data-up-next-cards]");
   const pos = app.querySelector("[data-pos]");
   const ticks = app.querySelector("[data-ticks]");
   const focusBtn = app.querySelector("[data-focus]");
@@ -67,12 +70,40 @@
     current = id ?? null;
     shownAt = Date.now();
     if (!story) return;
-    stage.style.setProperty("--stage", story.style.getPropertyValue("--c"));
+    stageCard.style.setProperty("--stage", story.style.getPropertyValue("--c"));
     const index = order.indexOf(id);
     pos.textContent = `${index + 1} of ${order.length}`;
     drawTicks(index);
+    drawUpNext(index);
     document.getElementById(`r-${id}`)?.scrollIntoView({ block: "nearest" });
     if (scrollStory) story.scrollIntoView({ block: "start" });
+  }
+
+  // The next few stories in this view, built from the list rows so there's no second copy of the data.
+  function drawUpNext(index) {
+    const next = order.slice(index + 1, index + 4);
+    upNext.hidden = next.length === 0;
+    upNextCards.replaceChildren(
+      ...next.map((id) => {
+        const row = document.getElementById(`r-${id}`);
+        const card = document.createElement("button");
+        card.type = "button";
+        card.className = "next-card";
+        card.dataset.goto = id;
+        card.style.setProperty("--c", row.style.getPropertyValue("--c"));
+        for (const [cls, from] of [
+          ["k", ".row-src"],
+          ["t", ".row-title"],
+          ["m", ".row-meta"],
+        ]) {
+          const part = document.createElement("span");
+          part.className = cls;
+          part.textContent = row.querySelector(from)?.textContent ?? "";
+          card.append(part);
+        }
+        return card;
+      }),
+    );
   }
 
   function drawTicks(index) {
@@ -148,6 +179,8 @@
       history.replaceState(null, "", `#${view.dataset.view}`);
       return applyView(view.dataset.view);
     }
+    const goto = target?.closest("[data-goto]");
+    if (goto) return select(goto.dataset.goto);
     if (target?.closest("[data-next]")) return step(1);
     if (target?.closest("[data-focus]")) return setFocus(!isFocus());
     if (target?.closest("[data-open]")) markRead(current);
@@ -175,8 +208,8 @@
   window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
 
   for (const row of rows) if (read.has(row.dataset.id)) row.classList.add("is-read");
-  applyView(location.hash.slice(1) || "top");
   humanizeTimes();
+  applyView(location.hash.slice(1) || "top");
 
   // Relative times for fresh stories, local clock times for older ones.
   function humanizeTimes() {

@@ -19,7 +19,7 @@ export const collect = {
   firstWindowHours: 26,
   /** Never reach further back than this, even after a gap in runs. */
   maxWindowHours: 72,
-  summaryLength: 280,
+  summaryLength: 420,
   /** Stories already published in this many past issues are not repeated. */
   dedupeDays: 7,
 };

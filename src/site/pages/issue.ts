@@ -156,6 +156,7 @@ ${issue.stories.map((s) => row(s, topIds))}
 <p class="list-empty" hidden>Nothing here today.</p>
 </section>
 <main class="stage" aria-label="Story">
+<div class="stage-card">
 <div class="stage-bar">
 <span class="pos" data-pos aria-live="polite"></span>
 <button class="pill" type="button" data-focus aria-pressed="false">Focus</button>
@@ -167,6 +168,11 @@ ${issue.stories.map(card)}
 <h2 class="story-title">That’s the day.</h2>
 <p class="summary">You’ve reached the end of this view. Pick another on the left, browse <a href="${href("archive/")}">past issues</a>, or come back tomorrow morning.</p>
 </div>
+</section>
+</div>
+<section class="up-next" data-up-next aria-label="Up next" hidden>
+<h3>Up next</h3>
+<div class="up-next-cards" data-up-next-cards></div>
 </section>
 </main>
 </div>`;

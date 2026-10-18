@@ -275,15 +275,21 @@ kbd {
 
 /* ── Stage: where a story is read ─────────────────────────────────── */
 .stage {
-  --c: #0a2a8f;
-  position: relative;
   display: flex;
   flex-direction: column;
-  margin: 12px;
+  gap: 14px;
+  padding: 12px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+/* The card is as tall as its story; its color melts into the next topic. */
+.stage-card {
+  --c: #0a2a8f;
+  position: relative;
+  flex: none;
   border-radius: 18px;
   background: var(--stage, var(--c));
   color: var(--on-gem);
-  overflow: hidden auto;
   transition: background-color 0.6s ease;
 }
 .stage-bar {
@@ -355,9 +361,8 @@ kbd {
 }
 
 .story {
-  flex: 1;
   flex-direction: column;
-  padding: 28px 48px 32px;
+  padding: 28px 48px 36px;
 }
 .kicker {
   font: italic 400 16px / 1.5 var(--serif);
@@ -367,9 +372,6 @@ kbd {
 }
 .kicker b {
   font: normal 620 13px / 1 var(--sans);
-}
-.story-body {
-  margin-top: auto;
 }
 .story-title {
   font-family: var(--serif);
@@ -479,13 +481,62 @@ kbd {
   background: rgb(255 255 255 / 0.16);
 }
 
+/* Up next: the following stories in this view, ready to pick. */
+.up-next h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--faint);
+  margin: 6px 4px 10px;
+}
+.up-next-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 10px;
+}
+.next-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 132px;
+  padding: 14px 16px 16px;
+  border-radius: 14px;
+  background: var(--c);
+  color: var(--on-gem);
+  text-align: left;
+  transition: transform 0.25s var(--ease);
+}
+.next-card:hover {
+  transform: translateY(-3px);
+}
+.next-card .k {
+  font-size: 11.5px;
+  font-weight: 600;
+  opacity: 0.78;
+}
+.next-card .t {
+  font: 450 18px / 1.18 var(--serif);
+  letter-spacing: -0.01em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+}
+.next-card .m {
+  margin-top: auto;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
 /* Without JavaScript every story is simply stacked. */
-.no-js .stage {
-  background: none;
-  color: var(--ink);
+.no-js .stage-card {
+  display: flex;
+  flex-direction: column;
   gap: 12px;
-  margin: 0;
-  padding: 12px;
+  background: none;
+}
+.no-js .up-next {
+  display: none;
 }
 .no-js .stage-bar,
 .no-js [data-end],
@@ -520,12 +571,21 @@ kbd {
   position: fixed;
   inset: 0;
   z-index: 20;
-  margin: 0;
-  border-radius: 0;
+  display: block;
+  padding: 0;
   background: #090b10;
-  overflow-y: auto;
   scroll-snap-type: y mandatory;
-  overscroll-behavior: contain;
+}
+.is-focus .stage-card {
+  background: none;
+  border-radius: 0;
+  transition: none;
+}
+.is-focus .up-next {
+  display: none;
+}
+.is-focus .story-body {
+  margin-block: auto;
 }
 .is-focus .stage-bar {
   position: fixed;
