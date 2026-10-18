@@ -1388,3 +1388,48 @@ code {
   background: #7c0f4c;
   box-shadow: none;
 }
+
+/* Watch words */
+.watch-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px 10px 10px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--soft);
+}
+.watch-edit[hidden],
+.no-js .watch-edit,
+.no-js [data-view="watching"] {
+  display: none;
+}
+.watch-edit input {
+  height: 34px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+  color: var(--ink);
+  font: 500 13.5px var(--sans);
+}
+.watch-edit input:focus {
+  outline: 2px solid var(--ink);
+  outline-offset: 0;
+}
+.watch-edit small {
+  font-weight: 400;
+  line-height: 1.4;
+}
+.row-src[data-watch]::after {
+  content: " · watching " attr(data-watch);
+  color: var(--ink);
+  font-weight: 650;
+}
+@media (max-width: 900px) {
+  .watch-edit {
+    order: 1;
+    padding: 0 18px 12px;
+  }
+}

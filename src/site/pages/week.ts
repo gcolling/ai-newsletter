@@ -62,6 +62,7 @@ export function weekPage(issues: Issue[]): string | undefined {
     title: `This week · ${site.name}`,
     description: `The ${shown} strongest AI stories from ${range}.`,
     path: "week/",
+    permalink: "week/",
     mentions: topMentions(
       week.stories,
       previous.length

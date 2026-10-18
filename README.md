@@ -22,8 +22,11 @@ flowchart LR
   Add it to your home screen and it works offline.
 - **This week:** `/week/` ranks every story of the last seven days, with the most mentioned terms
   and how they moved since the week before.
-- **Make it yours:** pin or mute topics, save stories for later (`/saved/`, exports to Markdown),
-  pick a light, dark or automatic theme. All of it stays in your browser.
+- **Make it yours:** pin or mute topics, set watch words (stories mentioning them are marked and
+  collected under _Watching_), save stories for later (`/saved/`, exports to Markdown), and pick a
+  light, dark or automatic theme. All of it stays in your browser.
+- **Story links:** the address bar always points at the open story (`/2026/10/18/?s=…`), so
+  copying it shares that exact story.
 - **Feeds:** `/feed.xml` has one entry per day; `/feeds/top.xml` and `/feeds/<topic>.xml` have one
   entry per story, ready for a feed reader or an n8n, Zapier or Slack RSS trigger.
 - **JSON:** `/api/latest.json` and `/api/issues/YYYY-MM-DD.json`.
@@ -60,7 +63,8 @@ every push and pull request. Turn it on as a pre-commit hook once per clone:
 git config core.hooksPath .githooks
 ```
 
-Nothing the reader does (saved stories, read marks, pinned topics, theme) leaves the browser.
+Nothing the reader does (saved stories, read marks, pinned topics, watch words, theme) leaves the
+browser.
 
 ## Publishing
 
@@ -75,6 +79,27 @@ builds the site and deploys it.
 
 > GitHub pauses scheduled workflows in repositories with no activity for 60 days. If the digest
 > stops, re-enable **Publish** in the Actions tab.
+
+## Repository settings
+
+Once, in this order. The force push has to come before the branch rules, which forbid it.
+
+1. **Your account → Settings → Emails:** turn on _Keep my email addresses private_ and _Block
+   command line pushes that expose my email_. Commits made on the website then use your noreply
+   address too, which the privacy check requires.
+2. Replace the old first commit, which carried a personal email: `git push --force-with-lease origin main`.
+3. **Settings → Pages:** set _Source_ to _GitHub Actions_.
+4. **Settings → Actions → General:** keep _Workflow permissions_ on read-only; each workflow asks for
+   the write access it needs.
+5. **Settings → Advanced Security** (called _Code security_ on some accounts): turn on _Dependabot
+   alerts_, _Dependabot security updates_, _Secret scanning_ with _Push protection_, and _Private
+   vulnerability reporting_.
+6. **Settings → General → Pull Requests:** allow squash merging only, and turn on _Automatically
+   delete head branches_.
+7. **Settings → Rules → Rulesets → New branch ruleset** for the default branch: _Restrict
+   deletions_, _Block force pushes_, _Require a pull request before merging_ (0 approvals is fine
+   when working alone) and _Require status checks to pass_ with the CI `check` job. The daily
+   Publish run writes to the `data` branch, so the rules don't get in its way.
 
 ## Changing what you get
 

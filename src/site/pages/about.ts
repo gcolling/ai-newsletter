@@ -114,10 +114,10 @@ ${topics.map((t) => html`<li style="--c:${t.color}"><a href="${href(`feeds/${t.i
 <p>The same data is available as JSON at <a href="${href("api/latest.json")}"><code>/api/latest.json</code></a> and <code>/api/issues/YYYY-MM-DD.json</code>.</p>
 
 <h2 class="doc-h2">Privacy</h2>
-<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, saved stories, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>
+<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, saved stories, watch words, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>
 
 <h2 class="doc-h2">Make it yours</h2>
-<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
+<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Watch words</b>, also under Edit, mark every story that mentions them and collect them under Watching. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
 
 <h2 class="doc-h2">Keyboard</h2>
 <dl class="keys-list">

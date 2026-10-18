@@ -210,11 +210,23 @@
     const editBtn = $("[data-edit-topics]");
     const editHint = $(".edit-hint");
     const nav = $(".views");
+    const watchEdit = $("[data-watch-edit]");
+    const watchInput = $("[data-watch-input]");
+    const permalink = app.dataset.permalink;
     const narrow = matchMedia("(max-width: 900px)");
 
     const read = new Set(store.get("read-v1", []));
     /** topic id → "pin" | "mute" */
     const prefs = store.get("topics-v1", {});
+    /** Words the reader tracks, e.g. ["MCP", "Temporal"]. */
+    let watch = store.get("watch-v1", []);
+    // Title and summary per story, the text watch words are matched against.
+    const storyText = new Map(
+      rows.map((row) => {
+        const summary = stories.get(row.dataset.id)?.querySelector(".summary")?.textContent ?? "";
+        return [row.dataset.id, `${row.querySelector(".row-title").textContent} ${summary}`];
+      }),
+    );
     let view = "top";
     let order = [];
     let current = null;
@@ -281,6 +293,7 @@
 
     // Muted topics leave every view but their own; pinned topics join Top stories in full.
     function inView(row, v) {
+      if (v === "watching") return row.dataset.watch !== undefined;
       const topic = row.dataset.topic;
       if (v === topic) return true;
       if (prefs[topic] === "mute") return false;
@@ -292,6 +305,37 @@
       if (term && !row.dataset.terms.split("|").includes(term)) return false;
       const text = row.textContent.toLowerCase();
       return words.every((w) => text.includes(w));
+    }
+
+    // Marks rows whose title or summary contains a watch word, as a whole word, any case.
+    function markWatched() {
+      const literal = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const patterns = watch.map((w) => [
+        w,
+        new RegExp(`(^|[^\\p{L}\\p{N}])${literal(w)}($|[^\\p{L}\\p{N}])`, "iu"),
+      ]);
+      for (const row of rows) {
+        const hit = patterns.find(([, re]) => re.test(storyText.get(row.dataset.id)));
+        // On the row for filtering, and on its source line so CSS attr() can show the word.
+        for (const el of [row, row.querySelector(".row-src")]) {
+          if (hit) el.dataset.watch = hit[0];
+          else delete el.dataset.watch;
+        }
+      }
+    }
+
+    function setWatch(text) {
+      watch = [
+        ...new Set(
+          text
+            .split(",")
+            .map((w) => w.trim())
+            .filter(Boolean),
+        ),
+      ].slice(0, 30);
+      store.set("watch-v1", watch);
+      markWatched();
+      applyView();
     }
 
     // A term chip narrows Everything to the stories that mention it; pressing it again clears it.
@@ -337,10 +381,12 @@
           ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
           : `${order.length} · about ${minutes} min`;
       empty.hidden = order.length > 0;
-      select(order.includes(current) ? current : order[0], { scrollStory: isFocus() });
+      const keep = order.includes(current);
+      select(keep ? current : order[0], { scrollStory: isFocus(), link: keep });
     }
 
-    function select(id, { scrollStory = false } = {}) {
+    // `link` keeps the address bar on this story (?s=id), so copying it shares the exact story.
+    function select(id, { scrollStory = false, link = true } = {}) {
       if (current && current !== id && Date.now() - shownAt > 1500) markRead(current);
       const story = stories.get(id);
       for (const el of stories.values()) el.classList.toggle("is-current", el === story);
@@ -352,6 +398,7 @@
         upNext.hidden = true;
         return;
       }
+      if (link && permalink) history.replaceState(null, "", `${permalink}?s=${id}${location.hash}`);
       stageCard.style.setProperty("--stage", story.style.getPropertyValue("--c"));
       const index = order.indexOf(id);
       pos.textContent = `${index + 1} of ${order.length}`;
@@ -452,6 +499,8 @@
       editBtn.textContent = on ? "Done" : "Edit";
       editBtn.setAttribute("aria-pressed", String(on));
       editHint.hidden = !on;
+      watchEdit.hidden = !on;
+      if (on) watchInput.value = watch.join(", ");
     }
 
     function cyclePref(topic) {
@@ -477,6 +526,10 @@
       if (link) {
         e.preventDefault();
         if (editing() && link.dataset.topic) return cyclePref(link.dataset.topic);
+        if (link.dataset.view === "watching" && watch.length === 0) {
+          setEditing(true);
+          return watchInput.focus();
+        }
         history.replaceState(null, "", `#${link.dataset.view}`);
         return applyView(link.dataset.view);
       }
@@ -491,6 +544,10 @@
       if (target.closest("[data-open]")) markRead(current);
     });
 
+    watchInput.addEventListener("change", () => setWatch(watchInput.value));
+    watchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") watchInput.blur();
+    });
     search.addEventListener("input", () => applyView());
     search.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
@@ -542,6 +599,15 @@
       if (read.has(row.dataset.id)) row.classList.add("is-read");
       paintSaved(row.dataset.id, savedIds.has(row.dataset.id));
     }
+    markWatched();
     applyView(location.hash.slice(1) || "top");
+
+    // A link to one story (?s=id) opens it, switching to Everything if the view hides it.
+    const wanted = new URLSearchParams(location.search).get("s");
+    if (wanted && stories.has(wanted)) {
+      if (!order.includes(wanted)) applyView("all");
+      select(wanted);
+      if (narrow.matches) setFocus(true);
+    }
   }
 })();

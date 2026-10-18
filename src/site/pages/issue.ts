@@ -32,6 +32,8 @@ export interface ReaderOptions {
   description: string;
   /** Site-relative path of the page. */
   path: string;
+  /** Stable address of this page, used for links to a single story. */
+  permalink: string;
   near?: Neighbours;
   /** Terms shown above the list; clicking one filters by it. */
   mentions: Mention[];
@@ -177,7 +179,9 @@ ${viewLink("all", "Everything", issue.stories.length)}
 ${topicLinks}
 <hr>
 ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n))}
+${viewLink("watching", "Watching", 0)}
 </nav>
+<label class="watch-edit" data-watch-edit hidden><span>Watch words</span><input type="text" data-watch-input placeholder="MCP, Temporal, Playwright" autocomplete="off" spellcheck="false"><small>Comma-separated. Matching stories are marked and collected under Watching.</small></label>
 <footer class="rail-foot">
 ${days}
 <nav class="links" aria-label="More">${other}<a href="${href("saved/")}" data-saved-link>Saved</a><a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
@@ -192,7 +196,7 @@ export function readerPage(issue: Issue, opts: ReaderOptions): string {
   const top = topStories(issue, opts.kind === "week" ? render.weekCount : render.topCount);
   const topIds = new Set(top.map((s) => s.id));
   const unit = opts.kind === "week" ? "week" : "day";
-  const body = html`<div class="app" data-date="${issue.date}">
+  const body = html`<div class="app" data-date="${issue.date}" data-permalink="${href(opts.permalink)}">
 ${rail(issue, top, opts)}
 <section class="list" aria-labelledby="view-title">
 <header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
@@ -245,6 +249,7 @@ export function issuePage(issue: Issue, near: Neighbours, isLatest: boolean): st
       ? `${plural(issue.stories.length, "story", "stories")} today. Leading: ${lead.title}`
       : site.tagline,
     path: isLatest ? "" : issuePath(issue.date),
+    permalink: issuePath(issue.date),
     near,
     mentions: topMentions(issue.stories, undefined, 6),
     mentionsLabel: "Most mentioned today",
