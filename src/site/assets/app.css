@@ -1353,3 +1353,29 @@ code {
     margin: 0 0 12px;
   }
 }
+
+/* source health on How it works */
+.health-summary {
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--pane);
+  box-shadow: var(--lift);
+}
+.sources .count {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--soft);
+  font-variant-numeric: tabular-nums;
+}
+.sources .count + .weight {
+  margin-left: 6px;
+}
+.tag.flaky {
+  color: #8a4a00;
+}
+.tag.failing {
+  color: var(--on-gem);
+  background: #7c0f4c;
+  box-shadow: none;
+}

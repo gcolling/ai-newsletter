@@ -143,7 +143,7 @@ export async function build(issues: Issue[]) {
   const week = weekPage(issues);
   if (week) await write("week/index.html", week);
   await write("archive/index.html", archivePage(issues));
-  await write("about/index.html", aboutPage());
+  await write("about/index.html", aboutPage(issues));
   await write("saved/index.html", savedPage());
   await write("404.html", notFoundPage());
   await write("feed.xml", atomFeed(issues));

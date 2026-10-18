@@ -1,8 +1,9 @@
 import { site } from "../../config.ts";
 import { sources } from "../../sources.ts";
 import { topics } from "../../topics.ts";
-import type { Section, Source } from "../../types.ts";
-import { outlet } from "../format.ts";
+import type { Issue, Section, Source } from "../../types.ts";
+import { dayMonth, outlet, plural } from "../format.ts";
+import { HEALTH_DAYS, type SourceHealth, sourceHealth } from "../health.ts";
 import { type Html, html, safeUrl } from "../html.ts";
 import { href, layout } from "../layout.ts";
 import { shell } from "./shell.ts";
@@ -18,18 +19,28 @@ const sectionNames: [Section, string][] = [
 
 const weightLabel = ["", "useful", "solid", "must-read"];
 
-function sourceItem(s: Pick<Source, "name" | "homepage" | "weight" | "mirror">): Html {
-  return html`<li><a href="${safeUrl(s.homepage)}">${outlet(s.name)}</a><span class="weight" title="Weight ${s.weight} of 3: ${weightLabel[s.weight]}">${"●".repeat(s.weight)}${"○".repeat(3 - s.weight)}</span>${s.mirror ? html`<span class="tag">mirror</span>` : ""}</li>`;
+type Listed = Pick<Source, "id" | "name" | "homepage" | "weight" | "mirror" | "section">;
+
+function healthTag(h: SourceHealth | undefined): Html | "" {
+  if (!h || h.state === "ok") return "";
+  const text = h.state === "failing" ? "failing" : "flaky";
+  return html`<span class="tag ${h.state}" title="Missed ${plural(h.failedRuns, "run")} this week">${text}</span>`;
 }
 
-const apiSources: Pick<Source, "name" | "homepage" | "weight" | "section">[] = [
+function sourceItem(s: Listed, h: SourceHealth | undefined): Html {
+  return html`<li><a href="${safeUrl(s.homepage)}">${outlet(s.name)}</a>${healthTag(h)}<span class="count" title="Stories it led with in the last ${HEALTH_DAYS} days">${h?.stories ?? 0}</span><span class="weight" title="Weight ${s.weight} of 3: ${weightLabel[s.weight]}">${"●".repeat(s.weight)}${"○".repeat(3 - s.weight)}</span>${s.mirror ? html`<span class="tag">mirror</span>` : ""}</li>`;
+}
+
+const apiSources: Listed[] = [
   {
+    id: "hacker-news",
     name: "Hacker News",
     homepage: "https://news.ycombinator.com/",
     weight: 2,
     section: "community",
   },
   {
+    id: "hf-papers",
     name: "Hugging Face Papers",
     homepage: "https://huggingface.co/papers",
     weight: 2,
@@ -37,8 +48,24 @@ const apiSources: Pick<Source, "name" | "homepage" | "weight" | "section">[] = [
   },
 ];
 
-export function aboutPage(): string {
-  const total = sources.length + apiSources.length;
+export function aboutPage(issues: Issue[]): string {
+  const listed: Listed[] = [...sources, ...apiSources];
+  const total = listed.length;
+  const health = sourceHealth(
+    issues,
+    listed.map((s) => s.id),
+  );
+  const [latest] = issues;
+  const active = [...health.values()].filter((h) => h.stories > 0).length;
+  const span = Math.min(HEALTH_DAYS, issues.length);
+  const failing = listed.filter((s) => health.get(s.id)?.state === "failing");
+  const status = latest
+    ? html`<p class="health-summary">On ${dayMonth(latest.date)}, ${latest.sources.ok} of ${latest.sources.total} sources answered. ${span === 1 ? "That day" : `Over the last ${span} days`}, ${active} of ${total} contributed at least one story.${
+        failing.length
+          ? html` <b>Failing for three runs in a row:</b> ${failing.map((s) => outlet(s.name)).join(", ")}.`
+          : ""
+      }</p>`
+    : "";
   const content = html`<h1 class="doc-title">How it works</h1>
 <p class="doc-lede">Every morning, around 05:30 UTC, a script reads ${total} sources, keeps what is about AI, automation and integrations, and ranks it with plain rules you can read below. No language model picks, writes or summarises anything here.</p>
 
@@ -68,11 +95,12 @@ export function aboutPage(): string {
 <ul class="gems">${topics.map((t) => html`<li style="--c:${t.color}"><b>${t.name}</b><span>${t.gem}</span></li>`)}</ul>
 
 <h2 class="doc-h2">Sources</h2>
-<p>Dots show weight. Mirrors are community-run copies of sites without a feed, from <a href="https://github.com/Olshansk/rss-feeds">Olshansk/rss-feeds</a>.</p>
+${status}
+<p>The number is how many stories a source led with in the last ${HEALTH_DAYS} days, and the dots show its weight. Mirrors are community-run copies of sites without a feed, from <a href="https://github.com/Olshansk/rss-feeds">Olshansk/rss-feeds</a>. <i>Flaky</i> sources missed a run this week, and <i>failing</i> ones missed the last three.</p>
 <div class="source-groups">
 ${sectionNames.map(([id, name]) => {
-  const list = [...sources, ...apiSources].filter((s) => s.section === id);
-  return html`<section><h3>${name} <em>${list.length}</em></h3><ul class="sources">${list.map(sourceItem)}</ul></section>`;
+  const list = listed.filter((s) => s.section === id);
+  return html`<section><h3>${name} <em>${list.length}</em></h3><ul class="sources">${list.map((s) => sourceItem(s, health.get(s.id)))}</ul></section>`;
 })}
 </div>
 
