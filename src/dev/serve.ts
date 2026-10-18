@@ -16,6 +16,8 @@ const types: Record<string, string> = {
   ".xml": "application/atom+xml; charset=utf-8",
   ".svg": "image/svg+xml",
   ".woff2": "font/woff2",
+  ".png": "image/png",
+  ".webmanifest": "application/manifest+json",
 };
 
 function hasIssues(dir: string) {

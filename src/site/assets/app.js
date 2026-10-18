@@ -37,10 +37,27 @@
   setUpTheme();
   humanizeTimes();
   updateSavedLinks();
+  setUpOffline();
   const app = document.querySelector(".app");
   if (app) setUpReader(app);
   const savedList = document.querySelector("[data-saved-list]");
   if (savedList) setUpSavedPage(savedList);
+
+  // Install and offline reading. The service worker sits next to the manifest at the site root.
+  function setUpOffline() {
+    const manifest = document.querySelector('link[rel="manifest"]');
+    if (manifest && "serviceWorker" in navigator) {
+      navigator.serviceWorker.register(new URL("sw.js", manifest.href)).catch(() => {});
+    }
+    const note = document.querySelector("[data-offline]");
+    if (!note) return;
+    const paint = () => {
+      note.hidden = navigator.onLine;
+    };
+    window.addEventListener("online", paint);
+    window.addEventListener("offline", paint);
+    paint();
+  }
 
   function updateSavedLinks() {
     const count = saved.list().length;

@@ -41,6 +41,9 @@ export function layout(page: Page): string {
 <meta name="theme-color" content="#EEF0F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${assets.icon}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${href("assets/apple-touch-icon.png")}">
+<link rel="manifest" href="${href("manifest.webmanifest")}">
+<meta name="apple-mobile-web-app-title" content="${site.name}">
 <link rel="alternate" type="application/atom+xml" title="${site.name}" href="${href("feed.xml")}">
 <link rel="alternate" type="application/atom+xml" title="${site.name}: top stories" href="${href("feeds/top.xml")}">
 <link rel="stylesheet" href="${assets.css}">

@@ -1285,3 +1285,9 @@ code {
 .feeds span {
   color: var(--soft);
 }
+
+.offline {
+  color: var(--ink);
+  font-weight: 600;
+  margin-bottom: 6px;
+}

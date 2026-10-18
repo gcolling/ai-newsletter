@@ -161,6 +161,7 @@ ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n
 <footer class="rail-foot">
 ${days}
 <nav class="links" aria-label="More">${other}<a href="${href("saved/")}" data-saved-link>Saved</a><a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
+<p class="offline" data-offline hidden>You’re offline. This is the last copy you opened.</p>
 <p>Built ${timeUtc(issue.generatedAt)} from ${ok} of ${total} sources. Ranked by rules, not a model.</p>
 ${themeToggle()}
 </footer>
