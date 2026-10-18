@@ -126,9 +126,9 @@ ${summary}
 <div class="meta">${why}${also}</div>
 <div class="actions">
 <a class="btn go" href="${safeUrl(story.url)}" target="_blank" rel="noopener noreferrer" data-open>Read at ${destination(story)} <span aria-hidden="true">↗</span></a>
-${discussionLink(story)}
 <button class="btn ghost" type="button" data-save aria-pressed="false">Save</button>
 <button class="btn ghost" type="button" data-share>Share</button>
+${discussionLink(story)}
 <button class="btn ghost next" type="button" data-next>Next <span aria-hidden="true">→</span></button>
 </div>
 </div>

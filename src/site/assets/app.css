@@ -621,8 +621,16 @@ kbd {
   margin-left: 10px;
 }
 @media (hover: none) {
-  .keys {
+  .keys,
+  .btn.next {
     display: none;
+  }
+  .actions {
+    gap: 8px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 10px 14px;
   }
 }
 .row.is-saved .row-meta::after {
@@ -878,7 +886,8 @@ body.is-locked {
     max-width: none;
     margin-bottom: 32px;
   }
-  .keys {
+  .keys,
+  .btn.next {
     display: none;
   }
   .is-focus .stage-bar {

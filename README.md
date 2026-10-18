@@ -16,15 +16,20 @@ flowchart LR
 ## Reading it
 
 - **Desktop:** topics on the left, the day’s list in the middle, the story on a colored stage on the
-  right. <kbd>J</kbd>/<kbd>K</kbd> to move, <kbd>O</kbd> to open, <kbd>F</kbd> for focus mode,
-  <kbd>/</kbd> to filter. Pin or mute topics with **Edit**; light, dark or automatic theme.
+  right with what’s up next below. <kbd>J</kbd>/<kbd>K</kbd> to move, <kbd>O</kbd> to open,
+  <kbd>S</kbd> to save, <kbd>F</kbd> for focus mode, <kbd>/</kbd> to filter.
 - **Phone:** the list is home. Tap a story to read it full screen, then swipe up for the next.
-- **This week:** `/week/` collects the 20 strongest stories of the last seven days.
-- **Feed reader:** subscribe to `/feed.xml`. One entry per day with the top stories.
+  Add it to your home screen and it works offline.
+- **This week:** `/week/` ranks every story of the last seven days, with the most mentioned terms
+  and how they moved since the week before.
+- **Make it yours:** pin or mute topics, save stories for later (`/saved/`, exports to Markdown),
+  pick a light, dark or automatic theme. All of it stays in your browser.
+- **Feeds:** `/feed.xml` has one entry per day; `/feeds/top.xml` and `/feeds/<topic>.xml` have one
+  entry per story, ready for a feed reader or an n8n, Zapier or Slack RSS trigger.
 - **JSON:** `/api/latest.json` and `/api/issues/YYYY-MM-DD.json`.
 
 Every card says _why it’s here_: the rules that ranked it (coverage, points, matched terms). The
-_How it works_ page lists every source and signal.
+_How it works_ page lists every source and signal, and flags sources that stopped answering.
 
 ## Run it locally
 
@@ -43,7 +48,19 @@ npm run dev       # preview on http://localhost:4321, rebuilds on save
 | `npm run collect`   | Fetch, filter, group and rank. Writes one JSON. |
 | `npm run build`     | Render every issue into `dist/`.                |
 | `npm run dev`       | Build, serve and watch.                         |
-| `npm run check`     | Typecheck, lint and test.                       |
+| `npm run check`     | Privacy check, typecheck, lint and test.        |
+
+## Keeping personal data out
+
+This repository is public, so `npm run privacy` fails on email addresses, home-folder paths,
+private keys, API tokens, or any commit identity that isn't a GitHub noreply address. CI runs it on
+every push and pull request. Turn it on as a pre-commit hook once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Nothing the reader does (saved stories, read marks, pinned topics, theme) leaves the browser.
 
 ## Publishing
 
