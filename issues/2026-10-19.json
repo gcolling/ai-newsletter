@@ -1,18 +1,15 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T09:30:48.319Z",
+  "generatedAt": "2026-10-19T09:35:54.229Z",
   "window": {
-    "from": "2026-10-18T07:30:44.172Z",
-    "to": "2026-10-19T09:30:44.172Z"
+    "from": "2026-10-18T07:35:49.563Z",
+    "to": "2026-10-19T09:35:49.563Z"
   },
   "sources": {
     "total": 64,
-    "ok": 62,
-    "failed": [
-      "import-ai",
-      "addy-osmani"
-    ]
+    "ok": 64,
+    "failed": []
   },
   "stories": [
     {
@@ -128,17 +125,40 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 40.5,
+      "score": 40.6,
       "reasons": [
-        "385 points · 187 comments on Hacker News",
+        "388 points · 187 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 385,
+        "points": 388,
         "comments": 187
+      }
+    },
+    {
+      "id": "k7oqus7rv8",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "url": "https://huggingface.co/papers/2610.22276",
+      "host": "huggingface.co",
+      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 35.1,
+      "reasons": [
+        "389 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 389,
+        "arxivId": "2610.22276"
       }
     },
     {
@@ -163,29 +183,6 @@
       "paper": {
         "upvotes": 318,
         "arxivId": "2610.22200"
-      }
-    },
-    {
-      "id": "k7oqus7rv8",
-      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-      "url": "https://huggingface.co/papers/2610.22276",
-      "host": "huggingface.co",
-      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "source": {
-        "id": "hf-papers",
-        "name": "Hugging Face Papers"
-      },
-      "section": "papers",
-      "topic": "research",
-      "score": 35,
-      "reasons": [
-        "388 upvotes on Hugging Face"
-      ],
-      "also": [],
-      "paper": {
-        "upvotes": 388,
-        "arxivId": "2610.22276"
       }
     },
     {
@@ -250,7 +247,7 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 33,
+      "score": 32.9,
       "reasons": [
         "139 points · 138 comments on Hacker News",
         "Matched: AI agents"
@@ -346,16 +343,16 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 31.1,
+      "score": 31.2,
       "reasons": [
-        "137 points · 46 comments on Hacker News",
+        "138 points · 46 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50148452",
-        "points": 137,
+        "points": 138,
         "comments": 46
       }
     },
@@ -372,16 +369,16 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 30.8,
+      "score": 30.9,
       "reasons": [
-        "185 points · 126 comments on Hacker News",
+        "186 points · 126 comments on Hacker News",
         "Matched: LLMs"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50135762",
-        "points": 185,
+        "points": 186,
         "comments": 126
       }
     },
@@ -455,7 +452,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 27.7,
+      "score": 27.6,
       "reasons": [
         "Solid source"
       ],
@@ -550,7 +547,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 26.1,
+      "score": 26,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -689,7 +686,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.8,
+      "score": 19.7,
       "reasons": [
         "Matched: Claude"
       ],
@@ -727,7 +724,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 17.4,
+      "score": 17.3,
       "reasons": [
         "Matched: Anthropic, AI agents"
       ],
