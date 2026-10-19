@@ -198,6 +198,7 @@ export function readerPage(issue: Issue, opts: ReaderOptions): string {
   const unit = opts.kind === "week" ? "week" : "day";
   const body = html`<div class="app" data-date="${issue.date}" data-permalink="${href(opts.permalink)}">
 ${rail(issue, top, opts)}
+<div class="splitter" data-split="rail" role="separator" aria-orientation="vertical" aria-label="Resize the topics column" tabindex="0"></div>
 <section class="list" aria-labelledby="view-title">
 <header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
 ${mentionsStrip(opts.mentions, opts.mentionsLabel)}
@@ -207,6 +208,7 @@ ${issue.stories.map((s) => row(s, topIds))}
 </ol>
 <p class="list-empty" hidden>Nothing matches. Try another view or clear the filter.</p>
 </section>
+<div class="splitter" data-split="list" role="separator" aria-orientation="vertical" aria-label="Resize the story list" tabindex="0"></div>
 <main class="stage" aria-label="Story">
 <div class="stage-card">
 <div class="stage-bar">

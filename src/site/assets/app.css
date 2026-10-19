@@ -12,6 +12,8 @@
   --sans: "Mona Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --serif: "Newsreader", Charter, Georgia, "Times New Roman", serif;
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --scroll: rgb(15 18 23 / 0.16);
+  --scroll-hover: rgb(15 18 23 / 0.32);
   color-scheme: light dark;
 }
 
@@ -26,6 +28,8 @@
     --line: #262a33;
     --hover: rgb(255 255 255 / 0.04);
     --lift: 0 0 0 1px rgb(255 255 255 / 0.07);
+    --scroll: rgb(255 255 255 / 0.16);
+    --scroll-hover: rgb(255 255 255 / 0.3);
   }
 }
 :root[data-theme="dark"] {
@@ -37,6 +41,8 @@
   --line: #262a33;
   --hover: rgb(255 255 255 / 0.04);
   --lift: 0 0 0 1px rgb(255 255 255 / 0.07);
+  --scroll: rgb(255 255 255 / 0.16);
+  --scroll-hover: rgb(255 255 255 / 0.3);
   color-scheme: dark;
 }
 :root[data-theme="light"] {
@@ -134,9 +140,96 @@ kbd {
 
 /* ── Reader: three panes ──────────────────────────────────────────── */
 .app {
+  position: relative;
   display: grid;
-  grid-template-columns: 244px minmax(320px, 400px) minmax(0, 1fr);
+  grid-template-columns: var(--rail-w, 244px) var(--list-w, 440px) minmax(0, 1fr);
   height: 100dvh;
+}
+
+/* Drag handles on the column boundaries. Widths are saved in the browser (local storage). */
+.splitter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 6;
+  width: 12px;
+  margin-left: -6px;
+  cursor: col-resize;
+  touch-action: none;
+}
+.splitter[data-split="rail"] {
+  left: var(--rail-w, 244px);
+}
+.splitter[data-split="list"] {
+  left: calc(var(--rail-w, 244px) + var(--list-w, 440px));
+}
+.splitter::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: 5px;
+  width: 2px;
+  border-radius: 1px;
+  background: transparent;
+  transition: background 0.15s;
+}
+.splitter:hover::after,
+.splitter:focus-visible::after,
+.splitter.is-dragging::after {
+  background: var(--scroll-hover);
+}
+.splitter:focus-visible {
+  outline: none;
+}
+.no-js .splitter,
+.is-focus .splitter {
+  display: none;
+}
+body.is-resizing {
+  cursor: col-resize;
+  user-select: none;
+}
+
+/* Thin, quiet scrollbars: invisible until you point at the pane they scroll. */
+html,
+.rail,
+.list,
+.stage {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll) transparent;
+}
+.rail,
+.list,
+.stage {
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.2s;
+}
+.rail:hover,
+.list:hover,
+.stage:hover,
+.rail:focus-within,
+.list:focus-within {
+  scrollbar-color: var(--scroll) transparent;
+}
+.is-focus .stage {
+  scrollbar-color: rgb(255 255 255 / 0.25) transparent;
+}
+/* Safari still styles scrollbars through these. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 99px;
+  background: var(--scroll) padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-hover);
 }
 
 .rail {
@@ -786,6 +879,9 @@ body.is-locked {
     flex-direction: column;
     height: auto;
     min-height: 100dvh;
+  }
+  .splitter {
+    display: none;
   }
   .rail {
     display: contents;
