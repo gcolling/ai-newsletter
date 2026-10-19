@@ -12,7 +12,7 @@ export const absolute = (path = "") => `${site.url}/${path.replace(/^\//, "")}`;
 
 /** Runs before first paint: marks JS as available and applies a saved theme, so nothing flashes. */
 const THEME_BOOT =
-  'var d=document.documentElement;d.className="js";try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}';
+  'var d=document.documentElement;d.className="js";try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")d.dataset.theme=t;var l=JSON.parse(localStorage.getItem("layout-v1")||"{}");if(l.rail>0)d.style.setProperty("--rail-w",l.rail+"px");if(l.list>0)d.style.setProperty("--list-w",l.list+"px")}catch(e){}';
 
 interface Page {
   title: string;

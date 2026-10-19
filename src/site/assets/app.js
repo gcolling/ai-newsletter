@@ -39,7 +39,10 @@
   updateSavedLinks();
   setUpOffline();
   const app = document.querySelector(".app");
-  if (app) setUpReader(app);
+  if (app) {
+    setUpReader(app);
+    setUpSplitters(app);
+  }
   const savedList = document.querySelector("[data-saved-list]");
   if (savedList) setUpSavedPage(savedList);
 
@@ -164,6 +167,75 @@
       });
     }
     paint();
+  }
+
+  // Resizable columns. Widths are CSS variables on <html>; the head script restores saved ones
+  // before first paint, so this only handles dragging, keys, limits and saving.
+  function setUpSplitters(app) {
+    const root = document.documentElement;
+    const DEFAULT = { rail: 244, list: 440 };
+    const MIN = { rail: 190, list: 300 };
+    const MAX_RAIL = 380;
+    // The colored story card always keeps at least this much room.
+    const STAGE_MIN = 440;
+    const handles = [...app.querySelectorAll("[data-split]")];
+    const sizes = { ...DEFAULT, ...store.get("layout-v1", {}) };
+
+    function apply() {
+      const room = app.clientWidth;
+      sizes.rail = Math.round(Math.min(Math.max(sizes.rail, MIN.rail), MAX_RAIL));
+      const maxList = Math.max(MIN.list, room - sizes.rail - STAGE_MIN);
+      sizes.list = Math.round(Math.min(Math.max(sizes.list, MIN.list), maxList));
+      root.style.setProperty("--rail-w", `${sizes.rail}px`);
+      root.style.setProperty("--list-w", `${sizes.list}px`);
+      for (const h of handles) h.setAttribute("aria-valuenow", String(sizes[h.dataset.split]));
+    }
+    const save = () => store.set("layout-v1", { rail: sizes.rail, list: sizes.list });
+
+    for (const handle of handles) {
+      const key = handle.dataset.split;
+      handle.addEventListener("pointerdown", (e) => {
+        if (e.button !== 0) return;
+        e.preventDefault();
+        handle.setPointerCapture(e.pointerId);
+        const startX = e.clientX;
+        const start = sizes[key];
+        document.body.classList.add("is-resizing");
+        handle.classList.add("is-dragging");
+        const move = (ev) => {
+          sizes[key] = start + ev.clientX - startX;
+          apply();
+        };
+        const end = () => {
+          handle.removeEventListener("pointermove", move);
+          handle.removeEventListener("pointerup", end);
+          handle.removeEventListener("pointercancel", end);
+          document.body.classList.remove("is-resizing");
+          handle.classList.remove("is-dragging");
+          save();
+        };
+        handle.addEventListener("pointermove", move);
+        handle.addEventListener("pointerup", end);
+        handle.addEventListener("pointercancel", end);
+      });
+      handle.addEventListener("dblclick", () => {
+        sizes[key] = DEFAULT[key];
+        apply();
+        save();
+      });
+      handle.addEventListener("keydown", (e) => {
+        const step = e.shiftKey ? 64 : 16;
+        if (e.key === "ArrowLeft") sizes[key] -= step;
+        else if (e.key === "ArrowRight") sizes[key] += step;
+        else if (e.key === "Home") sizes[key] = DEFAULT[key];
+        else return;
+        e.preventDefault();
+        apply();
+        save();
+      });
+    }
+    window.addEventListener("resize", apply);
+    apply();
   }
 
   // Relative times for fresh stories, local clock times for older ones.
@@ -562,7 +634,8 @@
     });
 
     document.addEventListener("keydown", (e) => {
-      if (e.metaKey || e.ctrlKey || e.altKey || e.target.closest?.("input, textarea, select")) {
+      const typing = e.target.closest?.("input, textarea, select, [data-split]");
+      if (e.metaKey || e.ctrlKey || e.altKey || typing) {
         return;
       }
       const keys = {
