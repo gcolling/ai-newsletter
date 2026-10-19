@@ -6,6 +6,7 @@ import {
   isBareTag,
   isExcludedTag,
   newestPerSource,
+  productName,
   releaseRepo,
   releaseSummary,
   releaseTag,
@@ -92,6 +93,18 @@ function releaseCandidate(source: Source, p: Prepared, summaryLength: number) {
 }
 
 /**
+ * Weekly changelogs title every entry like "2026-10-05 - LangSmith Cloud update". When the notes
+ * open with a list of bold highlights, the first one is the actual news: "LangSmith: AI search for
+ * runs, traces, and threads". A bold word further in is a UI label ("Add to dataset"), not news.
+ */
+export function changelogHeadline(sourceName: string, notes: string): string | undefined {
+  const firstItem = /<li>([\s\S]*?)<\/li>/i.exec(notes)?.[1] ?? "";
+  const bold = /^\s*(?:<p>\s*)?<(strong|b)>([\s\S]*?)<\/\1>/i.exec(firstItem)?.[2];
+  const text = bold && htmlToText(bold).replace(/[\s:.]+$/, "");
+  return text ? `${productName(sourceName)}: ${text}` : undefined;
+}
+
+/**
  * Techmeme descriptions read "Author / Outlet: Headline — lede — more lede …". Returns the first
  * lede, keeping a trailing "…" when Techmeme cut it short.
  */
@@ -127,7 +140,10 @@ function techmemeCandidate(source: Source, p: Prepared, summaryLength: number) {
 
 function articleCandidate(source: Source, p: Prepared, summaryLength: number) {
   if (source.id === "techmeme") return techmemeCandidate(source, p, summaryLength);
-  const title = htmlToText(p.entry.title);
+  const notes = p.entry.content || p.entry.summary;
+  const title =
+    (source.headlineFromNotes && changelogHeadline(source.name, notes)) ||
+    htmlToText(p.entry.title);
   if (!title) return undefined;
   return makeCandidate({
     origin: source,

@@ -6,7 +6,7 @@ writes or summarises anything.**
 
 ```mermaid
 flowchart LR
-  A[62 feeds<br/>+ Hacker News<br/>+ HF papers] --> B[Filter<br/>AI vocabulary,<br/>deny lists]
+  A[70 feeds<br/>+ Hacker News<br/>+ HF papers] --> B[Filter<br/>AI vocabulary,<br/>deny lists]
   B --> C[Group<br/>same story,<br/>many outlets]
   C --> D[Rank<br/>weight, coverage,<br/>discussion, freshness]
   D --> E[(data branch<br/>one JSON per day)]

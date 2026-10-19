@@ -1,6 +1,12 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { entryKeys, feedCandidates, inWindow, techmemeDek } from "../../src/collect/feeds.ts";
+import {
+  changelogHeadline,
+  entryKeys,
+  feedCandidates,
+  inWindow,
+  techmemeDek,
+} from "../../src/collect/feeds.ts";
 import { hoursAgo, NOW, testSource, WINDOW } from "./helpers.ts";
 
 const context = { window: WINDOW, now: NOW, summaryLength: 280 };
@@ -141,6 +147,56 @@ describe("entryKeys", () => {
         "https://developers.openai.com/codex/changelog#release-1",
       ],
     );
+  });
+});
+
+describe("changelog headlines", () => {
+  const notes = `<h2>Highlights</h2><ul><li><strong>AI search for runs, traces, and threads</strong>: You can now describe…</li>
+    <li><strong>Find text within run details</strong>: Search the loaded content…</li></ul>`;
+
+  it("headlines a date-titled entry with its first bold item", () => {
+    assert.equal(
+      changelogHeadline("LangSmith changelog", notes),
+      "LangSmith: AI search for runs, traces, and threads",
+    );
+  });
+
+  it("ignores bold UI labels when the first item is plain text", () => {
+    const plain = `<h3>Tracing</h3><ul><li>The MCP adds a <code>query_runs</code> tool.</li>
+      <li>Click <strong>Add to dataset</strong> to keep a run.</li></ul>`;
+    assert.equal(changelogHeadline("LangSmith changelog", plain), undefined);
+  });
+
+  it("keeps the feed's own title when the notes have nothing bold", () => {
+    const body = rss(
+      rssItem({
+        title: "2026-10-05 - LangSmith Cloud update",
+        link: "https://example.com/changelog#october-5",
+        description: "<p>Small fixes.</p>",
+        date: recent,
+      }),
+    );
+    const [item] = feedCandidates(testSource({ headlineFromNotes: true }), body, context);
+    assert.equal(item?.title, "2026-10-05 - LangSmith Cloud update");
+  });
+
+  it("only applies to sources that ask for it", () => {
+    const body = rss(
+      rssItem({
+        title: "2026-10-05 - LangSmith Cloud update",
+        link: "https://example.com/changelog#october-5",
+        description: notes,
+        date: recent,
+      }),
+    );
+    const [plain] = feedCandidates(testSource(), body, context);
+    const [rewritten] = feedCandidates(
+      testSource({ name: "LangSmith changelog", headlineFromNotes: true }),
+      body,
+      context,
+    );
+    assert.equal(plain?.title, "2026-10-05 - LangSmith Cloud update");
+    assert.equal(rewritten?.title, "LangSmith: AI search for runs, traces, and threads");
   });
 });
 

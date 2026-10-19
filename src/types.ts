@@ -39,6 +39,8 @@ export interface Source {
   excludeTags?: RegExp;
   /** Caps very chatty feeds. */
   maxItems?: number;
+  /** Changelogs that title every entry with just a date: headline each with its first bold item. */
+  headlineFromNotes?: boolean;
 }
 
 /** An item as parsed from a feed or API, before ranking. */
