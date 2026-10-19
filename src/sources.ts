@@ -1,7 +1,7 @@
 import type { Source } from "./types.ts";
 
 /**
- * Feeds validated on 2026-10-18 (HTTP 200, parseable, active in the last 60 days).
+ * Feeds validated on 2026-10-18 (the last eight on 2026-10-19) (HTTP 200, parseable, active in the last 60 days).
  * Hacker News and Hugging Face papers come from their APIs; see src/collect/.
  * Add a source here and it shows up in the next issue and on the sources page.
  */
@@ -231,6 +231,17 @@ export const sources: Source[] = [
     keywordFilter: true,
     maxItems: 8,
   },
+  {
+    id: "thenewstack-ai",
+    name: "The New Stack - AI",
+    homepage: "https://thenewstack.io/ai/",
+    feed: "https://thenewstack.io/category/ai/feed/",
+    format: "rss",
+    section: "news",
+    weight: 2,
+    keywordFilter: true,
+    maxItems: 6,
+  },
   // essays
   {
     id: "simon-willison-ai",
@@ -455,6 +466,36 @@ export const sources: Source[] = [
     section: "automation",
     weight: 1,
   },
+  {
+    id: "docker-blog",
+    name: "Docker blog",
+    homepage: "https://www.docker.com/blog/",
+    feed: "https://www.docker.com/feed/",
+    format: "rss",
+    section: "automation",
+    weight: 2,
+    keywordFilter: true,
+  },
+  {
+    id: "langsmith-changelog",
+    name: "LangSmith changelog",
+    homepage: "https://docs.langchain.com/langsmith/changelog",
+    feed: "https://docs.langchain.com/langsmith/changelog/rss.xml",
+    format: "rss",
+    section: "automation",
+    weight: 1,
+    headlineFromNotes: true,
+  },
+  {
+    id: "testguild",
+    name: "TestGuild",
+    homepage: "https://testguild.com/",
+    feed: "https://testguild.com/feed/",
+    format: "rss",
+    section: "automation",
+    weight: 1,
+    keywordFilter: true,
+  },
   // releases
   {
     id: "gh-claude-code",
@@ -599,6 +640,52 @@ export const sources: Source[] = [
     weight: 1,
     topic: "agents",
     excludeTags: /-r\d+$/,
+  },
+  {
+    id: "gh-github-mcp-server",
+    name: "GitHub MCP Server releases",
+    homepage: "https://github.com/github/github-mcp-server/releases",
+    feed: "https://github.com/github/github-mcp-server/releases.atom",
+    format: "atom",
+    section: "releases",
+    weight: 2,
+    topic: "automation",
+    // "latest-release" is a moving tag that repeats the newest version.
+    excludeTags: /^latest-release$/,
+  },
+  {
+    id: "gh-playwright-mcp",
+    name: "Playwright MCP releases",
+    homepage: "https://github.com/microsoft/playwright-mcp/releases",
+    feed: "https://github.com/microsoft/playwright-mcp/releases.atom",
+    format: "atom",
+    section: "releases",
+    weight: 2,
+    topic: "automation",
+    excludeTags: /^untagged-/,
+  },
+  {
+    id: "gh-adk-python",
+    name: "Google ADK (Python) releases",
+    homepage: "https://github.com/google/adk-python/releases",
+    feed: "https://github.com/google/adk-python/releases.atom",
+    format: "atom",
+    section: "releases",
+    weight: 1,
+    topic: "agents",
+    // 1.x patch releases still ship between 2.x ones; only the current line is news.
+    excludeTags: /^v1./,
+  },
+  {
+    id: "gh-crewai",
+    name: "crewAI releases",
+    homepage: "https://github.com/crewAIInc/crewAI/releases",
+    feed: "https://github.com/crewAIInc/crewAI/releases.atom",
+    format: "atom",
+    section: "releases",
+    weight: 1,
+    topic: "agents",
+    excludeTags: /(a|b|rc)\d+$/,
   },
   // community
   {
