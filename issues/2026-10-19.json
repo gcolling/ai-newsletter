@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T09:35:54.229Z",
+  "generatedAt": "2026-10-19T11:52:36.298Z",
   "window": {
-    "from": "2026-10-18T07:35:49.563Z",
-    "to": "2026-10-19T09:35:49.563Z"
+    "from": "2026-10-18T09:52:32.325Z",
+    "to": "2026-10-19T11:52:32.325Z"
   },
   "sources": {
     "total": 64,
@@ -27,7 +27,7 @@
       "topic": "models",
       "score": 43.5,
       "reasons": [
-        "57 points · 47 comments on Hacker News",
+        "57 points · 48 comments on Hacker News",
         "Official announcement"
       ],
       "also": [],
@@ -35,7 +35,7 @@
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50143755",
         "points": 57,
-        "comments": 47
+        "comments": 48
       }
     },
     {
@@ -53,12 +53,12 @@
       "topic": "research",
       "score": 42.8,
       "reasons": [
-        "669 upvotes on Hugging Face",
+        "671 upvotes on Hugging Face",
         "Matched: Distillation"
       ],
       "also": [],
       "paper": {
-        "upvotes": 669,
+        "upvotes": 671,
         "arxivId": "2610.21601"
       }
     },
@@ -75,17 +75,43 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 41.8,
+      "score": 41.9,
       "reasons": [
-        "572 points · 269 comments on Hacker News",
+        "576 points · 271 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50138531",
-        "points": 572,
-        "comments": 269
+        "points": 576,
+        "comments": 271
+      }
+    },
+    {
+      "id": "jcxlhosvqm",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "host": "arxiv.org",
+      "summary": "",
+      "publishedAt": "2026-10-18T20:48:14.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 41.2,
+      "reasons": [
+        "428 points · 212 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50145337",
+        "points": 428,
+        "comments": 212
       }
     },
     {
@@ -103,39 +129,13 @@
       "topic": "research",
       "score": 41.2,
       "reasons": [
-        "579 upvotes on Hugging Face",
+        "580 upvotes on Hugging Face",
         "Matched: large language models"
       ],
       "also": [],
       "paper": {
-        "upvotes": 579,
+        "upvotes": 580,
         "arxivId": "2610.18829"
-      }
-    },
-    {
-      "id": "jcxlhosvqm",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "host": "arxiv.org",
-      "summary": "",
-      "publishedAt": "2026-10-18T20:48:14.000Z",
-      "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
-      },
-      "section": "community",
-      "topic": "agents",
-      "score": 40.6,
-      "reasons": [
-        "388 points · 187 comments on Hacker News",
-        "Matched: LLM"
-      ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 388,
-        "comments": 187
       }
     },
     {
@@ -151,13 +151,13 @@
       },
       "section": "papers",
       "topic": "research",
-      "score": 35.1,
+      "score": 36,
       "reasons": [
-        "389 upvotes on Hugging Face"
+        "427 upvotes on Hugging Face"
       ],
       "also": [],
       "paper": {
-        "upvotes": 389,
+        "upvotes": 427,
         "arxivId": "2610.22276"
       }
     },
@@ -186,6 +186,32 @@
       }
     },
     {
+      "id": "omte15hmiv",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "host": "jrdsgl.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.5,
+      "reasons": [
+        "201 points · 147 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50145507",
+        "points": 201,
+        "comments": 147
+      }
+    },
+    {
       "id": "iyop25le1i",
       "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
@@ -198,16 +224,16 @@
       },
       "section": "community",
       "topic": "policy",
-      "score": 34.4,
+      "score": 34,
       "reasons": [
-        "162 points · 165 comments on Hacker News",
+        "165 points · 165 comments on Hacker News",
         "Matched: Anthropic"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50141429",
-        "points": 162,
+        "points": 165,
         "comments": 165
       }
     },
@@ -235,6 +261,44 @@
       }
     },
     {
+      "id": "44eoo2onme",
+      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
+      "url": "https://www.infoq.com/podcasts/future-web-apps/",
+      "host": "infoq.com",
+      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-focused, low-latency, and cost-effective alternatives to cloud-hosted LLM wrappers.",
+      "publishedAt": "2026-10-19T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 33.8,
+      "reasons": [
+        "Matched: AI Agents, small language models, LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "371fjuzuxv",
+      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
+      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/",
+      "host": "infoq.com",
+      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented generation (RAG) more efficient while optimizing performance for on-device deployment.",
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 33.6,
+      "reasons": [
+        "Matched: Gemma, open-weight, embedding"
+      ],
+      "also": []
+    },
+    {
       "id": "e6fkhi8na8",
       "title": "Websites are closing their doors to AI agents",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
@@ -247,26 +311,26 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 32.9,
+      "score": 32.8,
       "reasons": [
-        "139 points · 138 comments on Hacker News",
+        "147 points · 138 comments on Hacker News",
         "Matched: AI agents"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50141657",
-        "points": 139,
+        "points": 147,
         "comments": 138
       }
     },
     {
-      "id": "omte15hmiv",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "host": "jrdsgl.com",
+      "id": "dud6amd14z",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "host": "blog.picheta.me",
       "summary": "",
-      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "publishedAt": "2026-10-17T22:26:47.000Z",
       "source": {
         "id": "hacker-news",
         "name": "Hacker News"
@@ -275,35 +339,42 @@
       "topic": "tools",
       "score": 32.7,
       "reasons": [
-        "163 points · 110 comments on Hacker News",
-        "Matched: LLM"
+        "213 points · 167 comments on Hacker News",
+        "Matched: LLMs"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50145507",
-        "points": 163,
-        "comments": 110
+        "url": "https://news.ycombinator.com/item?id=50135762",
+        "points": 213,
+        "comments": 167
       }
     },
     {
-      "id": "psv0jqw1qr",
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "host": "technologyreview.com",
-      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
-      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "id": "nez6c7yyyd",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "host": "artificialanalysis.ai",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:41:46.000Z",
       "source": {
-        "id": "mit-tr-ai",
-        "name": "MIT Technology Review - AI"
+        "id": "hacker-news",
+        "name": "Hacker News"
       },
-      "section": "news",
-      "topic": "research",
-      "score": 31.9,
+      "section": "community",
+      "topic": "models",
+      "score": 32.2,
       "reasons": [
-        "Matched: Claude, AI agents"
+        "161 points · 60 comments on Hacker News",
+        "Matched: DeepSeek"
       ],
-      "also": []
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50148452",
+        "points": 161,
+        "comments": 60
+      }
     },
     {
       "id": "oqi8ptedk6",
@@ -331,56 +402,99 @@
       }
     },
     {
-      "id": "nez6c7yyyd",
-      "title": "DeepSeek V4.1 Flash 1017 (Max)",
-      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
-      "host": "artificialanalysis.ai",
-      "summary": "",
-      "publishedAt": "2026-10-19T04:41:46.000Z",
+      "id": "psv0jqw1qr",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "host": "technologyreview.com",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+      "publishedAt": "2026-10-19T09:08:05.000Z",
       "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
       },
-      "section": "community",
-      "topic": "models",
-      "score": 31.2,
+      "section": "news",
+      "topic": "research",
+      "score": 31.4,
       "reasons": [
-        "138 points · 46 comments on Hacker News",
-        "Matched: DeepSeek"
+        "Matched: Claude, AI agents"
       ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50148452",
-        "points": 138,
-        "comments": 46
-      }
+      "also": []
     },
     {
-      "id": "dud6amd14z",
-      "title": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "host": "blog.picheta.me",
-      "summary": "",
-      "publishedAt": "2026-10-17T22:26:47.000Z",
+      "id": "n4bzov6tyb",
+      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
+      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/",
+      "host": "infoq.com",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shift introduces new complexities in observability, reliability, and system design, highlighting the need for updated architectural patterns and practices.",
+      "publishedAt": "2026-10-19T11:00:00.000Z",
       "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
       },
-      "section": "community",
-      "topic": "tools",
-      "score": 30.9,
+      "section": "news",
+      "topic": "agents",
+      "score": 29.8,
       "reasons": [
-        "186 points · 126 comments on Hacker News",
-        "Matched: LLMs"
+        "Matched: agentic"
       ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50135762",
-        "points": 186,
-        "comments": 126
-      }
+      "also": []
+    },
+    {
+      "id": "37yg96ky99",
+      "title": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "host": "wsj.com",
+      "summary": "AI company has shared few details on the dynamics of the five-person trust empowered to shape its board and block major moves",
+      "publishedAt": "2026-10-19T10:50:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "2whwb7illn",
+      "title": "Google DeepMind says four Gemini 4 Argon agents beat Minecraft without any human help in 27 hours and 14 minutes, costing $1,620 at Argon's planned 2027 price",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "host": "the-decoder.com",
+      "summary": "The Google Deepmind team dropped the agents into a randomly generated world without assigning roles, strategies, or game-specific tools.",
+      "publishedAt": "2026-10-19T10:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: DeepMind, Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "fxfc26eeyd",
+      "title": "Survey: the chatbot gender adoption gap among US adults has closed since 2024, though men are more likely to use them daily; ChatGPT has identical use rates",
+      "url": "https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/",
+      "host": "pewresearch.org",
+      "summary": "Note: This analysis is an excerpt from a broader June 2026 study about Americans and artificial intelligence.",
+      "publishedAt": "2026-10-19T10:15:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 29.6,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
     },
     {
       "id": "g1364ol7ay",
@@ -395,47 +509,47 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 29.9,
+      "score": 29.4,
       "reasons": [
         "Matched: agentic"
       ],
       "also": []
     },
     {
-      "id": "mbtkczimq5",
-      "title": "Stripe Link data shows agentic transactions increased by 38x and volume of payments by 20x in September, with retail leading in both, and a ~$100 average spend",
-      "url": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend",
-      "host": "upstartsmedia.com",
-      "summary": "Every time a new AI assistant tool launches, seemingly every week, it announces it's handling checkout and payments through Stripe's tool, Link.",
-      "publishedAt": "2026-10-19T05:20:01.000Z",
+      "id": "gsg2y4yyhq",
+      "title": "Character.AI's Chapter 11 court filings indicate a two-part deal with Disney to transfer talent and tech while insulating Disney from mounting legal liabilities",
+      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "host": "wired.com",
+      "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens…",
+      "publishedAt": "2026-10-19T11:10:02.000Z",
       "source": {
         "id": "techmeme",
         "name": "Techmeme"
       },
       "section": "news",
-      "topic": "agents",
-      "score": 29,
+      "topic": "policy",
+      "score": 27.8,
       "reasons": [
-        "Matched: agentic"
+        "Solid source"
       ],
       "also": []
     },
     {
-      "id": "m74fg6v69x",
-      "title": "China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending",
-      "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo",
-      "host": "bbc.com",
-      "summary": "China's economic growth picked up in the three months to the end of September, rebounding from a three-year low as the artificial intelligence (AI) boom helped boost exports.",
-      "publishedAt": "2026-10-19T03:30:00.000Z",
+      "id": "hr8cd0zkfq",
+      "title": "Elon Musk says \"I will give one of my SpaceX shares to every kid in America\" in 2027, a gift worth ~$10.5B, after Anthropic committed 5% of its shares to APBF",
+      "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+      "host": "cnbc.com",
+      "summary": "Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
+      "publishedAt": "2026-10-19T09:40:03.000Z",
       "source": {
         "id": "techmeme",
         "name": "Techmeme"
       },
       "section": "news",
       "topic": "industry",
-      "score": 28.6,
+      "score": 27.5,
       "reasons": [
-        "Solid source"
+        "Matched: Anthropic"
       ],
       "also": []
     },
@@ -452,7 +566,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 27.6,
+      "score": 27.1,
       "reasons": [
         "Solid source"
       ],
@@ -471,64 +585,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 27.3,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
-    },
-    {
-      "id": "j6ikxjibtf",
-      "title": "Survey of 94 economists: 54% expect AI's gains to spread across the G20 over the next decade, not just the US and China; 32 see African countries falling behind",
-      "url": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a",
-      "host": "ft.com",
-      "summary": "Poll of 94 economists points to benefits reaching far beyond the US and China",
-      "publishedAt": "2026-10-19T05:45:01.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "industry",
-      "score": 27.1,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
-    },
-    {
-      "id": "1llj86uzae",
-      "title": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering",
-      "url": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869",
-      "host": "theblock.co",
-      "summary": "The identity project co-founded by OpenAI CEO Sam Altman named Bain Capital and VanEck Funds among its design partners but did not name…",
-      "publishedAt": "2026-10-19T03:10:02.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "agents",
-      "score": 26.5,
-      "reasons": [
-        "Matched: OpenAI"
-      ],
-      "also": []
-    },
-    {
-      "id": "9moxeqxa1e",
-      "title": "Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment",
-      "url": "https://www.ft.com/",
-      "host": "ft.com",
-      "summary": "Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment",
-      "publishedAt": "2026-10-19T01:40:00.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "industry",
-      "score": 26.2,
+      "score": 26.7,
       "reasons": [
         "Solid source"
       ],
@@ -547,7 +604,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 26,
+      "score": 25.5,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -566,7 +623,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 25,
+      "score": 24.5,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -585,7 +642,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 24.1,
+      "score": 23.5,
       "reasons": [
         "Solid source"
       ],
@@ -604,7 +661,7 @@
       },
       "section": "essays",
       "topic": "tools",
-      "score": 23.8,
+      "score": 23.3,
       "reasons": [
         "From a followed writer"
       ],
@@ -623,7 +680,7 @@
       },
       "section": "releases",
       "topic": "tools",
-      "score": 23.4,
+      "score": 22.9,
       "reasons": [
         "New release",
         "Matched: Claude"
@@ -647,7 +704,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 22.5,
+      "score": 22,
       "reasons": [
         "Solid source"
       ],
@@ -674,6 +731,25 @@
       "also": []
     },
     {
+      "id": "ro5qz030cz",
+      "title": "Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children",
+      "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic wants to put five percent of its shares into a new public benefit fund that will also look into direct payments to workers at risk of losing their jobs. The fund is a company-owned LLC, so Anthropic keeps control of it as a possible IPO approaches. By offering the option of direct payments, Anthropic goes further than its competitors.",
+      "publishedAt": "2026-10-19T11:19:12.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
       "id": "938s9p3gch",
       "title": "AI’s epic cash call is matched only by its ability to strangle revenue streams",
       "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
@@ -686,28 +762,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.7,
+      "score": 19.2,
       "reasons": [
         "Matched: Claude"
       ],
       "also": []
     },
     {
-      "id": "jzdpifwkx9",
-      "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
-      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "id": "acsfeojwzq",
+      "title": "The neocloud shakeout is coming, and Nvidia has the most to lose",
+      "url": "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/",
       "host": "the-decoder.com",
-      "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where reliable training data is scarce.",
-      "publishedAt": "2026-10-18T09:11:29.000Z",
+      "summary": "After stock crashes and Firmus's scrapped IPO, industry executives expect only seven to ten of the hundreds of AI cloud providers to survive. CoreWeave lost a quarter of its market value, and Microsoft pulled out of a deal with Nscale for 23,000 Nvidia chips. Nvidia has a lot riding on the outcome, since customers outside the hyperscalers make up 45 percent of its data center revenue.",
+      "publishedAt": "2026-10-19T11:33:36.000Z",
       "source": {
         "id": "the-decoder",
         "name": "The Decoder"
       },
       "section": "news",
-      "topic": "agents",
-      "score": 18.4,
+      "topic": "infra",
+      "score": 17.9,
       "reasons": [
-        "Matched: Anthropic, AI agents, Claude"
+        "Useful source"
       ],
       "also": []
     },
@@ -724,66 +800,9 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 17.3,
+      "score": 16.8,
       "reasons": [
         "Matched: Anthropic, AI agents"
-      ],
-      "also": []
-    },
-    {
-      "id": "2whwb7illn",
-      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
-      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-      "host": "the-decoder.com",
-      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620.",
-      "publishedAt": "2026-10-18T12:39:51.000Z",
-      "source": {
-        "id": "the-decoder",
-        "name": "The Decoder"
-      },
-      "section": "news",
-      "topic": "agents",
-      "score": 17.2,
-      "reasons": [
-        "Matched: Gemini, AI agents"
-      ],
-      "also": []
-    },
-    {
-      "id": "nbg8ic49mi",
-      "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
-      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
-      "host": "the-decoder.com",
-      "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help.",
-      "publishedAt": "2026-10-18T08:49:41.000Z",
-      "source": {
-        "id": "the-decoder",
-        "name": "The Decoder"
-      },
-      "section": "news",
-      "topic": "agents",
-      "score": 16.3,
-      "reasons": [
-        "Matched: AI agents, GPT-5"
-      ],
-      "also": []
-    },
-    {
-      "id": "cktr0vy27q",
-      "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
-      "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
-      "host": "the-decoder.com",
-      "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secured the refund, but the researcher warns of \"agentic flooding\" if these assistants are deployed at scale.",
-      "publishedAt": "2026-10-18T08:15:04.000Z",
-      "source": {
-        "id": "the-decoder",
-        "name": "The Decoder"
-      },
-      "section": "news",
-      "topic": "agents",
-      "score": 16.2,
-      "reasons": [
-        "Matched: AI agents, agentic"
       ],
       "also": []
     },
@@ -800,7 +819,7 @@
       },
       "section": "news",
       "topic": "policy",
-      "score": 12.8,
+      "score": 12.2,
       "reasons": [
         "Useful source"
       ],
