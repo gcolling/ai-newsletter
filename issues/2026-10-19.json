@@ -1,14 +1,14 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T12:35:07.889Z",
+  "generatedAt": "2026-10-19T14:34:24.912Z",
   "window": {
-    "from": "2026-10-18T10:35:03.732Z",
-    "to": "2026-10-19T12:35:03.732Z"
+    "from": "2026-10-18T12:34:20.322Z",
+    "to": "2026-10-19T14:34:20.322Z"
   },
   "sources": {
-    "total": 64,
-    "ok": 64,
+    "total": 72,
+    "ok": 72,
     "failed": []
   },
   "stories": [
@@ -75,17 +75,17 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 42,
+      "score": 42.1,
       "reasons": [
-        "579 points · 271 comments on Hacker News",
+        "585 points · 273 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50138531",
-        "points": 579,
-        "comments": 271
+        "points": 585,
+        "comments": 273
       }
     },
     {
@@ -101,17 +101,17 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 41.3,
+      "score": 41.4,
       "reasons": [
-        "436 points · 215 comments on Hacker News",
+        "464 points · 224 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 436,
-        "comments": 215
+        "points": 464,
+        "comments": 224
       }
     },
     {
@@ -151,14 +151,66 @@
       },
       "section": "papers",
       "topic": "research",
-      "score": 36.3,
+      "score": 37.1,
       "reasons": [
-        "439 upvotes on Hugging Face"
+        "474 upvotes on Hugging Face"
       ],
       "also": [],
       "paper": {
-        "upvotes": 439,
+        "upvotes": 474,
         "arxivId": "2610.22276"
+      }
+    },
+    {
+      "id": "6s71mti7z5",
+      "title": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "host": "mistral.ai",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:59:32.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 36.2,
+      "reasons": [
+        "218 points · 43 comments on Hacker News",
+        "Matched: Mistral, foundation models"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50150434",
+        "points": 218,
+        "comments": 43
+      }
+    },
+    {
+      "id": "omte15hmiv",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "host": "jrdsgl.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 35.6,
+      "reasons": [
+        "244 points · 164 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50145507",
+        "points": 244,
+        "comments": 164
       }
     },
     {
@@ -186,29 +238,26 @@
       }
     },
     {
-      "id": "omte15hmiv",
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "host": "jrdsgl.com",
-      "summary": "",
-      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "id": "6vir8lb5bv",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
+      "host": "huggingface.co",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints.",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
       "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
       },
-      "section": "community",
-      "topic": "tools",
-      "score": 34.7,
+      "section": "papers",
+      "topic": "research",
+      "score": 34.1,
       "reasons": [
-        "209 points · 151 comments on Hacker News",
-        "Matched: LLM"
+        "288 upvotes on Hugging Face"
       ],
       "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50145507",
-        "points": 209,
-        "comments": 151
+      "paper": {
+        "upvotes": 288,
+        "arxivId": "2610.22350"
       }
     },
     {
@@ -224,7 +273,7 @@
       },
       "section": "community",
       "topic": "policy",
-      "score": 33.9,
+      "score": 33.4,
       "reasons": [
         "166 points · 165 comments on Hacker News",
         "Matched: Anthropic"
@@ -235,29 +284,6 @@
         "url": "https://news.ycombinator.com/item?id=50141429",
         "points": 166,
         "comments": 165
-      }
-    },
-    {
-      "id": "6vir8lb5bv",
-      "title": "FDE-Gym: The Last Mile of AI Delivery",
-      "url": "https://huggingface.co/papers/2610.22350",
-      "host": "huggingface.co",
-      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints.",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "source": {
-        "id": "hf-papers",
-        "name": "Hugging Face Papers"
-      },
-      "section": "papers",
-      "topic": "research",
-      "score": 33.9,
-      "reasons": [
-        "284 upvotes on Hugging Face"
-      ],
-      "also": [],
-      "paper": {
-        "upvotes": 284,
-        "arxivId": "2610.22350"
       }
     },
     {
@@ -273,7 +299,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 33.6,
+      "score": 33.2,
       "reasons": [
         "Matched: AI Agents, small language models, LLM"
       ],
@@ -292,7 +318,7 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 33.4,
+      "score": 32.9,
       "reasons": [
         "Matched: Gemma, open-weight, embedding"
       ],
@@ -311,17 +337,17 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 32.7,
+      "score": 32.4,
       "reasons": [
-        "149 points · 138 comments on Hacker News",
+        "152 points · 139 comments on Hacker News",
         "Matched: AI agents"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50141657",
-        "points": 149,
-        "comments": 138
+        "points": 152,
+        "comments": 139
       }
     },
     {
@@ -337,17 +363,17 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 32.1,
+      "score": 32.3,
       "reasons": [
-        "162 points · 61 comments on Hacker News",
+        "171 points · 69 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50148452",
-        "points": 162,
-        "comments": 61
+        "points": 171,
+        "comments": 69
       }
     },
     {
@@ -365,14 +391,14 @@
       "topic": "tools",
       "score": 31.8,
       "reasons": [
-        "247 points · 86 comments on Hacker News"
+        "248 points · 87 comments on Hacker News"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50137950",
-        "points": 247,
-        "comments": 86
+        "points": 248,
+        "comments": 87
       }
     },
     {
@@ -388,41 +414,91 @@
       },
       "section": "news",
       "topic": "research",
-      "score": 31.2,
+      "score": 30.7,
       "reasons": [
         "Matched: Claude, AI agents"
       ],
       "also": []
     },
     {
-      "id": "s5klgo5ggp",
-      "title": "How employment is changing at Anthropic",
-      "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "host": "anthropic.com",
-      "summary": "",
-      "publishedAt": "2026-10-18T10:49:26.000Z",
+      "id": "8dvm6w0xcw",
+      "title": "DeepSeek made its name with cheap AI models. Now it’s undercutting search API rivals, too.",
+      "url": "https://thenewstack.io/deepseek-web-search-api/",
+      "host": "thenewstack.io",
+      "summary": "Not content with challenging the major frontier AI labs with lower-cost models, Chinese AI company DeepSeek is setting its sights",
+      "publishedAt": "2026-10-19T14:29:42.000Z",
       "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
       },
-      "section": "community",
-      "topic": "tools",
-      "score": 30.5,
+      "section": "news",
+      "topic": "models",
+      "score": 30,
       "reasons": [
-        "131 points · 222 comments on Hacker News",
-        "Matched: Anthropic"
+        "Matched: DeepSeek"
       ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50139873",
-        "points": 131,
-        "comments": 222
-      }
+      "also": []
+    },
+    {
+      "id": "1rgooag8l2",
+      "title": "Source: Anthropic is preparing a model with superior intuition and reasoning that can discern unstated intentions and is better at thinking outside of the box",
+      "url": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
+      "host": "theinformation.com",
+      "summary": "In the last month, OpenAI, Anthropic and Google have released more than a dozen new models. If you thought that pace was crazy…",
+      "publishedAt": "2026-10-19T14:15:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.9,
+      "reasons": [
+        "Matched: Anthropic, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "nfvh9e5fy1",
+      "title": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments",
+      "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/",
+      "host": "geekwire.com",
+      "summary": "Microsoft is coming out with new security tools that treat AI agents as potential insider threats, continuously assessing…",
+      "publishedAt": "2026-10-19T13:25:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "c4eipuqta6",
+      "title": "Run your n8n AI workflows on NVIDIA DGX Spark, with no cloud API",
+      "url": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+      "host": "blog.n8n.io",
+      "summary": "Most small businesses want the same handful of AI jobs. They want to draft emails, summarize calls, read invoices, search their own documents, and make the odd image. Plenty of them can't send customer data to a cloud API to do it.",
+      "publishedAt": "2026-10-19T13:22:17.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 29.7,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
     },
     {
       "id": "6ffffdhzb6",
-      "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, including Deere and SharkNinja, spending ~$5,000 total",
+      "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, like Deere and SharkNinja, spending ~$5,000 in tokens",
       "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
       "host": "reuters.com",
       "summary": "Over the past couple of weeks, a cybersecurity researcher watched as a Chinese-speaking hacker broke into websites belonging…",
@@ -433,7 +509,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 30,
+      "score": 29.5,
       "reasons": [
         "Matched: AI agents"
       ],
@@ -452,7 +528,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.6,
+      "score": 29.2,
       "reasons": [
         "Matched: agentic"
       ],
@@ -460,7 +536,7 @@
     },
     {
       "id": "37yg96ky99",
-      "title": "A look at Anthropic's Long-Term Benefit Trust, an unusual, opaque five-member trust whose trustees own no equity and hold enormous sway over the company",
+      "title": "A look at Anthropic's opaque, five-member Long-Term Benefit Trust, where members own no Anthropic equity but hold enormous sway by appointing most of its board",
       "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
       "host": "wsj.com",
       "summary": "AI company has shared few details on the dynamics of the five-person trust empowered to shape its board and block major moves",
@@ -471,7 +547,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 29.6,
+      "score": 29.1,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -490,7 +566,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.5,
+      "score": 29.1,
       "reasons": [
         "Matched: DeepMind, Gemini"
       ],
@@ -509,28 +585,47 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 29.5,
+      "score": 29,
       "reasons": [
         "Matched: ChatGPT"
       ],
       "also": []
     },
     {
-      "id": "g1364ol7ay",
-      "title": "Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more",
-      "url": "https://wccftech.com/exclusive-nvidia-vera-team-says-chiplet-designs-sacrificed-single-threaded-performance-for-core-counts-and-agentic-ai-is-now-forcing-a-reversal/",
-      "host": "wccftech.com",
-      "summary": "NVIDIA's Vera CPU heralds a redefinition of computing architecture from a traditional, task-isolated paradigm to an orchestrated…",
-      "publishedAt": "2026-10-19T09:15:01.000Z",
+      "id": "mex791bq6c",
+      "title": "Filing: US prosecutors say OpenAI suspect Abdulrahman Alfozan maintained frequent WhatsApp contact in 2025 and 2026 with an unnamed Saudi Royal Family member",
+      "url": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "host": "cnbc.com",
+      "summary": "The Saudi national charged with planting a recording device in a sensitive OpenAI executive conference room in San Francisco was…",
+      "publishedAt": "2026-10-19T14:25:00.000Z",
       "source": {
         "id": "techmeme",
         "name": "Techmeme"
       },
       "section": "news",
-      "topic": "infra",
-      "score": 29.2,
+      "topic": "industry",
+      "score": 28,
       "reasons": [
-        "Matched: agentic"
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "qd15pdzf07",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+      "host": "jack-clark.net",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have…",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "source": {
+        "id": "import-ai",
+        "name": "Import AI (Jack Clark)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 27.5,
+      "reasons": [
+        "From a followed writer"
       ],
       "also": []
     },
@@ -547,64 +642,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 27.9,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
-    },
-    {
-      "id": "gsg2y4yyhq",
-      "title": "Character.AI's Chapter 11 court filings indicate a two-part deal with Disney to transfer talent and tech while insulating Disney from mounting legal liabilities",
-      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
-      "host": "wired.com",
-      "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens…",
-      "publishedAt": "2026-10-19T11:10:02.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "policy",
-      "score": 27.7,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
-    },
-    {
-      "id": "hr8cd0zkfq",
-      "title": "Elon Musk says \"I will give one of my SpaceX shares to every kid in America\" in 2027, a gift worth ~$10.5B, after Anthropic committed 5% of its shares to APBF",
-      "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
-      "host": "cnbc.com",
-      "summary": "Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.",
-      "publishedAt": "2026-10-19T09:40:03.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "industry",
-      "score": 27.3,
-      "reasons": [
-        "Matched: Anthropic"
-      ],
-      "also": []
-    },
-    {
-      "id": "o3cv4p79i9",
-      "title": "Analysis: companies are set for a massive acceleration of 50GW+ in data center capacity additions in 2027; 24GW+ across 40 campuses are in the advanced stages",
-      "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
-      "host": "newsletter.semianalysis.com",
-      "summary": "60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips",
-      "publishedAt": "2026-10-19T11:30:01.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "infra",
-      "score": 25.7,
+      "score": 27.4,
       "reasons": [
         "Solid source"
       ],
@@ -623,7 +661,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 25.3,
+      "score": 24.9,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -642,7 +680,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 24.3,
+      "score": 23.9,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -661,7 +699,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 23.4,
+      "score": 22.9,
       "reasons": [
         "Solid source"
       ],
@@ -680,9 +718,28 @@
       },
       "section": "essays",
       "topic": "tools",
-      "score": 23.1,
+      "score": 22.6,
       "reasons": [
         "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "rvwep24emy",
+      "title": "A conversation with StackAI's CTO: how Temporal cut indexing failures from 20% to below 0.1%",
+      "url": "https://temporal.io/blog/how-stackai-used-temporal-cut-indexing-failures-from-20-percent-to-below-1-percent",
+      "host": "temporal.io",
+      "summary": "A conversation with Frank Hidalgo, former CTO of StackAI, now part of Asana and Hien Phan: how Temporal cut indexing failures from 20% to below 0.1%.",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 22.6,
+      "reasons": [
+        "Solid source"
       ],
       "also": []
     },
@@ -699,7 +756,7 @@
       },
       "section": "releases",
       "topic": "tools",
-      "score": 22.7,
+      "score": 22.3,
       "reasons": [
         "New release",
         "Matched: Claude"
@@ -743,9 +800,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 21.8,
+      "score": 21.4,
       "reasons": [
         "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "gik5wbvs70",
+      "title": "Stripe says AI agent purchases are adding up, but it won't share the numbers",
+      "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+      "host": "the-decoder.com",
+      "summary": "AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on The Decoder.",
+      "publishedAt": "2026-10-19T12:51:12.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 19.6,
+      "reasons": [
+        "Matched: AI agent"
       ],
       "also": []
     },
@@ -762,7 +838,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.7,
+      "score": 19.2,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -781,9 +857,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.1,
+      "score": 18.6,
       "reasons": [
         "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "2fazv0c2vh",
+      "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
+      "url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+      "host": "theregister.com",
+      "summary": "Tech giant walks away from flagship Essex project as power connection delays threaten to leave nation's AI ambitions waiting until the 2030s",
+      "publishedAt": "2026-10-19T12:15:48.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.5,
+      "reasons": [
+        "Useful source"
       ],
       "also": []
     },
@@ -800,7 +895,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 17.8,
+      "score": 17.3,
       "reasons": [
         "Useful source"
       ],
@@ -819,30 +914,35 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 16.6,
+      "score": 16.2,
       "reasons": [
         "Matched: Anthropic, AI agents"
       ],
       "also": []
     },
     {
-      "id": "7e2ams5tcj",
-      "title": "Two German courts now hold Google liable for what its AI overviews say",
-      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-      "host": "the-decoder.com",
-      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else.",
-      "publishedAt": "2026-10-18T10:52:39.000Z",
+      "id": "7qfjdvx0kr",
+      "title": "OpenHands 1.28.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.28.0",
+      "host": "github.com",
+      "summary": "feat(verify-openhands): executable known bugs and a repeatable fix proof",
+      "publishedAt": "2026-10-19T14:33:39.000Z",
       "source": {
-        "id": "the-decoder",
-        "name": "The Decoder"
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
       },
-      "section": "news",
-      "topic": "policy",
-      "score": 12.1,
+      "section": "releases",
+      "topic": "agents",
+      "score": 14,
       "reasons": [
-        "Useful source"
+        "New release",
+        "Matched: OpenHands"
       ],
-      "also": []
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.28.0"
+      }
     }
   ]
 }
