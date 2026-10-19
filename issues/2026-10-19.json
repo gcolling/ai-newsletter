@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T12:07:38.929Z",
+  "generatedAt": "2026-10-19T12:35:07.889Z",
   "window": {
-    "from": "2026-10-18T10:07:34.594Z",
-    "to": "2026-10-19T12:07:34.594Z"
+    "from": "2026-10-18T10:35:03.732Z",
+    "to": "2026-10-19T12:35:03.732Z"
   },
   "sources": {
     "total": 64,
@@ -75,16 +75,16 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 41.9,
+      "score": 42,
       "reasons": [
-        "577 points · 271 comments on Hacker News",
+        "579 points · 271 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50138531",
-        "points": 577,
+        "points": 579,
         "comments": 271
       }
     },
@@ -103,15 +103,15 @@
       "topic": "agents",
       "score": 41.3,
       "reasons": [
-        "432 points · 214 comments on Hacker News",
+        "436 points · 215 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 432,
-        "comments": 214
+        "points": 436,
+        "comments": 215
       }
     },
     {
@@ -127,14 +127,14 @@
       },
       "section": "papers",
       "topic": "research",
-      "score": 41.2,
+      "score": 41.3,
       "reasons": [
-        "580 upvotes on Hugging Face",
+        "581 upvotes on Hugging Face",
         "Matched: large language models"
       ],
       "also": [],
       "paper": {
-        "upvotes": 580,
+        "upvotes": 581,
         "arxivId": "2610.18829"
       }
     },
@@ -151,13 +151,13 @@
       },
       "section": "papers",
       "topic": "research",
-      "score": 36.1,
+      "score": 36.3,
       "reasons": [
-        "431 upvotes on Hugging Face"
+        "439 upvotes on Hugging Face"
       ],
       "also": [],
       "paper": {
-        "upvotes": 431,
+        "upvotes": 439,
         "arxivId": "2610.22276"
       }
     },
@@ -198,17 +198,17 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 34.6,
+      "score": 34.7,
       "reasons": [
-        "203 points · 149 comments on Hacker News",
+        "209 points · 151 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145507",
-        "points": 203,
-        "comments": 149
+        "points": 209,
+        "comments": 151
       }
     },
     {
@@ -224,16 +224,16 @@
       },
       "section": "community",
       "topic": "policy",
-      "score": 34,
+      "score": 33.9,
       "reasons": [
-        "165 points · 165 comments on Hacker News",
+        "166 points · 165 comments on Hacker News",
         "Matched: Anthropic"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50141429",
-        "points": 165,
+        "points": 166,
         "comments": 165
       }
     },
@@ -273,7 +273,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 33.7,
+      "score": 33.6,
       "reasons": [
         "Matched: AI Agents, small language models, LLM"
       ],
@@ -292,37 +292,11 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 33.5,
+      "score": 33.4,
       "reasons": [
         "Matched: Gemma, open-weight, embedding"
       ],
       "also": []
-    },
-    {
-      "id": "dud6amd14z",
-      "title": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang/",
-      "host": "blog.picheta.me",
-      "summary": "",
-      "publishedAt": "2026-10-17T22:26:47.000Z",
-      "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
-      },
-      "section": "community",
-      "topic": "tools",
-      "score": 32.8,
-      "reasons": [
-        "215 points · 169 comments on Hacker News",
-        "Matched: LLMs"
-      ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50135762",
-        "points": 215,
-        "comments": 169
-      }
     },
     {
       "id": "e6fkhi8na8",
@@ -339,14 +313,14 @@
       "topic": "agents",
       "score": 32.7,
       "reasons": [
-        "147 points · 138 comments on Hacker News",
+        "149 points · 138 comments on Hacker News",
         "Matched: AI agents"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50141657",
-        "points": 147,
+        "points": 149,
         "comments": 138
       }
     },
@@ -363,17 +337,17 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 32.2,
+      "score": 32.1,
       "reasons": [
-        "161 points · 60 comments on Hacker News",
+        "162 points · 61 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50148452",
-        "points": 161,
-        "comments": 60
+        "points": 162,
+        "comments": 61
       }
     },
     {
@@ -414,9 +388,54 @@
       },
       "section": "news",
       "topic": "research",
-      "score": 31.3,
+      "score": 31.2,
       "reasons": [
         "Matched: Claude, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "s5klgo5ggp",
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "host": "anthropic.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T10:49:26.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 30.5,
+      "reasons": [
+        "131 points · 222 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50139873",
+        "points": 131,
+        "comments": 222
+      }
+    },
+    {
+      "id": "6ffffdhzb6",
+      "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, including Deere and SharkNinja, spending ~$5,000 total",
+      "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
+      "host": "reuters.com",
+      "summary": "Over the past couple of weeks, a cybersecurity researcher watched as a Chinese-speaking hacker broke into websites belonging…",
+      "publishedAt": "2026-10-19T12:30:10.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30,
+      "reasons": [
+        "Matched: AI agents"
       ],
       "also": []
     },
@@ -433,7 +452,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.7,
+      "score": 29.6,
       "reasons": [
         "Matched: agentic"
       ],
@@ -452,7 +471,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 29.7,
+      "score": 29.6,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -471,7 +490,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.6,
+      "score": 29.5,
       "reasons": [
         "Matched: DeepMind, Gemini"
       ],
@@ -490,7 +509,7 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 29.6,
+      "score": 29.5,
       "reasons": [
         "Matched: ChatGPT"
       ],
@@ -509,7 +528,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 29.3,
+      "score": 29.2,
       "reasons": [
         "Matched: agentic"
       ],
@@ -528,7 +547,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 28,
+      "score": 27.9,
       "reasons": [
         "Solid source"
       ],
@@ -547,7 +566,7 @@
       },
       "section": "news",
       "topic": "policy",
-      "score": 27.8,
+      "score": 27.7,
       "reasons": [
         "Solid source"
       ],
@@ -566,45 +585,26 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 27.4,
+      "score": 27.3,
       "reasons": [
         "Matched: Anthropic"
       ],
       "also": []
     },
     {
-      "id": "i3p8qrwuta",
-      "title": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+",
-      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
-      "host": "securityweek.com",
-      "summary": "CyberSN's Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It's a mixed bag.",
-      "publishedAt": "2026-10-19T08:00:46.000Z",
+      "id": "o3cv4p79i9",
+      "title": "Analysis: companies are set for a massive acceleration of 50GW+ in data center capacity additions in 2027; 24GW+ across 40 campuses are in the advanced stages",
+      "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+      "host": "newsletter.semianalysis.com",
+      "summary": "60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips",
+      "publishedAt": "2026-10-19T11:30:01.000Z",
       "source": {
         "id": "techmeme",
         "name": "Techmeme"
       },
       "section": "news",
-      "topic": "industry",
-      "score": 27.1,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
-    },
-    {
-      "id": "i86rmf1eaw",
-      "title": "AI's ability to forecast extreme weather faces a major test in the coming months amid a historic El Niño, as some scientists question the tech's accuracy",
-      "url": "https://www.ft.com/content/60bffbe3-f7aa-4813-b657-a31087e7b116?accessToken=zwAAAaFPPIA3kc9gv_vj96pIE9O2V6MQh-exFg.MEUCIQC302L7LYN0b4H7cc56Qhao045gUhnaQ5lY3hVqofsapwIgMamrT5GOqYwTANyeaAe4bKrPLm98_aPRWRc0jHYm4pk&sharetype=gift&token=47f0afa3-f0b0-49cc-8bef-ffb2288a135f",
-      "host": "ft.com",
-      "summary": "The technology is being used to anticipate everything from forest fires to futures contracts. Some fear that's a mistake",
-      "publishedAt": "2026-10-19T06:25:00.000Z",
-      "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
-      },
-      "section": "news",
-      "topic": "industry",
-      "score": 26.7,
+      "topic": "infra",
+      "score": 25.7,
       "reasons": [
         "Solid source"
       ],
@@ -623,7 +623,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 25.5,
+      "score": 25.3,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -642,7 +642,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 24.4,
+      "score": 24.3,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -661,7 +661,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 23.5,
+      "score": 23.4,
       "reasons": [
         "Solid source"
       ],
@@ -680,7 +680,7 @@
       },
       "section": "essays",
       "topic": "tools",
-      "score": 23.2,
+      "score": 23.1,
       "reasons": [
         "From a followed writer"
       ],
@@ -699,7 +699,7 @@
       },
       "section": "releases",
       "topic": "tools",
-      "score": 22.8,
+      "score": 22.7,
       "reasons": [
         "New release",
         "Matched: Claude"
@@ -743,7 +743,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 21.9,
+      "score": 21.8,
       "reasons": [
         "Solid source"
       ],
@@ -762,7 +762,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.8,
+      "score": 19.7,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -781,7 +781,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.2,
+      "score": 19.1,
       "reasons": [
         "Matched: Claude"
       ],
@@ -800,7 +800,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 17.9,
+      "score": 17.8,
       "reasons": [
         "Useful source"
       ],
@@ -819,7 +819,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 16.7,
+      "score": 16.6,
       "reasons": [
         "Matched: Anthropic, AI agents"
       ],
@@ -838,7 +838,7 @@
       },
       "section": "news",
       "topic": "policy",
-      "score": 12.2,
+      "score": 12.1,
       "reasons": [
         "Useful source"
       ],
