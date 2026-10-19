@@ -17,9 +17,11 @@ flowchart LR
 
 - **Desktop:** topics on the left, the day’s list in the middle, the story on a colored stage on the
   right with what’s up next below. <kbd>J</kbd>/<kbd>K</kbd> to move, <kbd>O</kbd> to open,
-  <kbd>S</kbd> to save, <kbd>F</kbd> for focus mode, <kbd>/</kbd> to filter.
-  Drag the dividers between columns to resize them (double-click resets); the widths are
-  remembered in your browser.
+  <kbd>S</kbd> to save, <kbd>F</kbd> for focus mode, <kbd>/</kbd> to search the page. _Hide read_
+  keeps only what you haven’t seen (great on This week after time off); _Mark all read_ clears a view.
+  Scroll over the story card to move between stories, or click the markers above it. Drag the
+  dividers between columns to resize them (double-click resets); the widths are remembered in
+  your browser.
 - **Phone:** the list is home. Tap a story to read it full screen, then swipe up for the next.
   Add it to your home screen and it works offline.
 - **This week:** `/week/` ranks every story of the last seven days, with the most mentioned terms

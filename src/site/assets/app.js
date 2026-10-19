@@ -148,20 +148,18 @@
   // Theme: Auto follows the system; Light and Dark are remembered. The head script applies a saved
   // choice before first paint, so this only keeps the button and the attribute in step.
   function setUpTheme() {
-    const order = ["auto", "light", "dark"];
-    const label = { auto: "Auto", light: "Light", dark: "Dark" };
-    let theme = order.includes(document.documentElement.dataset.theme)
+    let theme = ["light", "dark"].includes(document.documentElement.dataset.theme)
       ? document.documentElement.dataset.theme
       : "auto";
-    const buttons = document.querySelectorAll("[data-theme-toggle]");
+    const buttons = document.querySelectorAll("[data-theme-set]");
     const paint = () => {
       if (theme === "auto") delete document.documentElement.dataset.theme;
       else document.documentElement.dataset.theme = theme;
-      for (const b of buttons) b.textContent = `Theme: ${label[theme]}`;
+      for (const b of buttons) b.setAttribute("aria-pressed", String(b.dataset.themeSet === theme));
     };
     for (const b of buttons) {
       b.addEventListener("click", () => {
-        theme = order[(order.indexOf(theme) + 1) % order.length];
+        theme = b.dataset.themeSet;
         try {
           if (theme === "auto") localStorage.removeItem("theme");
           else localStorage.setItem("theme", theme);
@@ -279,6 +277,7 @@
     const viewTitle = document.getElementById("view-title");
     const viewMeta = $("[data-view-meta]");
     const empty = $(".list-empty");
+    const hideReadBtn = $("[data-hide-read]");
     const search = $("[data-search]");
     const termChips = $$("[data-term]");
     let term = null;
@@ -291,6 +290,13 @@
     const narrow = matchMedia("(max-width: 900px)");
 
     const read = new Set(store.get("read-v1", []));
+    let hideRead = store.get("hide-read-v1", false) === true;
+    // Read stories hide only when the view is (re)drawn on purpose: changing view, reloading,
+    // toggling Hide read. A story you read now stays put, so the list never shifts under you.
+    let readSnapshot = new Set(read);
+    const snapshotRead = () => {
+      readSnapshot = new Set(read);
+    };
     /** topic id → "pin" | "mute" */
     const prefs = store.get("topics-v1", {});
     /** Words the reader tracks, e.g. ["MCP", "Temporal"]. */
@@ -314,7 +320,13 @@
         button.textContent = on ? "Saved" : "Save";
         button.setAttribute("aria-pressed", String(on));
       }
-      document.getElementById(`r-${id}`)?.classList.toggle("is-saved", on);
+      const row = document.getElementById(`r-${id}`);
+      row?.classList.toggle("is-saved", on);
+      const rowButton = row?.querySelector("[data-row-save]");
+      if (rowButton) {
+        rowButton.setAttribute("aria-pressed", String(on));
+        rowButton.setAttribute("aria-label", on ? "Remove from saved" : "Save story");
+      }
     }
 
     function toggleSave(id) {
@@ -359,11 +371,29 @@
       } catch {}
     }
 
-    function markRead(id) {
-      if (!id || read.has(id)) return;
-      read.add(id);
-      document.getElementById(`r-${id}`)?.classList.add("is-read");
+    function markRead(...ids) {
+      const fresh = ids.filter((id) => id && !read.has(id));
+      if (fresh.length === 0) return;
+      for (const id of fresh) {
+        read.add(id);
+        document.getElementById(`r-${id}`)?.classList.add("is-read");
+      }
       store.set("read-v1", [...read].slice(-3000));
+    }
+
+    function setHideRead(on) {
+      hideRead = on;
+      store.set("hide-read-v1", on);
+      hideReadBtn.setAttribute("aria-pressed", String(on));
+      snapshotRead();
+      applyView();
+    }
+
+    // Everything in the current view counts as read; with Hide read on, the list then clears.
+    function markAllRead() {
+      markRead(...order);
+      snapshotRead();
+      applyView();
     }
 
     // Muted topics leave every view but their own; pinned topics join Top stories in full.
@@ -422,18 +452,24 @@
       applyView(term ? "all" : view);
     }
 
+    const isHiddenRead = (row) => hideRead && readSnapshot.has(row.dataset.id);
+
     function applyView(next = view) {
       view = viewLinks.some((a) => a.dataset.view === next) ? next : "top";
       const words = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+      // Searching covers every story on the page, read or muted, whatever view you were in.
+      const searching = words.length > 0;
       order = [];
       for (const row of rows) {
-        const shown = inView(row, view) && matches(row, words);
+        const shown = searching
+          ? matches(row, words)
+          : inView(row, view) && matches(row, []) && !isHiddenRead(row);
         row.hidden = !shown;
         stories.get(row.dataset.id)?.toggleAttribute("data-out", !shown);
         if (shown) order.push(row.dataset.id);
       }
       for (const a of viewLinks) {
-        a.setAttribute("aria-current", String(a.dataset.view === view));
+        a.setAttribute("aria-current", String(a.dataset.view === view && !searching));
         const pref = prefs[a.dataset.topic];
         if (pref) a.dataset.pref = pref;
         else delete a.dataset.pref;
@@ -444,26 +480,33 @@
               ? "pinned"
               : pref === "mute"
                 ? "muted"
-                : rows.filter((r) => inView(r, a.dataset.view)).length;
+                : rows.filter((r) => inView(r, a.dataset.view) && !isHiddenRead(r)).length;
         }
       }
       const label = viewLinks.find((a) => a.dataset.view === view)?.querySelector("span");
-      viewTitle.textContent = label?.textContent ?? "Top stories";
+      viewTitle.textContent = searching ? "Search" : (label?.textContent ?? "Top stories");
       const minutes = Math.max(1, Math.round(order.length / 2));
-      viewMeta.textContent = term
-        ? `${order.length} mention ${term}`
-        : words.length
-          ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
-          : `${order.length} · about ${minutes} min`;
+      viewMeta.textContent = searching
+        ? `${order.length} ${order.length === 1 ? "match" : "matches"}`
+        : term
+          ? `${order.length} mention ${term}`
+          : `${order.length}${hideRead ? " unread" : ""}${order.length ? ` · about ${minutes} min` : ""}`;
       empty.hidden = order.length > 0;
+      empty.textContent = searching
+        ? `No story here mentions “${search.value.trim()}”.`
+        : hideRead && rows.some((r) => inView(r, view))
+          ? "All caught up. Turn off Hide read to see what you’ve read."
+          : "Nothing here today.";
       const keep = order.includes(current);
       select(keep ? current : order[0], { scrollStory: isFocus(), link: keep });
     }
 
     // `link` keeps the address bar on this story (?s=id), so copying it shares the exact story.
-    function select(id, { scrollStory = false, link = true } = {}) {
+    function select(id, { scrollStory = false, link = true, dir = "next" } = {}) {
       if (current && current !== id && Date.now() - shownAt > 1500) markRead(current);
       const story = stories.get(id);
+      stageCard.dataset.dir = dir;
+      if (!isFocus() && id !== current) stage.scrollTo({ top: 0 });
       for (const el of stories.values()) el.classList.toggle("is-current", el === story);
       for (const row of rows) row.classList.toggle("is-current", row.dataset.id === id);
       current = id ?? null;
@@ -510,27 +553,44 @@
       );
     }
 
+    // One marker per story with the current one lit; click a marker to jump. Long views get a
+    // slim track instead, with the marker sliding along it.
+    const TRACK_FROM = 31;
     function drawTicks(index) {
       const n = order.length;
-      ticks.classList.toggle("bar", n > 24);
-      if (n > 24) {
-        ticks.replaceChildren();
-        ticks.style.setProperty("--p", `${((index + 1) / n) * 100}%`);
+      const track = n >= TRACK_FROM;
+      ticks.classList.toggle("track", track);
+      if (track) {
+        ticks.style.setProperty("--p", String(index / Math.max(1, n - 1)));
+        if (!ticks.querySelector(".marker")) {
+          const marker = document.createElement("i");
+          marker.className = "marker";
+          ticks.replaceChildren(marker);
+        }
         return;
       }
       ticks.style.setProperty("--n", n);
       ticks.replaceChildren(
-        ...order.map((_, i) => {
-          const tick = document.createElement("i");
-          if (i <= index) tick.className = "on";
+        ...order.map((id, i) => {
+          const tick = document.createElement("button");
+          tick.type = "button";
+          tick.tabIndex = -1;
+          tick.dataset.tick = id;
+          tick.title = `${i + 1}. ${document.getElementById(`r-${id}`)?.querySelector(".row-title")?.textContent ?? ""}`;
+          if (i === index) tick.className = "is-current";
           return tick;
         }),
       );
     }
 
+    function jumpTo(id) {
+      const from = order.indexOf(current);
+      select(id, { scrollStory: isFocus(), dir: order.indexOf(id) < from ? "prev" : "next" });
+    }
+
     function step(delta) {
       const next = order[order.indexOf(current) + delta];
-      if (next) return select(next, { scrollStory: isFocus() });
+      if (next) return select(next, { scrollStory: isFocus(), dir: delta > 0 ? "next" : "prev" });
       if (delta > 0 && isFocus()) endCard.scrollIntoView({ block: "start" });
     }
 
@@ -596,6 +656,10 @@
         if (narrow.matches) setFocus(true);
         return;
       }
+      if (target.closest("[data-hide-read]")) return setHideRead(!hideRead);
+      if (target.closest("[data-mark-all]")) return markAllRead();
+      const rowSave = target.closest("[data-row-save]");
+      if (rowSave) return toggleSave(rowSave.closest(".row").dataset.id);
       if (target.closest("[data-edit-topics]")) return setEditing(!editing());
       const link = target.closest("[data-view]");
       if (link) {
@@ -606,10 +670,18 @@
           return watchInput.focus();
         }
         history.replaceState(null, "", `#${link.dataset.view}`);
+        snapshotRead();
         return applyView(link.dataset.view);
       }
       const chip = target.closest("[data-term]");
       if (chip) return setTerm(term === chip.dataset.term ? null : chip.dataset.term);
+      const tick = target.closest("[data-tick]");
+      if (tick) return jumpTo(tick.dataset.tick);
+      if (target.closest(".ticks.track")) {
+        const box = ticks.getBoundingClientRect();
+        const share = Math.min(1, Math.max(0, (e.clientX - box.left) / box.width));
+        return jumpTo(order[Math.round(share * (order.length - 1))]);
+      }
       const goto = target.closest("[data-goto]");
       if (goto) return select(goto.dataset.goto);
       if (target.closest("[data-next]")) return step(1);
@@ -668,13 +740,47 @@
       if (action() !== null) e.preventDefault();
     });
 
-    window.addEventListener("hashchange", () => applyView(location.hash.slice(1)));
+    // Scrolling over the story card moves to the next or previous story, one per gesture: a
+    // trackpad flick keeps sending events, so the next move waits until they stop. If the card
+    // is taller than the pane, the pane scrolls first until its edge is in view.
+    let wheelLock = false;
+    let wheelSum = 0;
+    let wheelIdle;
+    stageCard.addEventListener(
+      "wheel",
+      (e) => {
+        if (isFocus() || narrow.matches || e.ctrlKey || !current) return;
+        const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+        const card = stageCard.getBoundingClientRect();
+        const pane = stage.getBoundingClientRect();
+        if ((dy > 0 && card.bottom > pane.bottom + 1) || (dy < 0 && card.top < pane.top - 1))
+          return;
+        e.preventDefault();
+        clearTimeout(wheelIdle);
+        wheelIdle = setTimeout(() => {
+          wheelLock = false;
+          wheelSum = 0;
+        }, 180);
+        if (wheelLock) return;
+        wheelSum += dy;
+        if (Math.abs(wheelSum) < 40) return;
+        wheelLock = true;
+        step(wheelSum > 0 ? 1 : -1);
+      },
+      { passive: false },
+    );
+
+    window.addEventListener("hashchange", () => {
+      snapshotRead();
+      applyView(location.hash.slice(1));
+    });
 
     const savedIds = new Set(saved.list().map((s) => s.id));
     for (const row of rows) {
       if (read.has(row.dataset.id)) row.classList.add("is-read");
       paintSaved(row.dataset.id, savedIds.has(row.dataset.id));
     }
+    hideReadBtn.setAttribute("aria-pressed", String(hideRead));
     markWatched();
     applyView(location.hash.slice(1) || "top");
 

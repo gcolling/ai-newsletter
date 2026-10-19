@@ -114,19 +114,44 @@ kbd {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-.theme-toggle {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--soft);
-  padding: 5px 10px;
+/* Outlined icons follow the text color. */
+.glyph {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
   border-radius: 99px;
   background: var(--pane);
   box-shadow: var(--lift);
 }
-.theme-toggle:hover {
+.theme-switch button {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--soft);
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.theme-switch button:hover {
   color: var(--ink);
 }
-.no-js .theme-toggle,
+.theme-switch button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--canvas);
+}
+.no-js .theme-switch,
+.no-js .row-save,
 .no-js .search,
 .no-js .group-edit {
   display: none;
@@ -180,9 +205,6 @@ kbd {
   color: var(--ink);
   background: var(--pane);
   box-shadow: var(--lift);
-}
-.theme-toggle {
-  white-space: nowrap;
 }
 
 /* ── Reader: three panes ──────────────────────────────────────────── */
@@ -613,31 +635,61 @@ html,
 .btn.ghost:hover {
   background: rgb(255 255 255 / 0.24);
 }
+/* Story markers: the current one lit, the others clickable. A tall hit area, a thin line. */
 .ticks {
   flex-basis: 100%;
   display: grid;
   grid-template-columns: repeat(var(--n, 12), 1fr);
-  gap: 5px;
-  margin-top: 4px;
+  gap: 4px;
 }
-.ticks i {
+.ticks button {
+  position: relative;
+  height: 14px;
+  padding: 0;
+}
+.ticks button::before,
+.ticks.track::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5px;
   height: 3px;
   border-radius: 2px;
-  background: rgb(255 255 255 / 0.24);
-  transition: background 0.3s;
+  background: rgb(255 255 255 / 0.22);
+  transition:
+    background 0.2s,
+    top 0.2s,
+    height 0.2s;
 }
-.ticks i.on {
-  background: rgb(255 255 255 / 0.92);
+.ticks button:hover::before {
+  top: 4px;
+  height: 5px;
+  background: rgb(255 255 255 / 0.55);
 }
-.ticks.bar {
+.ticks button.is-current::before {
+  top: 4px;
+  height: 5px;
+  background: rgb(255 255 255 / 0.95);
+}
+.ticks.track {
   display: block;
-  height: 3px;
-  border-radius: 2px;
-  background: linear-gradient(
-    90deg,
-    rgb(255 255 255 / 0.92) var(--p, 0%),
-    rgb(255 255 255 / 0.24) 0
-  );
+  position: relative;
+  height: 14px;
+  cursor: pointer;
+}
+.ticks.track:hover::before {
+  background: rgb(255 255 255 / 0.36);
+}
+.ticks .marker {
+  position: absolute;
+  top: 4px;
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: rgb(255 255 255 / 0.95);
+  left: calc((100% - 18px) * var(--p, 0));
+  transition: left 0.3s var(--ease);
 }
 
 .story {
@@ -776,10 +828,48 @@ html,
     padding: 10px 14px;
   }
 }
-.row.is-saved .row-meta::after {
-  content: " · Saved";
-  color: var(--soft);
-  font-weight: 600;
+/* Save straight from the list: a bookmark at the row's corner, filled once saved. */
+.row {
+  position: relative;
+}
+.row-link {
+  padding-right: 40px;
+}
+.row-save {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  color: var(--faint);
+  opacity: 0;
+  transition:
+    opacity 0.15s,
+    color 0.15s,
+    background 0.15s;
+}
+.row:hover .row-save,
+.row-save:focus-visible,
+.row-save[aria-pressed="true"] {
+  opacity: 1;
+}
+.row-save:hover {
+  color: var(--ink);
+  background: var(--hover);
+}
+.row-save[aria-pressed="true"] {
+  color: var(--ink);
+}
+.row-save[aria-pressed="true"] .glyph {
+  fill: currentColor;
+}
+@media (hover: none) {
+  .row-save {
+    opacity: 1;
+  }
 }
 
 /* Up next: the following stories in this view, ready to pick. */
@@ -866,6 +956,16 @@ html,
   from {
     opacity: 0;
     transform: translateY(12px);
+  }
+}
+/* Going back, the story comes down from above instead. */
+.js .app:not(.is-focus) .stage-card[data-dir="prev"] .story.is-current {
+  animation-name: descend;
+}
+@keyframes descend {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
   }
 }
 
@@ -1693,5 +1793,35 @@ code {
   .watch-edit {
     order: 1;
     padding: 0 18px 12px;
+  }
+}
+
+/* Hide read and Mark all read, under the search box */
+.list-tools {
+  display: flex;
+  gap: 6px;
+  margin: -2px 6px 10px 10px;
+}
+.tool {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 99px;
+  color: var(--soft);
+}
+.tool:hover {
+  color: var(--ink);
+  background: var(--hover);
+}
+.tool[aria-pressed="true"] {
+  color: var(--canvas);
+  background: var(--ink);
+}
+.no-js .list-tools {
+  display: none;
+}
+@media (max-width: 900px) {
+  .list-tools {
+    margin: -2px 0 10px;
   }
 }
