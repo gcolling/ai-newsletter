@@ -12,29 +12,55 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 
+# Two independent jobs, so a failure in one never hides the result of the other.
 jobs:
-  check:
+  code:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-          fetch-depth: 0 # the privacy check reads every commit identity
 
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version-file: .node-version
           cache: npm
 
-      - run: npm ci --ignore-scripts
-      - name: No personal data or secrets
-        run: npm run privacy
-      - run: npm run typecheck
-      - run: npm run lint
-      - run: npm test
+      - id: install
+        run: npm ci --ignore-scripts
+
+      # Every check runs and reports even when an earlier one fails.
+      - name: Typecheck
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: npm run typecheck
+
+      - name: Lint and format
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: npm run lint
+
+      - name: Tests
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
+        run: npm test
 
       - name: Build the site from fixtures
+        if: ${{ !cancelled() && steps.install.outcome == 'success' }}
         run: npm run build
         env:
           DATA_DIR: test/fixtures
+
+  secrets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+
+      # Node built-ins only, so there is nothing to install.
+      - name: No keys, tokens or local paths in tracked files
+        run: node src/dev/secrets-check.ts

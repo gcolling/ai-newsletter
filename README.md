@@ -51,13 +51,18 @@ npm run dev       # preview on http://localhost:4321, rebuilds on save
 | `npm run collect`   | Fetch, filter, group and rank. Writes one JSON. |
 | `npm run build`     | Render every issue into `dist/`.                |
 | `npm run dev`       | Build, serve and watch.                         |
-| `npm run check`     | Privacy check, typecheck, lint and test.        |
+| `npm run check`     | Secrets check, typecheck, lint and test.        |
 
-## Keeping personal data out
+## Checks
 
-This repository is public, so `npm run privacy` fails on email addresses, home-folder paths,
-private keys, API tokens, or any commit identity that isn't a GitHub noreply address. CI runs it on
-every push and pull request. Turn it on as a pre-commit hook once per clone:
+CI runs two independent jobs on every push and pull request, so one failing never hides the other:
+
+- **code:** typecheck, lint and format, tests, and a build of the site from fixtures. Every step
+  runs and reports, even after an earlier one fails.
+- **secrets:** `npm run secrets` fails on private keys, API tokens and absolute paths from a local
+  machine in any tracked file.
+
+Run the secrets check before every commit too, as a hook (once per clone):
 
 ```bash
 git config core.hooksPath .githooks
@@ -82,41 +87,20 @@ builds the site and deploys it.
 
 ## Repository settings
 
-Everything below applies to this repository only. Do it once, in this order: the force push has
-to come before the branch rules, which forbid it.
+Everything below applies to this repository only.
 
-1. Replace the old first commit, which carried a personal email: `git push --force-with-lease origin main`.
-2. Commit with your GitHub noreply address in this clone only (`git config user.email
-   <id>+<username>@users.noreply.github.com`, without `--global`). The pre-commit hook and CI
-   reject anything else.
-3. **Settings → Pages:** set _Source_ to _GitHub Actions_.
-4. **Settings → Actions → General:** keep _Workflow permissions_ on read-only; each workflow asks for
+1. **Settings → Pages:** set _Source_ to _GitHub Actions_.
+2. **Settings → Actions → General:** keep _Workflow permissions_ on read-only; each workflow asks for
    the write access it needs.
-5. **Settings → Advanced Security** (called _Code security_ on some accounts): turn on _Dependabot
+3. **Settings → Advanced Security** (called _Code security_ on some accounts): turn on _Dependabot
    alerts_, _Dependabot security updates_, _Secret scanning_ with _Push protection_, and _Private
    vulnerability reporting_.
-6. **Settings → General → Pull Requests:** allow squash merging only, and turn on _Automatically
+4. **Settings → General → Pull Requests:** allow squash merging only, and turn on _Automatically
    delete head branches_.
-7. **Settings → Rules → Rulesets → New branch ruleset** for the default branch: _Restrict
+5. **Settings → Rules → Rulesets → New branch ruleset** for the default branch: _Restrict
    deletions_, _Block force pushes_, _Require a pull request before merging_ (0 approvals is fine
-   when working alone) and _Require status checks to pass_ with the CI `check` job. The daily
+   when working alone) and _Require status checks to pass_ with the CI `code` and `secrets` jobs. The daily
    Publish run writes to the `data` branch, so the rules don't get in its way.
-
-**Merging pull requests.** A merge made on the website is authored with your account's default
-email, which may not be the noreply one. Either merge from the terminal, which lets you set the
-author:
-
-```bash
-gh pr merge --squash --delete-branch --author-email "$(git config user.email)"
-```
-
-or pick the noreply address under _Commit email_ in the website's merge box. CI on `main` fails if
-a personal email slips through, but by then it is public, so prevention is the habit to keep.
-
-GitHub also has account-wide switches (_Settings → Emails → Keep my email addresses private_ and
-_Block command line pushes that expose my email_). They protect every repository at once, but they
-also change website commits and command-line pushes in all your other projects, so they are left
-out here on purpose.
 
 ## Changing what you get
 
