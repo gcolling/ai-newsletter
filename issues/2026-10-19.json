@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T14:34:24.912Z",
+  "generatedAt": "2026-10-19T14:37:28.163Z",
   "window": {
-    "from": "2026-10-18T12:34:20.322Z",
-    "to": "2026-10-19T14:34:20.322Z"
+    "from": "2026-10-18T12:37:23.489Z",
+    "to": "2026-10-19T14:37:23.489Z"
   },
   "sources": {
     "total": 72,
@@ -153,11 +153,11 @@
       "topic": "research",
       "score": 37.1,
       "reasons": [
-        "474 upvotes on Hugging Face"
+        "475 upvotes on Hugging Face"
       ],
       "also": [],
       "paper": {
-        "upvotes": 474,
+        "upvotes": 475,
         "arxivId": "2610.22276"
       }
     },
@@ -174,17 +174,17 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 36.2,
+      "score": 36.3,
       "reasons": [
-        "218 points · 43 comments on Hacker News",
+        "220 points · 44 comments on Hacker News",
         "Matched: Mistral, foundation models"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50150434",
-        "points": 218,
-        "comments": 43
+        "points": 220,
+        "comments": 44
       }
     },
     {
@@ -566,7 +566,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.1,
+      "score": 29,
       "reasons": [
         "Matched: DeepMind, Gemini"
       ],
@@ -680,7 +680,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 23.9,
+      "score": 23.8,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -800,7 +800,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 21.4,
+      "score": 21.3,
       "reasons": [
         "Solid source"
       ],
@@ -926,7 +926,7 @@
       "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.28.0",
       "host": "github.com",
       "summary": "feat(verify-openhands): executable known bugs and a repeatable fix proof",
-      "publishedAt": "2026-10-19T14:33:39.000Z",
+      "publishedAt": "2026-10-19T14:35:13.000Z",
       "source": {
         "id": "gh-openhands",
         "name": "OpenHands releases"
