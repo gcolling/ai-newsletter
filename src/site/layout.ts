@@ -2,7 +2,7 @@ import { site } from "../config.ts";
 import { type Html, html, raw } from "./html.ts";
 
 /** Versioned asset URLs, filled in by the build once files are hashed. */
-export const assets = { css: "", js: "", icon: "" };
+export const assets = { css: "", js: "", icon: "", preload: [] as string[] };
 
 /** Internal link, respecting the base path the site is served under. */
 export const href = (path = "") => site.basePath + path.replace(/^\//, "");
@@ -46,11 +46,15 @@ export function layout(page: Page): string {
 <meta name="apple-mobile-web-app-title" content="${site.name}">
 <link rel="alternate" type="application/atom+xml" title="${site.name}" href="${href("feed.xml")}">
 <link rel="alternate" type="application/atom+xml" title="${site.name}: top stories" href="${href("feeds/top.xml")}">
-<link rel="stylesheet" href="${assets.css}">
+${assets.preload.map(
+  (font) => html`<link rel="preload" href="${font}" as="font" type="font/woff2" crossorigin>
+`,
+)}<link rel="stylesheet" href="${assets.css}">
 <script>${raw(THEME_BOOT)}</script>
 <script src="${assets.js}" defer></script>
 </head>
 <body class="${page.bodyClass ?? ""}">
+<a class="skip-link" href="#main">Skip to content</a>
 ${page.body}
 </body>
 </html>

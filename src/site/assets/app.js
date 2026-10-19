@@ -34,6 +34,50 @@
     }
   };
 
+  // One short message at the bottom, with Undo after anything that changed your data. The live
+  // region stays in the page so screen readers announce each message; hovering or focusing the
+  // message keeps it up.
+  const toast = (() => {
+    let region = null;
+    let timer = 0;
+    const hide = () => region?.replaceChildren();
+    const wait = () => {
+      clearTimeout(timer);
+      timer = setTimeout(hide, 6000);
+    };
+    return (message, action, onAction) => {
+      if (!region) {
+        region = document.createElement("div");
+        region.className = "toasts";
+        region.setAttribute("role", "status");
+        region.setAttribute("aria-live", "polite");
+        region.addEventListener("pointerenter", () => clearTimeout(timer));
+        region.addEventListener("pointerleave", wait);
+        region.addEventListener("focusin", () => clearTimeout(timer));
+        region.addEventListener("focusout", wait);
+        document.body.append(region);
+      }
+      const box = document.createElement("div");
+      box.className = "toast";
+      const text = document.createElement("span");
+      text.textContent = message;
+      box.append(text);
+      if (action) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = action;
+        button.addEventListener("click", () => {
+          clearTimeout(timer);
+          hide();
+          onAction();
+        });
+        box.append(button);
+      }
+      region.replaceChildren(box);
+      wait();
+    };
+  })();
+
   setUpTheme();
   humanizeTimes();
   updateSavedLinks();
@@ -117,8 +161,26 @@
       const target = e.target instanceof Element ? e.target : null;
       const remove = target?.closest("[data-remove]");
       if (remove) {
-        saved.write(saved.list().filter((s) => s.id !== remove.dataset.remove));
-        return draw();
+        const items = saved.list();
+        const index = items.findIndex((s) => s.id === remove.dataset.remove);
+        if (index < 0) return;
+        const [item] = items.splice(index, 1);
+        const hadFocus = document.activeElement === remove;
+        saved.write(items);
+        draw();
+        // Keep the keyboard where it was: on the next card's Remove, not lost on the page.
+        if (hadFocus) {
+          const buttons = list.querySelectorAll("[data-remove]");
+          buttons[Math.min(index, buttons.length - 1)]?.focus();
+        }
+        toast("Removed from saved", "Undo", () => {
+          const now = saved.list();
+          if (now.some((s) => s.id === item.id)) return;
+          now.splice(Math.min(index, now.length), 0, item);
+          saved.write(now);
+          draw();
+        });
+        return;
       }
       const copy = target?.closest("[data-saved-copy]");
       if (copy) {
@@ -137,9 +199,19 @@
         }
         return;
       }
-      if (target?.closest("[data-saved-clear]") && confirm("Remove every saved story?")) {
+      if (target?.closest("[data-saved-clear]")) {
+        const before = saved.list();
         saved.write([]);
         draw();
+        toast(
+          before.length === 1 ? "Removed 1 story" : `Removed ${before.length} stories`,
+          "Undo",
+          () => {
+            const now = saved.list();
+            saved.write([...now, ...before.filter((s) => !now.some((n) => n.id === s.id))]);
+            draw();
+          },
+        );
       }
     });
     draw();
@@ -156,6 +228,11 @@
       if (theme === "auto") delete document.documentElement.dataset.theme;
       else document.documentElement.dataset.theme = theme;
       for (const b of buttons) b.setAttribute("aria-pressed", String(b.dataset.themeSet === theme));
+      const canvas = getComputedStyle(document.documentElement).getPropertyValue("--canvas").trim();
+      for (const meta of document.querySelectorAll('meta[name="theme-color"]')) {
+        meta.dataset.system ??= meta.content;
+        meta.content = theme === "auto" ? meta.dataset.system : canvas;
+      }
     };
     for (const b of buttons) {
       b.addEventListener("click", () => {
@@ -391,9 +468,21 @@
 
     // Everything in the current view counts as read; with Hide read on, the list then clears.
     function markAllRead() {
-      markRead(...order);
+      const fresh = order.filter((id) => !read.has(id));
+      if (fresh.length === 0) return toast("Everything here is already read");
+      markRead(...fresh);
       snapshotRead();
       applyView();
+      const label = fresh.length === 1 ? "1 story" : `${fresh.length} stories`;
+      toast(`Marked ${label} read`, "Undo", () => {
+        for (const id of fresh) {
+          read.delete(id);
+          document.getElementById(`r-${id}`)?.classList.remove("is-read");
+        }
+        store.set("read-v1", [...read]);
+        snapshotRead();
+        applyView();
+      });
     }
 
     // Muted topics leave every view but their own; pinned topics join Top stories in full.

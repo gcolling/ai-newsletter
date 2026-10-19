@@ -185,7 +185,7 @@ ${topicLinks}
 ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n))}
 ${viewLink("watching", "Watching", 0)}
 </nav>
-<label class="watch-edit" data-watch-edit hidden><span>Watch words</span><input type="text" data-watch-input placeholder="MCP, Temporal, Playwright" autocomplete="off" spellcheck="false"><small>Comma-separated. Matching stories are marked and collected under Watching.</small></label>
+<label class="watch-edit" data-watch-edit hidden><span>Watch words</span><input type="text" name="watch" data-watch-input placeholder="MCP, Temporal, Playwright…" autocomplete="off" spellcheck="false"><small>Comma-separated. Matching stories are marked and collected under Watching.</small></label>
 </aside>`;
 }
 
@@ -197,11 +197,11 @@ export function readerPage(issue: Issue, opts: ReaderOptions): string {
 <div class="app" data-date="${issue.date}" data-permalink="${href(opts.permalink)}">
 ${rail(issue, top, opts)}
 <div class="splitter" data-split="rail" role="separator" aria-orientation="vertical" aria-label="Resize the topics column" tabindex="0"></div>
-<section class="list" aria-labelledby="view-title">
-<header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
-${mentionsStrip(opts.mentions, opts.mentionsLabel)}
-<label class="search"><span class="sr-only">Search stories</span><input type="search" data-search placeholder="${opts.kind === "week" ? "Search this week" : "Search today’s stories"}" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+<section class="list" id="main" tabindex="-1" aria-labelledby="view-title">
+<header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta aria-live="polite">${top.length} · ${readingTime(top.length)}</span></header>
+<label class="search"><span class="sr-only">Search stories</span><input type="search" data-search name="q" placeholder="${opts.kind === "week" ? "Search this week…" : "Search today’s stories…"}" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
 <div class="list-tools"><button class="tool" type="button" data-hide-read aria-pressed="false">Hide read</button><button class="tool" type="button" data-mark-all>Mark all read</button></div>
+${mentionsStrip(opts.mentions, opts.mentionsLabel)}
 <ol class="rows">
 ${issue.stories.map((s) => row(s, topIds))}
 </ol>

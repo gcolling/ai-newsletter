@@ -594,16 +594,17 @@ html,
   color: var(--on-gem);
   transition: background-color 0.6s ease;
 }
+/* Markers along the top edge, then the position and Focus beside the kicker. */
 .stage-bar {
   position: absolute;
-  top: 28px;
+  top: 20px;
   left: 48px;
   right: 40px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 10px 14px;
   z-index: 2;
   pointer-events: none;
 }
@@ -637,6 +638,7 @@ html,
 }
 /* Story markers: the current one lit, the others clickable. A tall hit area, a thin line. */
 .ticks {
+  order: -1;
   flex-basis: 100%;
   display: grid;
   grid-template-columns: repeat(var(--n, 12), 1fr);
@@ -694,7 +696,7 @@ html,
 
 .story {
   flex-direction: column;
-  padding: 28px 48px 36px;
+  padding: 46px 48px 36px;
 }
 .kicker {
   font: italic 400 16px / 1.5 var(--serif);
@@ -939,6 +941,7 @@ html,
 }
 .no-js .story {
   display: flex;
+  padding-top: 28px;
   background: var(--c);
   color: var(--on-gem);
   border-radius: 18px;
@@ -1776,7 +1779,7 @@ code {
   color: var(--ink);
   font: 500 13.5px var(--sans);
 }
-.watch-edit input:focus {
+.watch-edit input:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 0;
 }
@@ -1823,5 +1826,167 @@ code {
 @media (max-width: 900px) {
   .list-tools {
     margin: -2px 0 10px;
+  }
+}
+
+/* ── Interaction polish (web interface guidelines pass) ──────────── */
+/* Skip straight to the stories (or the page content) from the keyboard. */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 40;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--canvas);
+  font-weight: 650;
+  text-decoration: none;
+  transition: top 0.15s;
+}
+.skip-link:focus-visible {
+  top: 12px;
+}
+#main:focus {
+  outline: none;
+}
+
+/* No double-tap zoom delay on controls, and no grey flash: every control has its own states. */
+a,
+button,
+input,
+[data-split] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Long unbroken tokens (URLs, model IDs) wrap instead of overflowing. */
+.row-title,
+.story-title,
+.summary,
+.next-card .t,
+.saved-card .t,
+.day-card-title,
+.also a {
+  overflow-wrap: anywhere;
+}
+.hero-title,
+.doc-h2,
+.day-card-title,
+.empty-card h2 {
+  text-wrap: balance;
+}
+
+/* Hover states the first pass missed. */
+.btn.go:hover {
+  background: rgb(255 255 255 / 0.86);
+}
+.mention:hover {
+  box-shadow:
+    var(--lift),
+    0 0 0 1px var(--faint);
+}
+.brand:hover {
+  opacity: 0.8;
+}
+
+/* A small press on everything you can click. */
+.pill-btn,
+.tool,
+.mention,
+.view,
+.day-arrow,
+.feed-link,
+.site-nav a,
+.theme-switch button,
+.row-save,
+.group-edit {
+  transition-property: background, color, box-shadow, opacity, transform;
+  transition-duration: 0.15s;
+  transition-timing-function: var(--ease);
+}
+.pill-btn:active,
+.tool:active,
+.mention:active,
+.view:active,
+.day-arrow:active,
+.feed-link:active,
+.site-nav a:active,
+.theme-switch button:active,
+.row-save:active,
+.group-edit:active {
+  transform: scale(0.96);
+}
+
+/* Bigger targets where the pointer is a finger. */
+@media (pointer: coarse) {
+  .row-save {
+    top: 6px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+  }
+  .day-arrow {
+    width: 38px;
+    height: 38px;
+  }
+  .theme-switch button {
+    width: 36px;
+    height: 36px;
+  }
+  .tool {
+    padding: 8px 12px;
+  }
+}
+
+/* Long lists (the week page) only lay out the rows near the viewport. */
+.row {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 88px;
+}
+
+/* Undo window after actions that change your data. The region stays put; the message comes and goes. */
+.toasts {
+  position: fixed;
+  left: 50%;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 30;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  transform: translateX(-50%);
+}
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 8px 8px 18px;
+  border-radius: 14px;
+  background: var(--ink);
+  color: var(--canvas);
+  font-size: 14px;
+  font-weight: 560;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
+  animation: toast-in 0.25s var(--ease);
+}
+.toast button {
+  padding: 7px 14px;
+  border-radius: 99px;
+  font: inherit;
+  font-weight: 650;
+  color: inherit;
+  background: rgb(127 127 127 / 0.3);
+  transition: background 0.15s;
+}
+.toast button:hover {
+  background: rgb(127 127 127 / 0.45);
+}
+.toast button:focus-visible {
+  outline: 2px solid var(--canvas);
+  outline-offset: 2px;
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
   }
 }

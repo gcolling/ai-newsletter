@@ -80,6 +80,7 @@ async function buildAssets(): Promise<string[]> {
   assets.css = `${href("assets/app.css")}?v=${hash(css)}`;
   assets.js = `${href("assets/app.js")}?v=${hash(js)}`;
   assets.icon = `${href("assets/icon.svg")}?v=${hash(icon)}`;
+  assets.preload = font.files.filter((f) => /-latin-standard-normal.woff2$/.test(f));
   return font.files;
 }
 
