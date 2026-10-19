@@ -165,7 +165,8 @@ function rail(issue: Issue, top: Story[], opts: ReaderOptions): Html {
     return html`<a class="day-arrow" href="${href(issuePath(issue.date))}" rel="${rel}" aria-label="${label}" title="${label}">${glyph}</a>`;
   };
   const days =
-    opts.kind === "day"
+    // Arrows only once there is another issue to go to; two dead arrows would look broken.
+    opts.kind === "day" && (near?.older || near?.newer)
       ? html`<nav class="day-nav" aria-label="Other issues">${arrow(near?.older, "prev")}${arrow(near?.newer, "next")}</nav>`
       : "";
   return html`<aside class="rail">
@@ -220,6 +221,7 @@ ${issue.stories.map(card)}
 <div class="story-body">
 <h2 class="story-title">That’s the ${unit}.</h2>
 <p class="summary">You’ve reached the end of this view. Pick another on the left, browse <a href="${href("archive/")}">past issues</a>, or come back tomorrow morning.</p>
+<div class="actions"><button class="btn go" type="button" data-restart>Back to the first story <span aria-hidden="true">↑</span></button></div>
 </div>
 </section>
 </div>

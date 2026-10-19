@@ -615,9 +615,11 @@
       if (scrollStory) story.scrollIntoView({ block: "start" });
     }
 
-    // The next few stories in this view, built from the list rows so there's no second copy of the data.
+    // The next few stories in this view, built from the list rows so there's no second copy of the
+    // data. The view loops, so after the last story come the first ones again.
     function drawUpNext(index) {
-      const next = order.slice(index + 1, index + 4);
+      const count = Math.min(3, order.length - 1);
+      const next = Array.from({ length: count }, (_, i) => order[(index + 1 + i) % order.length]);
       upNext.hidden = next.length === 0;
       upNextCards.replaceChildren(
         ...next.map((id) => {
@@ -677,13 +679,28 @@
       select(id, { scrollStory: isFocus(), dir: order.indexOf(id) < from ? "prev" : "next" });
     }
 
+    // Moving past either end loops around. In focus mode the stories are one long scroll, so going
+    // forward from the last story stops at the end card first, and from there starts over.
     function step(delta) {
-      const next = order[order.indexOf(current) + delta];
-      if (next) return select(next, { scrollStory: isFocus(), dir: delta > 0 ? "next" : "prev" });
-      if (delta > 0 && isFocus()) endCard.scrollIntoView({ block: "start" });
+      if (!current || order.length === 0) return;
+      const index = order.indexOf(current);
+      const dir = delta > 0 ? "next" : "prev";
+      if (isFocus() && atEnd()) {
+        const id = delta > 0 ? order[0] : current;
+        return select(id, { scrollStory: true, dir });
+      }
+      if (isFocus() && delta > 0 && index === order.length - 1) {
+        return endCard.scrollIntoView({ block: "start" });
+      }
+      const next = order[(index + delta + order.length) % order.length];
+      select(next, { scrollStory: isFocus(), dir });
     }
 
     const isFocus = () => app.classList.contains("is-focus");
+    // In focus mode: the end card fills most of the pane (the last story is still "current").
+    const atEnd = () =>
+      endCard.getBoundingClientRect().top - stage.getBoundingClientRect().top <
+      stage.clientHeight / 2;
 
     function setFocus(on) {
       if (on === isFocus() || (on && !current)) return;
@@ -774,6 +791,7 @@
       const goto = target.closest("[data-goto]");
       if (goto) return select(goto.dataset.goto);
       if (target.closest("[data-next]")) return step(1);
+      if (target.closest("[data-restart]")) return select(order[0], { scrollStory: true });
       if (target.closest("[data-save]")) return toggleSave(current);
       if (target.closest("[data-share]")) return share(current);
       if (target.closest("[data-focus]")) return setFocus(!isFocus());
