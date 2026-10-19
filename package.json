@@ -1,0 +1,32 @@
+{
+  "name": "ai-newsletter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A daily, rule-ranked digest of AI, automation and integrations news. No model in the loop.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "collect": "node src/collect/index.ts",
+    "build": "node src/site/index.ts",
+    "dev": "node src/dev/serve.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "secrets": "node src/dev/secrets-check.ts",
+    "check": "npm run secrets && npm run typecheck && npm run lint && npm test"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@fontsource-variable/mona-sans": "5.3.0",
+    "@fontsource-variable/newsreader": "5.3.0",
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2"
+  }
+}

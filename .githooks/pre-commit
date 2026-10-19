@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks commits that would publish secrets (keys, tokens, local paths).
+# Enable once per clone: git config core.hooksPath .githooks
+exec node src/dev/secrets-check.ts --hook
