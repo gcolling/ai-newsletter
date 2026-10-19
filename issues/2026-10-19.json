@@ -1,0 +1,813 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T09:30:48.319Z",
+  "window": {
+    "from": "2026-10-18T07:30:44.172Z",
+    "to": "2026-10-19T09:30:44.172Z"
+  },
+  "sources": {
+    "total": 64,
+    "ok": 62,
+    "failed": [
+      "import-ai",
+      "addy-osmani"
+    ]
+  },
+  "stories": [
+    {
+      "id": "8xdnepwu04",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "host": "anthropic.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-news",
+        "name": "Anthropic News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 43.5,
+      "reasons": [
+        "57 points · 47 comments on Hacker News",
+        "Official announcement"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50143755",
+        "points": 57,
+        "comments": 47
+      }
+    },
+    {
+      "id": "puwv67qhi2",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "host": "huggingface.co",
+      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other.",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 42.8,
+      "reasons": [
+        "669 upvotes on Hugging Face",
+        "Matched: Distillation"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 669,
+        "arxivId": "2610.21601"
+      }
+    },
+    {
+      "id": "8fy8bi33k4",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "host": "api-docs.deepseek.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:50:36.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 41.8,
+      "reasons": [
+        "572 points · 269 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50138531",
+        "points": 572,
+        "comments": 269
+      }
+    },
+    {
+      "id": "ls3hb60yl9",
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "url": "https://huggingface.co/papers/2610.18829",
+      "host": "huggingface.co",
+      "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding.",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 41.2,
+      "reasons": [
+        "579 upvotes on Hugging Face",
+        "Matched: large language models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 579,
+        "arxivId": "2610.18829"
+      }
+    },
+    {
+      "id": "jcxlhosvqm",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "host": "arxiv.org",
+      "summary": "",
+      "publishedAt": "2026-10-18T20:48:14.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 40.5,
+      "reasons": [
+        "385 points · 187 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50145337",
+        "points": 385,
+        "comments": 187
+      }
+    },
+    {
+      "id": "eieihpiaq4",
+      "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "url": "https://huggingface.co/papers/2610.22200",
+      "host": "huggingface.co",
+      "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces.",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 35,
+      "reasons": [
+        "318 upvotes on Hugging Face",
+        "Matched: Computer Use"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 318,
+        "arxivId": "2610.22200"
+      }
+    },
+    {
+      "id": "k7oqus7rv8",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "url": "https://huggingface.co/papers/2610.22276",
+      "host": "huggingface.co",
+      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 35,
+      "reasons": [
+        "388 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 388,
+        "arxivId": "2610.22276"
+      }
+    },
+    {
+      "id": "iyop25le1i",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "host": "tomshardware.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:30:27.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 34.4,
+      "reasons": [
+        "162 points · 165 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50141429",
+        "points": 162,
+        "comments": 165
+      }
+    },
+    {
+      "id": "6vir8lb5bv",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
+      "host": "huggingface.co",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints.",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 33.9,
+      "reasons": [
+        "284 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 284,
+        "arxivId": "2610.22350"
+      }
+    },
+    {
+      "id": "e6fkhi8na8",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "host": "theverge.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:58:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 33,
+      "reasons": [
+        "139 points · 138 comments on Hacker News",
+        "Matched: AI agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50141657",
+        "points": 139,
+        "comments": 138
+      }
+    },
+    {
+      "id": "omte15hmiv",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "host": "jrdsgl.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 32.7,
+      "reasons": [
+        "163 points · 110 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50145507",
+        "points": 163,
+        "comments": 110
+      }
+    },
+    {
+      "id": "psv0jqw1qr",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "host": "technologyreview.com",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 31.9,
+      "reasons": [
+        "Matched: Claude, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "oqi8ptedk6",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "host": "sphinx-six-theta.vercel.app",
+      "summary": "",
+      "publishedAt": "2026-10-18T04:33:49.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.7,
+      "reasons": [
+        "246 points · 86 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50137950",
+        "points": 246,
+        "comments": 86
+      }
+    },
+    {
+      "id": "nez6c7yyyd",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "host": "artificialanalysis.ai",
+      "summary": "",
+      "publishedAt": "2026-10-19T04:41:46.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 31.1,
+      "reasons": [
+        "137 points · 46 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50148452",
+        "points": 137,
+        "comments": 46
+      }
+    },
+    {
+      "id": "dud6amd14z",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "host": "blog.picheta.me",
+      "summary": "",
+      "publishedAt": "2026-10-17T22:26:47.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 30.8,
+      "reasons": [
+        "185 points · 126 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50135762",
+        "points": 185,
+        "comments": 126
+      }
+    },
+    {
+      "id": "g1364ol7ay",
+      "title": "Q&A with Nvidia's Vera team on agentic AI driving CPU demands and forcing CPU design priority back to single-threaded performance over core counts, and more",
+      "url": "https://wccftech.com/exclusive-nvidia-vera-team-says-chiplet-designs-sacrificed-single-threaded-performance-for-core-counts-and-agentic-ai-is-now-forcing-a-reversal/",
+      "host": "wccftech.com",
+      "summary": "NVIDIA's Vera CPU heralds a redefinition of computing architecture from a traditional, task-isolated paradigm to an orchestrated…",
+      "publishedAt": "2026-10-19T09:15:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 29.9,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "mbtkczimq5",
+      "title": "Stripe Link data shows agentic transactions increased by 38x and volume of payments by 20x in September, with retail leading in both, and a ~$100 average spend",
+      "url": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend",
+      "host": "upstartsmedia.com",
+      "summary": "Every time a new AI assistant tool launches, seemingly every week, it announces it's handling checkout and payments through Stripe's tool, Link.",
+      "publishedAt": "2026-10-19T05:20:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "m74fg6v69x",
+      "title": "China's GDP is set to grow 4.5% YoY in Q3, up from Q2's three-year-low growth rate of 4.3%, as AI-driven exports helped offset weak domestic spending",
+      "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo",
+      "host": "bbc.com",
+      "summary": "China's economic growth picked up in the three months to the end of September, rebounding from a three-year low as the artificial intelligence (AI) boom helped boost exports.",
+      "publishedAt": "2026-10-19T03:30:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "i3p8qrwuta",
+      "title": "CyberSN: US cybersecurity job postings fell 26.4% YoY to a four-year low of ~236K roles from January to September; AI security engineer demand soared by 200%+",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "host": "securityweek.com",
+      "summary": "CyberSN's Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It's a mixed bag.",
+      "publishedAt": "2026-10-19T08:00:46.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "i86rmf1eaw",
+      "title": "AI's ability to forecast extreme weather faces a major test in the coming months amid a historic El Niño, as some scientists question the tech's accuracy",
+      "url": "https://www.ft.com/content/60bffbe3-f7aa-4813-b657-a31087e7b116?accessToken=zwAAAaFPPIA3kc9gv_vj96pIE9O2V6MQh-exFg.MEUCIQC302L7LYN0b4H7cc56Qhao045gUhnaQ5lY3hVqofsapwIgMamrT5GOqYwTANyeaAe4bKrPLm98_aPRWRc0jHYm4pk&sharetype=gift&token=47f0afa3-f0b0-49cc-8bef-ffb2288a135f",
+      "host": "ft.com",
+      "summary": "The technology is being used to anticipate everything from forest fires to futures contracts. Some fear that's a mistake",
+      "publishedAt": "2026-10-19T06:25:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "j6ikxjibtf",
+      "title": "Survey of 94 economists: 54% expect AI's gains to spread across the G20 over the next decade, not just the US and China; 32 see African countries falling behind",
+      "url": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a",
+      "host": "ft.com",
+      "summary": "Poll of 94 economists points to benefits reaching far beyond the US and China",
+      "publishedAt": "2026-10-19T05:45:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "1llj86uzae",
+      "title": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869",
+      "host": "theblock.co",
+      "summary": "The identity project co-founded by OpenAI CEO Sam Altman named Bain Capital and VanEck Funds among its design partners but did not name…",
+      "publishedAt": "2026-10-19T03:10:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.5,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "9moxeqxa1e",
+      "title": "Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment",
+      "url": "https://www.ft.com/",
+      "host": "ft.com",
+      "summary": "Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment",
+      "publishedAt": "2026-10-19T01:40:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "a4kfrbt4x0",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "host": "arstechnica.com",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "publishedAt": "2026-10-18T16:25:19.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.1,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "s0wnfhch6j",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "3x4mbk5itj",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "host": "techcrunch.com",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "publishedAt": "2026-10-18T16:30:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "lspxcdturx",
+      "title": "What requirements don't you have?",
+      "url": "https://seangoedecke.com/what-requirements-dont-you-have/",
+      "host": "seangoedecke.com",
+      "summary": "When designing software, the requirements you don’t have are as important as the requirements you do. Identifying what you can compromise on — what can be slow, or stale, or inflexible — is usually the key to an elegant design.",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 23.8,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "2befie2d2x",
+      "title": "Claude Code 2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "host": "github.com",
+      "summary": "Bug fixes and reliability improvements",
+      "publishedAt": "2026-10-18T22:26:54.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 23.4,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.303"
+      }
+    },
+    {
+      "id": "pzb9vzgslv",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "host": "theverge.com",
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front…",
+      "publishedAt": "2026-10-18T18:28:10.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "nircacowel",
+      "title": "Writing is no longer proof of work",
+      "url": "https://seangoedecke.com/writing-is-no-longer-proof-of-work/",
+      "host": "seangoedecke.com",
+      "summary": "Tech companies structurally depend on writing to serve as evidence, in the same way that Bitcoin depends on proof-of-work hashing. However, in the last few years, LLMs have started to undermine this practice. How can writing be like proof-of-work? When I’m writing something at work, it’s not always to communicate an idea.",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 22,
+      "reasons": [
+        "From a followed writer",
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "938s9p3gch",
+      "title": "AI’s epic cash call is matched only by its ability to strangle revenue streams",
+      "url": "https://www.theregister.com/columnists/2026/10/19/ais-epic-cash-call-is-matched-only-by-its-ability-to-strangle-revenue-streams/5303493",
+      "host": "theregister.com",
+      "summary": "The first technology created with a self-disrupt button... But why oh why didn't they call Claude clone Fauxtoshop?",
+      "publishedAt": "2026-10-19T08:30:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.8,
+      "reasons": [
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "jzdpifwkx9",
+      "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where reliable training data is scarce.",
+      "publishedAt": "2026-10-18T09:11:29.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 18.4,
+      "reasons": [
+        "Matched: Anthropic, AI agents, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "o0ocwg7q7n",
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the cognitive commons\": if junior positions disappear, experienced specialists will be in short supply down the road.",
+      "publishedAt": "2026-10-18T13:22:26.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.4,
+      "reasons": [
+        "Matched: Anthropic, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "2whwb7illn",
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "host": "the-decoder.com",
+      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620.",
+      "publishedAt": "2026-10-18T12:39:51.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 17.2,
+      "reasons": [
+        "Matched: Gemini, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "nbg8ic49mi",
+      "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+      "host": "the-decoder.com",
+      "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help.",
+      "publishedAt": "2026-10-18T08:49:41.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 16.3,
+      "reasons": [
+        "Matched: AI agents, GPT-5"
+      ],
+      "also": []
+    },
+    {
+      "id": "cktr0vy27q",
+      "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
+      "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+      "host": "the-decoder.com",
+      "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secured the refund, but the researcher warns of \"agentic flooding\" if these assistants are deployed at scale.",
+      "publishedAt": "2026-10-18T08:15:04.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 16.2,
+      "reasons": [
+        "Matched: AI agents, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "7e2ams5tcj",
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "host": "the-decoder.com",
+      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else.",
+      "publishedAt": "2026-10-18T10:52:39.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 12.8,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    }
+  ]
+}
