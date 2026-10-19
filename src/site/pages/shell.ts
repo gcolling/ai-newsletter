@@ -18,7 +18,7 @@ export function topbar(current: Place): Html {
   const link = (path: string, label: string, id: Place, attrs: Html | "" = "") =>
     html`<a href="${href(path)}"${id === current ? html` aria-current="page"` : ""}${attrs}>${label}</a>`;
   return html`<header class="topbar">
-<a class="brand" href="${href()}"><img src="${assets.icon}" alt="" width="22" height="22">${site.name}</a>
+<a class="brand" href="${href()}" translate="no"><img src="${assets.icon}" alt="" width="22" height="22">${site.name}</a>
 <nav class="site-nav" aria-label="Site">
 ${link("", "Today", "today")}${link("week/", "This week", "week")}${link("saved/", "Saved", "saved", html` data-saved-link`)}${link("archive/", "Archive", "archive")}${link("about/", "How it works", "about")}
 </nav>
@@ -41,7 +41,7 @@ export function shell(content: Html, current: Place, hero: Hero): Html {
 <h1 class="hero-title">${hero.title}</h1>
 <p class="hero-lede">${hero.lede}</p>
 </header>
-<main class="doc-main">
+<main class="doc-main" id="main" tabindex="-1">
 ${content}
 </main>
 <footer class="doc-foot"><p>${site.tagline} <a href="${site.repo}">Source on GitHub</a>.</p></footer>
