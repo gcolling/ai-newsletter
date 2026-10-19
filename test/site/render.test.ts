@@ -47,6 +47,15 @@ describe("issue page", () => {
     }
   });
 
+  it("shows day arrows only when there is another issue to go to", async () => {
+    const issue = await fixture("2026-10-18");
+    const older = await fixture("2026-10-17");
+    assert.ok(!issuePage(issue, {}, true).includes("day-nav"));
+    const page = issuePage(issue, { older }, true);
+    assert.ok(page.includes('rel="prev"'));
+    assert.ok(page.includes('class="day-arrow off"'));
+  });
+
   it("keeps release notes out of the top stories", async () => {
     const issue = await fixture("2026-10-18");
     const top = topStories(issue);

@@ -344,10 +344,12 @@ html,
   background: var(--ink);
   color: var(--canvas);
 }
+/* No issue that way: dimmed, and inert so it gets no hover or press. */
 .day-arrow.off {
   opacity: 0.35;
   background: none;
   box-shadow: none;
+  pointer-events: none;
 }
 .day-date {
   color: var(--soft);
