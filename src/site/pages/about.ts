@@ -137,18 +137,18 @@ ${topics.map((t) => html`<li style="--c:${t.color}"><a href="${href(`feeds/${t.i
 
 <section id="yours">
 <h2 class="doc-h2">Make it yours</h2>
-<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Watch words</b>, also under Edit, mark every story that mentions them and collect them under Watching. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. Drag the dividers between columns to resize them. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
+<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Watch words</b>, also under Edit, mark every story that mentions them and collect them under Watching. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. Drag the dividers between columns to resize them. <b>Hide read</b> keeps only stories you haven’t seen, across days, so This week after time off shows just what you missed; <b>Mark all read</b> clears a view in one go. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
 </section>
 
 <section id="keyboard">
 <h2 class="doc-h2">Keyboard</h2>
 <dl class="keys-list">
-<div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>Next and previous story</dd></div>
+<div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>Next and previous story (or scroll over the story card)</dd></div>
 <div><dt><kbd>O</kbd></dt><dd>Open the story in a new tab</dd></div>
 <div><dt><kbd>S</kbd></dt><dd>Save the story for later</dd></div>
 <div><dt><kbd>F</kbd></dt><dd>Focus: one story per screen</dd></div>
-<div><dt><kbd>/</kbd></dt><dd>Filter the list by any word</dd></div>
-<div><dt><kbd>Esc</kbd></dt><dd>Leave focus or clear the filter</dd></div>
+<div><dt><kbd>/</kbd></dt><dd>Search every story on the page</dd></div>
+<div><dt><kbd>Esc</kbd></dt><dd>Leave focus or clear the search</dd></div>
 </dl>
 </section>
 

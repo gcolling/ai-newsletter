@@ -200,11 +200,12 @@ ${rail(issue, top, opts)}
 <section class="list" aria-labelledby="view-title">
 <header class="list-head"><h2 id="view-title">Top stories</h2><span data-view-meta>${top.length} · ${readingTime(top.length)}</span></header>
 ${mentionsStrip(opts.mentions, opts.mentionsLabel)}
-<label class="search"><span class="sr-only">Filter stories</span><input type="search" data-search placeholder="Filter stories" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+<label class="search"><span class="sr-only">Search stories</span><input type="search" data-search placeholder="${opts.kind === "week" ? "Search this week" : "Search today’s stories"}" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+<div class="list-tools"><button class="tool" type="button" data-hide-read aria-pressed="false">Hide read</button><button class="tool" type="button" data-mark-all>Mark all read</button></div>
 <ol class="rows">
 ${issue.stories.map((s) => row(s, topIds))}
 </ol>
-<p class="list-empty" hidden>Nothing matches. Try another view or clear the filter.</p>
+<p class="list-empty" data-empty hidden>Nothing here.</p>
 </section>
 <div class="splitter" data-split="list" role="separator" aria-orientation="vertical" aria-label="Resize the story list" tabindex="0"></div>
 <main class="stage" aria-label="Story">
