@@ -148,20 +148,18 @@
   // Theme: Auto follows the system; Light and Dark are remembered. The head script applies a saved
   // choice before first paint, so this only keeps the button and the attribute in step.
   function setUpTheme() {
-    const order = ["auto", "light", "dark"];
-    const label = { auto: "Auto", light: "Light", dark: "Dark" };
-    let theme = order.includes(document.documentElement.dataset.theme)
+    let theme = ["light", "dark"].includes(document.documentElement.dataset.theme)
       ? document.documentElement.dataset.theme
       : "auto";
-    const buttons = document.querySelectorAll("[data-theme-toggle]");
+    const buttons = document.querySelectorAll("[data-theme-set]");
     const paint = () => {
       if (theme === "auto") delete document.documentElement.dataset.theme;
       else document.documentElement.dataset.theme = theme;
-      for (const b of buttons) b.textContent = `Theme: ${label[theme]}`;
+      for (const b of buttons) b.setAttribute("aria-pressed", String(b.dataset.themeSet === theme));
     };
     for (const b of buttons) {
       b.addEventListener("click", () => {
-        theme = order[(order.indexOf(theme) + 1) % order.length];
+        theme = b.dataset.themeSet;
         try {
           if (theme === "auto") localStorage.removeItem("theme");
           else localStorage.setItem("theme", theme);
@@ -314,7 +312,13 @@
         button.textContent = on ? "Saved" : "Save";
         button.setAttribute("aria-pressed", String(on));
       }
-      document.getElementById(`r-${id}`)?.classList.toggle("is-saved", on);
+      const row = document.getElementById(`r-${id}`);
+      row?.classList.toggle("is-saved", on);
+      const rowButton = row?.querySelector("[data-row-save]");
+      if (rowButton) {
+        rowButton.setAttribute("aria-pressed", String(on));
+        rowButton.setAttribute("aria-label", on ? "Remove from saved" : "Save story");
+      }
     }
 
     function toggleSave(id) {
@@ -596,6 +600,8 @@
         if (narrow.matches) setFocus(true);
         return;
       }
+      const rowSave = target.closest("[data-row-save]");
+      if (rowSave) return toggleSave(rowSave.closest(".row").dataset.id);
       if (target.closest("[data-edit-topics]")) return setEditing(!editing());
       const link = target.closest("[data-view]");
       if (link) {

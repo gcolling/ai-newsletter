@@ -1,13 +1,16 @@
 import { site } from "../../config.ts";
+import { type GlyphName, glyph } from "../glyphs.ts";
 import { type Html, html } from "../html.ts";
 import { assets, href } from "../layout.ts";
 
 /** Which top-bar link is the current page, if any. */
 export type Place = "today" | "week" | "saved" | "archive" | "about" | "";
 
-/** Cycles Auto → Light → Dark. The label is filled in by the script; Auto is the no-JS truth. */
+/** Three icons, the current one pressed: follow the system, light, dark. Needs the script. */
 export function themeToggle(): Html {
-  return html`<button class="theme-toggle" type="button" data-theme-toggle>Theme: Auto</button>`;
+  const option = (value: string, label: string, icon: GlyphName) =>
+    html`<button type="button" data-theme-set="${value}" aria-pressed="${value === "auto" ? "true" : "false"}" aria-label="${label}" title="${label}">${glyph(icon)}</button>`;
+  return html`<div class="theme-switch" role="group" aria-label="Theme">${option("auto", "Match your system", "monitor")}${option("light", "Light", "sun")}${option("dark", "Dark", "moon")}</div>`;
 }
 
 /** The same bar on every page: where you are, where you can go, and the theme. */

@@ -114,19 +114,44 @@ kbd {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-.theme-toggle {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--soft);
-  padding: 5px 10px;
+/* Outlined icons follow the text color. */
+.glyph {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
   border-radius: 99px;
   background: var(--pane);
   box-shadow: var(--lift);
 }
-.theme-toggle:hover {
+.theme-switch button {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--soft);
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.theme-switch button:hover {
   color: var(--ink);
 }
-.no-js .theme-toggle,
+.theme-switch button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--canvas);
+}
+.no-js .theme-switch,
+.no-js .row-save,
 .no-js .search,
 .no-js .group-edit {
   display: none;
@@ -180,9 +205,6 @@ kbd {
   color: var(--ink);
   background: var(--pane);
   box-shadow: var(--lift);
-}
-.theme-toggle {
-  white-space: nowrap;
 }
 
 /* ── Reader: three panes ──────────────────────────────────────────── */
@@ -776,10 +798,48 @@ html,
     padding: 10px 14px;
   }
 }
-.row.is-saved .row-meta::after {
-  content: " · Saved";
-  color: var(--soft);
-  font-weight: 600;
+/* Save straight from the list: a bookmark at the row's corner, filled once saved. */
+.row {
+  position: relative;
+}
+.row-link {
+  padding-right: 40px;
+}
+.row-save {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  color: var(--faint);
+  opacity: 0;
+  transition:
+    opacity 0.15s,
+    color 0.15s,
+    background 0.15s;
+}
+.row:hover .row-save,
+.row-save:focus-visible,
+.row-save[aria-pressed="true"] {
+  opacity: 1;
+}
+.row-save:hover {
+  color: var(--ink);
+  background: var(--hover);
+}
+.row-save[aria-pressed="true"] {
+  color: var(--ink);
+}
+.row-save[aria-pressed="true"] .glyph {
+  fill: currentColor;
+}
+@media (hover: none) {
+  .row-save {
+    opacity: 1;
+  }
 }
 
 /* Up next: the following stories in this view, ready to pick. */

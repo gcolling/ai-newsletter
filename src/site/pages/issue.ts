@@ -13,6 +13,7 @@ import {
   timeUtc,
   weekday,
 } from "../format.ts";
+import { glyph } from "../glyphs.ts";
 import { type Html, html, safeUrl } from "../html.ts";
 import { href, layout } from "../layout.ts";
 import { type Mention, termsOf, topMentions } from "../mentions.ts";
@@ -84,6 +85,7 @@ function row(story: Story, top: Set<string>): Html {
 <span class="row-title">${story.title}</span>
 <span class="row-meta"><time datetime="${story.publishedAt}">${stamp(story.publishedAt)}</time>${extra ? ` · ${extra}` : ""}</span>
 </a>
+<button class="row-save" type="button" data-row-save aria-pressed="false" aria-label="Save story" title="Save for later (S)">${glyph("bookmark")}</button>
 </li>`;
 }
 

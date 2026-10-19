@@ -29,10 +29,14 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request)
+      // "no-cache" revalidates with the server every time (a cheap 304 when nothing changed), so a
+      // new deploy shows on the next load instead of after the host's 10-minute cache.
+      // A navigation request can't be re-issued with options, hence the URL.
+      fetch(request.url, { cache: "no-cache", credentials: "same-origin" })
         .then((response) => {
-          // Only a real page is worth keeping as the offline copy, never an error or a redirect.
-          if (response.ok && !response.redirected && response.type === "basic") {
+          if (response.redirected) return Response.redirect(response.url, 302);
+          // Only a real page is worth keeping as the offline copy, never an error.
+          if (response.ok && response.type === "basic") {
             const copy = response.clone();
             caches.open(CACHE).then((cache) => cache.put(request, copy));
           }
