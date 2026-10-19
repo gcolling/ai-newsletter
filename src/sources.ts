@@ -290,8 +290,8 @@ export const sources: Source[] = [
   {
     id: "import-ai",
     name: "Import AI (Jack Clark)",
-    homepage: "https://importai.substack.com/",
-    feed: "https://importai.substack.com/feed",
+    homepage: "https://jack-clark.net/",
+    feed: "https://jack-clark.net/feed/",
     format: "rss",
     section: "essays",
     weight: 2,
@@ -326,9 +326,9 @@ export const sources: Source[] = [
   },
   {
     id: "addy-osmani",
-    name: "Elevate (Addy Osmani)",
-    homepage: "https://addyo.substack.com/",
-    feed: "https://addyo.substack.com/feed",
+    name: "Addy Osmani",
+    homepage: "https://addyosmani.com/",
+    feed: "https://addyosmani.com/rss.xml",
     format: "rss",
     section: "essays",
     weight: 2,
