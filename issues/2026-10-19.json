@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T14:37:28.163Z",
+  "generatedAt": "2026-10-19T15:18:49.764Z",
   "window": {
-    "from": "2026-10-18T12:37:23.489Z",
-    "to": "2026-10-19T14:37:23.489Z"
+    "from": "2026-10-18T13:18:45.963Z",
+    "to": "2026-10-19T15:18:45.963Z"
   },
   "sources": {
     "total": 72,
@@ -77,7 +77,7 @@
       "topic": "models",
       "score": 42.1,
       "reasons": [
-        "585 points · 273 comments on Hacker News",
+        "585 points · 274 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
@@ -85,7 +85,7 @@
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50138531",
         "points": 585,
-        "comments": 273
+        "comments": 274
       }
     },
     {
@@ -103,15 +103,15 @@
       "topic": "agents",
       "score": 41.4,
       "reasons": [
-        "464 points · 224 comments on Hacker News",
+        "473 points · 225 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 464,
-        "comments": 224
+        "points": 473,
+        "comments": 225
       }
     },
     {
@@ -139,29 +139,6 @@
       }
     },
     {
-      "id": "k7oqus7rv8",
-      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-      "url": "https://huggingface.co/papers/2610.22276",
-      "host": "huggingface.co",
-      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "source": {
-        "id": "hf-papers",
-        "name": "Hugging Face Papers"
-      },
-      "section": "papers",
-      "topic": "research",
-      "score": 37.1,
-      "reasons": [
-        "475 upvotes on Hugging Face"
-      ],
-      "also": [],
-      "paper": {
-        "upvotes": 475,
-        "arxivId": "2610.22276"
-      }
-    },
-    {
       "id": "6s71mti7z5",
       "title": "Timestral: Mistral release time-series foundation models",
       "url": "https://mistral.ai/news/timestral/",
@@ -174,17 +151,40 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 36.3,
+      "score": 37.5,
       "reasons": [
-        "220 points · 44 comments on Hacker News",
+        "266 points · 45 comments on Hacker News",
         "Matched: Mistral, foundation models"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50150434",
-        "points": 220,
-        "comments": 44
+        "points": 266,
+        "comments": 45
+      }
+    },
+    {
+      "id": "k7oqus7rv8",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "url": "https://huggingface.co/papers/2610.22276",
+      "host": "huggingface.co",
+      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar…",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 37.4,
+      "reasons": [
+        "486 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 486,
+        "arxivId": "2610.22276"
       }
     },
     {
@@ -200,17 +200,17 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 35.6,
+      "score": 36,
       "reasons": [
-        "244 points · 164 comments on Hacker News",
+        "255 points · 174 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145507",
-        "points": 244,
-        "comments": 164
+        "points": 255,
+        "comments": 174
       }
     },
     {
@@ -273,7 +273,7 @@
       },
       "section": "community",
       "topic": "policy",
-      "score": 33.4,
+      "score": 33.3,
       "reasons": [
         "166 points · 165 comments on Hacker News",
         "Matched: Anthropic"
@@ -299,7 +299,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 33.2,
+      "score": 33,
       "reasons": [
         "Matched: AI Agents, small language models, LLM"
       ],
@@ -318,37 +318,11 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 32.9,
+      "score": 32.8,
       "reasons": [
         "Matched: Gemma, open-weight, embedding"
       ],
       "also": []
-    },
-    {
-      "id": "e6fkhi8na8",
-      "title": "Websites are closing their doors to AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "host": "theverge.com",
-      "summary": "",
-      "publishedAt": "2026-10-18T14:58:10.000Z",
-      "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
-      },
-      "section": "community",
-      "topic": "agents",
-      "score": 32.4,
-      "reasons": [
-        "152 points · 139 comments on Hacker News",
-        "Matched: AI agents"
-      ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50141657",
-        "points": 152,
-        "comments": 139
-      }
     },
     {
       "id": "nez6c7yyyd",
@@ -363,17 +337,43 @@
       },
       "section": "community",
       "topic": "models",
-      "score": 32.3,
+      "score": 32.4,
       "reasons": [
-        "171 points · 69 comments on Hacker News",
+        "173 points · 72 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50148452",
-        "points": 171,
-        "comments": 69
+        "points": 173,
+        "comments": 72
+      }
+    },
+    {
+      "id": "e6fkhi8na8",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "host": "theverge.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:58:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 32.2,
+      "reasons": [
+        "152 points · 139 comments on Hacker News",
+        "Matched: AI agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50141657",
+        "points": 152,
+        "comments": 139
       }
     },
     {
@@ -391,14 +391,14 @@
       "topic": "tools",
       "score": 31.8,
       "reasons": [
-        "248 points · 87 comments on Hacker News"
+        "248 points · 88 comments on Hacker News"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50137950",
         "points": 248,
-        "comments": 87
+        "comments": 88
       }
     },
     {
@@ -414,7 +414,7 @@
       },
       "section": "news",
       "topic": "research",
-      "score": 30.7,
+      "score": 30.6,
       "reasons": [
         "Matched: Claude, AI agents"
       ],
@@ -433,7 +433,7 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 30,
+      "score": 29.8,
       "reasons": [
         "Matched: DeepSeek"
       ],
@@ -452,9 +452,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 29.9,
+      "score": 29.8,
       "reasons": [
         "Matched: Anthropic, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "mhqf4s7ji4",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "host": "theverge.com",
+      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown…",
+      "publishedAt": "2026-10-19T13:58:41.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: AI agents"
       ],
       "also": []
     },
@@ -471,7 +490,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.7,
+      "score": 29.6,
       "reasons": [
         "Matched: AI agents"
       ],
@@ -490,7 +509,7 @@
       },
       "section": "automation",
       "topic": "automation",
-      "score": 29.7,
+      "score": 29.6,
       "reasons": [
         "Matched: n8n"
       ],
@@ -509,7 +528,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.5,
+      "score": 29.4,
       "reasons": [
         "Matched: AI agents"
       ],
@@ -528,7 +547,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.2,
+      "score": 29,
       "reasons": [
         "Matched: agentic"
       ],
@@ -547,47 +566,86 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 29.1,
+      "score": 29,
       "reasons": [
         "Matched: Anthropic"
       ],
       "also": []
     },
     {
-      "id": "2whwb7illn",
-      "title": "Google DeepMind says four Gemini 4 Argon agents beat Minecraft without any human help in 27 hours and 14 minutes, costing $1,620 at Argon's planned 2027 price",
-      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-      "host": "the-decoder.com",
-      "summary": "The Google Deepmind team dropped the agents into a randomly generated world without assigning roles, strategies, or game-specific tools.",
-      "publishedAt": "2026-10-19T10:30:01.000Z",
+      "id": "gd4djcepdx",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "host": "anthropic.com",
+      "summary": "As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
       "source": {
-        "id": "techmeme",
-        "name": "Techmeme"
+        "id": "claude-blog",
+        "name": "Claude blog"
       },
-      "section": "news",
+      "section": "labs",
       "topic": "agents",
-      "score": 29,
+      "score": 28.5,
       "reasons": [
-        "Matched: DeepMind, Gemini"
+        "Official announcement",
+        "Matched: Anthropic"
       ],
       "also": []
     },
     {
-      "id": "fxfc26eeyd",
-      "title": "Survey: the chatbot gender adoption gap among US adults has closed since 2024, though men are more likely to use them daily; ChatGPT has identical use rates",
-      "url": "https://www.pewresearch.org/short-reads/2026/10/16/the-gender-gap-in-ai/",
-      "host": "pewresearch.org",
-      "summary": "Note: This analysis is an excerpt from a broader June 2026 study about Americans and artificial intelligence.",
-      "publishedAt": "2026-10-19T10:15:00.000Z",
+      "id": "j4kxvwil3l",
+      "title": "The US DHS orders all federal civilian agencies to remove any DeepSeek tech from their IT systems and prohibits future procurement of its products and services",
+      "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d?st=m6DV2n&reflink=desktopwebshare_permalink",
+      "host": "wsj.com",
+      "summary": "The Department of Homeland Security has ordered federal civilian agencies to remove artificial-intelligence technology developed…",
+      "publishedAt": "2026-10-19T14:55:01.000Z",
       "source": {
         "id": "techmeme",
         "name": "Techmeme"
       },
       "section": "news",
       "topic": "models",
-      "score": 29,
+      "score": 27.9,
       "reasons": [
-        "Matched: ChatGPT"
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "l07q665d7n",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "host": "arstechnica.com",
+      "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+      "publishedAt": "2026-10-19T14:45:43.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "tm6f5cjwq9",
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "host": "theverge.com",
+      "summary": "Today, I’m talking with Illinois Governor JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming…",
+      "publishedAt": "2026-10-19T14:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
       ],
       "also": []
     },
@@ -604,7 +662,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 28,
+      "score": 27.8,
       "reasons": [
         "Matched: OpenAI"
       ],
@@ -623,7 +681,7 @@
       },
       "section": "essays",
       "topic": "research",
-      "score": 27.5,
+      "score": 27.4,
       "reasons": [
         "From a followed writer"
       ],
@@ -642,7 +700,26 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 27.4,
+      "score": 27.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "gsg2y4yyhq",
+      "title": "Character.AI's Chapter 11 court filings indicate a two-part deal with Disney to transfer talent and tech, shielding Disney from Character.AI's legal liabilities",
+      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "host": "wired.com",
+      "summary": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens…",
+      "publishedAt": "2026-10-19T11:10:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27,
       "reasons": [
         "Solid source"
       ],
@@ -661,7 +738,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 24.9,
+      "score": 24.7,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -680,7 +757,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 23.8,
+      "score": 23.7,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -699,7 +776,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 22.9,
+      "score": 22.7,
       "reasons": [
         "Solid source"
       ],
@@ -718,7 +795,7 @@
       },
       "section": "essays",
       "topic": "tools",
-      "score": 22.6,
+      "score": 22.5,
       "reasons": [
         "From a followed writer"
       ],
@@ -737,7 +814,7 @@
       },
       "section": "automation",
       "topic": "automation",
-      "score": 22.6,
+      "score": 22.5,
       "reasons": [
         "Solid source"
       ],
@@ -756,7 +833,7 @@
       },
       "section": "releases",
       "topic": "tools",
-      "score": 22.3,
+      "score": 22.1,
       "reasons": [
         "New release",
         "Matched: Claude"
@@ -788,6 +865,26 @@
       "also": []
     },
     {
+      "id": "4bbyns986q",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "host": "blogs.nvidia.com",
+      "summary": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration…",
+      "publishedAt": "2026-10-19T15:00:31.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 21.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Agentic"
+      ],
+      "also": []
+    },
+    {
       "id": "pzb9vzgslv",
       "title": "A woman was arrested in Philly for blocking a delivery robot",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
@@ -800,7 +897,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 21.3,
+      "score": 21.2,
       "reasons": [
         "Solid source"
       ],
@@ -819,7 +916,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 19.6,
+      "score": 19.4,
       "reasons": [
         "Matched: AI agent"
       ],
@@ -838,7 +935,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.2,
+      "score": 19.1,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -857,9 +954,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 18.6,
+      "score": 18.4,
       "reasons": [
         "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "7e2ams5tcj",
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "host": "the-decoder.com",
+      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else.",
+      "publishedAt": "2026-10-19T14:54:39.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 17.9,
+      "reasons": [
+        "Useful source"
       ],
       "also": []
     },
@@ -876,7 +992,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 17.5,
+      "score": 17.3,
       "reasons": [
         "Useful source"
       ],
@@ -895,7 +1011,7 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 17.3,
+      "score": 17.1,
       "reasons": [
         "Useful source"
       ],
@@ -914,9 +1030,28 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 16.2,
+      "score": 16,
       "reasons": [
         "Matched: Anthropic, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "k4dgxgparv",
+      "title": "Context Graph Makes Haiku 5.5 23% faster, for 19% less money, in fewer steps",
+      "url": "https://blog.postman.com/context-graph-makes-haiku-5-5-23-faster-for-19-less-money-in-fewer-steps/",
+      "host": "blog.postman.com",
+      "summary": "We ran 17 questions across 802 repos with and without the Context Graph. Haiku 5.5 was 19% cheaper and 23% faster. See the full benchmark.",
+      "publishedAt": "2026-10-19T15:00:01.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "research",
+      "score": 15.9,
+      "reasons": [
+        "Useful source"
       ],
       "also": []
     },
@@ -933,7 +1068,7 @@
       },
       "section": "releases",
       "topic": "agents",
-      "score": 14,
+      "score": 13.8,
       "reasons": [
         "New release",
         "Matched: OpenHands"
