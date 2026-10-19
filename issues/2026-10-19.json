@@ -1,10 +1,10 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T11:52:36.298Z",
+  "generatedAt": "2026-10-19T12:07:38.929Z",
   "window": {
-    "from": "2026-10-18T09:52:32.325Z",
-    "to": "2026-10-19T11:52:32.325Z"
+    "from": "2026-10-18T10:07:34.594Z",
+    "to": "2026-10-19T12:07:34.594Z"
   },
   "sources": {
     "total": 64,
@@ -77,14 +77,14 @@
       "topic": "models",
       "score": 41.9,
       "reasons": [
-        "576 points · 271 comments on Hacker News",
+        "577 points · 271 comments on Hacker News",
         "Matched: DeepSeek"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50138531",
-        "points": 576,
+        "points": 577,
         "comments": 271
       }
     },
@@ -101,17 +101,17 @@
       },
       "section": "community",
       "topic": "agents",
-      "score": 41.2,
+      "score": 41.3,
       "reasons": [
-        "428 points · 212 comments on Hacker News",
+        "432 points · 214 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145337",
-        "points": 428,
-        "comments": 212
+        "points": 432,
+        "comments": 214
       }
     },
     {
@@ -151,13 +151,13 @@
       },
       "section": "papers",
       "topic": "research",
-      "score": 36,
+      "score": 36.1,
       "reasons": [
-        "427 upvotes on Hugging Face"
+        "431 upvotes on Hugging Face"
       ],
       "also": [],
       "paper": {
-        "upvotes": 427,
+        "upvotes": 431,
         "arxivId": "2610.22276"
       }
     },
@@ -198,17 +198,17 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 34.5,
+      "score": 34.6,
       "reasons": [
-        "201 points · 147 comments on Hacker News",
+        "203 points · 149 comments on Hacker News",
         "Matched: LLM"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50145507",
-        "points": 201,
-        "comments": 147
+        "points": 203,
+        "comments": 149
       }
     },
     {
@@ -273,7 +273,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 33.8,
+      "score": 33.7,
       "reasons": [
         "Matched: AI Agents, small language models, LLM"
       ],
@@ -292,37 +292,11 @@
       },
       "section": "news",
       "topic": "models",
-      "score": 33.6,
+      "score": 33.5,
       "reasons": [
         "Matched: Gemma, open-weight, embedding"
       ],
       "also": []
-    },
-    {
-      "id": "e6fkhi8na8",
-      "title": "Websites are closing their doors to AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "host": "theverge.com",
-      "summary": "",
-      "publishedAt": "2026-10-18T14:58:10.000Z",
-      "source": {
-        "id": "hacker-news",
-        "name": "Hacker News"
-      },
-      "section": "community",
-      "topic": "agents",
-      "score": 32.8,
-      "reasons": [
-        "147 points · 138 comments on Hacker News",
-        "Matched: AI agents"
-      ],
-      "also": [],
-      "discussion": {
-        "site": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50141657",
-        "points": 147,
-        "comments": 138
-      }
     },
     {
       "id": "dud6amd14z",
@@ -337,17 +311,43 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 32.7,
+      "score": 32.8,
       "reasons": [
-        "213 points · 167 comments on Hacker News",
+        "215 points · 169 comments on Hacker News",
         "Matched: LLMs"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50135762",
-        "points": 213,
-        "comments": 167
+        "points": 215,
+        "comments": 169
+      }
+    },
+    {
+      "id": "e6fkhi8na8",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "host": "theverge.com",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:58:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 32.7,
+      "reasons": [
+        "147 points · 138 comments on Hacker News",
+        "Matched: AI agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50141657",
+        "points": 147,
+        "comments": 138
       }
     },
     {
@@ -389,15 +389,15 @@
       },
       "section": "community",
       "topic": "tools",
-      "score": 31.7,
+      "score": 31.8,
       "reasons": [
-        "246 points · 86 comments on Hacker News"
+        "247 points · 86 comments on Hacker News"
       ],
       "also": [],
       "discussion": {
         "site": "Hacker News",
         "url": "https://news.ycombinator.com/item?id=50137950",
-        "points": 246,
+        "points": 247,
         "comments": 86
       }
     },
@@ -414,7 +414,7 @@
       },
       "section": "news",
       "topic": "research",
-      "score": 31.4,
+      "score": 31.3,
       "reasons": [
         "Matched: Claude, AI agents"
       ],
@@ -433,7 +433,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.8,
+      "score": 29.7,
       "reasons": [
         "Matched: agentic"
       ],
@@ -452,7 +452,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 29.8,
+      "score": 29.7,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -471,7 +471,7 @@
       },
       "section": "news",
       "topic": "agents",
-      "score": 29.7,
+      "score": 29.6,
       "reasons": [
         "Matched: DeepMind, Gemini"
       ],
@@ -509,9 +509,28 @@
       },
       "section": "news",
       "topic": "infra",
-      "score": 29.4,
+      "score": 29.3,
       "reasons": [
         "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "h3ykmavp4o",
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "host": "theverge.com",
+      "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That…",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 28,
+      "reasons": [
+        "Solid source"
       ],
       "also": []
     },
@@ -547,7 +566,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 27.5,
+      "score": 27.4,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -623,7 +642,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 24.5,
+      "score": 24.4,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -661,7 +680,7 @@
       },
       "section": "essays",
       "topic": "tools",
-      "score": 23.3,
+      "score": 23.2,
       "reasons": [
         "From a followed writer"
       ],
@@ -680,7 +699,7 @@
       },
       "section": "releases",
       "topic": "tools",
-      "score": 22.9,
+      "score": 22.8,
       "reasons": [
         "New release",
         "Matched: Claude"
@@ -690,25 +709,6 @@
         "repo": "anthropics/claude-code",
         "version": "2.1.303"
       }
-    },
-    {
-      "id": "pzb9vzgslv",
-      "title": "A woman was arrested in Philly for blocking a delivery robot",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-      "host": "theverge.com",
-      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front…",
-      "publishedAt": "2026-10-18T18:28:10.000Z",
-      "source": {
-        "id": "verge-ai",
-        "name": "The Verge - AI"
-      },
-      "section": "news",
-      "topic": "industry",
-      "score": 22,
-      "reasons": [
-        "Solid source"
-      ],
-      "also": []
     },
     {
       "id": "nircacowel",
@@ -731,6 +731,25 @@
       "also": []
     },
     {
+      "id": "pzb9vzgslv",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "host": "theverge.com",
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front…",
+      "publishedAt": "2026-10-18T18:28:10.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
       "id": "ro5qz030cz",
       "title": "Anthropic plans fund for workers threatened by AI, Musk counters with SpaceX shares for children",
       "url": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
@@ -743,7 +762,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 19.9,
+      "score": 19.8,
       "reasons": [
         "Matched: Anthropic"
       ],
@@ -800,7 +819,7 @@
       },
       "section": "news",
       "topic": "industry",
-      "score": 16.8,
+      "score": 16.7,
       "reasons": [
         "Matched: Anthropic, AI agents"
       ],
