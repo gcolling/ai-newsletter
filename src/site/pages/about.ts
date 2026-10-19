@@ -1,6 +1,6 @@
 import { site } from "../../config.ts";
 import { sources } from "../../sources.ts";
-import { topics } from "../../topics.ts";
+import { topicById, topics } from "../../topics.ts";
 import type { Issue, Section, Source } from "../../types.ts";
 import { dayMonth, outlet, plural } from "../format.ts";
 import { HEALTH_DAYS, type SourceHealth, sourceHealth } from "../health.ts";
@@ -66,18 +66,33 @@ export function aboutPage(issues: Issue[]): string {
           : ""
       }</p>`
     : "";
-  const content = html`<h1 class="doc-title">How it works</h1>
-<p class="doc-lede">Every morning, around 05:30 UTC, a script reads ${total} sources, keeps what is about AI, automation and integrations, and ranks it with plain rules you can read below. No language model picks, writes or summarises anything here.</p>
+  const sections: [string, string][] = [
+    ["steps", "The pipeline"],
+    ["ranking", "Ranking"],
+    ["topics", "Topics"],
+    ["sources", "Sources"],
+    ["feeds", "Feeds"],
+    ["yours", "Make it yours"],
+    ["keyboard", "Keyboard"],
+    ["privacy", "Privacy"],
+  ];
+  const content = html`<div class="about">
+<nav class="toc" aria-label="On this page">${sections.map(([id, label]) => html`<a href="#${id}">${label}</a>`)}</nav>
+<div class="about-body">
 
-<section class="steps">
-<div><h2>Read</h2><p>Official lab blogs, the tech press, practitioners’ newsletters, release notes from tools engineers use, Hacker News and Lobsters discussions, and the day’s most upvoted papers on Hugging Face.</p></div>
-<div><h2>Filter</h2><p>General feeds only get through when they match AI vocabulary: an LLM, an agent, MCP and so on. Deals, listicles and gaming news are dropped. Anything shown in the last seven days doesn’t come back.</p></div>
-<div><h2>Group</h2><p>When several outlets cover the same story, they fold into one card. The others are listed under “Also covered by”.</p></div>
-<div><h2>Rank</h2><p>Each story earns points from the signals below. The card shows which ones put it there, under “Why it’s here”.</p></div>
+<section id="steps">
+<h2 class="doc-h2">The pipeline</h2>
+<ol class="steps">
+<li><b>Read</b><p>Official lab blogs, the tech press, practitioners’ newsletters, release notes from tools engineers use, Hacker News and Lobsters discussions, and the day’s most upvoted papers on Hugging Face.</p></li>
+<li><b>Filter</b><p>General feeds only get through when they match AI vocabulary: an LLM, an agent, MCP and so on. Deals, listicles and gaming news are dropped. Anything shown in the last seven days doesn’t come back.</p></li>
+<li><b>Group</b><p>When several outlets cover the same story, they fold into one card. The others are listed under “Also covered by”.</p></li>
+<li><b>Rank</b><p>Each story earns points from the signals below. The card shows which ones put it there, under “Why it’s here”.</p></li>
+</ol>
 </section>
 
+<section id="ranking">
+<h2 class="doc-h2">Ranking</h2>
 <table class="rules">
-<caption>Ranking signals</caption>
 <tbody>
 <tr><th scope="row">Source weight</th><td>10, 20 or 30 points for useful, solid and must-read sources</td></tr>
 <tr><th scope="row">Coverage</th><td>+12 for every other outlet reporting the same story</td></tr>
@@ -89,11 +104,15 @@ export function aboutPage(issues: Issue[]): string {
 <tr><th scope="row">Funding rounds</th><td>−6, because “raises $40M” is rarely news for engineers</td></tr>
 </tbody>
 </table>
+</section>
 
+<section id="topics">
 <h2 class="doc-h2">Topics</h2>
 <p>Each story gets one topic from keywords in its title and summary. Colors are gem cuts, so they stay readable with white text.</p>
 <ul class="gems">${topics.map((t) => html`<li style="--c:${t.color}"><b>${t.name}</b><span>${t.gem}</span></li>`)}</ul>
+</section>
 
+<section id="sources">
 <h2 class="doc-h2">Sources</h2>
 ${status}
 <p>The number is how many stories a source led with in the last ${HEALTH_DAYS} days, and the dots show its weight. Mirrors are community-run copies of sites without a feed, from <a href="https://github.com/Olshansk/rss-feeds">Olshansk/rss-feeds</a>. <i>Flaky</i> sources missed a run this week, and <i>failing</i> ones missed the last three.</p>
@@ -103,7 +122,9 @@ ${sectionNames.map(([id, name]) => {
   return html`<section><h3>${name} <em>${list.length}</em></h3><ul class="sources">${list.map((s) => sourceItem(s, health.get(s.id)))}</ul></section>`;
 })}
 </div>
+</section>
 
+<section id="feeds">
 <h2 class="doc-h2">Feeds</h2>
 <p>Subscribe in any feed reader, or pipe a topic into Slack, email or an n8n or Zapier workflow with their RSS triggers.</p>
 <ul class="feeds">
@@ -112,13 +133,14 @@ ${sectionNames.map(([id, name]) => {
 ${topics.map((t) => html`<li style="--c:${t.color}"><a href="${href(`feeds/${t.id}.xml`)}"><i aria-hidden="true"></i>${t.name}</a><span>Every story in this topic</span></li>`)}
 </ul>
 <p>The same data is available as JSON at <a href="${href("api/latest.json")}"><code>/api/latest.json</code></a> and <code>/api/issues/YYYY-MM-DD.json</code>.</p>
+</section>
 
-<h2 class="doc-h2">Privacy</h2>
-<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, saved stories, watch words, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>
-
+<section id="yours">
 <h2 class="doc-h2">Make it yours</h2>
-<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Watch words</b>, also under Edit, mark every story that mentions them and collect them under Watching. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
+<p>Choose <b>Edit</b> next to Topics to pin a topic, so all of its stories join Top stories, or mute it, so it disappears everywhere except its own view. <b>Watch words</b>, also under Edit, mark every story that mentions them and collect them under Watching. <b>Save</b> keeps a story on your <a href="${href("saved/")}">Saved</a> page across days. Drag the dividers between columns to resize them. <b>This week</b> ranks every story of the last seven days, for catching up after time off, and shows which terms came up most. On a phone, add the site to your home screen: it opens like an app and keeps working offline.</p>
+</section>
 
+<section id="keyboard">
 <h2 class="doc-h2">Keyboard</h2>
 <dl class="keys-list">
 <div><dt><kbd>J</kbd> <kbd>K</kbd></dt><dd>Next and previous story</dd></div>
@@ -127,12 +149,25 @@ ${topics.map((t) => html`<li style="--c:${t.color}"><a href="${href(`feeds/${t.i
 <div><dt><kbd>F</kbd></dt><dd>Focus: one story per screen</dd></div>
 <div><dt><kbd>/</kbd></dt><dd>Filter the list by any word</dd></div>
 <div><dt><kbd>Esc</kbd></dt><dd>Leave focus or clear the filter</dd></div>
-</dl>`;
+</dl>
+</section>
+
+<section id="privacy">
+<h2 class="doc-h2">Privacy</h2>
+<p>No cookies, no analytics and no third-party requests. Fonts are served from this site. Read marks, saved stories, watch words, column widths, your theme and your pinned or muted topics are kept in your browser’s local storage and never leave it.</p>
+</section>
+
+</div>
+</div>`;
   return layout({
     title: `How it works · ${site.name}`,
     description: `How ${site.name} picks and ranks the day’s AI news without a model.`,
     path: "about/",
-    body: shell(content, "about"),
+    body: shell(content, "about", {
+      title: "How it works",
+      lede: `Every morning, around 05:30 UTC, a script reads ${total} sources, keeps what is about AI, automation and integrations, and ranks it with plain rules you can read below. No language model picks, writes or summarises anything here.`,
+      color: topicById.get("models")?.color ?? "#0A2A8F",
+    }),
     bodyClass: "page",
   });
 }

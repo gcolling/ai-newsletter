@@ -1,7 +1,7 @@
 import { site } from "../../config.ts";
 import { topicById, topics } from "../../topics.ts";
 import type { Issue } from "../../types.ts";
-import { issuePath, monthOf, plural, weekday } from "../format.ts";
+import { issuePath, monthOf, outlet, plural, weekday } from "../format.ts";
 import { type Html, html } from "../html.ts";
 import { href, layout } from "../layout.ts";
 import { topStories } from "./issue.ts";
@@ -19,13 +19,18 @@ function mix(issue: Issue): Html {
   )}</span>`;
 }
 
-function entry(issue: Issue): Html {
+/** One day as a card, headed in the gem color of its lead story. */
+function dayCard(issue: Issue): Html {
   const lead = topStories(issue)[0];
+  const topic = lead ? topicById.get(lead.topic) : undefined;
   const day = issue.date.slice(8).replace(/^0/, "");
-  return html`<li><a class="arch-row" href="${href(issuePath(issue.date))}">
-<span class="arch-day"><b>${day}</b> ${weekday(issue.date).slice(0, 3)}</span>
-<span class="arch-lead">${lead ? html`<i style="--c:${topicById.get(lead.topic)?.color}" aria-hidden="true"></i>${lead.title}` : "Quiet day"}</span>
-<span class="arch-n">${plural(issue.stories.length, "story", "stories")}</span>
+  return html`<li><a class="day-card" href="${href(issuePath(issue.date))}" style="--c:${topic?.color ?? "#0A2A8F"}">
+<span class="day-card-head"><b>${day}</b><span>${weekday(issue.date)}<br>${plural(issue.stories.length, "story", "stories")}</span></span>
+<span class="day-card-body">${
+    lead
+      ? html`<span class="day-card-kicker">${topic?.name} · ${outlet(lead.source.name)}</span><span class="day-card-title">${lead.title}</span>`
+      : html`<span class="day-card-title">A quiet day</span>`
+  }</span>
 ${mix(issue)}
 </a></li>`;
 }
@@ -36,18 +41,22 @@ export function archivePage(issues: Issue[]): string {
     const key = monthOf(issue.date);
     months.set(key, [...(months.get(key) ?? []), issue]);
   }
-  const content = html`<h1 class="doc-title">Archive</h1>
-<p class="doc-lede">Every issue so far. The bar under each day shows its mix of topics.</p>
-<ul class="legend">${topics.map((t) => html`<li><i style="--c:${t.color}" aria-hidden="true"></i>${t.name}</li>`)}</ul>
+  const content = html`<ul class="legend">${topics.map(
+    (t) => html`<li><i style="--c:${t.color}" aria-hidden="true"></i>${t.name}</li>`,
+  )}</ul>
 ${[...months].map(
   ([month, list]) =>
-    html`<section class="arch-month"><h2>${month}</h2><ol class="arch">${list.map(entry)}</ol></section>`,
+    html`<section class="arch-month"><h2>${month}</h2><ol class="arch-grid">${list.map(dayCard)}</ol></section>`,
 )}`;
   return layout({
     title: `Archive · ${site.name}`,
     description: `All ${issues.length} issues of ${site.name}.`,
     path: "archive/",
-    body: shell(content, "archive"),
+    body: shell(content, "archive", {
+      title: "Archive",
+      lede: `Every issue so far: ${plural(issues.length, "day")}. Each card takes the color of the day’s lead story, and the bar underneath shows its mix of topics.`,
+      color: topicById.get("tools")?.color ?? "#035A66",
+    }),
     bodyClass: "page",
   });
 }

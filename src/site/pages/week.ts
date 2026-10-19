@@ -57,6 +57,7 @@ export function weekPage(issues: Issue[]): string | undefined {
       : `${dayMonth(oldest.date)} – ${dayMonth(week.date)}`;
   return readerPage(week, {
     kind: "week",
+    place: "week",
     heading: "This week",
     subheading: `${range} · top ${shown} of ${plural(week.stories.length, "story", "stories")}`,
     title: `This week · ${site.name}`,

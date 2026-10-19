@@ -81,32 +81,35 @@
   function setUpSavedPage(list) {
     const empty = document.querySelector("[data-saved-empty]");
     const tools = document.querySelector("[data-saved-tools]");
+    const count = document.querySelector("[data-saved-count]");
     const day = new Intl.DateTimeFormat(undefined, { day: "numeric", month: "short" });
+    const el = (tag, className, text) => {
+      const node = document.createElement(tag);
+      node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    };
+    // Colored cards, built with textContent only: saved data comes from storage, never as HTML.
     const draw = () => {
       const items = saved.list();
       list.replaceChildren(
         ...items.map((item) => {
-          const li = document.createElement("li");
-          li.className = "saved-item";
-          li.style.setProperty("--c", item.color);
-          const link = document.createElement("a");
-          link.className = "saved-title";
+          const card = el("li", "saved-card");
+          card.style.setProperty("--c", item.color);
+          const link = el("a", "t", item.title);
           link.href = safeHref(item.url);
           link.target = "_blank";
           link.rel = "noopener noreferrer";
-          link.textContent = item.title;
-          const meta = document.createElement("span");
-          meta.className = "saved-meta";
-          meta.textContent = `${item.source} · saved ${day.format(new Date(item.savedAt))}`;
-          const remove = document.createElement("button");
+          const remove = el("button", "pill-btn", "Remove");
           remove.type = "button";
-          remove.className = "pill-btn";
           remove.dataset.remove = item.id;
-          remove.textContent = "Remove";
-          li.append(link, meta, remove);
-          return li;
+          const foot = el("div", "foot");
+          foot.append(el("span", "", `Saved ${day.format(new Date(item.savedAt))}`), remove);
+          card.append(el("span", "k", item.source), link, foot);
+          return card;
         }),
       );
+      count.textContent = items.length === 1 ? "1 story" : `${items.length} stories`;
       empty.hidden = items.length > 0;
       tools.hidden = items.length === 0;
     };

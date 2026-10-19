@@ -16,7 +16,7 @@ import {
 import { type Html, html, safeUrl } from "../html.ts";
 import { href, layout } from "../layout.ts";
 import { type Mention, termsOf, topMentions } from "../mentions.ts";
-import { themeToggle } from "./shell.ts";
+import { type Place, topbar } from "./shell.ts";
 
 interface Neighbours {
   newer?: Issue;
@@ -26,6 +26,8 @@ interface Neighbours {
 /** Everything that differs between a day's issue and the week's best. */
 export interface ReaderOptions {
   kind: "day" | "week";
+  /** Which top-bar link to mark as current. */
+  place: Place;
   heading: string;
   subheading: string;
   title: string;
@@ -154,22 +156,22 @@ function rail(issue: Issue, top: Story[], opts: ReaderOptions): Html {
   ] as const;
   const { near } = opts;
   const { ok, total } = issue.sources;
+  const arrow = (issue: Issue | undefined, rel: "prev" | "next") => {
+    const glyph = rel === "prev" ? "‹" : "›";
+    if (!issue) return html`<span class="day-arrow off" aria-hidden="true">${glyph}</span>`;
+    const label = `${rel === "prev" ? "Previous" : "Next"} issue: ${shortDay(issue.date)}`;
+    return html`<a class="day-arrow" href="${href(issuePath(issue.date))}" rel="${rel}" aria-label="${label}" title="${label}">${glyph}</a>`;
+  };
   const days =
-    near?.older || near?.newer
-      ? html`<nav class="days" aria-label="Other issues">
-${near.older ? html`<a href="${href(issuePath(near.older.date))}" rel="prev">‹ ${shortDay(near.older.date)}</a>` : html`<span></span>`}
-${near.newer ? html`<a href="${href(issuePath(near.newer.date))}" rel="next">${shortDay(near.newer.date)} ›</a>` : html`<span></span>`}
-</nav>`
+    opts.kind === "day"
+      ? html`<nav class="day-nav" aria-label="Other issues">${arrow(near?.older, "prev")}${arrow(near?.newer, "next")}</nav>`
       : "";
-  const other =
-    opts.kind === "week"
-      ? html`<a href="${href()}">Today</a>`
-      : html`<a href="${href("week/")}">This week</a>`;
   return html`<aside class="rail">
 <header class="day">
-<a class="brand" href="${href()}">${site.name}</a>
-<h1 class="day-name">${opts.heading}</h1>
+<div class="day-row"><h1 class="day-name">${opts.heading}</h1>${days}</div>
 <p class="day-date">${opts.subheading}</p>
+<p class="day-status"><a href="${href("about/#sources")}" title="Ranked by rules, not a model">Built ${timeUtc(issue.generatedAt)} · ${ok} of ${total} sources</a></p>
+<p class="offline" data-offline hidden>You’re offline. This is the last copy you opened.</p>
 </header>
 <nav class="views" aria-label="Filter stories">
 ${viewLink("top", "Top stories", top.length)}
@@ -182,13 +184,6 @@ ${kinds.filter(([, , n]) => n > 0).map(([id, label, n]) => viewLink(id, label, n
 ${viewLink("watching", "Watching", 0)}
 </nav>
 <label class="watch-edit" data-watch-edit hidden><span>Watch words</span><input type="text" data-watch-input placeholder="MCP, Temporal, Playwright" autocomplete="off" spellcheck="false"><small>Comma-separated. Matching stories are marked and collected under Watching.</small></label>
-<footer class="rail-foot">
-${days}
-<nav class="links" aria-label="More">${other}<a href="${href("saved/")}" data-saved-link>Saved</a><a href="${href("archive/")}">Archive</a><a href="${href("about/")}">How it works</a><a href="${href("feed.xml")}">RSS</a></nav>
-<p class="offline" data-offline hidden>You’re offline. This is the last copy you opened.</p>
-<p>Built ${timeUtc(issue.generatedAt)} from ${ok} of ${total} sources. Ranked by rules, not a model.</p>
-${themeToggle()}
-</footer>
 </aside>`;
 }
 
@@ -196,7 +191,8 @@ export function readerPage(issue: Issue, opts: ReaderOptions): string {
   const top = topStories(issue, opts.kind === "week" ? render.weekCount : render.topCount);
   const topIds = new Set(top.map((s) => s.id));
   const unit = opts.kind === "week" ? "week" : "day";
-  const body = html`<div class="app" data-date="${issue.date}" data-permalink="${href(opts.permalink)}">
+  const body = html`${topbar(opts.place)}
+<div class="app" data-date="${issue.date}" data-permalink="${href(opts.permalink)}">
 ${rail(issue, top, opts)}
 <div class="splitter" data-split="rail" role="separator" aria-orientation="vertical" aria-label="Resize the topics column" tabindex="0"></div>
 <section class="list" aria-labelledby="view-title">
@@ -244,6 +240,7 @@ export function issuePage(issue: Issue, near: Neighbours, isLatest: boolean): st
   const day = `${weekday(issue.date)} ${dayMonth(issue.date)}`;
   return readerPage(issue, {
     kind: "day",
+    place: isLatest ? "today" : "",
     heading: weekday(issue.date),
     subheading: `${dayMonth(issue.date)} · ${plural(issue.stories.length, "story", "stories")}`,
     title: isLatest ? `${site.name} · ${day}` : `${day} · ${site.name}`,
