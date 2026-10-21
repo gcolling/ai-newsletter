@@ -1,0 +1,1762 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T10:15:03.741Z",
+  "window": {
+    "from": "2026-10-20T10:07:24.068Z",
+    "to": "2026-10-21T10:14:59.790Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "pnqo7yqrtm",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "host": "openai.com",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "industry",
+      "score": 62,
+      "reasons": [
+        "Covered by 3 outlets",
+        "Official announcement",
+        "Matched: OpenAI"
+      ],
+      "also": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+        },
+        {
+          "source": "The Decoder",
+          "title": "OpenAI acquires Orchestra Bio to build AI agents that speed up drug development",
+          "url": "https://the-decoder.com/openai-acquires-orchestra-bio-to-build-ai-agents-that-speed-up-drug-development/"
+        }
+      ]
+    },
+    {
+      "id": "kjooxvadgx",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "host": "mistral.ai",
+      "summary": "Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+      "publishedAt": "2026-10-20T12:00:22.000Z",
+      "source": {
+        "id": "mistral-news",
+        "name": "Mistral AI News"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 58.1,
+      "reasons": [
+        "677 points · 170 comments on Hacker News",
+        "Official announcement",
+        "Matched: Mistral, agent SDK"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50168396",
+        "points": 677,
+        "comments": 170
+      }
+    },
+    {
+      "id": "mfybfc6dlo",
+      "title": "Anthropic and Citrini Research use an internal Claude model to autonomously generate protein minibinders against five scorpion neurotoxins, testing 211 designs",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "host": "anthropic.com",
+      "summary": "In August, we showed how Claude designed protein minibinders after being given a single prompt.",
+      "publishedAt": "2026-10-21T09:55:03.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 43.5,
+      "reasons": [
+        "106 points · 69 comments on Hacker News",
+        "Matched: Anthropic, Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50170021",
+        "points": 106,
+        "comments": 69
+      }
+    },
+    {
+      "id": "kaz2qs159r",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "host": "arstechnica.com",
+      "summary": "Meta is suspending the sharing feature while it investigates its privacy.",
+      "publishedAt": "2026-10-20T12:33:13.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 37.9,
+      "reasons": [
+        "179 points · 79 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50174687",
+        "points": 179,
+        "comments": 79
+      }
+    },
+    {
+      "id": "cds47firjx",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "host": "peec.ai",
+      "summary": "",
+      "publishedAt": "2026-10-20T13:06:22.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 37.5,
+      "reasons": [
+        "343 points · 198 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50165801",
+        "points": 343,
+        "comments": 198
+      }
+    },
+    {
+      "id": "eoi3ym6jfx",
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "host": "latent.space",
+      "summary": "An open source “bomb” drops from China",
+      "publishedAt": "2026-10-21T06:54:09.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "infra",
+      "score": 37.2,
+      "reasons": [
+        "From a followed writer",
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "jhrx4rlub3",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "host": "latent.space",
+      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "publishedAt": "2026-10-21T05:01:26.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 36.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "933gzzc599",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "host": "simonwillison.net",
+      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state!",
+      "publishedAt": "2026-10-20T19:34:19.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 36.3,
+      "reasons": [
+        "From a followed writer",
+        "Matched: vibe coded, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "3ben8hpug5",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "host": "ign.com",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:48:26.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 35.6,
+      "reasons": [
+        "177 points · 210 comments on Hacker News",
+        "Matched: Vibecoders"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50168190",
+        "points": 177,
+        "comments": 210
+      }
+    },
+    {
+      "id": "dmpqyzobjg",
+      "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "url": "https://huggingface.co/papers/2610.24087",
+      "host": "huggingface.co",
+      "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 34.4,
+      "reasons": [
+        "242 upvotes on Hugging Face",
+        "Matched: LLM, large language model"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 242,
+        "arxivId": "2610.24087"
+      }
+    },
+    {
+      "id": "9qty4x9a72",
+      "title": "What’s the ROI of software engineers’ spending on AI?",
+      "url": "https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "AI spending has greatly increased at most companies this year, but has it actually changed shipping velocity and PR output? We analyse data from 27 companies – with some interesting findings",
+      "publishedAt": "2026-10-20T17:34:18.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 33.9,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "ljvjltp8fj",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "host": "latent.space",
+      "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "publishedAt": "2026-10-20T19:31:57.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "infra",
+      "score": 32.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "6gq68qq7kh",
+      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+      "url": "https://huggingface.co/papers/2610.26802",
+      "host": "huggingface.co",
+      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 32.1,
+      "reasons": [
+        "235 upvotes on Hugging Face",
+        "Matched: Fine-Tuning"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 235,
+        "arxivId": "2610.26802"
+      }
+    },
+    {
+      "id": "frducoc9ez",
+      "title": "China criticizes the US DHS's DeepSeek ban, vowing \"resolute countermeasures\" while rejecting allegations from the FBI and AI labs of illicit distillation",
+      "url": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
+      "host": "nytimes.com",
+      "summary": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
+      "publishedAt": "2026-10-21T10:10:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 32,
+      "reasons": [
+        "Matched: DeepSeek, distillation"
+      ],
+      "also": []
+    },
+    {
+      "id": "n2ore9punp",
+      "title": "Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers",
+      "url": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/",
+      "host": "infoq.com",
+      "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenAI, NVIDIA, and Kakao, with Apple support expected soon.",
+      "publishedAt": "2026-10-21T10:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 31.9,
+      "reasons": [
+        "Matched: DeepMind, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "4uas43zixv",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "host": "reuters.com",
+      "summary": "",
+      "publishedAt": "2026-10-20T20:09:46.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 30.2,
+      "reasons": [
+        "150 points · 69 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [
+        {
+          "source": "twitter.com",
+          "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+          "url": "https://twitter.com/Polymarket/status/2112634886070919426"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50171966",
+        "points": 150,
+        "comments": 69
+      }
+    },
+    {
+      "id": "63g2fxfsnb",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "host": "techcrunch.com",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "publishedAt": "2026-10-20T22:24:02.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.1,
+      "reasons": [
+        "Matched: Hugging Face, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "i9sdnbb91b",
+      "title": "Google, Temasek, and Bain: online spending in SE Asia to rise ~17% YoY to $368B in 2026 despite economic headwinds, as businesses harness AI to spur spending",
+      "url": "https://www.bloomberg.com/",
+      "host": "bloomberg.com",
+      "summary": "Artificial intelligence is helping Southeast Asia's digital economy deliver robust growth in the face of rising prices and teetering demand…",
+      "publishedAt": "2026-10-21T06:05:10.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7dzvksv8c0",
+      "title": "OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks",
+      "url": "https://openai.com/",
+      "host": "openai.com",
+      "summary": "GPT-6.1 Sol and GPT-6 Astra · Internal deployments",
+      "publishedAt": "2026-10-21T03:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 28.4,
+      "reasons": [
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "k88nzu0j99",
+      "title": "Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer",
+      "url": "https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/",
+      "host": "developers.googleblog.com",
+      "summary": "Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: machine learning"
+      ],
+      "also": []
+    },
+    {
+      "id": "gxd8i9acaq",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "host": "arstechnica.com",
+      "summary": "Meta argues nobody “decided” to pirate books to train AI.",
+      "publishedAt": "2026-10-20T17:40:20.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.7,
+      "reasons": [
+        "23 points · 7 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50171077",
+        "points": 23,
+        "comments": 7
+      }
+    },
+    {
+      "id": "nm4m382swr",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T16:09:19.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 27.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "8v2ank2d4d",
+      "title": "New Gemini tools for small business owners",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+      "host": "blog.google",
+      "summary": "We’re announcing new tools for Gemini — including a dedicated business landing page — to help small business owners around the world.",
+      "publishedAt": "2026-10-20T16:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "he6he8elkt",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T15:19:48.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.3,
+      "reasons": [
+        "Official announcement",
+        "Matched: frontier model"
+      ],
+      "also": []
+    },
+    {
+      "id": "laysh9ca80",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "host": "techcrunch.com",
+      "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "publishedAt": "2026-10-20T23:01:23.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "movokwu396",
+      "title": "A look at Chinese philosophical views on AI; one says aligning AI to human values may be a \"suicidal mistake\" and another fears the \"machinization of humans\"",
+      "url": "https://arnaudbertrand.substack.com/p/whats-left-for-us-after-ai-chinas",
+      "host": "arnaudbertrand.substack.com",
+      "summary": "We've been looking at AI from the bottom of our own well. Here's the view from China's.",
+      "publishedAt": "2026-10-21T06:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "tgv375s1oy",
+      "title": "OpenEvidence says nearly two-thirds of ~1M US physicians use its AI search engine; a source says it is on track to generate $400M-$500M in 2026 ad revenue",
+      "url": "https://www.ft.com/content/0ed17b79-47dd-4ad8-8dca-44eb35617edc",
+      "host": "ft.com",
+      "summary": "Founder of OpenEvidence chatbot says two-thirds of US physicians use the ad-powered tool, prompting a debate about patient care",
+      "publishedAt": "2026-10-21T06:25:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "evtvw1tf7m",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "host": "theverge.com",
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving…",
+      "publishedAt": "2026-10-20T22:11:34.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "h6828rluct",
+      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+      "url": "https://huggingface.co/papers/2610.26625",
+      "host": "huggingface.co",
+      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 27,
+      "reasons": [
+        "168 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 168,
+        "arxivId": "2610.26625"
+      }
+    },
+    {
+      "id": "b26o37mbmn",
+      "title": "“We are not forking TypeScript”: Cloudflare spearheads Rust port written by agents, for agents",
+      "url": "https://thenewstack.io/cloudflare-rust-typescript-tsrs/",
+      "host": "thenewstack.io",
+      "summary": "Cloudflare is going all-out to ensure that AI coding agents can check their work without exhausting available computing resources, leading",
+      "publishedAt": "2026-10-20T21:36:25.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.9,
+      "reasons": [
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "fbcj0sbors",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "host": "bolkunov.com",
+      "summary": "",
+      "publishedAt": "2026-10-20T19:55:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 26.5,
+      "reasons": [
+        "87 points · 57 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50171771",
+        "points": 87,
+        "comments": 57
+      }
+    },
+    {
+      "id": "1x7gq4n0ea",
+      "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
+      "url": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/",
+      "host": "infoq.com",
+      "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful memory handling, auto-scaling on dynamic traffic, and robust control plane designs, while highlighting critical guardrails, multi-region setups, and LLM-as-a-judge evaluation pipelines.",
+      "publishedAt": "2026-10-20T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.2,
+      "reasons": [
+        "Matched: AI Agent, LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "ti9qoc7fti",
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "url": "https://huggingface.co/papers/2610.26549",
+      "host": "huggingface.co",
+      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 26.2,
+      "reasons": [
+        "153 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 153,
+        "arxivId": "2610.26549"
+      }
+    },
+    {
+      "id": "9726e6vhzl",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T18:17:47.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "9lx6xpcdn3",
+      "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon",
+      "url": "https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/",
+      "host": "developers.googleblog.com",
+      "summary": "Google Research has completed the 32-bit open-source Coral NPU RISC-V architecture with the introduction of its Matrix Execution Unit, which delivers up to 1 TOPS while targeting 10 mW average power for edge inference.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "figo7azu4d",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Hugging Face"
+      ],
+      "also": []
+    },
+    {
+      "id": "ojbr5bkcvs",
+      "title": "Announcing New vLLM and SGLang Inference Engines on TPU",
+      "url": "https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/",
+      "host": "developers.googleblog.com",
+      "summary": "This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: vLLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "pv0t36r9kl",
+      "title": "MemT-1.0: Towards Memory-Native Evolution",
+      "url": "https://huggingface.co/papers/2610.26825",
+      "host": "huggingface.co",
+      "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 25.8,
+      "reasons": [
+        "116 upvotes on Hugging Face",
+        "Matched: foundation models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 116,
+        "arxivId": "2610.26825"
+      }
+    },
+    {
+      "id": "7kjzuc8oxc",
+      "title": "Thiel's leaked Rome lectures cast EA and AI \"safetyism\" as Antichrist forerunners, Bill Gates as \"Mr. Hyde\", and Eliezer Yudkowsky as \"more Luddite than Greta\"",
+      "url": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6ImVpQ050VURacjAiLCJwIjoiL3RlY2gvMTAxNDI1Mi9wZXRlci10aGllbC1hbnRpY2hyaXN0LWxlY3R1cmVzLWFuYWx5c2lzIiwiZXhwIjoxNzkyOTQzNDQ3LCJpYXQiOjE3OTI1MTE0NDd9.GALmzbZcvGMsArj-gXyABv6mY7_mCgg2pmjMyAbJnCY",
+      "host": "theverge.com",
+      "summary": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven…",
+      "publishedAt": "2026-10-21T01:10:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 25.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5a5bfefali",
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "host": "techcrunch.com",
+      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
+      "publishedAt": "2026-10-20T16:20:06.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.5,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "98a0p4qm7w",
+      "title": "Memo: Nscale CEO Josh Payne says it has \"more than $100B in contracted revenue\"; sources say it still plans to list by the end of 2026 at a $30B-$35B valuation",
+      "url": "https://www.ft.com/content/9bc15db9-08b4-40f1-b814-24a52eed8ebc",
+      "host": "ft.com",
+      "summary": "Founder Josh Payne says demand remains ‘insatiable’ for the services of Nvidia-backed data centre group",
+      "publishedAt": "2026-10-21T08:00:54.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bu78vsyec8",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "host": "theverge.com",
+      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or…",
+      "publishedAt": "2026-10-20T23:04:19.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 25.2,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "pvkkylu390",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+      "publishedAt": "2026-10-20T21:25:22.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "5ymhsz7n82",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "host": "techcrunch.com",
+      "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "publishedAt": "2026-10-20T13:07:24.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 24.7,
+      "reasons": [
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "966101m4aq",
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "host": "techcrunch.com",
+      "summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
+      "publishedAt": "2026-10-20T20:40:41.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "iq82kdwr4f",
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "host": "arstechnica.com",
+      "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+      "publishedAt": "2026-10-20T20:07:58.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "h8ia1zi01p",
+      "title": "Gemini's Personal Intelligence is coming to cars",
+      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+      "host": "arstechnica.com",
+      "summary": "It's probably time to audit your Gemini settings.",
+      "publishedAt": "2026-10-20T20:00:33.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.5,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "16gkkxc6cd",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "host": "technologyreview.com",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably…",
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "automation",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "qjzc1mrax8",
+      "title": "Claude Code 2.1.306",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "host": "github.com",
+      "summary": "Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables",
+      "publishedAt": "2026-10-21T03:16:31.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 24.3,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.306"
+      }
+    },
+    {
+      "id": "kmj4asyt1z",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "host": "techcrunch.com",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "publishedAt": "2026-10-20T11:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.2,
+      "reasons": [
+        "Matched: embedding"
+      ],
+      "also": []
+    },
+    {
+      "id": "smtq5xnoej",
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "host": "theverge.com",
+      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records.",
+      "publishedAt": "2026-10-20T18:07:34.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 24,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4e2mejyucp",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "7bn0bj9ys8",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "9quz4xl1r6",
+      "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
+      "url": "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/",
+      "host": "developers.googleblog.com",
+      "summary": "TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures.",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "636idy5s93",
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "host": "anthropic.com",
+      "summary": "",
+      "publishedAt": "2026-10-21T03:36:43.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 23.9,
+      "reasons": [
+        "51 points · 20 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50175779",
+        "points": 51,
+        "comments": 20
+      }
+    },
+    {
+      "id": "65p4nnw98g",
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "host": "interconnects.ai",
+      "summary": "Western open models strike back",
+      "publishedAt": "2026-10-20T17:04:21.000Z",
+      "source": {
+        "id": "interconnects",
+        "name": "Interconnects (Nathan Lambert)"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 23.7,
+      "reasons": [
+        "From a followed writer",
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "rji32c3l6o",
+      "title": "The new economics of enterprise AI",
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+      "host": "technologyreview.com",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?”…",
+      "publishedAt": "2026-10-20T15:20:25.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9uygt9uu8u",
+      "title": "DeepSeek open-sources the inference engine behind its API. And Huawei gets equal billing with Nvidia.",
+      "url": "https://thenewstack.io/deepseek-deepinfer-huawei-nvidia/",
+      "host": "thenewstack.io",
+      "summary": "DeepSeek has open-sourced the inference engine it uses to serve its models in production, a step it said last year",
+      "publishedAt": "2026-10-20T14:58:36.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.2,
+      "reasons": [
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "r538ppokjc",
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "host": "theverge.com",
+      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and…",
+      "publishedAt": "2026-10-20T14:18:37.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kgxgdfu1yv",
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "host": "theverge.com",
+      "summary": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a…",
+      "publishedAt": "2026-10-20T13:06:44.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "n7kysm6i85",
+      "title": "Why we refreshed the n8n brand",
+      "url": "https://blog.n8n.io/n8n-brand-refresh-2026/",
+      "host": "blog.n8n.io",
+      "summary": "A new logo, a new typeface, and a new take on our pink, built for where n8n is going.",
+      "publishedAt": "2026-10-20T11:09:09.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 22.3,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "rn8gp3j5th",
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+      "host": "arstechnica.com",
+      "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+      "publishedAt": "2026-10-20T18:22:54.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2ccukn9o27",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "host": "blogs.nvidia.com",
+      "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking…",
+      "publishedAt": "2026-10-21T10:00:07.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 21.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: embedding"
+      ],
+      "also": []
+    },
+    {
+      "id": "if5et9rjes",
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "url": "https://research.poh.org/bot-benchmarking-2026/",
+      "host": "research.poh.org",
+      "summary": "",
+      "publishedAt": "2026-10-20T17:10:31.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 21.9,
+      "reasons": [
+        "45 points · 7 comments on Hacker News",
+        "Matched: AI Agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50169506",
+        "points": 45,
+        "comments": 7
+      }
+    },
+    {
+      "id": "gwapfbi3ud",
+      "title": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%",
+      "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices",
+      "host": "stork.ai",
+      "summary": "",
+      "publishedAt": "2026-10-21T05:17:15.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 21.8,
+      "reasons": [
+        "23 points · 25 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50176351",
+        "points": 23,
+        "comments": 25
+      }
+    },
+    {
+      "id": "pvmi4akrjh",
+      "title": "30 Months on the Exponential (in Charts)",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "host": "oneusefulthing.org",
+      "summary": "My new book is out today... what happened since the last one",
+      "publishedAt": "2026-10-20T15:57:59.000Z",
+      "source": {
+        "id": "one-useful-thing",
+        "name": "One Useful Thing (Ethan Mollick)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 21.5,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "l3sogoryaz",
+      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+      "host": "the-decoder.com",
+      "summary": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic.",
+      "publishedAt": "2026-10-20T18:56:15.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 20.2,
+      "reasons": [
+        "Matched: Deepseek, vLLM, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "i3jkyon2c2",
+      "title": "GitHub MCP Server 2.0.3",
+      "url": "https://github.com/github/github-mcp-server/releases/tag/v2.0.3",
+      "host": "github.com",
+      "summary": "build(deps): bump @modelcontextprotocol/client from 2.2.0 to 2.3.1 in /ui by @dependabot[bot]",
+      "publishedAt": "2026-10-21T09:52:29.000Z",
+      "source": {
+        "id": "gh-github-mcp-server",
+        "name": "GitHub MCP Server releases"
+      },
+      "section": "releases",
+      "topic": "automation",
+      "score": 19.9,
+      "reasons": [
+        "New release",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "release": {
+        "repo": "github/github-mcp-server",
+        "version": "2.0.3"
+      }
+    },
+    {
+      "id": "rpih5i0mgz",
+      "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+      "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+      "host": "the-decoder.com",
+      "summary": "Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through EU-hosted APIs to keep data under your control.",
+      "publishedAt": "2026-10-20T17:17:55.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 19.8,
+      "reasons": [
+        "Matched: Mistral, speech-to-text, text-to-speech"
+      ],
+      "also": []
+    },
+    {
+      "id": "76oqfhu4f6",
+      "title": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch",
+      "url": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic's Claude independently designed protein binders targeting deadly scorpion neurotoxins. Out of more than 318,000 designs, 211 were tested in the lab. Seventeen met the criteria, and the two strongest bind extremely tightly to Cn2, a toxin from a Mexican scorpion. Whether they actually work as antivenom remains an open question.",
+      "publishedAt": "2026-10-21T08:37:06.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.6,
+      "reasons": [
+        "Matched: Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "9yuxmua8ih",
+      "title": "Gemini CLI 0.65.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0",
+      "host": "github.com",
+      "summary": "fix(cli): enforce read-only workspace settings in untrusted folders",
+      "publishedAt": "2026-10-20T21:17:57.000Z",
+      "source": {
+        "id": "gh-gemini-cli",
+        "name": "Gemini CLI releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 16.8,
+      "reasons": [
+        "New release",
+        "Matched: Gemini"
+      ],
+      "also": [],
+      "release": {
+        "repo": "google-gemini/gemini-cli",
+        "version": "0.65.0"
+      }
+    },
+    {
+      "id": "6ramyh1l73",
+      "title": "‘Reverse-Engineer Anything’ Is the New Wild West of AI",
+      "url": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
+      "host": "404media.co",
+      "summary": "Decompiled, cloned, and modified software is going viral and might slopify everything.",
+      "publishedAt": "2026-10-20T13:42:20.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.8,
+      "reasons": [
+        "23 points · 8 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50167587",
+        "points": 23,
+        "comments": 8
+      }
+    },
+    {
+      "id": "t9fx6hnfee",
+      "title": "Pydantic AI 1.107.9",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9",
+      "host": "github.com",
+      "summary": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David.",
+      "publishedAt": "2026-10-21T04:36:51.000Z",
+      "source": {
+        "id": "gh-pydantic-ai",
+        "name": "Pydantic AI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 16.6,
+      "reasons": [
+        "New release",
+        "Matched: Pydantic AI, Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "pydantic/pydantic-ai",
+        "version": "1.107.9"
+      }
+    },
+    {
+      "id": "bpvdoozjgs",
+      "title": "Ollama 0.40.7",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7",
+      "host": "github.com",
+      "summary": "pplx-decider is a 27B decision model from Perplexity, fine-tuned from",
+      "publishedAt": "2026-10-21T04:01:19.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama releases"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 16.5,
+      "reasons": [
+        "New release",
+        "Matched: Ollama, Perplexity, fine-tuned"
+      ],
+      "also": [],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "0.40.7"
+      }
+    },
+    {
+      "id": "jz60nwx8wx",
+      "title": "Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs",
+      "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+      "host": "the-decoder.com",
+      "summary": "Cloudflare has released an AI model it says pulls data from documents faster and more cheaply than large language models. The article Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs appeared first on The Decoder.",
+      "publishedAt": "2026-10-20T12:04:56.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.5,
+      "reasons": [
+        "Matched: LLMs, large language models"
+      ],
+      "also": []
+    },
+    {
+      "id": "9dl367lmu5",
+      "title": "Sam Altman reportedly pitched three endgames for AI safety, one involving a single firm melting everyone else's GPUs",
+      "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI CEO Sam Altman laid out three paths to safe AI in an internal presentation: an international watchdog modeled after the IAEA, a merger of the major labs into one entity, or a single company so powerful it could shut down everyone else's compute. He called the last option \"terrible.\"",
+      "publishedAt": "2026-10-20T17:00:59.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 15.7,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "rhe9mg91ty",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "host": "github.blog",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "source": {
+        "id": "github-blog-ai",
+        "name": "GitHub Blog - AI & ML"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 13.5,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "35ooq8jvhs",
+      "title": "OneDrive loses bunch of Copilot shortcuts in File Explorer clear-out",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/20/onedrive-loses-bunch-of-copilot-shortcuts-in-file-explorer-clear-out/5304149",
+      "host": "theregister.com",
+      "summary": "Microsoft keeps 'Ask Copilot' as dedicated actions disappear between mid-November and early December",
+      "publishedAt": "2026-10-20T16:04:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 13.5,
+      "reasons": [
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "s5n3e9o9fp",
+      "title": "Auto tech startup claims it traced hack attempt back to rival's IP address",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/auto-tech-startup-claims-it-traced-hack-attempt-back-to-rivals-ip-address/5304281",
+      "host": "theregister.com",
+      "summary": "IQ.Lvbs implies that rival Comma.ai isn't playing fair",
+      "publishedAt": "2026-10-20T22:00:46.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 13,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bdxb974dkq",
+      "title": "People Are Using 'AI Decompiling' to Hack Their Things",
+      "url": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+      "host": "404media.co",
+      "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
+      "publishedAt": "2026-10-20T13:51:57.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "e1nokl576b",
+      "title": "opencode github-v1.2.27",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.27",
+      "host": "github.com",
+      "summary": "chore(function): remove exchange_github_app_token_with_pat route (#57…",
+      "publishedAt": "2026-10-21T04:08:35.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 12.5,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "github-v1.2.27"
+      }
+    },
+    {
+      "id": "pj7vt64r6e",
+      "title": "Create and Use Postman Secrets from the CLI",
+      "url": "https://blog.postman.com/create-and-use-postman-secrets-from-the-cli/",
+      "host": "blog.postman.com",
+      "summary": "Create a Postman Shared Vault secret, link it to an environment variable, and use it in standalone requests or Collection runs via the CLI.",
+      "publishedAt": "2026-10-20T15:00:24.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 11.2,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4g5ebjyu6c",
+      "title": "OpenHands 1.29.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.29.0",
+      "host": "github.com",
+      "summary": "feat(backends): show full organization names in the backend selector",
+      "publishedAt": "2026-10-20T22:30:07.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 11.1,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.29.0"
+      }
+    }
+  ]
+}
