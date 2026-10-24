@@ -1,0 +1,1334 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T09:35:40.151Z",
+  "window": {
+    "from": "2026-10-23T10:09:02.468Z",
+    "to": "2026-10-24T09:35:36.642Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "cnhrljd4zh",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "host": "simonwillison.net",
+      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 72.6,
+      "reasons": [
+        "909 points · 530 comments on Hacker News",
+        "From a followed writer",
+        "Matched: Kimi, open weights"
+      ],
+      "also": [
+        {
+          "source": "kimi.ai",
+          "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50212065",
+        "points": 909,
+        "comments": 530
+      }
+    },
+    {
+      "id": "t3dmklnc34",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "host": "theverge.com",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier…",
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 62.8,
+      "reasons": [
+        "Covered by 4 outlets",
+        "Matched: OpenAI"
+      ],
+      "also": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+        },
+        {
+          "source": "Techmeme",
+          "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents"
+        },
+        {
+          "source": "The Register - AI + ML",
+          "title": "OpenAI disables internet access during model training while Anthropic issues another mea culpa",
+          "url": "https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238"
+        }
+      ]
+    },
+    {
+      "id": "a1fy0j8kzl",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "host": "theverge.com",
+      "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous…",
+      "publishedAt": "2026-10-23T16:52:55.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 48.2,
+      "reasons": [
+        "351 points · 174 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50214218",
+        "points": 351,
+        "comments": 174
+      }
+    },
+    {
+      "id": "8ihmbca8xz",
+      "title": "OpenAI says it built an \"offline world\" from cached web content to train isolated frontier models to browse, search for information, and use web apps",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "host": "openai.com",
+      "summary": "In order to work with software, AI models need computing environments: digital workspaces where they can write and run code…",
+      "publishedAt": "2026-10-24T00:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 44.4,
+      "reasons": [
+        "106 points · 105 comments on Hacker News",
+        "Matched: OpenAI, frontier models"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50214416",
+        "points": 106,
+        "comments": 105
+      }
+    },
+    {
+      "id": "mmgb2st1bw",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "host": "latent.space",
+      "summary": "We have Fable at home... or so we are being told by paid shills",
+      "publishedAt": "2026-10-24T07:18:29.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 41.4,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Kimi, Open Weights"
+      ],
+      "also": []
+    },
+    {
+      "id": "4upztqkplh",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "host": "openai.com",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 39.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: ChatGPT, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "3oyy8y4nat",
+      "title": "Swedish government offices to ban ChatGPT and Claude",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "host": "sverigesradio.se",
+      "summary": "",
+      "publishedAt": "2026-10-23T11:39:54.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 37,
+      "reasons": [
+        "320 points · 119 comments on Hacker News",
+        "Matched: ChatGPT, Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50207405",
+        "points": 320,
+        "comments": 119
+      }
+    },
+    {
+      "id": "be9xbqk7zz",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "host": "latent.space",
+      "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+      "publishedAt": "2026-10-23T15:19:48.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 33.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "n2s0dbq6md",
+      "title": "The UK plans to invest £100M to create the AI Biosecurity Lab to boost defenses against biological threats, supported by OpenAI, Anthropic, and Google DeepMind",
+      "url": "https://www.bbc.com/news/articles/cqdjv8xllvyyo",
+      "host": "bbc.com",
+      "summary": "The UK says it will establish a national AI Biosecurity Lab (AIBL) to help strengthen its defences against emerging biological threats.",
+      "publishedAt": "2026-10-24T01:20:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 31.9,
+      "reasons": [
+        "Matched: OpenAI, Anthropic, DeepMind"
+      ],
+      "also": []
+    },
+    {
+      "id": "lrfp70nbhk",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "host": "github.blog",
+      "summary": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.…",
+      "publishedAt": "2026-10-23T23:42:03.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 31.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenCode, Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "1z2qoygonk",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "host": "reddit.com",
+      "summary": "",
+      "publishedAt": "2026-10-24T05:49:57.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 30.8,
+      "reasons": [
+        "115 points · 19 comments on Hacker News",
+        "Matched: OpenAI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50218633",
+        "points": 115,
+        "comments": 19
+      }
+    },
+    {
+      "id": "pgncqq5ulh",
+      "title": "Artificial Analysis says Kimi K3.1 Pro lands 4th on its Intelligence Index, behind only Opus 5.5 (max), Sonnet 5.5 (max), and Muse Wonder Full (max)",
+      "url": "https://x.com/artificialanlys",
+      "host": "x.com",
+      "summary": "Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index scoring 55, making large gains in agentic performance; it will be the leading open-weights model once its weights are published @Kimi_Moonshot's new reasoning model gains 11 points over Kimi K3 (max, 44). It trails only Cl...",
+      "publishedAt": "2026-10-23T19:25:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 30.4,
+      "reasons": [
+        "Matched: Kimi, agentic, open-weights"
+      ],
+      "also": []
+    },
+    {
+      "id": "4a4wle0dea",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october/",
+      "host": "latent.space",
+      "summary": "the Cyber onslaught continues.",
+      "publishedAt": "2026-10-23T10:09:29.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 30,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "q9utnczlcv",
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "url": "https://huggingface.co/papers/2610.31329",
+      "host": "huggingface.co",
+      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction.",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 29.8,
+      "reasons": [
+        "229 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 229,
+        "arxivId": "2610.31329"
+      }
+    },
+    {
+      "id": "nws9hqaor0",
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/",
+      "host": "infoq.com",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call.",
+      "publishedAt": "2026-10-24T08:34:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: MCP, coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "hcgjxvdn0k",
+      "title": "A look at OpenAI's Project Daybreak, which lets vetted partners use its top hacking models to find and fix vulnerabilities and helped uncover PHP2Shell RCE bugs",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2026/10/23/inside-openais-plan-to-protect-the-internet-before-hackers-break-it/",
+      "host": "forbes.com",
+      "summary": "This voice experience is generated by AI. Learn more.",
+      "publishedAt": "2026-10-24T06:35:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 29.2,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "bjegt6btrs",
+      "title": "Turn notifications into code with GitHub Copilot in Teams",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "host": "github.blog",
+      "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group…",
+      "publishedAt": "2026-10-23T21:29:58.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 28.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "jxylr7yvsd",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "url": "https://huggingface.co/papers/2610.30926",
+      "host": "huggingface.co",
+      "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 28.8,
+      "reasons": [
+        "165 upvotes on Hugging Face",
+        "Matched: large language models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 165,
+        "arxivId": "2610.30926"
+      }
+    },
+    {
+      "id": "ifbpg0fvka",
+      "title": "AI Agent Memory: How LLM Agents Manage State in Production",
+      "url": "https://blog.n8n.io/ai-agent-memory-how-llm-agents-manage-state-in-production/",
+      "host": "blog.n8n.io",
+      "summary": "Learn how AI agent memory works, explore short-term and long-term memory architectures, and discover how to combine n8n and Cognee to build AI workflows that retain context, share knowledge, and learn across sessions.",
+      "publishedAt": "2026-10-23T12:20:34.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 28.6,
+      "reasons": [
+        "Matched: AI Agent, LLM, n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "otkkjpky6u",
+      "title": "See what 5 builders are making with Gemini 4 Argon",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+      "host": "blog.google",
+      "summary": "See how five builders are putting Gemini 4 Argon to work — and get inspired for your next build.",
+      "publishedAt": "2026-10-23T16:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "tqj6wrqzjx",
+      "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "host": "artificialanalysis.ai",
+      "summary": "",
+      "publishedAt": "2026-10-23T18:24:54.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 27.1,
+      "reasons": [
+        "118 points · 40 comments on Hacker News",
+        "Matched: Kimi"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50213337",
+        "points": 118,
+        "comments": 40
+      }
+    },
+    {
+      "id": "nb4mfj1vpo",
+      "title": "Deep Search in Real-World Web Environments",
+      "url": "https://huggingface.co/papers/2610.30181",
+      "host": "huggingface.co",
+      "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 26.1,
+      "reasons": [
+        "152 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 152,
+        "arxivId": "2610.30181"
+      }
+    },
+    {
+      "id": "7gdcilqpvb",
+      "title": "Claude Duet Safety, Privacy, and Security",
+      "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+      "host": "claude.com",
+      "summary": "Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "policy",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "tbcp65x49h",
+      "title": "Claude Cowork and chat come together for Enterprise",
+      "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+      "host": "claude.com",
+      "summary": "",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "industry",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "ozdrz59yot",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-23T16:15:50.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 25.6,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "5o1mwm41pn",
+      "title": "Gemma-4-26B-A4B with 39-69% less thinking at same accuracy",
+      "url": "https://bottlecapai.com/post/thinkingcap-gemma-4-26b/",
+      "host": "bottlecapai.com",
+      "summary": "",
+      "publishedAt": "2026-10-23T14:43:02.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 25.5,
+      "reasons": [
+        "116 points · 29 comments on Hacker News",
+        "Matched: Gemma"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50209907",
+        "points": 116,
+        "comments": 29
+      }
+    },
+    {
+      "id": "k9km4dfsz9",
+      "title": "Moonshot says it removed cyber-related data from training phases for Kimi K3.1 Pro \"to reduce potential misuse risk while preserving general usefulness\"",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "host": "the-decoder.com",
+      "summary": "Key Points…",
+      "publishedAt": "2026-10-23T19:35:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 24.4,
+      "reasons": [
+        "Matched: Kimi"
+      ],
+      "also": []
+    },
+    {
+      "id": "skg6p3emi6",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "host": "theverge.com",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between…",
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9ai7zwzjos",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "host": "techcrunch.com",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "publishedAt": "2026-10-23T19:06:23.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bpbg0dsv38",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "jqg7mdn91s",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "host": "gizmodo.com",
+      "summary": "",
+      "publishedAt": "2026-10-23T19:31:36.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 23.8,
+      "reasons": [
+        "56 points · 47 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50214185",
+        "points": 56,
+        "comments": 47
+      }
+    },
+    {
+      "id": "ssljj95i4q",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "url": "https://huggingface.co/papers/2610.30949",
+      "host": "huggingface.co",
+      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 23.8,
+      "reasons": [
+        "67 upvotes on Hugging Face",
+        "Matched: Agentic, foundation model"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 67,
+        "arxivId": "2610.30949"
+      }
+    },
+    {
+      "id": "4mwf6qyrgs",
+      "title": "Claude Code 2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "host": "github.com",
+      "summary": "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too",
+      "publishedAt": "2026-10-23T23:39:00.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 23.5,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.310"
+      }
+    },
+    {
+      "id": "ooim8ei4go",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "host": "theverge.com",
+      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow…",
+      "publishedAt": "2026-10-23T14:47:41.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "c3y8nxwby0",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "host": "techcrunch.com",
+      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "publishedAt": "2026-10-23T21:59:19.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "djane4wh26",
+      "title": "PHP2Shell was only the beginning: AI is accelerating the patch race",
+      "url": "https://thenewstack.io/php2shell-ai-patch-race/",
+      "host": "thenewstack.io",
+      "summary": "Government websites and public services across Europe went offline this week as organizations responded to two newly disclosed PHP vulnerabilities.",
+      "publishedAt": "2026-10-23T14:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "i3rgj937fp",
+      "title": "A few engineers asked IT for Linux. Then it spread to 200 machines.",
+      "url": "https://thenewstack.io/linux-developer-device-management/",
+      "host": "thenewstack.io",
+      "summary": "Linux is already part of the AI developer’s desktop toolkit. Nvidia’s DGX Spark, which became available to order on October",
+      "publishedAt": "2026-10-23T14:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "by1okxxlaj",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "host": "arstechnica.com",
+      "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+      "publishedAt": "2026-10-23T20:19:55.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6sq0gfiwqq",
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "url": "https://www.thisandthat.chat/enron/",
+      "host": "thisandthat.chat",
+      "summary": "",
+      "publishedAt": "2026-10-23T12:02:53.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 22.6,
+      "reasons": [
+        "62 points · 53 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50207620",
+        "points": 62,
+        "comments": 53
+      }
+    },
+    {
+      "id": "t9f2dl2osl",
+      "title": "Retro gaming is being overrun with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "host": "theverge.com",
+      "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as…",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5aab7jqbgt",
+      "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+      "url": "https://huggingface.co/papers/2610.24738",
+      "host": "huggingface.co",
+      "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing.",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 22.5,
+      "reasons": [
+        "74 upvotes on Hugging Face",
+        "Matched: Distillation"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 74,
+        "arxivId": "2610.24738"
+      }
+    },
+    {
+      "id": "li795p90jy",
+      "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "host": "the-decoder.com",
+      "summary": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step.",
+      "publishedAt": "2026-10-24T09:21:39.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 21.9,
+      "reasons": [
+        "Matched: coding agents, Claude, OpenCode"
+      ],
+      "also": []
+    },
+    {
+      "id": "kvjp0jux06",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "host": "arstechnica.com",
+      "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+      "publishedAt": "2026-10-23T17:18:31.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 21.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ijr6mtspsl",
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "host": "theverge.com",
+      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay…",
+      "publishedAt": "2026-10-23T17:00:18.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "o90tez71hi",
+      "title": "AI compute is the new oil–and needs a new market",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "host": "economist.com",
+      "summary": "",
+      "publishedAt": "2026-10-22T23:45:16.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 21.5,
+      "reasons": [
+        "52 points · 59 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50202671",
+        "points": 52,
+        "comments": 59
+      }
+    },
+    {
+      "id": "2o7iatseta",
+      "title": "Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation",
+      "url": "https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes",
+      "host": "theinformation.com",
+      "summary": "While much of the AI industry has fixated on new personal AI assistants from Meta and OpenAI, video AI is enjoying a quiet renaissance. Hollywood mogul Jeffrey Katzenberg…",
+      "publishedAt": "2026-10-23T23:10:05.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.3,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "e31eckk3y0",
+      "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "host": "the-decoder.com",
+      "summary": "External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redacted large portions of the 61-page report, and only a summary is publicly available.",
+      "publishedAt": "2026-10-23T18:00:32.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 20,
+      "reasons": [
+        "Matched: OpenAI, AI agents, GPT-5"
+      ],
+      "also": []
+    },
+    {
+      "id": "53u4lt34od",
+      "title": "Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M",
+      "url": "https://www.calcalistech.com/ctechnews/article/h1sq8ip2mx",
+      "host": "calcalistech.com",
+      "summary": "The funding, led by Red Dot Capital Partners, brings Mave's total funding to $34 million. The company is developing AI…",
+      "publishedAt": "2026-10-23T21:15:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 18.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rw29i13gt7",
+      "title": "Anthropic's Claude now writes code and proves it safe automatically",
+      "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing had missed. Anthropic's goal: making formal verification with AI as routine as standard testing.",
+      "publishedAt": "2026-10-23T11:32:19.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 16.4,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "l4gzqbel4c",
+      "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+      "host": "theregister.com",
+      "summary": "Monitoring was only partial and was easily bypassed",
+      "publishedAt": "2026-10-23T19:14:57.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.3,
+      "reasons": [
+        "Matched: OpenAI, Hugging Face"
+      ],
+      "also": []
+    },
+    {
+      "id": "tkkcg2vukd",
+      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal research model stopped such attacks on its own 67 percent of the time.",
+      "publishedAt": "2026-10-23T17:19:49.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 15.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "jxzyqrovkj",
+      "title": "AI models think humans are a bunch of amoral sheep",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123",
+      "host": "theregister.com",
+      "summary": "Ask LLMs for their most controversial take on humanity, and it turns out they have little nice to say about us, as one AI experiment found",
+      "publishedAt": "2026-10-23T16:26:13.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.6,
+      "reasons": [
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "k77za4ce1d",
+      "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+      "host": "the-decoder.com",
+      "summary": "Sam Altman believes advanced AI can't be kept locked up forever. Sandboxes and monitoring are only temporary fixes. Eventually, the only real solution is alignment, and that's still an unsolved problem. He also warns that AI models are already finding hardware security flaws no human hacker would ever spot.",
+      "publishedAt": "2026-10-23T15:42:18.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 15.4,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "gilyrgunby",
+      "title": "Pydantic AI 2.61.0",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0",
+      "host": "github.com",
+      "summary": "Warn when a provider-specific thinking setting from a broader scope overrides thinking",
+      "publishedAt": "2026-10-24T03:13:40.000Z",
+      "source": {
+        "id": "gh-pydantic-ai",
+        "name": "Pydantic AI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 14.4,
+      "reasons": [
+        "New release",
+        "Matched: Pydantic AI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "pydantic/pydantic-ai",
+        "version": "2.61.0"
+      }
+    },
+    {
+      "id": "6n8hkdfkt9",
+      "title": "Codex CLI 0.164.0",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-421457270",
+      "host": "developers.openai.com",
+      "summary": "Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access.",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 14,
+      "reasons": [
+        "New release",
+        "Matched: Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/codex",
+        "version": "0.164.0"
+      }
+    },
+    {
+      "id": "3sdz4aqzoi",
+      "title": "Ollama 0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+      "host": "github.com",
+      "summary": "Nemotron 3.5 Bolt E4B is NVIDIA’s smaller, Gemma 4-based vision-language model for fast local conversations, image understanding, and tool use. It supports a 128K-token context window.",
+      "publishedAt": "2026-10-23T17:17:19.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama releases"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 13.8,
+      "reasons": [
+        "New release",
+        "Matched: Ollama, Gemma, context window"
+      ],
+      "also": [],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "0.40.10"
+      }
+    },
+    {
+      "id": "30ue9ih9xm",
+      "title": "Podcast: ‘Reverse-Engineer Anything’ Is the Next Wave of AI Slop",
+      "url": "https://www.404media.co/podcast-reverse-engineer-anything-is-the-next-wave-of-ai-slop/",
+      "host": "404media.co",
+      "summary": "How people are removing surveillance ads from their TVs; a big AI shakeup at Accenture; and the Character.ai bankruptcy.",
+      "publishedAt": "2026-10-23T16:36:40.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 13.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cb0phurjqt",
+      "title": "crewAI 1.15.30",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30",
+      "host": "github.com",
+      "summary": "Fix AGENTS.md to start the login process while evaluating and stop after three rounds.",
+      "publishedAt": "2026-10-24T01:56:04.000Z",
+      "source": {
+        "id": "gh-crewai",
+        "name": "crewAI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 12,
+      "reasons": [
+        "New release",
+        "Matched: crewAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "crewAIInc/crewAI",
+        "version": "1.15.30"
+      }
+    },
+    {
+      "id": "aqyk6flgw9",
+      "title": "MCP TypeScript SDK 2.4.0",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0",
+      "host": "github.com",
+      "summary": "Package Version",
+      "publishedAt": "2026-10-23T18:32:25.000Z",
+      "source": {
+        "id": "gh-mcp-typescript-sdk",
+        "name": "MCP TypeScript SDK releases"
+      },
+      "section": "releases",
+      "topic": "automation",
+      "score": 10.1,
+      "reasons": [
+        "New release",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "release": {
+        "repo": "modelcontextprotocol/typescript-sdk",
+        "version": "2.4.0"
+      }
+    },
+    {
+      "id": "py85tnfw3i",
+      "title": "OpenHands 1.33.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.33.0",
+      "host": "github.com",
+      "summary": "feat(verify-openhands): launch --mars-web and --lock-to-cloud",
+      "publishedAt": "2026-10-23T13:54:32.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 9,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.33.0"
+      }
+    },
+    {
+      "id": "ku53izfams",
+      "title": "Google ADK (Python) 2.13.0",
+      "url": "https://github.com/google/adk-python/releases/tag/v2.13.0",
+      "host": "github.com",
+      "summary": "This release stabilizes core features while introducing TypeSafe workflow classification, live audio interactions, MongoDB integrations, and execution performance improvements.",
+      "publishedAt": "2026-10-23T18:08:23.000Z",
+      "source": {
+        "id": "gh-adk-python",
+        "name": "Google ADK (Python) releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 8,
+      "reasons": [
+        "New release"
+      ],
+      "also": [],
+      "release": {
+        "repo": "google/adk-python",
+        "version": "2.13.0"
+      }
+    }
+  ]
+}
