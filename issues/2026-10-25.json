@@ -1,0 +1,769 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:51:37.568Z",
+  "window": {
+    "from": "2026-10-24T09:35:36.642Z",
+    "to": "2026-10-25T09:51:33.717Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "uococzj1v0",
+      "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "host": "apollo.com",
+      "summary": "Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.",
+      "publishedAt": "2026-10-24T21:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 59.4,
+      "reasons": [
+        "553 points · 576 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50224463",
+        "points": 553,
+        "comments": 576
+      }
+    },
+    {
+      "id": "gqrudu9edo",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "host": "apricitas.io",
+      "summary": "",
+      "publishedAt": "2026-10-24T23:11:54.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 42.7,
+      "reasons": [
+        "363 points · 357 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50226419",
+        "points": 363,
+        "comments": 357
+      }
+    },
+    {
+      "id": "f5rt9iqq54",
+      "title": "Why is AI generated language so hard to understand?",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "host": "arxiv.org",
+      "summary": "",
+      "publishedAt": "2026-10-24T18:04:57.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.5,
+      "reasons": [
+        "201 points · 169 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50223647",
+        "points": 201,
+        "comments": 169
+      }
+    },
+    {
+      "id": "5vqvx2bgpk",
+      "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-10-25T03:56:01.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 32.4,
+      "reasons": [
+        "164 points · 57 comments on Hacker News",
+        "Matched: Qwen3"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50228167",
+        "points": 164,
+        "comments": 57
+      }
+    },
+    {
+      "id": "43su776it4",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "host": "cerebras.ai",
+      "summary": "",
+      "publishedAt": "2026-10-25T01:33:49.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.7,
+      "reasons": [
+        "161 points · 57 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50227356",
+        "points": 161,
+        "comments": 57
+      }
+    },
+    {
+      "id": "g7p1kf30q0",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-10-24T09:58:27.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 29.4,
+      "reasons": [
+        "248 points · 71 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50219700",
+        "points": 248,
+        "comments": 71
+      }
+    },
+    {
+      "id": "h34qyb2s83",
+      "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
+      "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
+      "host": "theinformation.com",
+      "summary": "OpenAI's efforts to undercut Anthropic on price are producing some results.",
+      "publishedAt": "2026-10-24T19:45:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.5,
+      "reasons": [
+        "Matched: Anthropic, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "qpm2pqvzgc",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "host": "techcrunch.com",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 27.3,
+      "reasons": [
+        "Matched: Grok, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "8kzh16oyun",
+      "title": "How a Blackstone-led $2.3B private credit loan to CoreWeave in 2023 became a blueprint for chip-backed debt, which is on track to become a $1T market",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/blackstone-bet-on-chips-drove-a-debt-boom-that-s-upending-credit",
+      "host": "bloomberg.com",
+      "summary": "“What is a GPU?” Blackstone Inc. executives asked CoreWeave Inc.'s leadership. Also: “Is AI real?”",
+      "publishedAt": "2026-10-25T06:00:52.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "l4seedblaq",
+      "title": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot",
+      "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+      "host": "venturebeat.com",
+      "summary": "That's because Kimi K3.1 Pro scores so high on third-party benchmarks",
+      "publishedAt": "2026-10-25T04:50:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 26.8,
+      "reasons": [
+        "Matched: Kimi"
+      ],
+      "also": []
+    },
+    {
+      "id": "poqn9nbfc8",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "host": "techcrunch.com",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "publishedAt": "2026-10-24T19:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.3,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "14kkk641z0",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "host": "theverge.com",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as…",
+      "publishedAt": "2026-10-24T18:32:21.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 26.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "t16z530j6n",
+      "title": "Joy & Curiosity #103",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
+      "host": "registerspill.thorstenball.com",
+      "summary": "Interesting & joyful things from the previous week",
+      "publishedAt": "2026-10-25T07:11:23.000Z",
+      "source": {
+        "id": "thorsten-ball",
+        "name": "Register Spill (Thorsten Ball)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 25.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "8ojyic7n7h",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "host": "techcrunch.com",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "publishedAt": "2026-10-24T14:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.1,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "l6pxx9qynf",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "host": "theverge.com",
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue…",
+      "publishedAt": "2026-10-24T21:29:12.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "gp8pcb69wy",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "host": "torrentfreak.com",
+      "summary": "",
+      "publishedAt": "2026-10-24T11:18:54.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "research",
+      "score": 24.8,
+      "reasons": [
+        "96 points · 52 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50220204",
+        "points": 96,
+        "comments": 52
+      }
+    },
+    {
+      "id": "ohkquliz1c",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "host": "magazine.sebastianraschka.com",
+      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "publishedAt": "2026-10-24T11:14:32.000Z",
+      "source": {
+        "id": "ahead-of-ai",
+        "name": "Ahead of AI (Sebastian Raschka)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 24.4,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Reasoning Models, distillation"
+      ],
+      "also": []
+    },
+    {
+      "id": "7wr8oarnzo",
+      "title": "A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math",
+      "url": "https://www.nytimes.com/2026/10/23/us/alpha-school-ai-education-parents.html?unlocked_article_code=1.K1E.IcJn.2l4XIQK5gQsl&smid=url-share",
+      "host": "nytimes.com",
+      "summary": "Alpha School, a private network, is spreading into public education. While its students' test scores are high, some parents and educators say it doesn't live up to the hype.",
+      "publishedAt": "2026-10-24T17:25:04.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4n34zykjw6",
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "host": "dbreunig.com",
+      "summary": "As models improve, they bring surprising challenges for those building apps and harnesses. How context engineering has changed this year, and where it's headed.",
+      "publishedAt": "2026-10-24T17:08:00.000Z",
+      "source": {
+        "id": "drew-breunig",
+        "name": "Drew Breunig"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 23.9,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Context Engineering"
+      ],
+      "also": []
+    },
+    {
+      "id": "b9z21fb6mu",
+      "title": "Don't anthropomorphize big tech companies",
+      "url": "https://seangoedecke.com/dont-anthropomorphize-big-tech-companies/",
+      "host": "seangoedecke.com",
+      "summary": "Bryan Cantrill has a great line from a talk where he cautions against anthropomorphizing1 Oracle CEO Larry Ellison. I think it’s also a mistake to treat any tech company like a person. Here’s the full quote: You need to think of Larry Ellison the way you think of a lawnmower. You don’t anthropomorphize your lawnmower, the lawnmower just mows the lawn, you stick your hand in there and it’ll chop it off, the end.",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 23.6,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "do7kzmdd1x",
+      "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
+      "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/",
+      "host": "infoq.com",
+      "summary": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long sessions and cold package import time by 21%.",
+      "publishedAt": "2026-10-24T16:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 23.6,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "2wkw7skdo1",
+      "title": "An interview with Ciena CEO Gary Smith, a veteran of the 2001 telecoms crash, on AI demand outpacing supply for Ciena's optical networking chips, and more",
+      "url": "https://www.wsj.com/cio-journal/a-veteran-of-the-telecom-bust-navigates-the-ai-boom-b063fa63?st=YJm3H4&reflink=desktopwebshare_permalink",
+      "host": "wsj.com",
+      "summary": "Ciena CEO Gary Smith is ‘suitably paranoid,’ but optimistic",
+      "publishedAt": "2026-10-24T15:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "g2byqyjot7",
+      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure.",
+      "publishedAt": "2026-10-25T07:30:11.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.4,
+      "reasons": [
+        "Matched: OpenAI, Anthropic, Deepseek"
+      ],
+      "also": []
+    },
+    {
+      "id": "lchmkiz9ot",
+      "title": "Baba, which develops AI tools to help Medicare and Medicaid patients connect to care teams and handle advocacy tasks, raised a $40M Series A led by FirstMark",
+      "url": "https://www.fiercehealthcare.com/finance/baba-nabs-40m-series-backed-firstmark-capital-and-cvs-health-ventures-medicare-ai-care",
+      "host": "fiercehealthcare.com",
+      "summary": "Applied artificial intelligence company Baba secured $40 million in series A funding to modernize the Medicare and Medicaid experience.",
+      "publishedAt": "2026-10-25T05:40:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cwjcvj0ps9",
+      "title": "Inside Meta's law enforcement outreach team, which uses AI and human reviewers to analyze social media posts, aiming to prevent threats like school shootings",
+      "url": "https://www.newyorker.com/news/the-lede/inside-metas-efforts-to-prevent-school-shootings",
+      "host": "newyorker.com",
+      "summary": "Algorithmic social media, which has helped create the conditions for the spread of such violence, is reckoning with how it can be part of the solution.",
+      "publishedAt": "2026-10-24T10:35:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ck54o32438",
+      "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition.",
+      "publishedAt": "2026-10-25T09:12:10.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 21.8,
+      "reasons": [
+        "Matched: Anthropic, AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "mq9f7p03u2",
+      "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+      "host": "the-decoder.com",
+      "summary": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than $600 billion in 2026.",
+      "publishedAt": "2026-10-25T08:09:32.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.6,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "c7goo7rkk8",
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "host": "techcrunch.com",
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "publishedAt": "2026-10-24T16:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "e844i9z668",
+      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+      "host": "terrytao.wordpress.com",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:35:17.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 21.3,
+      "reasons": [
+        "45 points · 34 comments on Hacker News",
+        "Matched: OpenAI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50222283",
+        "points": 45,
+        "comments": 34
+      }
+    },
+    {
+      "id": "e6p3gnm9ts",
+      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+      "host": "the-decoder.com",
+      "summary": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027.",
+      "publishedAt": "2026-10-25T09:37:46.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 19.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ofddpr6heu",
+      "title": "Argus – a free, open-source agentic security operations platform – MIT",
+      "url": "https://thomasunise.com/argus",
+      "host": "thomasunise.com",
+      "summary": "",
+      "publishedAt": "2026-10-24T21:54:16.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 19.5,
+      "reasons": [
+        "27 points · 9 comments on Hacker News",
+        "Matched: agentic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50225748",
+        "points": 27,
+        "comments": 9
+      }
+    },
+    {
+      "id": "jit3f0ulfn",
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altman's warning: the more powerful the model, the harder it is to contain.",
+      "publishedAt": "2026-10-24T11:12:36.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 16.4,
+      "reasons": [
+        "Matched: OpenAI, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "gmemco0xji",
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "host": "the-decoder.com",
+      "summary": "The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and see a connection to their advocacy for AI systems that are easier to scrutinize. The researchers say OpenAI never told them in writing which information they allegedly mishandled.",
+      "publishedAt": "2026-10-24T15:19:33.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 15.4,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "174zkk0hp7",
+      "title": "Ollama 0.40.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "host": "github.com",
+      "summary": "Ollama can now generate speech on macOS. ollama run plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible /v1/audio/speech endpoint.",
+      "publishedAt": "2026-10-24T17:50:51.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama releases"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 12,
+      "reasons": [
+        "New release",
+        "Matched: Ollama, OpenAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "0.40.11"
+      }
+    },
+    {
+      "id": "35hi2i8kp6",
+      "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+      "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+      "host": "theregister.com",
+      "summary": "Designed to carry out 100,000 steps without human approval",
+      "publishedAt": "2026-10-24T13:02:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 10.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2pydv3mhoh",
+      "title": "opencode github-v1.2.28",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/github-v1.2.28",
+      "host": "github.com",
+      "summary": "Co-authored-by: rekram1-node rekram1-node@users.noreply.github.com",
+      "publishedAt": "2026-10-24T18:05:12.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 10.1,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "github-v1.2.28"
+      }
+    }
+  ]
+}
