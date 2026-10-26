@@ -1,0 +1,671 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T11:11:07.159Z",
+  "window": {
+    "from": "2026-10-25T09:51:33.717Z",
+    "to": "2026-10-26T11:11:02.179Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "mxqjrys5o1",
+      "title": "A look at OpenAI's and Anthropic's aggressive price cuts between June and October, driven by low switching costs and heavy competition from open-weight models",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "host": "minimaxir.com",
+      "summary": "Let's look at a quick timeline of the major LLM model announcements from both OpenAI and Anthropic over the past few months.",
+      "publishedAt": "2026-10-26T10:15:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 60,
+      "reasons": [
+        "328 points · 320 comments on Hacker News",
+        "Matched: OpenAI, Anthropic, open-weight"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50236102",
+        "points": 328,
+        "comments": 320
+      }
+    },
+    {
+      "id": "3h849w3ymw",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "host": "lynchlab.net",
+      "summary": "",
+      "publishedAt": "2026-10-25T17:15:38.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 43.2,
+      "reasons": [
+        "571 points · 245 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50233779",
+        "points": 571,
+        "comments": 245
+      }
+    },
+    {
+      "id": "38gf9il9qw",
+      "title": "Modern AI panic reflects \"cognitive mercantilism\", a zero-sum worldview where intelligence is hoarded as a scarce supply-side commodity managed by elites",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "host": "contraptions.venkateshrao.com",
+      "summary": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
+      "publishedAt": "2026-10-26T10:55:18.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 39.3,
+      "reasons": [
+        "69 points · 72 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50239027",
+        "points": 69,
+        "comments": 72
+      }
+    },
+    {
+      "id": "50obw7a12n",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "host": "dailycal.org",
+      "summary": "",
+      "publishedAt": "2026-10-25T16:28:26.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 36.8,
+      "reasons": [
+        "220 points · 320 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50233304",
+        "points": 220,
+        "comments": 320
+      }
+    },
+    {
+      "id": "6n10fnhvwn",
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T03:29:05.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "automation",
+      "score": 31,
+      "reasons": [
+        "152 points · 44 comments on Hacker News",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50238739",
+        "points": 152,
+        "comments": 44
+      }
+    },
+    {
+      "id": "n1og2ixhso",
+      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
+      "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/",
+      "host": "infoq.com",
+      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harnesses verify outputs through execution. The article advises validating model outputs and choosing the least complex design that meets reliability, speed, and cost needs.",
+      "publishedAt": "2026-10-26T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30,
+      "reasons": [
+        "Matched: Agentic, LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "ddnb10ofij",
+      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/",
+      "host": "infoq.com",
+      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session.",
+      "publishedAt": "2026-10-26T10:20:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 29.8,
+      "reasons": [
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "8vxj4v24us",
+      "title": "Elvis Presley's rightsholders sue Anthropic over 274 songs allegedly used to train its models, seeking $41M+; Anthropic says it disagrees and will defend itself",
+      "url": "https://www.nytimes.com/2026/10/25/arts/music/anthropic-lawsuit-elvis-presley-songs.html?unlocked_article_code=1.LVE.Unk9.7e04-FAQ9Ei8&smid=nytcore-ios-share",
+      "host": "nytimes.com",
+      "summary": "The $41 million lawsuit contends that the A.I. company used Presley's music to train its models without permission.",
+      "publishedAt": "2026-10-26T08:55:10.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 29.5,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "foudr9uj2a",
+      "title": "Ray-Ban Meta Audio glasses review: no camera is a bonus for some, good audio quality, and Meta AI works well, but lingering privacy concerns and fairly pricey",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/ray-ban-meta-audio-ai-glasses-cost-more-while-ditching-a-key-feature-review",
+      "host": "bloomberg.com",
+      "summary": "Meta Platforms Inc.'s $349-and-up Ray-Ban Meta Audio, announced last month, are an odd proposition.",
+      "publishedAt": "2026-10-26T11:10:16.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 28,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ligzbxu4we",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "host": "techspot.com",
+      "summary": "",
+      "publishedAt": "2026-10-25T09:51:17.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 27.6,
+      "reasons": [
+        "141 points · 77 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50229827",
+        "points": 141,
+        "comments": 77
+      }
+    },
+    {
+      "id": "9ypo8u43w9",
+      "title": "Alphabet, Amazon, and Microsoft are expected to report double-digit gains in revenue this week, as investors grow impatient with AI capex and seek returns",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-spending-fears-threaten-to-swamp-big-tech-s-strong-earnings",
+      "host": "bloomberg.com",
+      "summary": "Three of the biggest and most important technology companies in the world are expected to show healthy growth when they report earnings this week.",
+      "publishedAt": "2026-10-26T08:35:04.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6vpsbwa3tn",
+      "title": "A profile of former Google VP and Yahoo CEO Marissa Mayer, whose startup Dazzle is building an AI assistant to help non-tech enthusiasts with mundane tasks",
+      "url": "https://www.nytimes.com/2026/10/25/style/marissa-mayer-ai-assistants-women.html?unlocked_article_code=1.LVE.bUTq.yuaOciiPS1zl&smid=url-share",
+      "host": "nytimes.com",
+      "summary": "Marissa Mayer has reinvented herself as a start-up founder, with a team of 10 engineers",
+      "publishedAt": "2026-10-26T07:55:08.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rr2vz58pcq",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "host": "reddit.com",
+      "summary": "",
+      "publishedAt": "2026-10-25T14:05:03.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 26.9,
+      "reasons": [
+        "88 points · 111 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50231722",
+        "points": 88,
+        "comments": 111
+      }
+    },
+    {
+      "id": "mda4j0j6fd",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "host": "techcrunch.com",
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "publishedAt": "2026-10-25T21:31:16.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.8,
+      "reasons": [
+        "Matched: Grok"
+      ],
+      "also": []
+    },
+    {
+      "id": "tqeqp891mm",
+      "title": "Amazon Bee Frontier review: a simple $75 AI wearable that excels at always-on listening, summarizing conversations, and suggesting follow-up actions",
+      "url": "https://spyglass.org/amazon-bee/",
+      "host": "spyglass.org",
+      "summary": "Amazon's quiet, listening AI wearable is also pretty killer?",
+      "publishedAt": "2026-10-26T05:05:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "icr5vqap7g",
+      "title": "DongA Ilbo: SK Hynix gained ~$15B on its Kioxia stake earlier in 2026, and plans to return ~$12B to shareholders via a special dividend",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/sk-hynix-plans-12-billion-dividend-from-kioxia-gains-report",
+      "host": "bloomberg.com",
+      "summary": "SK Hynix Inc.'s shares bucked a broad selloff in AI-related stocks thanks to the prospect of a hefty dividend payout related to the South Korean memory maker's stake…",
+      "publishedAt": "2026-10-26T03:25:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "g6uerb30gw",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "host": "twitter.com",
+      "summary": "",
+      "publishedAt": "2026-10-25T12:47:20.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 26.1,
+      "reasons": [
+        "97 points · 78 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50230995",
+        "points": 97,
+        "comments": 78
+      }
+    },
+    {
+      "id": "cqchiexspu",
+      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-ml-drift/",
+      "host": "infoq.com",
+      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU.",
+      "publishedAt": "2026-10-25T17:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.7,
+      "reasons": [
+        "Matched: machine learning"
+      ],
+      "also": []
+    },
+    {
+      "id": "ktgbo72l52",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "host": "techcrunch.com",
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "publishedAt": "2026-10-25T16:57:32.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hoghesjewl",
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "host": "shattered.io",
+      "summary": "",
+      "publishedAt": "2026-10-26T03:12:05.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 25,
+      "reasons": [
+        "65 points · 24 comments on Hacker News",
+        "Matched: Qwen"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50238620",
+        "points": 65,
+        "comments": 24
+      }
+    },
+    {
+      "id": "ahwpli9jbw",
+      "title": "A mathematician reads the AI future",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "host": "theatlantic.com",
+      "summary": "",
+      "publishedAt": "2026-10-25T16:31:21.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "research",
+      "score": 24.7,
+      "reasons": [
+        "60 points · 86 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50233347",
+        "points": 60,
+        "comments": 86
+      }
+    },
+    {
+      "id": "8d5ez7qdbo",
+      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/",
+      "host": "infoq.com",
+      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in now sits.",
+      "publishedAt": "2026-10-25T18:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.9,
+      "reasons": [
+        "Matched: LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "bc6x99izxi",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "host": "techcrunch.com",
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "publishedAt": "2026-10-25T14:10:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kyf2g7hegt",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "host": "theverge.com",
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source…",
+      "publishedAt": "2026-10-25T13:25:32.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hypg5hn3kn",
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "host": "theverge.com",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on…",
+      "publishedAt": "2026-10-25T12:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "npw4jbool1",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "host": "interconnects.ai",
+      "summary": "#20",
+      "publishedAt": "2026-10-25T11:49:00.000Z",
+      "source": {
+        "id": "interconnects",
+        "name": "Interconnects (Nathan Lambert)"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 22.5,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Kimi"
+      ],
+      "also": []
+    },
+    {
+      "id": "87o82yjz9k",
+      "title": "Euro open source specialist proposes LLM gateway to ease token bills",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
+      "host": "theregister.com",
+      "summary": "Aiven hopes to do for LLMs what it does for databases",
+      "publishedAt": "2026-10-26T10:15:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 17.8,
+      "reasons": [
+        "Matched: LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "3gr8sxzfr9",
+      "title": "Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI",
+      "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
+      "host": "the-decoder.com",
+      "summary": "High-frequency traders like Jane Street and Hudson River Trading are now racing each other for AI computing power. The article Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI appeared first on The Decoder.",
+      "publishedAt": "2026-10-26T09:49:33.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 17.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "q12icswcul",
+      "title": "After threatening AI export bans, China allows DeepSeek to keep selling",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/after-threatening-ai-export-bans-china-allows-deepseek-to-keep-selling/5305267",
+      "host": "theregister.com",
+      "summary": "PLUS: AI datacenter bubble wobbles in Australia; E-commerce app suggests it can detect diseases; India’s top telco to IPO amid investor frenzy; and more!",
+      "publishedAt": "2026-10-26T00:39:57.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.5,
+      "reasons": [
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "c9n316qcly",
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "host": "the-decoder.com",
+      "summary": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy.",
+      "publishedAt": "2026-10-25T10:08:49.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 16.1,
+      "reasons": [
+        "Matched: GPT-6, fine-tuned, Qwen3"
+      ],
+      "also": []
+    },
+    {
+      "id": "697f5c6z1u",
+      "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
+      "url": "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/",
+      "host": "the-decoder.com",
+      "summary": "Toyota wants to turn itself into a global robotics company, and it's betting on humanoid robots and factory automation to get there. The article Toyota is betting $6.4 billion a year on humanoid robots and factory automation appeared first on The Decoder.",
+      "publishedAt": "2026-10-26T09:18:15.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    }
+  ]
+}
