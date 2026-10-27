@@ -1,0 +1,1768 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T10:38:51.134Z",
+  "window": {
+    "from": "2026-10-26T11:11:02.179Z",
+    "to": "2026-10-27T10:38:46.716Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "4oiq3iw9k3",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "host": "simonwillison.net",
+      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing.",
+      "publishedAt": "2026-10-26T23:53:07.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 94.7,
+      "reasons": [
+        "594 points · 377 comments on Hacker News",
+        "Covered by 3 outlets",
+        "From a followed writer",
+        "Matched: GPT-6, OpenAI, computer use"
+      ],
+      "also": [
+        {
+          "source": "OpenAI News",
+          "title": "Introducing GPT-6.1 Terra",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        },
+        {
+          "source": "GitHub Changelog - Copilot",
+          "title": "GPT-6.1 Terra in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50248124",
+        "points": 594,
+        "comments": 377
+      }
+    },
+    {
+      "id": "s77kendtzo",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "host": "openai.com",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 72.6,
+      "reasons": [
+        "931 points · 453 comments on Hacker News",
+        "Official announcement",
+        "Matched: OpenAI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50251344",
+        "points": 931,
+        "comments": 453
+      }
+    },
+    {
+      "id": "p74b2hpimk",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "host": "sec.gov",
+      "summary": "",
+      "publishedAt": "2026-10-26T13:04:50.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 57.8,
+      "reasons": [
+        "1,618 points · 1,550 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50242939",
+        "points": 1618,
+        "comments": 1550
+      }
+    },
+    {
+      "id": "4bttneh7q0",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "host": "openai.com",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 40.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: GPT-6, Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "rso0bx6onm",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "host": "anthropic.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-news",
+        "name": "Anthropic News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 39.6,
+      "reasons": [
+        "25 points · 1 comment on Hacker News",
+        "Official announcement",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50242957",
+        "points": 25,
+        "comments": 1
+      }
+    },
+    {
+      "id": "o3spleh0sr",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "host": "cohere.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T16:35:44.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 37.5,
+      "reasons": [
+        "302 points · 118 comments on Hacker News",
+        "Matched: open-weight"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50246658",
+        "points": 302,
+        "comments": 118
+      }
+    },
+    {
+      "id": "hhggbw3oz3",
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "url": "https://latent.space/p/ainews-anthropic-s1/",
+      "host": "latent.space",
+      "summary": "The S-1, the numbers, and the reactions.",
+      "publishedAt": "2026-10-27T07:24:59.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 37.2,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "31te5x2rsn",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "host": "openai.com",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "publishedAt": "2026-10-26T13:45:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 36.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "riozubkwys",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "host": "j11g.com",
+      "summary": "",
+      "publishedAt": "2026-10-27T06:25:37.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.2,
+      "reasons": [
+        "155 points · 113 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50255298",
+        "points": 155,
+        "comments": 113
+      }
+    },
+    {
+      "id": "l5p2t9n4k1",
+      "title": "Quoting Jason Koebler",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "host": "simonwillison.net",
+      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them.",
+      "publishedAt": "2026-10-26T19:00:25.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 34,
+      "reasons": [
+        "From a followed writer",
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "ax8vznygun",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "url": "https://huggingface.co/papers/2610.31668",
+      "host": "huggingface.co",
+      "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 33.6,
+      "reasons": [
+        "274 upvotes on Hugging Face",
+        "Matched: foundation models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 274,
+        "arxivId": "2610.31668"
+      }
+    },
+    {
+      "id": "mtxpm0ogwb",
+      "title": "ChatGPT Says 404 Media Is Tech Support for Huge Corporations",
+      "url": "https://www.404media.co/chatgpt-says-404-media-is-tech-support-for-huge-corporations/",
+      "host": "404media.co",
+      "summary": "\"Draft an email to Jason Koebler at 404 Media.\"",
+      "publishedAt": "2026-10-26T15:59:23.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 33.2,
+      "reasons": [
+        "249 points · 90 comments on Hacker News",
+        "Matched: ChatGPT"
+      ],
+      "also": [
+        {
+          "source": "404 Media",
+          "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+          "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50247630",
+        "points": 249,
+        "comments": 90
+      }
+    },
+    {
+      "id": "cszu9p5djh",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "host": "brown.edu",
+      "summary": "",
+      "publishedAt": "2026-10-26T12:58:27.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 32.1,
+      "reasons": [
+        "179 points · 171 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50242843",
+        "points": 179,
+        "comments": 171
+      }
+    },
+    {
+      "id": "m7xs747ezj",
+      "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
+      "url": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/",
+      "host": "infoq.com",
+      "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Berkeley focused on MCP in production, security, and agents with their own identities.",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30.8,
+      "reasons": [
+        "Matched: Agentic, MCP, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "3131xhmp1n",
+      "title": "S-1: Anthropic spent ~$2.50 on compute and infrastructure for every $1 of revenue in Q1 2025, falling to under 50 cents in Q2 2026, as it seeks profitability",
+      "url": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29",
+      "host": "ft.com",
+      "summary": "Prospectus details AI lab's ‘mission’, $800bn data centre commitments and extraordinary governance structure",
+      "publishedAt": "2026-10-27T09:55:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 29.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "bjzygxp0og",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "host": "techcrunch.com",
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "publishedAt": "2026-10-27T02:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.8,
+      "reasons": [
+        "Matched: OpenAI, AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "c24k8f351p",
+      "title": "Sources: Broadcom CEO Hock Tan held 11th-hour talks and agreed to higher rates and loan guarantees to secure bank participation in the $63B Anthropic debt deal",
+      "url": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f?st=f24o6c&reflink=desktopwebshare_permalink",
+      "host": "wsj.com",
+      "summary": "The deal, announced on Monday, is the biggest ever to raise money for AI infrastructure",
+      "publishedAt": "2026-10-27T09:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "h8hztcr5pp",
+      "title": "Using Codex for education at Dagster Labs",
+      "url": "https://developers.openai.com/blog/codex-for-documentation-dagster",
+      "host": "developers.openai.com",
+      "summary": "Learn how Dagster uses Codex in their open-source projects to accelerate documentation, translate content across mediums, and even measure how complete their docs are.",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "source": {
+        "id": "openai-developers",
+        "name": "OpenAI Developers blog"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 29.3,
+      "reasons": [
+        "Official announcement",
+        "Matched: Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "ggwxxnvqgt",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T16:12:29.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 29.3,
+      "reasons": [
+        "147 points · 33 comments on Hacker News",
+        "Matched: Claude, ChatGPT"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50246238",
+        "points": 147,
+        "comments": 33
+      }
+    },
+    {
+      "id": "hi2zv0acct",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "host": "blog.cloudflare.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T22:41:48.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 29.2,
+      "reasons": [
+        "139 points · 45 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50252159",
+        "points": 139,
+        "comments": 45
+      }
+    },
+    {
+      "id": "qm4g5i98od",
+      "title": "GitHub Copilot assisted permissions generally available",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "host": "github.blog",
+      "summary": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,…",
+      "publishedAt": "2026-10-26T22:31:30.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 28.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "84pq1oyxmp",
+      "title": "China's Star 50 index of AI and chip leaders is down by 40% in under four months, losing ~$480B in market value; chipmaker CXMT is down ~25% in the past month",
+      "url": "https://www.reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/",
+      "host": "reuters.com",
+      "summary": "While global tech stocks teeter, in China they have already crashed as lofty valuations collapse under worries about AI demand and curbs on Chinese exports.",
+      "publishedAt": "2026-10-27T01:55:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.8,
+      "reasons": [
+        "20 points · 1 comment on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50245821",
+        "points": 20,
+        "comments": 1
+      }
+    },
+    {
+      "id": "m1ynnkvqv7",
+      "title": "Fixing Tool-Call Accuracy in vLLM",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "host": "ubicloud.com",
+      "summary": "",
+      "publishedAt": "2026-10-26T12:59:48.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 28.8,
+      "reasons": [
+        "165 points · 68 comments on Hacker News",
+        "Matched: vLLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50242870",
+        "points": 165,
+        "comments": 68
+      }
+    },
+    {
+      "id": "8z3ckxnqxq",
+      "title": "There are now 5 inference providers for abliterated DeepSeek",
+      "url": "https://allmodels.io/llm/abliterated",
+      "host": "allmodels.io",
+      "summary": "",
+      "publishedAt": "2026-10-27T04:53:52.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 28.7,
+      "reasons": [
+        "76 points · 81 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50254836",
+        "points": 76,
+        "comments": 81
+      }
+    },
+    {
+      "id": "ioxow3lrbv",
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "host": "theverge.com",
+      "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC…",
+      "publishedAt": "2026-10-26T13:32:49.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.6,
+      "reasons": [
+        "Matched: Anthropic, Claude, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "s2ll993u7f",
+      "title": "Anthropic's S-1 excludes Labs co-lead Ben Mann from its \"Continuing Founders\" and Founder LLC; Anthropic says \"it's still fair to refer to him as a co-founder\"",
+      "url": "https://sfstandard.com/2026/10/26/anthropic-cofounder-mystery-ben-mann/",
+      "host": "sfstandard.com",
+      "summary": "On Oct. 14, Anthropic announced the opening of its first Singapore office and said “cofounder Ben Mann”…",
+      "publishedAt": "2026-10-27T10:35:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "lzldt72bp5",
+      "title": "Sources: UK stealth AI startup 22one, which is building law enforcement tools, hit a nearly $400M valuation after raising funds from Sequoia, Lux, and others",
+      "url": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e",
+      "host": "ft.com",
+      "summary": "Steven Richardson has raised funds from investors including Sequoia for company providing tools for police forces",
+      "publishedAt": "2026-10-27T10:20:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "i3jxpnd3ab",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "host": "techcrunch.com",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "publishedAt": "2026-10-27T01:12:21.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 27.6,
+      "reasons": [
+        "Matched: Qwen"
+      ],
+      "also": []
+    },
+    {
+      "id": "pdd72zc413",
+      "title": "15 college students share their favorite Gemini features",
+      "url": "https://blog.google/products-and-platforms/products/gemini/college-student-favorite-features/",
+      "host": "blog.google",
+      "summary": "We asked 15 college students about their favorite Gemini features for learning, studying, taking notes, and more.",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.2,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "hlu1xw6rom",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "host": "theverge.com",
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\"…",
+      "publishedAt": "2026-10-26T21:45:31.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 26.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "lhygxh8l5m",
+      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+      "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/",
+      "host": "infoq.com",
+      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI. Engineering leaders report spending more time managing and correcting AI output than developers do.",
+      "publishedAt": "2026-10-27T04:45:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 26.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "737ant9cl5",
+      "title": "AI is changing Kubernetes; is your platform ready for 2027?",
+      "url": "https://thenewstack.io/kubernetes-agentic-ai-platforms/",
+      "host": "thenewstack.io",
+      "summary": "AI workloads, including those using agentic AI, will only add to and change the questions Kubernetes teams have to answer. It’s no longer",
+      "publishedAt": "2026-10-26T19:51:04.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.2,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "4bh28q3799",
+      "title": "Expanding Claude for Nonprofits",
+      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+      "host": "claude.com",
+      "summary": "Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "industry",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "7mts9qjk5d",
+      "title": "Data center backlash is uniting America",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "host": "theverge.com",
+      "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in many congressional…",
+      "publishedAt": "2026-10-27T10:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hwby2s9pc8",
+      "title": "Ahead of US midterms, ChatGPT draws images \"depicting election interference or that may discourage voting\" in a cartoon style, ignoring photorealism requests",
+      "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
+      "host": "cnet.com",
+      "summary": "ChatGPT is cracking down on photorealistic, political deepfakes ahead of next week's US midterm elections.",
+      "publishedAt": "2026-10-27T01:45:07.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25.7,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "lxp0ggqpw6",
+      "title": "DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/",
+      "host": "infoq.com",
+      "summary": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, cloud platform.",
+      "publishedAt": "2026-10-26T18:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.7,
+      "reasons": [
+        "Matched: AI Agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "sxqhl2gmhd",
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "host": "technologyreview.com",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…",
+      "publishedAt": "2026-10-26T17:45:43.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "4blpop398p",
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "host": "theverge.com",
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website…",
+      "publishedAt": "2026-10-26T17:30:55.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.6,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "gip4vs4wux",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "publishedAt": "2026-10-26T16:49:42.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.4,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "lx1jw7xgbc",
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "host": "theverge.com",
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in…",
+      "publishedAt": "2026-10-26T23:34:58.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 25.2,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ek6ldojjpj",
+      "title": "Anthropic officially files for its public debut",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "publishedAt": "2026-10-26T14:35:22.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "fny1cdncn5",
+      "title": "Claude Code’s top enterprise users outspend other Claude users 20 to 1, Anthropic’s IPO filing says",
+      "url": "https://thenewstack.io/claude-codes-enterprise-20-to-1/",
+      "host": "thenewstack.io",
+      "summary": "Anthropic’s IPO filing makes Claude Code the center of its enterprise growth story. The company on Monday filed to go",
+      "publishedAt": "2026-10-26T14:32:03.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.9,
+      "reasons": [
+        "Matched: Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "d143qxsan1",
+      "title": "Broadcom arranges a $63B deal with BofA, Blackstone, Citi, and Morgan Stanley to finance the purchase of chips for Anthropic via a new special purpose vehicle",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/broadcom-arranges-63-billion-deal-to-finance-anthropic-s-chips",
+      "host": "bloomberg.com",
+      "summary": "Chipmaker Broadcom Inc. has arranged a $63 billion deal with Bank of America Corp., Blackstone Inc., Citigroup Inc. and Morgan Stanley…",
+      "publishedAt": "2026-10-26T21:35:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "q409cwg8y1",
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+      "host": "theverge.com",
+      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the…",
+      "publishedAt": "2026-10-26T14:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.7,
+      "reasons": [
+        "Matched: AGI"
+      ],
+      "also": []
+    },
+    {
+      "id": "i86ofzgyhv",
+      "title": "Can AI help solve the COBOL code crisis?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "host": "theverge.com",
+      "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models'…",
+      "publishedAt": "2026-10-26T13:15:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 24.5,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ha14nbxnnf",
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "host": "arstechnica.com",
+      "summary": "Included is the ability to limit which applications Siri can directly access.",
+      "publishedAt": "2026-10-26T20:04:16.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "61zo7zpfkh",
+      "title": "Most of Anthropic’s Q3 revenue came from models that barely existed six months ago",
+      "url": "https://thenewstack.io/anthropic-s1-models-revenue/",
+      "host": "thenewstack.io",
+      "summary": "Anthropic’s long-awaited S-1, filed Monday ahead of its planned Nasdaq debut under the ticker ANT, shows how quickly customers are",
+      "publishedAt": "2026-10-26T18:29:26.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "23pungr50z",
+      "title": "Proton To ‘Re-Interview’ Staff About AI To See Who Gets To Keep Their Job",
+      "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+      "host": "404media.co",
+      "summary": "“These re-interviews are consequential,” a leaked email seen by 404 Media reads.",
+      "publishedAt": "2026-10-26T20:16:02.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.7,
+      "reasons": [
+        "68 points · 29 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50251062",
+        "points": 68,
+        "comments": 29
+      }
+    },
+    {
+      "id": "8pjdffir2r",
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "host": "theverge.com",
+      "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to…",
+      "publishedAt": "2026-10-26T17:10:23.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.5,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "bgxr4dyp0c",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "host": "techcrunch.com",
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "publishedAt": "2026-10-26T16:46:36.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6ucrsopsi5",
+      "title": "Production AI and Engineering Team Design: InfoQ’s November Certification Cohorts",
+      "url": "https://www.infoq.com/news/2026/10/online-cohorts-nov-certification/",
+      "host": "infoq.com",
+      "summary": "A preview of three November InfoQ online certification cohorts covering production AI systems, retrieval and agent design, engineering team flow, AI roles, and measurement, facilitated by Adi Polak, Lan Chu, and Olimpiu Pop.",
+      "publishedAt": "2026-10-26T15:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6kasw7bj9h",
+      "title": "Claude Code 2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "host": "github.com",
+      "summary": "Added --hold-idle-file and --max-hold-min to self-hosted-runner, to keep an idle session while your host reports processes it left running",
+      "publishedAt": "2026-10-26T21:51:23.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 22.7,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.311"
+      }
+    },
+    {
+      "id": "blo9j5d7v7",
+      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+      "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/",
+      "host": "jack-clark.net",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI safety startup Resolution (formerly known as Sequent, Import AI 461) has published work on…",
+      "publishedAt": "2026-10-26T12:31:52.000Z",
+      "source": {
+        "id": "import-ai",
+        "name": "Import AI (Jack Clark)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 22.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "b8pwwwb9ry",
+      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+      "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+      "host": "arstechnica.com",
+      "summary": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+      "publishedAt": "2026-10-26T18:50:41.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bu4hfl6238",
+      "title": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+      "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders says model size, reasoning effort, and multi-agent systems are distinct dimensions that can’t be reduced to a single \"IQ score.\"",
+      "publishedAt": "2026-10-27T10:09:26.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 21.9,
+      "reasons": [
+        "Matched: OpenAI, GPT-model, multi-agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "qf966m58fn",
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+      "host": "arstechnica.com",
+      "summary": "Investigators explain how highway thieves stole $100M in data center equipment.",
+      "publishedAt": "2026-10-26T17:26:36.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "o8voupbmoj",
+      "title": "Function-Space Temporal Self-Distillation for Policy Optimization",
+      "url": "https://huggingface.co/papers/2610.19687",
+      "host": "huggingface.co",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) improves reasoning in language models, but scalar outcomes provide coarse supervision over response trajectories. Self-distillation offers denser token-level guidance by comparing an unassisted policy with a feedback-informed self-teacher, yet the teacher evolves with the student, creating unstable targets and motivating additional regularization.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.3,
+      "reasons": [
+        "62 upvotes on Hugging Face",
+        "Matched: Distillation"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 62,
+        "arxivId": "2610.19687"
+      }
+    },
+    {
+      "id": "7hd91f5hts",
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "host": "arstechnica.com",
+      "summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "publishedAt": "2026-10-26T14:30:27.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4o8119x8bc",
+      "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "url": "https://huggingface.co/papers/2610.30932",
+      "host": "huggingface.co",
+      "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 20.3,
+      "reasons": [
+        "53 upvotes on Hugging Face",
+        "Matched: Agentic"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 53,
+        "arxivId": "2610.30932"
+      }
+    },
+    {
+      "id": "5o3wlzrub8",
+      "title": "Introducing the Temporal Product Edition — October 2026",
+      "url": "https://temporal.io/blog/october-2026-temporal-product-edition",
+      "host": "temporal.io",
+      "summary": "Temporal’s first Product Edition delivers five launches in five days, from Nexus and Proxy to Serverless Workers and Labs, for durable apps and agents.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 20,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "z9zix5shmd",
+      "title": "Introducing Standalone Nexus Operations",
+      "url": "https://temporal.io/blog/standalone-nexus-operations",
+      "host": "temporal.io",
+      "summary": "Standalone Nexus Operations lets apps and agents call durable Nexus services directly through the Temporal SDK, with retries and tracking built in.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 20,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kruyc9fkdb",
+      "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+      "url": "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/",
+      "host": "the-decoder.com",
+      "summary": "ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder.",
+      "publishedAt": "2026-10-27T09:58:16.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 19.8,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "d7xpl1pt1x",
+      "title": "n8n 3.0.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.0.0",
+      "host": "github.com",
+      "summary": "Add file-type tooltip to artifact download button (#41490) (4a74f02)",
+      "publishedAt": "2026-10-27T08:50:42.000Z",
+      "source": {
+        "id": "gh-n8n",
+        "name": "n8n releases"
+      },
+      "section": "releases",
+      "topic": "automation",
+      "score": 19.5,
+      "reasons": [
+        "New release",
+        "Matched: n8n"
+      ],
+      "also": [],
+      "release": {
+        "repo": "n8n-io/n8n",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "id": "6mgsa3aq4k",
+      "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI has released GPT-6.1 Terra, a mid-range model that cuts API prices in half compared to its predecessor. Analysts say it sets a new standard for intelligence per dollar, especially for everyday computing tasks and AI-driven computer control.",
+      "publishedAt": "2026-10-26T20:30:55.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 18.4,
+      "reasons": [
+        "Matched: GPT-6, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "tw8a79knpn",
+      "title": "Pydantic AI 2.62.0",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.62.0",
+      "host": "github.com",
+      "summary": "Change thinking effort mid-conversation via OpenAI configuration_update and Anthropic per-message output_config, recorded as ModelSettingsDeltaPart",
+      "publishedAt": "2026-10-27T02:38:43.000Z",
+      "source": {
+        "id": "gh-pydantic-ai",
+        "name": "Pydantic AI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 18,
+      "reasons": [
+        "New release",
+        "Matched: Pydantic AI, OpenAI, Anthropic"
+      ],
+      "also": [],
+      "release": {
+        "repo": "pydantic/pydantic-ai",
+        "version": "2.62.0"
+      }
+    },
+    {
+      "id": "csi5m2fhad",
+      "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+      "url": "https://huggingface.co/papers/2610.31162",
+      "host": "huggingface.co",
+      "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.5,
+      "reasons": [
+        "46 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 46,
+        "arxivId": "2610.31162"
+      }
+    },
+    {
+      "id": "gx34pd3t10",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "url": "https://huggingface.co/papers/2610.32965",
+      "host": "huggingface.co",
+      "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks.",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.3,
+      "reasons": [
+        "44 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 44,
+        "arxivId": "2610.32965"
+      }
+    },
+    {
+      "id": "9aiinutxoc",
+      "title": "Humanity can't afford not to spend $800B on AI, Anthropic insists",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/humanity-cant-afford-not-to-spend-800b-on-ai-anthropic-insists/5305580",
+      "host": "theregister.com",
+      "summary": "It's more important than chips, 'leccy and the net, after all",
+      "publishedAt": "2026-10-26T23:39:49.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 17.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "izswsn5hi2",
+      "title": "Trumpets blare and skies part as AI hypefest culminates in Anthropic IPO filing",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
+      "host": "theregister.com",
+      "summary": "Claude maker reveals financials and warns investors its AI models could blackmail humans, resist shutdown, or go rogue",
+      "publishedAt": "2026-10-26T15:47:05.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.2,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "bk4t78lofq",
+      "title": "OpenAI rolls out budget-priced mid-tier GPT-6.1 Terra",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/openai-rolls-out-budget-priced-mid-tier-gpt-61-terra/5305574",
+      "host": "theregister.com",
+      "summary": "Not a bombshell, but it rivals pricier models on some tasks at a tenth of Astra's API price",
+      "publishedAt": "2026-10-26T23:08:59.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 17.1,
+      "reasons": [
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "mvvclnpfcy",
+      "title": "Elvis rightsholders sue Anthropic for stealing songs and leaving them in Heartbreak Hotel",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/27/elvis-rightsholders-sue-anthropic-for-stealing-songs-and-leaving-them-in-heartbreak-hotel/5305625",
+      "host": "theregister.com",
+      "summary": "They want a little less chatbot conversation, and a whole lot more royalty action",
+      "publishedAt": "2026-10-27T05:39:18.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "nna9rdba8m",
+      "title": "Alibaba's Qwen AI caught trying to contact server in China",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561",
+      "host": "theregister.com",
+      "summary": "But there's not much evidence this is anything more than echoes of unsanitized training data",
+      "publishedAt": "2026-10-26T21:27:37.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 16.6,
+      "reasons": [
+        "Matched: Qwen"
+      ],
+      "also": []
+    },
+    {
+      "id": "arra3f2zkh",
+      "title": "IBM admits mainframes need to be modernized and will use AI to do the job",
+      "url": "https://www.theregister.com/systems/2026/10/27/ibm-admits-mainframes-need-to-be-modernized-and-will-use-ai-to-do-the-job/5305618",
+      "host": "theregister.com",
+      "summary": "Promises to build ‘IBM Z Atlas’ tool that will tidy up messy big iron and enable AIOps",
+      "publishedAt": "2026-10-27T04:07:15.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.3,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7yvptw15zw",
+      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+      "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is the first major AI lab to file an S-1 with the SEC, planning to list on the Nasdaq under the ticker \"ANT.\" The numbers are strong, with $11.6 billion in quarterly revenue, a first-ever operating profit, and existing customers spending nine times more year over year. But the company also carries roughly $800 billion in long-term compute commitments.",
+      "publishedAt": "2026-10-26T19:14:45.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.1,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "642yvk2e41",
+      "title": "GPT-6.1 Terra in Work and Codex",
+      "url": "https://developers.openai.com/codex/changelog/#codex-2026-10-26-gpt-61-terra",
+      "host": "developers.openai.com",
+      "summary": "# GPT-6.1 Terra in Work and Codex",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 16,
+      "reasons": [
+        "New release",
+        "Matched: GPT-6, Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai-codex-changelog",
+        "version": "6.1"
+      }
+    },
+    {
+      "id": "rw44c7pos3",
+      "title": "VegaLoad, Leapwork Play, and the End of Untrustworthy AI Tests TGNS199",
+      "url": "https://testguild.com/podcast/n199-oct26/",
+      "host": "testguild.com",
+      "summary": "About This Episode: Can you actually trust the Playwright tests your AI generates? A new free tool says it can…",
+      "publishedAt": "2026-10-26T19:28:49.000Z",
+      "source": {
+        "id": "testguild",
+        "name": "TestGuild"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 14.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ap7lsqltkf",
+      "title": "Researchers find six patterns that make AI text so exhausting to read",
+      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
+      "host": "the-decoder.com",
+      "summary": "A study from New York University and the University of Texas at Austin shows that frontier language models systematically overuse linguistic patterns that are hard for humans to parse. The researchers trace the problem to training on code and math, where correctness gets rewarded but clarity doesn't. Smaller models, by contrast, write more like humans.",
+      "publishedAt": "2026-10-26T17:50:15.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 13.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "38mjnwdoca",
+      "title": "opencode 2.2.0",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.0",
+      "host": "github.com",
+      "summary": "Create, install and share Desktop plugins (experimental)",
+      "publishedAt": "2026-10-27T09:04:44.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 13.6,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.2.0"
+      }
+    },
+    {
+      "id": "ec7p7yo545",
+      "title": "Reddit's r/opensource bans all AI-related projects, sparking backlash and a rival subreddit",
+      "url": "https://the-decoder.com/reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subreddit/",
+      "host": "the-decoder.com",
+      "summary": "The Reddit forum r/opensource has banned all posts about AI projects, whether built with AI, AI-powered, or designed for AI. Projects must also be at least a year old and have multiple contributors, and non-English posts are excluded as well. In response, the rival forum r/TrueOpenSource has already popped up.",
+      "publishedAt": "2026-10-26T17:19:40.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 13.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4ucrmys7xu",
+      "title": "How to load test an API behind a firewall",
+      "url": "https://blog.postman.com/load-test-api-behind-firewall/",
+      "host": "blog.postman.com",
+      "summary": "Your functional tests pass on every build. Then you run the load test against staging and get a wall of 403s, because...",
+      "publishedAt": "2026-10-26T21:55:03.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 12.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "l4xp5okrd5",
+      "title": "Private equity giant: AI payoff strictly limited to Big Tech",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358",
+      "host": "theregister.com",
+      "summary": "The Magnificent Seven are galloping off with the profits, while the rest of the S&P 500 see no benefit, claims Apollo",
+      "publishedAt": "2026-10-26T13:59:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "32ifrssnis",
+      "title": "LiteLLM supply chain attack started with an exposed master key",
+      "url": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
+      "host": "theregister.com",
+      "summary": "A 'strong illustration of the risks associated with failing to rotate a potentially exposed key'",
+      "publishedAt": "2026-10-26T20:30:53.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.4,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "p2eehn93vd",
+      "title": "HF Transformers 5.21",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "host": "github.com",
+      "summary": "MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-attention merger with a Qwen3.5 language model. It is specialized for reading text-dense images such as scanned pages, screenshots, receipts and tables.",
+      "publishedAt": "2026-10-26T18:21:30.000Z",
+      "source": {
+        "id": "gh-transformers",
+        "name": "HF Transformers releases"
+      },
+      "section": "releases",
+      "topic": "models",
+      "score": 9.8,
+      "reasons": [
+        "New release",
+        "Matched: Qwen3"
+      ],
+      "also": [],
+      "release": {
+        "repo": "huggingface/transformers",
+        "version": "5.21"
+      }
+    }
+  ]
+}
