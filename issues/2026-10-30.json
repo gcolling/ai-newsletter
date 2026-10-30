@@ -1,0 +1,1667 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T11:26:13.846Z",
+  "window": {
+    "from": "2026-10-29T11:34:03.281Z",
+    "to": "2026-10-30T11:26:10.045Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "gg4f8j7dc4",
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "host": "mistral.ai",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "publishedAt": "2026-10-29T12:00:07.000Z",
+      "source": {
+        "id": "mistral-news",
+        "name": "Mistral AI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 69.5,
+      "reasons": [
+        "1,523 points · 402 comments on Hacker News",
+        "Official announcement",
+        "Matched: Mistral, multimodal model, open-weight"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50289418",
+        "points": 1523,
+        "comments": 402
+      }
+    },
+    {
+      "id": "di6ztk8wgz",
+      "title": "Bliki: LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "host": "martinfowler.com",
+      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion",
+      "publishedAt": "2026-10-29T14:28:00.000Z",
+      "source": {
+        "id": "martin-fowler",
+        "name": "Martin Fowler (martinfowler.com)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 51.3,
+      "reasons": [
+        "495 points · 262 comments on Hacker News",
+        "From a followed writer",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50290177",
+        "points": 495,
+        "comments": 262
+      }
+    },
+    {
+      "id": "6fqc2avzo1",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "host": "latent.space",
+      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "publishedAt": "2026-10-30T08:24:29.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 43.2,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Coding Agent, Mistral, open-weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "eh6kmeaviv",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "host": "openai.com",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 39.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "r0deyyxw7i",
+      "title": "Why are good developers so wary of agentic development?",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "host": "martinfowler.com",
+      "summary": "TL;DR Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant to go all in on coding agents. These are people who usually try new ways of working before anyone else and in many cases invent new tools and practices that support building the application well.",
+      "publishedAt": "2026-10-29T13:50:00.000Z",
+      "source": {
+        "id": "martin-fowler",
+        "name": "Martin Fowler (martinfowler.com)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 39.4,
+      "reasons": [
+        "95 points · 134 comments on Hacker News",
+        "From a followed writer",
+        "Matched: agentic, coding agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50289162",
+        "points": 95,
+        "comments": 134
+      }
+    },
+    {
+      "id": "pc6toyozi1",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "host": "labs.ycombinator.com",
+      "summary": "",
+      "publishedAt": "2026-10-29T21:40:28.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 38.6,
+      "reasons": [
+        "305 points · 113 comments on Hacker News",
+        "Matched: AI agent"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50296486",
+        "points": 305,
+        "comments": 113
+      }
+    },
+    {
+      "id": "rvwzc7wqaw",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "host": "artificialanalysis.ai",
+      "summary": "",
+      "publishedAt": "2026-10-29T12:41:56.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 37.6,
+      "reasons": [
+        "336 points · 242 comments on Hacker News",
+        "Matched: Gemini"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50288019",
+        "points": 336,
+        "comments": 242
+      }
+    },
+    {
+      "id": "jmp8cofufq",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "host": "simonwillison.net",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.",
+      "publishedAt": "2026-10-29T17:00:26.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 37.4,
+      "reasons": [
+        "From a followed writer",
+        "Matched: agentic, frontier models"
+      ],
+      "also": []
+    },
+    {
+      "id": "5xzxqh6k2b",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "host": "simonwillison.net",
+      "summary": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.",
+      "publishedAt": "2026-10-29T22:48:29.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "automation",
+      "score": 36.8,
+      "reasons": [
+        "From a followed writer",
+        "Matched: ChatGPT, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "5d6w2v26gj",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "host": "latent.space",
+      "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 33.1,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Frontier Models"
+      ],
+      "also": []
+    },
+    {
+      "id": "41o85dwty4",
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "Titus Winters shares lessons from engineering at Google’s scale and explores how AI is reshaping developer productivity and computer science education.",
+      "publishedAt": "2026-10-29T13:37:13.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 32.5,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "jskulz2ny2",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "host": "theverge.com",
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger…",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 31.4,
+      "reasons": [
+        "Matched: large language models, LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "lmgfnbdgu7",
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "url": "https://news.ycombinator.com/item?id=50301479",
+      "host": "news.ycombinator.com",
+      "summary": "",
+      "publishedAt": "2026-10-30T09:17:43.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.2,
+      "reasons": [
+        "96 points · 89 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50301479",
+        "points": 96,
+        "comments": 89
+      }
+    },
+    {
+      "id": "9d64mn93ll",
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "host": "simonwillison.net",
+      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much.",
+      "publishedAt": "2026-10-29T14:06:27.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 30.6,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "r77ti76i7l",
+      "title": "CrowdStrike: China-linked hackers used AI tool ARTEX with a DeepSeek LLM and another model to target 200+ organizations in 11 days, compromising at least nine",
+      "url": "https://www.nbcnews.com/tech/security/china-linked-hackers-used-ai-target-200-organizations-crowdstrike-says-rcna606343",
+      "host": "nbcnews.com",
+      "summary": "Chinese state-linked hackers targeted more than 200 organizations in just 11 days, using AI to attack governments and businesses worldwide, according to CrowdStrike.",
+      "publishedAt": "2026-10-30T04:01:16.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 30.1,
+      "reasons": [
+        "Matched: DeepSeek, LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "p08laoz2ep",
+      "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
+      "url": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/",
+      "host": "infoq.com",
+      "summary": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks institutional context loss, and threatens the long-term engineering pipeline needed to oversee autonomous systems effectively.",
+      "publishedAt": "2026-10-30T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "23f99r2qth",
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "url": "https://fig.blue/posts/duet-is-the-future/",
+      "host": "fig.blue",
+      "summary": "",
+      "publishedAt": "2026-10-29T17:24:25.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 29.4,
+      "reasons": [
+        "118 points · 126 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50292727",
+        "points": 118,
+        "comments": 126
+      }
+    },
+    {
+      "id": "m3wblh7vba",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "host": "trakkr.ai",
+      "summary": "",
+      "publishedAt": "2026-10-29T15:06:17.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 29.2,
+      "reasons": [
+        "166 points · 67 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50290283",
+        "points": 166,
+        "comments": 67
+      }
+    },
+    {
+      "id": "h2ym8jtd2a",
+      "title": "Proton goes all in on using AI",
+      "url": "https://convo.casa/@b/117525936178835007",
+      "host": "convo.casa",
+      "summary": "",
+      "publishedAt": "2026-10-29T21:49:28.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 28.8,
+      "reasons": [
+        "99 points · 100 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50296602",
+        "points": 99,
+        "comments": 100
+      }
+    },
+    {
+      "id": "ctmo7t299f",
+      "title": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "host": "404media.co",
+      "summary": "Proton CEO Andy Yen projects a calm persona and rails against Big Tech and critiques AI. Internally, he is pushing engineers to build Proton with AI, even when they have security concerns.",
+      "publishedAt": "2026-10-29T14:21:49.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.8,
+      "reasons": [
+        "167 points · 60 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50289692",
+        "points": 167,
+        "comments": 60
+      }
+    },
+    {
+      "id": "rhvd8n66bi",
+      "title": "Sources: DeepSeek doubled its latest round's size due to surging black market Nvidia Blackwell chip prices, with Chinese state-owned investors representing 27%",
+      "url": "https://www.theinformation.com/articles/behind-deepseeks-16-billion-funding-chinese-tech-titans-state-players",
+      "host": "theinformation.com",
+      "summary": "Chinese AI star DeepSeek's nearly $16 billion funding round this month involved not only a deluge of capital but a who's…",
+      "publishedAt": "2026-10-30T03:35:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Matched: DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "iuzcjme6cd",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: Mistral, Hugging Face"
+      ],
+      "also": []
+    },
+    {
+      "id": "knjzynczt3",
+      "title": "Build Generative UI Apps with A2UI & CopilotKit Agents",
+      "url": "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/",
+      "host": "developers.googleblog.com",
+      "summary": "See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: agentic, Langchain"
+      ],
+      "also": []
+    },
+    {
+      "id": "pp2psesuka",
+      "title": "Maine’s data center revolt will decide who controls the Senate",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "host": "theverge.com",
+      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger…",
+      "publishedAt": "2026-10-30T11:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bxqxwmn8bp",
+      "title": "S-1: Anthropic says it heavily depends on TSMC chips made in Taiwan and warns of risks from \"potential disruption\" amid geopolitical tensions with China",
+      "url": "https://www.wsj.com/opinion/anthropics-ipo-will-be-a-national-security-win-for-taiwan-029888b5?st=f8ABT1",
+      "host": "wsj.com",
+      "summary": "Reliance on the island for AI chip production puts it among America's top foreign policy interests.",
+      "publishedAt": "2026-10-30T03:10:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "1hu4znzyh2",
+      "title": "Perspectiva Kogui: A message on artificial intelligence from the Kogui people",
+      "url": "https://sonidoselva.com/perspectiva-kogui",
+      "host": "sonidoselva.com",
+      "summary": "",
+      "publishedAt": "2026-10-29T11:29:49.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 27.7,
+      "reasons": [
+        "124 points · 104 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50287359",
+        "points": 124,
+        "comments": 104
+      }
+    },
+    {
+      "id": "q3h89vhdpe",
+      "title": "Podcast: AI, ML, and Data Engineering InfoQ Trends Report 2026",
+      "url": "https://www.infoq.com/podcasts/ai-ml-data-engineering-trends-2026/",
+      "host": "infoq.com",
+      "summary": "In this episode, members of the InfoQ AI and ML editorial staff and friends of InfoQ discuss the current trends in the domain of AI, ML and Data Engineering. One of the regular features of InfoQ are the trends reports, which each focus on a different aspect of software dev. These reports provide the InfoQ readers and listeners with a high-level overview of the topics to pay attention to this year.",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": [
+        {
+          "source": "InfoQ - AI, ML & Data Engineering",
+          "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
+          "url": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/"
+        }
+      ]
+    },
+    {
+      "id": "a6xjlg6i9z",
+      "title": "Sources: Spotify aims to launch an AI product in Q1 2027 that lets subscribers create their own remixes and covers for ~$5 per month, pending licensing deals",
+      "url": "https://www.ft.com/content/50286bd0-7158-4347-81d8-011cd164f75b",
+      "host": "ft.com",
+      "summary": "Streaming service plans to charge users up to $5 a month to use the feature",
+      "publishedAt": "2026-10-30T08:45:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ngt2o9j0o4",
+      "title": "You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "host": "blog.google",
+      "summary": "Generate, edit, and preview PDFs or Docs directly in Gemini. Use the new full-screen editor to refine your files today. See what's new in Gemini.",
+      "publishedAt": "2026-10-29T16:15:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.2,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "oi92tclaz4",
+      "title": "How a wave of startups are betting on AI to make formal software verification practical and essential, including &Truth, which launches with a $70M seed",
+      "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+      "host": "wired.com",
+      "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+      "publishedAt": "2026-10-30T06:30:03.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "vu8j10e8nk",
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "host": "theverge.com",
+      "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start…",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.6,
+      "reasons": [
+        "Matched: Anthropic, AGI"
+      ],
+      "also": []
+    },
+    {
+      "id": "92q3lpk6cm",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "host": "techcrunch.com",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "publishedAt": "2026-10-29T19:56:19.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.1,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "jnyt35rlti",
+      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "url": "https://huggingface.co/papers/2610.32749",
+      "host": "huggingface.co",
+      "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 26.1,
+      "reasons": [
+        "152 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 152,
+        "arxivId": "2610.32749"
+      }
+    },
+    {
+      "id": "qdfyt4utn3",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "co6wdyloj4",
+      "title": "Sources: Indian AI infrastructure company AM Intelligence seeks to raise as much as $3B to fund a previously announced purchase of Nvidia Vera Rubin systems",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/indian-ai-firm-seeks-3-billion-financing-for-nvidia-chips-order",
+      "host": "bloomberg.com",
+      "summary": "Indian AI infrastructure firm AM Intelligence is seeking to raise as much as $3 billion to fund a previously announced purchase…",
+      "publishedAt": "2026-10-30T02:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dwu9tku1yl",
+      "title": "Inside Nscale's 2,250-acre, 8GW Monarch Compute Campus in West Virginia, which has been hit by construction issues, local opposition, and financing risks",
+      "url": "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff?accessToken=zwAAAaIi1GfplNO5KUuRDu5BO9O93gVp9IU5udPuhsS2H-RGftOPGJwI3yiK_9PrOGFWW_lO3dOA8oA_3uHjPdPy3p88MpBOh9O7wlVDACXyqwE.MEUCIQCTfptZcpPISYntlhh1mjoa3g6HxEZajv0OSQGMtt_QEQIgSVZwVMNDn0Bf_KARrNJmOPbLhMU516inUsUkdvr2i-0&segmentId=7d4bcc2e-e664-92ba-62e3-5590579f1902",
+      "host": "ft.com",
+      "summary": "Nvidia-backed neocloud bets on West Virginia data centre campus hit by construction issues, local opposition and financing risks",
+      "publishedAt": "2026-10-30T09:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7e0hure3bg",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "host": "techcrunch.com",
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "publishedAt": "2026-10-30T01:20:48.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "46yp4lopvz",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "host": "techcrunch.com",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25.4,
+      "reasons": [
+        "Matched: Mistral"
+      ],
+      "also": []
+    },
+    {
+      "id": "937p8e1kgj",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "host": "techcrunch.com",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "publishedAt": "2026-10-29T16:21:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.2,
+      "reasons": [
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "dbknvdqi7u",
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "host": "techcrunch.com",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "publishedAt": "2026-10-29T23:42:22.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "as0gnl8h5q",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "host": "techcrunch.com",
+      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "publishedAt": "2026-10-29T14:35:26.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.8,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "sf8iah6on2",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-29T13:37:07.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 24.5,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "bmmb25jhl5",
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "url": "https://news.ycombinator.com/item?id=50291116",
+      "host": "news.ycombinator.com",
+      "summary": "",
+      "publishedAt": "2026-10-29T15:56:32.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 24.4,
+      "reasons": [
+        "71 points · 24 comments on Hacker News",
+        "Matched: AI Agents"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50291116",
+        "points": 71,
+        "comments": 24
+      }
+    },
+    {
+      "id": "8jw86p3f6d",
+      "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+      "host": "docker.com",
+      "summary": "An AI code review agent invented a CVE and recommended dangerous fixes. Learn how Docker Sandboxes contain agents and why their output needs verification.",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "source": {
+        "id": "docker-blog",
+        "name": "Docker blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 24.4,
+      "reasons": [
+        "Matched: Coding Agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "3iba5vq1s8",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "host": "techcrunch.com",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "publishedAt": "2026-10-29T20:08:31.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dq8ah4s7gb",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "host": "techcrunch.com",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "publishedAt": "2026-10-29T20:05:47.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "r7rpighf74",
+      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
+      "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/",
+      "host": "infoq.com",
+      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-level architectural concern. Some recommendations are: use pre-built and smaller models, run compute where low-carbon electricity is abundant, and train on renewable energy.",
+      "publishedAt": "2026-10-29T11:41:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fmv3lqwfyy",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "4x1yk3okys",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "host": "theverge.com",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in…",
+      "publishedAt": "2026-10-29T18:45:31.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.8,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "p8v1ws5b78",
+      "title": "Claude Code 2.1.314",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "host": "github.com",
+      "summary": "Added permissions.blockWritesOutsideWorkingDirectories: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode",
+      "publishedAt": "2026-10-30T01:06:26.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 23.4,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.314"
+      }
+    },
+    {
+      "id": "kz6b326qyw",
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "host": "arstechnica.com",
+      "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+      "publishedAt": "2026-10-29T16:24:55.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "715t7pvsyu",
+      "title": "Elegance and intelligence are anticorrelated",
+      "url": "https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated/",
+      "host": "seangoedecke.com",
+      "summary": "Elegance and intelligence can have a surprisingly negative correlation. Intelligent people sometimes produce inelegant solutions because they’re capable of rapidly brute-forcing problems. If I had to remember a hundred names, I would spend time coming up with clever mnemonics. John von Neumann would probably just remember them.",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 23.1,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "854ptbsmil",
+      "title": "Microsoft’s AI future has fewer jobs",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "host": "theverge.com",
+      "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and…",
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hzgxsq4dea",
+      "title": "Why MCP servers should tell agents what to do next",
+      "url": "https://thenewstack.io/aws-mcp-agent-observability/",
+      "host": "thenewstack.io",
+      "summary": "Many MCP servers do one thing. An agent asks for data, and the server hands it back. AWS’s James Ward",
+      "publishedAt": "2026-10-29T15:55:39.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 23.1,
+      "reasons": [
+        "Matched: MCP"
+      ],
+      "also": []
+    },
+    {
+      "id": "pa2vwcjm1w",
+      "title": "Bug0 Releases QA Agent to Automate Regression Testing With Cached Playwright Replays",
+      "url": "https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/",
+      "host": "infoq.com",
+      "summary": "QA Agent is a new source-available Playwright library for agentic browser regression testing. The agent associates test instructions expressed in natural language to actions on the user interface, caches those when appropriate for faster CI replays, remapping them to test specifications when the user interface changes. Verification is based on multi-model consensus and vision model evaluations.",
+      "publishedAt": "2026-10-29T15:17:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 22.9,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "iemmngiwxy",
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "host": "theverge.com",
+      "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any…",
+      "publishedAt": "2026-10-29T14:39:37.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "1b70uex8tb",
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "host": "theverge.com",
+      "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT…",
+      "publishedAt": "2026-10-29T13:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 22.5,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "bhrjtdg65b",
+      "title": "Custom Voices With Qwen3-TTS",
+      "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+      "host": "lucumr.pocoo.org",
+      "summary": "With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "armin-ronacher",
+        "name": "Armin Ronacher"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 22,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Qwen3"
+      ],
+      "also": []
+    },
+    {
+      "id": "oadlc28ve6",
+      "title": "Trump declares robot imports a national security threat",
+      "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+      "host": "arstechnica.com",
+      "summary": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
+      "publishedAt": "2026-10-29T19:07:53.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 21.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fw3ybs52an",
+      "title": "See what’s happening. Control what happens next.",
+      "url": "https://temporal.io/blog/production-controls",
+      "host": "temporal.io",
+      "summary": "Learn how Temporal’s production controls help you find stalled Workflows, pause execution, adjust Activity settings, and recover from production issues.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 20,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6nc50paqfj",
+      "title": "Accenture AI agents are sifting through applicants",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460",
+      "host": "theregister.com",
+      "summary": "But a human makes final hiring decisions at global tech consultancy",
+      "publishedAt": "2026-10-30T11:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 19.9,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "gp2n68af46",
+      "title": "Microsoft Research Focus – Edition #97",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+      "host": "microsoft.com",
+      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting.",
+      "publishedAt": "2026-10-29T19:19:16.000Z",
+      "source": {
+        "id": "microsoft-research",
+        "name": "Microsoft Research blog"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 19.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "1zs8enpu5g",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "host": "blogs.nvidia.com",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through…",
+      "publishedAt": "2026-10-29T16:00:35.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 19.1,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI Agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "avu0uhvze5",
+      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "host": "the-decoder.com",
+      "summary": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder.",
+      "publishedAt": "2026-10-29T13:20:14.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 18.4,
+      "reasons": [
+        "Matched: OpenAI, Anthropic, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "j5na310hjw",
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as both companies fight for B2B dominance in AI.",
+      "publishedAt": "2026-10-29T20:01:27.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 18.1,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "bmtbr5wuox",
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "url": "https://huggingface.co/papers/2610.35684",
+      "host": "huggingface.co",
+      "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18.1,
+      "reasons": [
+        "51 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 51,
+        "arxivId": "2610.35684"
+      }
+    },
+    {
+      "id": "fz9o5qg1kv",
+      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic gave 50 experts an AI agent whose preferences were set by coin toss. The experts followed the agent's view up to 86 percent of the time on judgment calls, and most believed the conclusions were their own.",
+      "publishedAt": "2026-10-29T19:33:37.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 18,
+      "reasons": [
+        "Matched: AI agent, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "f3o6lky3kd",
+      "title": "Google's search revenue Ferrari hits an AI-powered speed bump",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520",
+      "host": "theregister.com",
+      "summary": "Just wait 'til we add more AI and this thing'll really fly",
+      "publishedAt": "2026-10-30T07:33:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mlynpqhfuw",
+      "title": "Postman and Baseten: Build Performant Agents, Run Them At Lower Cost",
+      "url": "https://blog.postman.com/postman-and-baseten-build-performant-agents-run-them-at-lower-cost/",
+      "host": "blog.postman.com",
+      "summary": "Postman and Baseten partner so enterprises can build AI agents and run them on fast, cost-efficient inference. See how the two stacks connect.",
+      "publishedAt": "2026-10-29T23:03:13.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 16.9,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "ctlwefter5",
+      "title": "Startup wants to make AI agents safe for DevOps duty",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/29/startup-wants-to-make-ai-agents-safe-for-devops-duty/5306477",
+      "host": "theregister.com",
+      "summary": "Infrastructure automation needs something better than prompt and pray",
+      "publishedAt": "2026-10-29T19:46:08.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.1,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "n5ipmax3gs",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "url": "https://huggingface.co/papers/2610.31670",
+      "host": "huggingface.co",
+      "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 16,
+      "reasons": [
+        "21 upvotes on Hugging Face",
+        "Matched: foundation models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 21,
+        "arxivId": "2610.31670"
+      }
+    },
+    {
+      "id": "mr5jb0pi9r",
+      "title": "Domestic droid gone amok? Don't worry, you're covered",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/30/domestic-droid-gone-amok-dont-worry-youre-covered/5306396",
+      "host": "theregister.com",
+      "summary": "Insurance firms look to insulate domestic humanoid robot owners against the inevitable chaos they will bring",
+      "publishedAt": "2026-10-30T10:14:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "a260q8ot62",
+      "title": "opencode 2.2.3",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.3",
+      "host": "github.com",
+      "summary": "Use Claude Code in OpenCode: Install Claude Code, run claude auth login, then select Claude Agent in /connect to use your Claude Code login and models.",
+      "publishedAt": "2026-10-30T09:55:45.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 15.6,
+      "reasons": [
+        "New release",
+        "Matched: opencode, Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.2.3"
+      }
+    },
+    {
+      "id": "rxmqn1bs04",
+      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "host": "the-decoder.com",
+      "summary": "Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1 Flash and GLM-5.3.",
+      "publishedAt": "2026-10-29T15:25:27.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 15,
+      "reasons": [
+        "Matched: Mistral, DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "t4a401c89m",
+      "title": "Howler will have AI answer your questions, then burn the chat",
+      "url": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
+      "host": "theregister.com",
+      "summary": "Ask AI dumb things and leave no local chat history, all with the style of a kids' fantasy novel – or rather, one of its magical letters",
+      "publishedAt": "2026-10-29T20:04:05.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 14.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "b6mxjtfts0",
+      "title": "Codex CLI 0.166.0",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-428320524",
+      "host": "developers.openai.com",
+      "summary": "Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts.",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 14,
+      "reasons": [
+        "New release",
+        "Matched: Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/codex",
+        "version": "0.166.0"
+      }
+    },
+    {
+      "id": "1dhc28aagh",
+      "title": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
+      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "host": "the-decoder.com",
+      "summary": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face. The article US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices appeared first on The Decoder.",
+      "publishedAt": "2026-10-29T14:07:49.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 12.6,
+      "reasons": [
+        "Matched: Hugging Face"
+      ],
+      "also": []
+    },
+    {
+      "id": "tuqnmfbv1p",
+      "title": "HF Transformers 5.22.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "host": "github.com",
+      "summary": "We just had to fix the documentation!",
+      "publishedAt": "2026-10-30T09:36:03.000Z",
+      "source": {
+        "id": "gh-transformers",
+        "name": "HF Transformers releases"
+      },
+      "section": "releases",
+      "topic": "models",
+      "score": 11.5,
+      "reasons": [
+        "New release"
+      ],
+      "also": [],
+      "release": {
+        "repo": "huggingface/transformers",
+        "version": "5.22.1"
+      }
+    },
+    {
+      "id": "d2oumowppq",
+      "title": "Mocking Dependencies for Local Development",
+      "url": "https://blog.postman.com/mocking-dependencies-for-local-development/",
+      "host": "blog.postman.com",
+      "summary": "Mock every dependency a service calls, even ones outside your repo, using Postman's Context Graph and Local Mock Servers.",
+      "publishedAt": "2026-10-29T15:00:06.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 10.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "f2wnt2w1nl",
+      "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "host": "the-decoder.com",
+      "summary": "US intelligence agencies believe an executive in Nvidia CEO Jensen Huang's circle is an informant for China. The article Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times appeared first on The Decoder.",
+      "publishedAt": "2026-10-29T13:42:38.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 10.5,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    }
+  ]
+}
