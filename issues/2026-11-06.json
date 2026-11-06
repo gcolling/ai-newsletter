@@ -1,0 +1,1849 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T12:59:20.424Z",
+  "window": {
+    "from": "2026-11-05T13:15:36.853Z",
+    "to": "2026-11-06T12:59:16.820Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "yjvu8qu72a",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "host": "deepmind.google",
+      "summary": "",
+      "publishedAt": "2026-11-05T17:05:16.000Z",
+      "source": {
+        "id": "google-deepmind",
+        "name": "Google DeepMind blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 61,
+      "reasons": [
+        "Covered by 3 outlets",
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": [
+        {
+          "source": "Google Keyword - Gemini",
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        },
+        {
+          "source": "Techmeme",
+          "title": "Google rolls out Gemini Omni 1.2 Flash, which creates clips up to 15 seconds, vs. 10 seconds with Omni 1.1, has better reference adherence, and costs 30% less",
+          "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/"
+        }
+      ]
+    },
+    {
+      "id": "6xkh7q2m3s",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T22:17:15.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 52.1,
+      "reasons": [
+        "1,266 points · 399 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50385272",
+        "points": 1266,
+        "comments": 399
+      }
+    },
+    {
+      "id": "d0rgygfof0",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "host": "finance.yahoo.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T23:09:57.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 40,
+      "reasons": [
+        "394 points · 181 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50385870",
+        "points": 394,
+        "comments": 181
+      }
+    },
+    {
+      "id": "8c1cd4jjxg",
+      "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "host": "latent.space",
+      "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "publishedAt": "2026-11-06T10:35:21.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 39.4,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "l7i7hhtjwn",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "host": "openai.com",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 38.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "mixwhunphw",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "host": "openai.com",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 38,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "nfbua7iuad",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "host": "openai.com",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 37.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "71y6uld5q7",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "host": "alignment.openai.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T07:44:30.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 36.2,
+      "reasons": [
+        "332 points · 180 comments on Hacker News",
+        "Matched: GPT-6"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50376313",
+        "points": 332,
+        "comments": 180
+      }
+    },
+    {
+      "id": "44c14o3pd6",
+      "title": "MCP Explained",
+      "url": "https://mcp-explained.com/",
+      "host": "mcp-explained.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T14:08:35.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "automation",
+      "score": 35,
+      "reasons": [
+        "315 points · 131 comments on Hacker News",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50379249",
+        "points": 315,
+        "comments": 131
+      }
+    },
+    {
+      "id": "3x8yqvzhp2",
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/",
+      "host": "infoq.com",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab.",
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 33.8,
+      "reasons": [
+        "Matched: Agentic, MCP, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "54vl3q4fm1",
+      "title": "Kubernetes, mark II? Why Google’s giving away gVisor, a code sandbox used by Anthropic and OpenAI",
+      "url": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
+      "host": "thenewstack.io",
+      "summary": "Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to",
+      "publishedAt": "2026-11-06T11:49:04.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 33.7,
+      "reasons": [
+        "Matched: Anthropic, OpenAI, AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "6v0b8k0jay",
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "host": "lesswrong.com",
+      "summary": "",
+      "publishedAt": "2026-11-06T05:19:04.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 33.3,
+      "reasons": [
+        "142 points · 131 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50388513",
+        "points": 142,
+        "comments": 131
+      }
+    },
+    {
+      "id": "ex1zznhn2y",
+      "title": "Scaling Slack and GitHub with Maude Lemaire",
+      "url": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "publishedAt": "2026-11-05T15:58:00.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 32.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "m1eqc97kd0",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "host": "wsj.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T18:00:01.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 32.4,
+      "reasons": [
+        "160 points · 190 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50382179",
+        "points": 160,
+        "comments": 190
+      }
+    },
+    {
+      "id": "gn2q2rjlyb",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "host": "theverge.com",
+      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device…",
+      "publishedAt": "2026-11-05T22:26:50.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30.3,
+      "reasons": [
+        "Matched: Perplexity, AI agents, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "pt7td6pmqs",
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "host": "github.blog",
+      "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed…",
+      "publishedAt": "2026-11-06T00:19:07.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 28.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "lczwwsrkx1",
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "host": "github.blog",
+      "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in…",
+      "publishedAt": "2026-11-06T00:08:31.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 28.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "guou6t7kh7",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "host": "techcrunch.com",
+      "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+      "publishedAt": "2026-11-06T06:28:32.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.4,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "ddkt1n1a2b",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b%E2%80%99",
+      "host": "wsj.com",
+      "summary": "",
+      "publishedAt": "2026-11-06T00:31:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 28.2,
+      "reasons": [
+        "87 points · 97 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50386597",
+        "points": 87,
+        "comments": 97
+      }
+    },
+    {
+      "id": "rowq9xc15t",
+      "title": "Sources: Nvidia is requiring Southeast Asian customers seeking Nvidia Cloud Partner status to enroll in a program that tracks the locations of their AI chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-boosts-chip-tracking-in-southeast-asia-to-fight-smuggling",
+      "host": "bloomberg.com",
+      "summary": "Nvidia Corp. is stepping up monitoring of AI accelerators sold in Southeast Asia, a strategic step to curtail semiconductor smuggling…",
+      "publishedAt": "2026-11-06T11:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7qpg3kj77j",
+      "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+      "url": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
+      "host": "docker.com",
+      "summary": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+      "publishedAt": "2026-11-06T03:17:04.000Z",
+      "source": {
+        "id": "docker-blog",
+        "name": "Docker blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 27.5,
+      "reasons": [
+        "Matched: AI Agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "sknms0t9tb",
+      "title": "Claude AI can plug directly into your bank account",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "host": "theverge.com",
+      "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview…",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.2,
+      "reasons": [
+        "Matched: Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "9hdbe7udgw",
+      "title": "Cleanview: ~40% of planned data center capacity is in states where newly elected governors have pledged to pause or halt construction",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/new-governors-set-to-challenge-big-swath-of-data-center-capacity",
+      "host": "bloomberg.com",
+      "summary": "A new crop of Democratic governors-elect campaigned on putting the brakes on artificial intelligence development.",
+      "publishedAt": "2026-11-06T09:25:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "tb9wmeetnh",
+      "title": "Closed AI models dominate the price-performance frontier",
+      "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+      "host": "village.dev",
+      "summary": "",
+      "publishedAt": "2026-11-06T02:49:56.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 27,
+      "reasons": [
+        "76 points · 65 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50387546",
+        "points": 76,
+        "comments": 65
+      }
+    },
+    {
+      "id": "a5vyrgw6f8",
+      "title": "Transform a quick drawing into a live app with Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+      "host": "blog.google",
+      "summary": "Turn your sketches into functional apps using Gemini. Upload your drawings to the Canvas tool to generate and refine code instantly. Try it now.",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "l5tfkam1ab",
+      "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+      "host": "theverge.com",
+      "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around…",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 26.9,
+      "reasons": [
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "nv25fpmcvv",
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "host": "theverge.com",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But…",
+      "publishedAt": "2026-11-06T00:06:12.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.7,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "f73do7pcgl",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.7,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "3kzmjvdrfb",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "host": "techcrunch.com",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "publishedAt": "2026-11-05T22:40:55.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.4,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "a4nyc6lfh8",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "host": "arstechnica.com",
+      "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+      "publishedAt": "2026-11-05T21:40:36.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.1,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "d37bsw94ek",
+      "title": "Potential Sciences, an AI startup building large-scale chemical data sets, secured backing from the UK's Sovereign AI Fund, as part of an eight-figure raise",
+      "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
+      "host": "wired.com",
+      "summary": "Potential Sciences, a startup backed by the UK government, is betting that training AI models on computer-generated biochemical data…",
+      "publishedAt": "2026-11-06T05:00:13.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ebu6oss3aj",
+      "title": "Introducing Personal Finance in Claude",
+      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "host": "claude.com",
+      "summary": "Ask Claude about your money and get straight answers from the accounts you connect.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "hdduildh5n",
+      "title": "More visibility and control over Claude Enterprise for security teams",
+      "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+      "host": "claude.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "industry",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "7zwda7rou2",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "host": "theverge.com",
+      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some…",
+      "publishedAt": "2026-11-06T11:55:19.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "70jtiues07",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "host": "techcrunch.com",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "publishedAt": "2026-11-05T19:48:28.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.7,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "r549c5mpp0",
+      "title": "Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC",
+      "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+      "host": "youtube.com",
+      "summary": "",
+      "publishedAt": "2026-11-05T17:32:18.197Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 25.7,
+      "reasons": [
+        "17 points · 1 comment on Lobsters",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/yomksa/reflections_on_rust_llm_age_bryan",
+        "points": 17,
+        "comments": 1
+      }
+    },
+    {
+      "id": "r5byzc1xcf",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 25.6,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "rmbmx9y1c4",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "host": "techcrunch.com",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "publishedAt": "2026-11-05T19:06:12.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.5,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "n4y3aemao2",
+      "title": "Muse has a voice mode now",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "host": "theverge.com",
+      "summary": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of…",
+      "publishedAt": "2026-11-05T19:03:04.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.5,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "or9ksq2n4t",
+      "title": "OpenAI’s new GPT-6 Cyber is better at hacking and better at staying in its lane",
+      "url": "https://thenewstack.io/openai-gpt6-cyber-exploits/",
+      "host": "thenewstack.io",
+      "summary": "OpenAI on Thursday launched GPT-6 Cyber, the latest release in its series of cybersecurity-focused models. The company ranks GPT-6 Cyber’s ability",
+      "publishedAt": "2026-11-05T19:01:03.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25.5,
+      "reasons": [
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "zrr885usah",
+      "title": "Give Your Muse a Voice",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+      "host": "about.fb.com",
+      "summary": "We’re rolling out voice and expressive avatars in the Muse app, giving you a new, natural way to interact with your Muse.",
+      "publishedAt": "2026-11-05T18:30:58.000Z",
+      "source": {
+        "id": "meta-ai-news",
+        "name": "Meta Newsroom - AI tag"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 25.3,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "hab4h7g5b8",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "host": "technologyreview.com",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ivagxs02lg",
+      "title": "Filing: Airbnb discloses that it has the option to invest in and license tech from CEO Brian Chesky's stealth AI lab; source: Chesky has self-funded it so far",
+      "url": "https://www.theinformation.com/articles/airbnb-reveals-new-details-cheskys-secretive-ai-startup",
+      "host": "theinformation.com",
+      "summary": "Airbnb on Thursday shed new light on a secretive AI startup that founder and CEO Brian Chesky controls, saying the company…",
+      "publishedAt": "2026-11-06T01:50:07.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "o9x0jjd3wj",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "host": "techcrunch.com",
+      "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "publishedAt": "2026-11-05T18:02:27.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.2,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "bvvcfh0h2z",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+      "host": "blog.cloudflare.com",
+      "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+      "publishedAt": "2026-11-05T17:03:04.000Z",
+      "source": {
+        "id": "cloudflare-ai",
+        "name": "Cloudflare blog - AI tag"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 25,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "fnak0j8ycx",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "host": "theverge.com",
+      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions…",
+      "publishedAt": "2026-11-06T00:37:56.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.9,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "4pdeiglf63",
+      "title": "Axiom Math wants to keep AI slop out of mathematics",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "host": "techcrunch.com",
+      "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "publishedAt": "2026-11-05T16:16:45.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 24.8,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "nl6nasibvu",
+      "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "host": "techcrunch.com",
+      "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "publishedAt": "2026-11-05T14:42:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 24.4,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "kmz8tqwedc",
+      "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "host": "arstechnica.com",
+      "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
+      "publishedAt": "2026-11-05T21:39:40.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 24.1,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "avguoguxoq",
+      "title": "Build Live Apps in Cursor",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "host": "cursor.com",
+      "summary": "Build and deploy web apps directly in Cursor with cloud agents handling hosting, database, auth, and deployment.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "cursor-changelog",
+        "name": "Cursor changelog"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "5djqyxiyua",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "host": "techcrunch.com",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "publishedAt": "2026-11-05T19:12:39.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "44wwi2pjhy",
+      "title": "‘Total repudiation’: The blue wave is about to hit AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "host": "theverge.com",
+      "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to…",
+      "publishedAt": "2026-11-05T17:51:52.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "8jvtbnfc62",
+      "title": "A database is a store for global variables",
+      "url": "https://seangoedecke.com/a-database-is-a-store-for-global-variables/",
+      "host": "seangoedecke.com",
+      "summary": "Databases are for storing global variables. We usually call them “rows” or “records” instead, but they’re definitionally global variables: any part of your program can read or write them. Isn’t this kind of weird? It’s common programming advice that global variables are bad, and yet many elegant programs rely on databases.",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 22.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "8cmevussax",
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "host": "blogs.nvidia.com",
+      "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
+      "publishedAt": "2026-11-05T16:00:05.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 22.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: Open Weights, deep learning, large language models"
+      ],
+      "also": []
+    },
+    {
+      "id": "opkgvz15g4",
+      "title": "Google Cloud API Gateway Introduces Streaming Support for Real-Time and AI-Powered Applications",
+      "url": "https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/",
+      "host": "infoq.com",
+      "summary": "Google has announced the public preview of streaming support for API Gateway, extending its traditional request-response model to support applications requiring real-time communication. According to Google, this is particularly relevant for AI applications that provide streaming model responses, multi-step agent workflows, and interactive sessions.",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "automation",
+      "score": 22.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5mlpxe2fg2",
+      "title": "Dropbox ditched AWS S3 for its own in-house system. Now it’s buying Tigris to sell S3-compatible storage to AI developers.",
+      "url": "https://thenewstack.io/dropbox-acquires-tigris-s3-alternative/",
+      "host": "thenewstack.io",
+      "summary": "Dropbox is entering the AI infrastructure space in a big way, announcing plans on Thursday to acquire Tigris, a startup",
+      "publishedAt": "2026-11-05T14:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ifaasj50mn",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "url": "https://huggingface.co/papers/2611.06910",
+      "host": "huggingface.co",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 22,
+      "reasons": [
+        "50 upvotes on Hugging Face",
+        "Matched: AI agents"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 50,
+        "arxivId": "2611.06910"
+      }
+    },
+    {
+      "id": "njqjciwx7g",
+      "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+      "url": "https://huggingface.co/papers/2611.06728",
+      "host": "huggingface.co",
+      "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.5,
+      "reasons": [
+        "86 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 86,
+        "arxivId": "2611.06728"
+      }
+    },
+    {
+      "id": "m9xhjcdgut",
+      "title": "Raindrop simulates your agent’s world to catch what your changes break",
+      "url": "https://thenewstack.io/raindrop-simulations-ai-agents/",
+      "host": "thenewstack.io",
+      "summary": "Raindrop wants developers to know what else will change when they edit an agent’s prompt, swap its model, or give",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 21.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2rf7b49xl7",
+      "title": "NY-based Kalepa, whose AI platform supports insurance underwriting, pricing, and portfolio management, raised a $75M Series B led by Updata at a $470M valuation",
+      "url": "https://www.reuters.com/legal/transactional/ai-powered-insurance-startup-kalepa-valued-470-million-new-funding-round-2026-11-05/",
+      "host": "reuters.com",
+      "summary": "Insurance startup Kalepa said on Thursday it had raised $75 million at a $470 million valuation, as investors bet that AI solutions…",
+      "publishedAt": "2026-11-06T06:50:13.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "8wg67k1vtx",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://huggingface.co/papers/2611.06483",
+      "host": "huggingface.co",
+      "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 20.1,
+      "reasons": [
+        "35 upvotes on Hugging Face",
+        "Matched: LLM, agentic"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 35,
+        "arxivId": "2611.06483"
+      }
+    },
+    {
+      "id": "4rbiray5xb",
+      "title": "Measuring Temporal Workflow health with OpenTelemetry and Parseable",
+      "url": "https://temporal.io/blog/measuring-temporal-workflow-health-with-opentelemetry-and-parseable",
+      "host": "temporal.io",
+      "summary": "",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 20,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "eso4sjx99i",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "host": "blogs.nvidia.com",
+      "summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those…",
+      "publishedAt": "2026-11-05T20:00:41.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 19.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "r01stzzkxm",
+      "title": "Anthropic adds bank account access to Claude so users can track their spending",
+      "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first on The Decoder.",
+      "publishedAt": "2026-11-06T11:33:13.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.6,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "5ydh16e6us",
+      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+      "host": "theregister.com",
+      "summary": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
+      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 19.5,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "rrrcq4x2jh",
+      "title": "Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year",
+      "url": "https://www.businessinsider.com/thinking-machines-lab-is-closing-5-billion-new-round-2026-11",
+      "host": "businessinsider.com",
+      "summary": "AI startup Thinking Machines Lab is set to close a fresh round of funding as soon as this week.",
+      "publishedAt": "2026-11-06T01:15:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "k77achbv3b",
+      "title": "No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark",
+      "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
+      "host": "the-decoder.com",
+      "summary": "SemiAnalysis is putting AI agents through simulated knowledge work in its new GDPx benchmark, covering everything from chip design to quant trading. No model breaks 12 percent. Claude Opus 5.5 leads narrowly over Gemini 4 Carbon. Critics point to the small number of tasks per domain and uneven testing conditions.",
+      "publishedAt": "2026-11-05T16:46:24.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 18.9,
+      "reasons": [
+        "Matched: AI agent, Claude, Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "6fayqf7aqp",
+      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "url": "https://huggingface.co/papers/2611.06918",
+      "host": "huggingface.co",
+      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18.8,
+      "reasons": [
+        "57 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 57,
+        "arxivId": "2611.06918"
+      }
+    },
+    {
+      "id": "78jeq8sql3",
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "host": "blogs.nvidia.com",
+      "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt HBM3e and HBM4 technologies into an accelerated computing stack.",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 18.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ase6sfahfe",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "host": "microsoft.com",
+      "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line.",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "source": {
+        "id": "microsoft-research",
+        "name": "Microsoft Research blog"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 18.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "k0cygsin0l",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "host": "huggingface.co",
+      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together.",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18.5,
+      "reasons": [
+        "38 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 38,
+        "arxivId": "2611.04408"
+      }
+    },
+    {
+      "id": "kglyyitjsx",
+      "title": "Meta buys AI coding startup Conductor as big tech races to lock in developers",
+      "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
+      "host": "the-decoder.com",
+      "summary": "Meta is acquiring AI coding startup Conductor, which lets developers control multiple AI coding agents at once. On the same day, OpenAI announced plans to acquire Pierre Computer, and Anthropic already bought Stainless back in May. The deals follow a pattern: AI models are becoming interchangeable, and the value is shifting to the tools built around them.",
+      "publishedAt": "2026-11-05T15:01:09.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 18.4,
+      "reasons": [
+        "Matched: coding agents, OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "mrjxep88oi",
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+      "host": "the-decoder.com",
+      "summary": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, significantly more than its predecessor.",
+      "publishedAt": "2026-11-05T20:36:25.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 17.9,
+      "reasons": [
+        "Matched: GPT-6, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ee2khc8cvh",
+      "title": "Bank of England pours cold water on AI productivity boom",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "host": "theregister.com",
+      "summary": "Turns out throwing billions at GPUs doesn't automatically mean everyone gets more done",
+      "publishedAt": "2026-11-06T11:43:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "iag6fk5kxx",
+      "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
+      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder.",
+      "publishedAt": "2026-11-06T11:38:17.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "7093tttvhz",
+      "title": "Codex CLI 0.167.0",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-435979892",
+      "host": "developers.openai.com",
+      "summary": "Open the agent command center with codex agents --no-daemon. The command center and session picker now mark unread results",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 16.7,
+      "reasons": [
+        "New release",
+        "Matched: Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/codex",
+        "version": "0.167.0"
+      }
+    },
+    {
+      "id": "bn61jy1cqq",
+      "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+      "url": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+      "host": "theregister.com",
+      "summary": "CERT-IN warns of ‘significant escalation’ in AI-powered attacks, some after victims tried to improve defences",
+      "publishedAt": "2026-11-06T01:17:40.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dedva39ofi",
+      "title": "When an AI Model Found a Leaked API Key, It Still Worked",
+      "url": "https://blog.postman.com/when-an-ai-model-found-a-leaked-api-key-it-still-worked/",
+      "host": "blog.postman.com",
+      "summary": "In September 2026, OpenAI published a framework for reporting model misalignment, along with six reports of problematic behavior its models showed during development....",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 14.7,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "e09eboenyt",
+      "title": "AWS Kiro aims to solve identity crisis by adding another identity: bot orchestrator",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/05/aws-kiro-aims-to-solve-identity-crisis-by-adding-another-identity-bot-orchestrator/5307965",
+      "host": "theregister.com",
+      "summary": "The cloud giant refits its agentic dev tools for agent orchestration",
+      "publishedAt": "2026-11-05T22:09:20.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 14.2,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "aiyml2zrnd",
+      "title": "OpenHands 1.37.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.37.0",
+      "host": "github.com",
+      "summary": "feat(automations): explain each automation with a Mermaid diagram",
+      "publishedAt": "2026-11-06T12:58:05.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 14,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.37.0"
+      }
+    },
+    {
+      "id": "7fhpuhi5ju",
+      "title": "Everyone Everywhere Hated Meta’s New AI Training Terms. Now, They’re On Pause",
+      "url": "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/",
+      "host": "404media.co",
+      "summary": "Back to the drawing board!",
+      "publishedAt": "2026-11-05T21:01:55.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 14,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "sbcvti79tt",
+      "title": "Playwright 1.65.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+      "host": "github.com",
+      "summary": "The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js:",
+      "publishedAt": "2026-11-05T18:25:45.000Z",
+      "source": {
+        "id": "gh-playwright",
+        "name": "Playwright releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 13.3,
+      "reasons": [
+        "New release"
+      ],
+      "also": [],
+      "release": {
+        "repo": "microsoft/playwright",
+        "version": "1.65.0"
+      }
+    },
+    {
+      "id": "dcp774fnyq",
+      "title": "Podcast: Proton’s CEO Is Putting AI Before Security",
+      "url": "https://www.404media.co/podcast-protons-ceo-is-putting-ai-before-security/",
+      "host": "404media.co",
+      "summary": "Inside Proton's AI reckoning, the AO3 outage, and why we're not tech support.",
+      "publishedAt": "2026-11-05T16:49:39.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7zxeybrdah",
+      "title": "Copilot Chat has usage caps, and Microsoft would rather you found them by hitting them",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814",
+      "host": "theregister.com",
+      "summary": "Mystery limits expand for users without the paid add-on, with upgrade prompts ready when features run dry",
+      "publishedAt": "2026-11-05T16:30:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 12.8,
+      "reasons": [
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "nnem2ondth",
+      "title": "An AI Fraud Kingpin’s Confessions",
+      "url": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
+      "host": "404media.co",
+      "summary": "An AI fraud kingpin’s rise and fall; voters rejected data centers; and a new fear unlocked.",
+      "publishedAt": "2026-11-05T14:30:59.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 12.3,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": [
+        {
+          "source": "404 Media",
+          "title": "The Confessions of an AI Fraud Kingpin",
+          "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/"
+        }
+      ]
+    },
+    {
+      "id": "tf9wmu9znv",
+      "title": "crewAI 1.15.36",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36",
+      "host": "github.com",
+      "summary": "Add experimental conversational Agent sessions.",
+      "publishedAt": "2026-11-06T04:40:02.000Z",
+      "source": {
+        "id": "gh-crewai",
+        "name": "crewAI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 11.9,
+      "reasons": [
+        "New release",
+        "Matched: crewAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "crewAIInc/crewAI",
+        "version": "1.15.36"
+      }
+    },
+    {
+      "id": "cc35jv7a9z",
+      "title": "Ollama 0.40.15",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+      "host": "github.com",
+      "summary": "Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows, is now supported in Ollama.",
+      "publishedAt": "2026-11-06T01:47:18.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama releases"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 11.2,
+      "reasons": [
+        "New release",
+        "Matched: Ollama"
+      ],
+      "also": [],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "0.40.15"
+      }
+    },
+    {
+      "id": "655cade4nr",
+      "title": "'Stop dirty datacenters': Europe-wide protests planned demanding building moratorium",
+      "url": "https://www.theregister.com/systems/2026/11/05/stop-dirty-datacenters-europe-wide-protests-planned-demanding-building-moratorium/5307790",
+      "host": "theregister.com",
+      "summary": "Curbing compute farms played a big part in recent US elections, now Euro activists are making their feelings known",
+      "publishedAt": "2026-11-05T13:29:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 10.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "o8r67qbh73",
+      "title": "opencode process-daemon-v0.5.0",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0",
+      "host": "github.com",
+      "summary": "opencode-pty 0.5.0 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.0.",
+      "publishedAt": "2026-11-05T17:39:04.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 9.1,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "process-daemon-v0.5.0"
+      }
+    }
+  ]
+}
