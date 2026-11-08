@@ -1,0 +1,684 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T11:59:04.306Z",
+  "window": {
+    "from": "2026-11-07T11:46:30.117Z",
+    "to": "2026-11-08T11:57:58.787Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 64,
+    "failed": [
+      "gh-claude-code",
+      "gh-gemini-cli",
+      "gh-mcp-spec",
+      "gh-mcp-typescript-sdk",
+      "gh-mcp-python-sdk",
+      "gh-n8n",
+      "gh-ollama",
+      "gh-transformers"
+    ]
+  },
+  "stories": [
+    {
+      "id": "9iu3ws5zj7",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "host": "apiiro.com",
+      "summary": "",
+      "publishedAt": "2026-11-07T20:45:32.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 42.1,
+      "reasons": [
+        "430 points · 292 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50407882",
+        "points": 430,
+        "comments": 292
+      }
+    },
+    {
+      "id": "3m0k7yapee",
+      "title": "The End of AI Frontiers",
+      "url": "https://hunch.net/?p=13764006",
+      "host": "hunch.net",
+      "summary": "",
+      "publishedAt": "2026-11-07T18:04:07.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.9,
+      "reasons": [
+        "467 points · 278 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50406563",
+        "points": 467,
+        "comments": 278
+      }
+    },
+    {
+      "id": "qx0w3xtsnp",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "host": "caleb.software",
+      "summary": "",
+      "publishedAt": "2026-11-08T03:11:48.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.5,
+      "reasons": [
+        "364 points · 225 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50410107",
+        "points": 364,
+        "comments": 225
+      }
+    },
+    {
+      "id": "5q5c1jdu2w",
+      "title": "Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-07/ai-safety-advocates-make-gains-after-110-million-midterm-fight",
+      "host": "bloomberg.com",
+      "summary": "Candidates who favor stricter oversight of artificial intelligence racked up wins in key congressional races, aided…",
+      "publishedAt": "2026-11-08T00:45:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 29.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "4yylu1s8jc",
+      "title": "LLMs are terrible at designing AI systems",
+      "url": "https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
+      "host": "seangoedecke.com",
+      "summary": "LLMs don’t know how to design software that uses LLMs. They’re comfortable writing normal programs, but if you throw an AI-shaped problem at them, they will usually screw it up. Why is that? For example, this post describes an attempt to vibe-code a memory tool that would flag when one memory contradicted another1.",
+      "publishedAt": "2026-11-08T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 29,
+      "reasons": [
+        "From a followed writer",
+        "Matched: LLMs, vibe-code"
+      ],
+      "also": []
+    },
+    {
+      "id": "cop0v7he67",
+      "title": "Major environmental groups are embracing AI to analyze climate data, track forest fires, and more, even as they warn of the environmental impact of data centers",
+      "url": "https://www.reuters.com/sustainability/cop/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-2026-11-07/",
+      "host": "reuters.com",
+      "summary": "Environmental groups worldwide are using artificial intelligence to analyze climate data, track forest fires and count endangered wildlife…",
+      "publishedAt": "2026-11-08T07:01:10.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 28.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fwdikzkk47",
+      "title": "Inside Inner Mongolia, China's fastest-growing AI data center region, where construction is accelerating with low building cost and no public backlash",
+      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "host": "newsletter.semianalysis.com",
+      "summary": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers",
+      "publishedAt": "2026-11-08T11:00:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "pk7k31kaks",
+      "title": "How a small, wealthy AI-safety network that organized in Signal chats grew into a coalition that beat the $100M super PAC Leading the Future in the midterms",
+      "url": "https://www.politico.com/news/magazine/2026/11/06/ai-big-tech-2026-midterms-anthropic-openai-01152312",
+      "host": "politico.com",
+      "summary": "For years, the policy debate over artificial intelligence belonged to those who counted progress in decades.",
+      "publishedAt": "2026-11-08T02:45:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fsusqh5gtd",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "host": "huggingface.co",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf.",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 27.6,
+      "reasons": [
+        "87 upvotes on Hugging Face",
+        "Matched: foundation models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 87,
+        "arxivId": "2611.05376"
+      }
+    },
+    {
+      "id": "eegta274uz",
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "url": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "host": "thenewstack.io",
+      "summary": "AWS first introduced Kiro, its agentic, spec-driven development environment, in July 2025. It also introduced Kiro Crew in August of",
+      "publishedAt": "2026-11-07T15:30:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.9,
+      "reasons": [
+        "Matched: AI agents, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "nnobtljmx1",
+      "title": "Nous Research unveils Arete-27B, a post-trained Qwen3.8-27B model that reinforces Western values, saying the underlying Chinese model's bias layer is shallow",
+      "url": "https://nousresearch.com/arete",
+      "host": "nousresearch.com",
+      "summary": "We post-trained over Alibaba's Qwen3.8-27B to reinforce Western values on a Chinese-trained model. We call this new model Arete-27B.",
+      "publishedAt": "2026-11-08T06:20:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 26.6,
+      "reasons": [
+        "Matched: Qwen3"
+      ],
+      "also": []
+    },
+    {
+      "id": "375wjn3dv1",
+      "title": "Joy & Curiosity #105",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-105",
+      "host": "registerspill.thorstenball.com",
+      "summary": "Interesting & joyful things from the previous week",
+      "publishedAt": "2026-11-08T08:24:03.000Z",
+      "source": {
+        "id": "thorsten-ball",
+        "name": "Register Spill (Thorsten Ball)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 25.1,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "fxwdw5dxyo",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "host": "theverge.com",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation…",
+      "publishedAt": "2026-11-07T12:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 24.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ekj4eicplp",
+      "title": "Public records appear to show SpaceX building a \"Starbase supercomputer\" in TX, but Gina Hinojosa's election as governor may delay some of the data center plans",
+      "url": "https://www.theinformation.com/articles/blue-wave-may-stop-musks-texas-data-center-ambitions",
+      "host": "theinformation.com",
+      "summary": "Elon Musk moved early to build AI data centers in Tennessee and Mississippi and reaped the rewards.",
+      "publishedAt": "2026-11-07T19:40:04.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "sffwho21kk",
+      "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "host": "the-decoder.com",
+      "summary": "Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent.",
+      "publishedAt": "2026-11-08T09:50:59.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 23.5,
+      "reasons": [
+        "Matched: coding agents, AI agents, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "qy1f9ltudt",
+      "title": "Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof \"shocking news\"; it could one day speed up chip design and break encryption",
+      "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html?unlocked_article_code=1.OlE.47kX.eivz6u8UMHXN&smid=url-share",
+      "host": "nytimes.com",
+      "summary": "A longstanding hypothesis held that some problems would always be hard for computers to solve quickly.",
+      "publishedAt": "2026-11-07T17:15:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.4,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "j2h4qppg62",
+      "title": "Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees \"shaky\" projects killed",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/data-center-pullback-may-shield-real-economy-from-ai-bubble",
+      "host": "bloomberg.com",
+      "summary": "Guardrails against data-center expansion in states won by Democrats may help spread investment over time.",
+      "publishedAt": "2026-11-07T16:35:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "t7eyaocbc2",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "host": "theverge.com",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best…",
+      "publishedAt": "2026-11-07T15:50:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dipylrmodo",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "host": "theverge.com",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell…",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mkj6sjqk9c",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "host": "theverge.com",
+      "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say…",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ostd0oq5m1",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "host": "techcrunch.com",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 22.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "57gi8zpkhh",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "host": "techcrunch.com",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "sjjdyq86jq",
+      "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-07T15:16:01.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 21.4,
+      "reasons": [
+        "69 points · 14 comments on Hacker News",
+        "Matched: diffusion model"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50405263",
+        "points": 69,
+        "comments": 14
+      }
+    },
+    {
+      "id": "jvhdhvfi98",
+      "title": "OpenAI Agents SDK (Python) 0.24.0-alpha.7",
+      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7",
+      "host": "github.com",
+      "summary": "Use Classic workflows alongside native execution. Import the retained v0 runtime through agents.classic. This alpha also changes executor write defaults; review the upgrade actions before opening existing environments.",
+      "publishedAt": "2026-11-08T07:07:12.000Z",
+      "source": {
+        "id": "gh-openai-agents-python",
+        "name": "OpenAI Agents SDK (Python) releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 20.8,
+      "reasons": [
+        "New release",
+        "Matched: OpenAI, Agents SDK"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/openai-agents-python",
+        "version": "0.24.0-alpha.7"
+      }
+    },
+    {
+      "id": "m1jmiln1wl",
+      "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "host": "the-decoder.com",
+      "summary": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scientists.\" A growing wave of startups is already betting on exactly this gap.",
+      "publishedAt": "2026-11-08T11:44:41.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.9,
+      "reasons": [
+        "Matched: LLM, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "8l5hfxdnn4",
+      "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "host": "the-decoder.com",
+      "summary": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks.",
+      "publishedAt": "2026-11-07T16:56:38.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 19.3,
+      "reasons": [
+        "Matched: AI agents, Anthropic, GPT-5"
+      ],
+      "also": []
+    },
+    {
+      "id": "a7d7a2suic",
+      "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+      "host": "the-decoder.com",
+      "summary": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking fast.",
+      "publishedAt": "2026-11-07T15:35:50.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 18.9,
+      "reasons": [
+        "Matched: OpenAI, GPT-6, open-weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "cio6u88ft3",
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "host": "the-decoder.com",
+      "summary": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation.",
+      "publishedAt": "2026-11-07T17:37:25.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.5,
+      "reasons": [
+        "Matched: Anthropic, Claude, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "79s51lrglt",
+      "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "host": "the-decoder.com",
+      "summary": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias is \"applied late, it is applied thin,\" the team writes.",
+      "publishedAt": "2026-11-07T12:32:45.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 16.2,
+      "reasons": [
+        "Matched: fine-tuning, Qwen3"
+      ],
+      "also": []
+    },
+    {
+      "id": "34fp1o1ge1",
+      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "url": "https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says",
+      "host": "pcmag.com",
+      "summary": "",
+      "publishedAt": "2026-11-07T17:01:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 15.2,
+      "reasons": [
+        "21 points · 11 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50406064",
+        "points": 21,
+        "comments": 11
+      }
+    },
+    {
+      "id": "4lqrd6vp1z",
+      "title": "Implementing GPT-2 in CSS",
+      "url": "https://shubhampatil.dev/blog/gpt2-css",
+      "host": "shubhampatil.dev",
+      "summary": "",
+      "publishedAt": "2026-11-07T01:01:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 15.2,
+      "reasons": [
+        "20 points · 3 comments on Hacker News",
+        "Matched: GPT-2"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50400576",
+        "points": 20,
+        "comments": 3
+      }
+    },
+    {
+      "id": "fn1tfsdfxa",
+      "title": "Fireworks says you’re wasting money on AI unless you’re using all the models",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/07/fireworks-says-youre-wasting-money-on-ai-unless-youre-using-all-the-models/5308277",
+      "host": "theregister.com",
+      "summary": "The case for managed inference, or automatically routing queries to the right model for the right job",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.8,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    }
+  ]
+}
