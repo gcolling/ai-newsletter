@@ -1,0 +1,915 @@
+{
+  "version": 1,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T13:57:45.615Z",
+  "window": {
+    "from": "2026-11-08T11:57:58.787Z",
+    "to": "2026-11-09T13:57:41.570Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 71,
+    "failed": [
+      "microsoft-research"
+    ]
+  },
+  "stories": [
+    {
+      "id": "jki3m1bk1u",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "host": "thestateofai.com",
+      "summary": "",
+      "publishedAt": "2026-11-08T18:16:07.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 48,
+      "reasons": [
+        "817 points · 438 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50415628",
+        "points": 817,
+        "comments": 438
+      }
+    },
+    {
+      "id": "l2stbv3zfy",
+      "title": "I'm not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+      "host": "matteoraso.github.io",
+      "summary": "",
+      "publishedAt": "2026-11-08T23:44:36.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 45.2,
+      "reasons": [
+        "394 points · 668 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50418975",
+        "points": 394,
+        "comments": 668
+      }
+    },
+    {
+      "id": "cya6256s6d",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "host": "simonwillison.net",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 39.8,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Claude, Codex, coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "b1ve4pd1y4",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 38.7,
+      "reasons": [
+        "442 points · 196 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50411961",
+        "points": 442,
+        "comments": 196
+      }
+    },
+    {
+      "id": "86a7k27acs",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "host": "sergeykuhne.com",
+      "summary": "",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 36.9,
+      "reasons": [
+        "278 points · 194 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50416363",
+        "points": 278,
+        "comments": 194
+      }
+    },
+    {
+      "id": "ia370ce9fn",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "host": "latent.space",
+      "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "publishedAt": "2026-11-08T21:41:44.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 34.2,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": [
+        {
+          "source": "Latent Space (incl. AINews)",
+          "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
+        }
+      ]
+    },
+    {
+      "id": "rny59oq62v",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "host": "theverge.com",
+      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light…",
+      "publishedAt": "2026-11-08T20:22:39.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 33.9,
+      "reasons": [
+        "Covered by 2 outlets"
+      ],
+      "also": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+        }
+      ]
+    },
+    {
+      "id": "45bo2qzhdq",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "host": "simonwillison.net",
+      "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB)",
+      "publishedAt": "2026-11-09T04:32:33.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 33.8,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "otumzm4xqa",
+      "title": "Podcast: Distributed LLM Inference on Kubernetes with llm-d, Wasm, & TornadoVM",
+      "url": "https://www.infoq.com/podcasts/distributed-llm-inference-kubernetes/",
+      "host": "infoq.com",
+      "summary": "In this episode, Edoardo Vacchi discusses the evolving landscape of WebAssembly on the backend, running Java workloads on GPUs using TornadoVM, and optimizing distributed AI inference using llm-d and vLLM on Kubernetes. Edoardo explains how llm-d manages cache locality (KV and prefix caches), request routing, and batch inference across Kubernetes clusters to maximize expensive GPU utilization.",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 31.3,
+      "reasons": [
+        "Matched: LLM, vLLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "mq3xb1540y",
+      "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+      "url": "https://www.infoq.com/news/2026/11/pinterest-journey/",
+      "host": "infoq.com",
+      "summary": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens.",
+      "publishedAt": "2026-11-09T07:25:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 30.5,
+      "reasons": [
+        "Matched: Qwen3, LLM, fine-tuned"
+      ],
+      "also": []
+    },
+    {
+      "id": "phhv4y8vs2",
+      "title": "Apple capped engineers at a $200 daily AI budget",
+      "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "host": "stork.ai",
+      "summary": "",
+      "publishedAt": "2026-11-09T05:30:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 30.1,
+      "reasons": [
+        "97 points · 98 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50421426",
+        "points": 97,
+        "comments": 98
+      }
+    },
+    {
+      "id": "11qp3wxxmc",
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
+      "host": "jack-clark.net",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable…",
+      "publishedAt": "2026-11-09T13:31:34.000Z",
+      "source": {
+        "id": "import-ai",
+        "name": "Import AI (Jack Clark)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 29.9,
+      "reasons": [
+        "From a followed writer",
+        "Matched: superintelligence"
+      ],
+      "also": []
+    },
+    {
+      "id": "bn78u3syw1",
+      "title": "Why I will not be using LLMs in my coding",
+      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "host": "polso.info",
+      "summary": "",
+      "publishedAt": "2026-11-08T12:14:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 29.9,
+      "reasons": [
+        "116 points · 232 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50412591",
+        "points": 116,
+        "comments": 232
+      }
+    },
+    {
+      "id": "7tcnpxxi11",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "host": "technologyreview.com",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market.",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "29jdl02tg3",
+      "title": "Google unveils two specialized TPUs, the TPU 8tx, to be paired with AMD CPUs, and TPU 8i Max, a dual-chip package for long-context window tasks, launching 2027",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems",
+      "host": "bloomberg.com",
+      "summary": "Alphabet Inc.'s Google is rolling out a broader array of artificial intelligence chips, aiming to capitalize on its rapid ascent…",
+      "publishedAt": "2026-11-09T12:50:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 29.7,
+      "reasons": [
+        "Matched: context window"
+      ],
+      "also": []
+    },
+    {
+      "id": "edknd8iju2",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-09T12:34:29.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 29.7,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "9p3oscgod8",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "host": "theverge.com",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's…",
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: agentic, AI agent, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ew7q260nj4",
+      "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+      "url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "host": "lobste.rs",
+      "summary": "I just got a Mac mini with an M5 Pro (base CPU config) and 48GB of unified memory. I want to run as much AI locally as makes sense, but it's hard to separate what actually works day to day from benchmark hype. Coding: autocomplete and agentic workflows with local models",
+      "publishedAt": "2026-11-08T17:07:51.827Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 28.7,
+      "reasons": [
+        "19 points · 9 comments on Lobsters",
+        "Matched: agentic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+        "points": 19,
+        "comments": 9
+      }
+    },
+    {
+      "id": "pbdrgentiv",
+      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "host": "wsj.com",
+      "summary": "",
+      "publishedAt": "2026-11-08T18:43:07.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 28.2,
+      "reasons": [
+        "96 points · 123 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50415817",
+        "points": 96,
+        "comments": 123
+      }
+    },
+    {
+      "id": "lo4ryltksw",
+      "title": "Meta says it is globally expanding Instagram's AI age estimation tech to apply Teen Account protections to teens aged 13 to 17 who misrepresented their age",
+      "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "host": "theverge.com",
+      "summary": "Meta says it will expand Teen Account protections to millions more kids, even if they've misrepresented their age.",
+      "publishedAt": "2026-11-09T12:15:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9wlemmetse",
+      "title": "US voters in Harwood, North Dakota rejected a ballot measure that opposed Applied Digital's $3B data center, set to open in 2027, bucking a nationwide backlash",
+      "url": "https://www.washingtonpost.com/technology/2026/11/08/only-town-america-that-said-yes-data-centers/",
+      "host": "washingtonpost.com",
+      "summary": "On Election Day, much of the country turned against the massive projects that power AI. Here's why one place didn't.",
+      "publishedAt": "2026-11-09T11:50:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "lashrt1r84",
+      "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
+      "url": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/",
+      "host": "infoq.com",
+      "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications.",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 27.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "n6xtvyadmh",
+      "title": "Nvidia Senior Director Madison Huang, daughter of Jensen, cancels a high-profile Seoul appearance citing a \"family matter\", throwing the event into disarray",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-controversy-throws-high-profile-korea-event-into-disarray",
+      "host": "bloomberg.com",
+      "summary": "Nvidia Corp. co-founder Jensen Huang's daughter planned to showcase deepening ties with two of South Korea's most important AI players Monday.",
+      "publishedAt": "2026-11-09T10:50:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "3fmkwh4br3",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "host": "247wallst.com",
+      "summary": "",
+      "publishedAt": "2026-11-08T14:49:23.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 27.3,
+      "reasons": [
+        "188 points · 209 comments on Hacker News",
+        "Matched: OpenAI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50413822",
+        "points": 188,
+        "comments": 209
+      }
+    },
+    {
+      "id": "bgg0tjglcs",
+      "title": "US federal prosecutors say businesses have lost $129M+ to scam calls using AI-generated voices to mimic company executives in the 18 months since July 2024",
+      "url": "https://www.nytimes.com/2026/11/08/business/ai-ceo-impersonation-theft.html?unlocked_article_code=1.PFE.-BZf.2zgo-CdMp-m5&smid=url-share",
+      "host": "nytimes.com",
+      "summary": "A federal indictment alleges that three men used generative A.I. to impersonate voices of chief executives and lawyers to defraud companies of millions of dollars.",
+      "publishedAt": "2026-11-09T09:50:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "misrbwwowl",
+      "title": "What is Pathways? Single-controller training for large models",
+      "url": "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/",
+      "host": "developers.googleblog.com",
+      "summary": "Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex…",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.8,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "c3yiekjvf8",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "host": "theverge.com",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my…",
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kohw3r197z",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "host": "techcrunch.com",
+      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "publishedAt": "2026-11-09T05:26:29.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9jpucopchs",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "host": "blogs.nvidia.com",
+      "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key…",
+      "publishedAt": "2026-11-09T05:00:39.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 23.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Agentic, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "kbth7r93kj",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "host": "theverge.com",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's…",
+      "publishedAt": "2026-11-08T17:23:19.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "crkvkrl7b1",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "host": "blogs.nvidia.com",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with…",
+      "publishedAt": "2026-11-09T08:00:53.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 22.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: foundation models"
+      ],
+      "also": []
+    },
+    {
+      "id": "jhzucvz38l",
+      "title": "Send contracts for e-signature from n8n, with TurboDocx, Slack approval and SharePoint filing",
+      "url": "https://blog.n8n.io/spotlight-turbodocx/",
+      "host": "blog.n8n.io",
+      "summary": "This Verified Node Spotlight is a guest post written by Nicolas Fry, CEO of TurboDocx. The deal is closed and the contract is ready. It's been sitting in someone's inbox for three days, waiting for an \"OK, send it.\" Once it's finally",
+      "publishedAt": "2026-11-08T14:07:15.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 22.5,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "6m0dnlsetg",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "host": "blogs.nvidia.com",
+      "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production.",
+      "publishedAt": "2026-11-09T05:00:40.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 19.9,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "ba2c4nba1s",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "host": "blogs.nvidia.com",
+      "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes…",
+      "publishedAt": "2026-11-09T05:00:04.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 19.9,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "n1smnxkfwb",
+      "title": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "host": "blogs.nvidia.com",
+      "summary": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPUs, requiring careful coordination of request routing…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 19.9,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "rkstivvxzt",
+      "title": "AI echo chambers and sanity in tech leadership: Three case studies",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/09/ai-echo-chambers-and-sanity-in-tech-leadership-three-case-studies/5308046",
+      "host": "theregister.com",
+      "summary": "Altman, Torvalds, Yen. One has got his head screwed on. The others could do with some grounding",
+      "publishedAt": "2026-11-09T11:59:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.5,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "1lh4lwrqiy",
+      "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+      "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+      "host": "the-decoder.com",
+      "summary": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congress poised to ramp up scrutiny of AI chip smuggling to China and push for tighter restrictions.",
+      "publishedAt": "2026-11-09T11:38:43.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 17.5,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cgty9ks2th",
+      "title": "AI Slop FM radio experiment puts machines on trial, one dodgy tune at a time",
+      "url": "https://www.theregister.com/offbeat/2026/11/09/ai-slop-fm-radio-experiment-puts-machines-on-trial-one-dodgy-tune-at-a-time/5308161",
+      "host": "theregister.com",
+      "summary": "Music fan from Wales lets listeners pit AI-generated songs against human bops – including toilet operas and HR protest songs",
+      "publishedAt": "2026-11-09T10:15:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "t4n8i3ejm6",
+      "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
+      "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+      "host": "theregister.com",
+      "summary": "Fixes are arriving faster than new bug reports for one major Linux project",
+      "publishedAt": "2026-11-09T04:53:08.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ttq7i0ocf4",
+      "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+      "host": "the-decoder.com",
+      "summary": "Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx keeps sensitive data encrypted even during processing, while the TPU 8i Max doubles compute power and memory by placing two chips on a single package. With nearly 100 external customers now on board, Google is increasingly positioning its in-house chips as an alternative to Nvidia's GPUs.",
+      "publishedAt": "2026-11-09T12:59:02.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 15.8,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "l8ttvzhz3f",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder.",
+      "publishedAt": "2026-11-08T14:23:00.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 14.6,
+      "reasons": [
+        "Matched: Claude, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "q3v8p76g3b",
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "host": "the-decoder.com",
+      "summary": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn against granting rights to AI systems.",
+      "publishedAt": "2026-11-08T13:49:21.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 12.4,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "67biz9cq5s",
+      "title": "crewAI 1.15.39",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39",
+      "host": "github.com",
+      "summary": "Document the apps_not_connected error on /kickoff and /status",
+      "publishedAt": "2026-11-09T01:07:14.000Z",
+      "source": {
+        "id": "gh-crewai",
+        "name": "crewAI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 11,
+      "reasons": [
+        "New release",
+        "Matched: crewAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "crewAIInc/crewAI",
+        "version": "1.15.39"
+      }
+    }
+  ]
+}
