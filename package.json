@@ -20,7 +20,7 @@
     "check": "npm run secrets && npm run typecheck && npm run lint && npm test"
   },
   "dependencies": {
-    "fast-xml-parser": "5.11.2"
+    "fast-xml-parser": "5.12.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
