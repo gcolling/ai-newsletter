@@ -1,0 +1,1924 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T13:31:24.244Z",
+  "window": {
+    "from": "2026-11-09T13:57:41.570Z",
+    "to": "2026-11-10T13:31:20.508Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "d0m7rmyphh",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "host": "simonwillison.net",
+      "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code.",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 122,
+      "reasons": [
+        "Covered by 5 outlets",
+        "699 points · 862 comments on Hacker News",
+        "From a followed writer",
+        "Matched: Claude, Anthropic"
+      ],
+      "also": [
+        {
+          "source": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "source": "GitHub Changelog - Copilot",
+          "title": "Claude Fable 5.2 in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"
+        },
+        {
+          "source": "The Verge - AI",
+          "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+        },
+        {
+          "source": "The Decoder",
+          "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+          "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50429068",
+        "points": 699,
+        "comments": 862
+      }
+    },
+    {
+      "id": "lt1s17eaup",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "host": "simonwillison.net",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes.",
+      "publishedAt": "2026-11-09T23:57:21.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 54.9,
+      "reasons": [
+        "237 points · 116 comments on Hacker News",
+        "From a followed writer",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50434310",
+        "points": 237,
+        "comments": 116
+      }
+    },
+    {
+      "id": "t22k2ubm2u",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "host": "deepmind.google",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "source": {
+        "id": "google-deepmind",
+        "name": "Google DeepMind blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 54.2,
+      "reasons": [
+        "132 points · 59 comments on Hacker News",
+        "Official announcement"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50439193",
+        "points": 132,
+        "comments": 59
+      }
+    },
+    {
+      "id": "35i1pq67ae",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "host": "simonwillison.net",
+      "summary": "Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 50.5,
+      "reasons": [
+        "Covered by 2 outlets",
+        "From a followed writer",
+        "Matched: Claude"
+      ],
+      "also": [
+        {
+          "source": "The Decoder",
+          "title": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do",
+          "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
+        }
+      ]
+    },
+    {
+      "id": "8a92ssxc08",
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "host": "openai.com",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 45.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI, ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "6yxbwvirbv",
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "host": "openai.com",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 42.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "35y6pcj5fu",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-09T18:24:38.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.9,
+      "reasons": [
+        "664 points · 140 comments on Hacker News",
+        "Matched: Gemini"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50429426",
+        "points": 664,
+        "comments": 140
+      }
+    },
+    {
+      "id": "bjmwp75ehl",
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "host": "latent.space",
+      "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+      "publishedAt": "2026-11-10T06:34:44.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 40.2,
+      "reasons": [
+        "From a followed writer",
+        "Matched: LLM, Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "4d3cbzbci4",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "host": "artificialanalysis.ai",
+      "summary": "",
+      "publishedAt": "2026-11-09T20:04:55.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 39.5,
+      "reasons": [
+        "355 points · 255 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50431144",
+        "points": 355,
+        "comments": 255
+      }
+    },
+    {
+      "id": "flz08w1foo",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "host": "anthropic.com",
+      "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-news",
+        "name": "Anthropic News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 38.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "i8umcmcyot",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "host": "openai.com",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 37.3,
+      "reasons": [
+        "Official announcement",
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "jxgoxtxyt1",
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "host": "simonwillison.net",
+      "summary": "I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to:",
+      "publishedAt": "2026-11-10T03:53:04.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 35.5,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "k5gqct6zru",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "host": "simonwillison.net",
+      "summary": "Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis. Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious!",
+      "publishedAt": "2026-11-09T23:58:46.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 34.6,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "i9jsiiiu43",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "host": "cnbc.com",
+      "summary": "",
+      "publishedAt": "2026-11-10T03:20:06.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.5,
+      "reasons": [
+        "175 points · 155 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50435660",
+        "points": 175,
+        "comments": 155
+      }
+    },
+    {
+      "id": "9qbckujcmj",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "host": "evanxmerz.com",
+      "summary": "",
+      "publishedAt": "2026-11-10T10:25:58.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 33,
+      "reasons": [
+        "110 points · 138 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50438318",
+        "points": 110,
+        "comments": 138
+      }
+    },
+    {
+      "id": "ffxoguyhgx",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://latent.space/p/handshake/",
+      "host": "latent.space",
+      "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+      "publishedAt": "2026-11-09T17:15:53.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 32.8,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "emrxtbcdzx",
+      "title": "A year after the 100% AI mandate nobody understands our code",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "host": "reddit.com",
+      "summary": "",
+      "publishedAt": "2026-11-09T22:19:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.8,
+      "reasons": [
+        "133 points · 170 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50433079",
+        "points": 133,
+        "comments": 170
+      }
+    },
+    {
+      "id": "mlbwwekwm8",
+      "title": "Google DeepMind researchers used agentic AI framework AlphaProof Code to verify the Signal protocol's cryptographic guarantees, in a four-week proof-of-concept",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "host": "wired.com",
+      "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal?",
+      "publishedAt": "2026-11-10T11:55:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 31.6,
+      "reasons": [
+        "Matched: DeepMind, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "c3ez86a1z6",
+      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+      "url": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/",
+      "host": "infoq.com",
+      "summary": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-department data mismatches, and network drops - via MCP grounding and loop agents, while slashing cloud inference costs from $100k+ to $10k per month shifting from PTUs to pay-as-you-go.",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 31.4,
+      "reasons": [
+        "Matched: Multi-Agent, LLM, MCP"
+      ],
+      "also": []
+    },
+    {
+      "id": "o3tqqxendj",
+      "title": "Claude can design electronic prototypes from start to finish",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "host": "anthropic.com",
+      "summary": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 30.6,
+      "reasons": [
+        "31 points · 5 comments on Hacker News",
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50429952",
+        "points": 31,
+        "comments": 5
+      }
+    },
+    {
+      "id": "ggl3ir76zu",
+      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "url": "https://news.ycombinator.com/item?id=50422628",
+      "host": "news.ycombinator.com",
+      "summary": "",
+      "publishedAt": "2026-11-09T08:17:49.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 30.3,
+      "reasons": [
+        "212 points · 75 comments on Hacker News",
+        "Matched: ChatGPT"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50422628",
+        "points": 212,
+        "comments": 75
+      }
+    },
+    {
+      "id": "pb3tq3uirk",
+      "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "host": "techcrunch.com",
+      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 29.9,
+      "reasons": [
+        "Matched: Hugging Face"
+      ],
+      "also": []
+    },
+    {
+      "id": "rx9v95m6h2",
+      "title": "Meet Nod: a standalone personal agent from n8n Labs that runs on your computer",
+      "url": "https://blog.n8n.io/meet-nod/",
+      "host": "blog.n8n.io",
+      "summary": "Nod gets stuff done for you. It works in your apps and on any website, asks before it acts, and uses the AI provider you choose.",
+      "publishedAt": "2026-11-10T12:52:49.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 29.8,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "45npcodsjl",
+      "title": "Cursor and Google join OpenAI in giving coding agents a voice. Claude Code stays silent.",
+      "url": "https://thenewstack.io/cursor-antigravity-voice-agents/",
+      "host": "thenewstack.io",
+      "summary": "Two of the biggest players in the AI coding space are betting that developers want to talk to their agents",
+      "publishedAt": "2026-11-09T18:22:41.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 29.1,
+      "reasons": [
+        "Matched: OpenAI, coding agents, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "d511t8modx",
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "host": "theverge.com",
+      "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced…",
+      "publishedAt": "2026-11-10T13:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4peaxe61id",
+      "title": "From prompt to app: Build with Google Maps in AI Studio",
+      "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+      "host": "developers.googleblog.com",
+      "summary": "Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdles by providing one-click demo keys that generate instantly without requiring Cloud Console redirects or credit cards.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "automation",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "bizukvmn1r",
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "host": "claude.dev",
+      "summary": "How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: multi-agent, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "t97r5y2paz",
+      "title": "Sources: Microsoft is among a group of companies lobbying the Trump administration to halt the FCC's plan to ban imports of Chinese optical transceivers",
+      "url": "https://www.reuters.com/business/media-telecom/microsoft-presses-trump-scuttle-expected-ban-chinese-data-center-technology-2026-11-10/",
+      "host": "reuters.com",
+      "summary": "Microsoft (MSFT.O) has been pressing the Trump administration to halt plans to bar Chinese imports of a key component used in AI data centers…",
+      "publishedAt": "2026-11-10T12:25:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 27.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fauc9fk5z5",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "host": "arstechnica.com",
+      "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+      "publishedAt": "2026-11-10T12:15:32.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dong8v8tjl",
+      "title": "Filing: Anthropic's IPO could give it an up to $1.405T valuation on a fully diluted basis, up from the $965B valuation during its $65B Series H announced in May",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "host": "cnbc.com",
+      "summary": "Anthropic said it will offer 825 million shares in its upcoming IPO at a price range between $70 to $78 per share…",
+      "publishedAt": "2026-11-10T12:07:31.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.6,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "2a87b7uxmy",
+      "title": "Anthropic launches its IPO roadshow, saying the company and shareholders plan to sell 825M Class A shares at $70 to $78 each, listing on the Nasdaq under ANT",
+      "url": "https://www.anthropic.com/",
+      "host": "anthropic.com",
+      "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "publishedAt": "2026-11-10T11:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.5,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "i11p29px6w",
+      "title": "IPO prospectus: Anthropic's IPO is set to raise up to $64.4B, and the company will also raise $26B via cornerstone investors like Google, AMD, and Nvidia",
+      "url": "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/",
+      "host": "reuters.com",
+      "summary": "Anthropic is targeting a valuation of up to $1.02 trillion in its landmark U.S. IPO, its filing showed on Tuesday…",
+      "publishedAt": "2026-11-10T11:20:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.4,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "nkjbraavh0",
+      "title": "Meet the Sad Wives of AI",
+      "url": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+      "host": "wired.com",
+      "summary": "",
+      "publishedAt": "2026-11-10T10:40:51.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 27.2,
+      "reasons": [
+        "62 points · 49 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50438429",
+        "points": 62,
+        "comments": 49
+      }
+    },
+    {
+      "id": "aew74awh2q",
+      "title": "China's trade surplus hit $1.04T in the first 10 months of 2026, topping $1T for a second year in a row, as AI-driven tech exports offset weak domestic demand",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+      "host": "reuters.com",
+      "summary": "China's trade surplus surged past $1 trillion in the first 10 months as a global race to build AI infrastructure buoyed sales…",
+      "publishedAt": "2026-11-10T09:15:55.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "bid4ew1sr0",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "host": "techcrunch.com",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "publishedAt": "2026-11-10T01:27:12.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "29ukwu36wq",
+      "title": "Article: LLM Reliability Layers Under Test: Accuracy, Yield, and the Limits of Verification",
+      "url": "https://www.infoq.com/articles/llm-reliability-layers-limits-accuracy/",
+      "host": "infoq.com",
+      "summary": "Verification layers sort outputs by trust rather than fixing errors. In a benchmark of six reliability layers, voting and self-correction failed to recover accuracy - they only withheld doubtful records. Production systems gain more reliability by replacing generation with deterministic lookups, tracking yield over raw accuracy, and resolving extraction bottlenecks before stacking checks.",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 26.8,
+      "reasons": [
+        "Matched: LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "6l12vo4naa",
+      "title": "Meituan releases weights for LongCat-2.5, a 1.6T-parameter MoE model for long-horizon agentic tasks, under the MIT license, after unveiling it on November 1",
+      "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+      "host": "venturebeat.com",
+      "summary": "Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model. The Chinese food delivery…",
+      "publishedAt": "2026-11-10T08:50:03.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.8,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "jiwe0yblm3",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "host": "notion.com",
+      "summary": "",
+      "publishedAt": "2026-11-10T07:19:38.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 26.8,
+      "reasons": [
+        "86 points · 24 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50437106",
+        "points": 86,
+        "comments": 24
+      }
+    },
+    {
+      "id": "1hh9ke32t4",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "host": "techcrunch.com",
+      "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7np7uhgtt1",
+      "title": "JPMorganChase expands Claude Code to more employees across the firm",
+      "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+      "host": "claude.com",
+      "summary": "",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "kgi0s0yzu1",
+      "title": "Build a retro handheld game with Codex and ModRetro Chromatic",
+      "url": "https://developers.openai.com/blog/build-a-game-with-modretro-chromatic",
+      "host": "developers.openai.com",
+      "summary": "Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "openai-developers",
+        "name": "OpenAI Developers blog"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "om3kzu3btm",
+      "title": "Announcing Long-Context Training on TPUs with MaxText Context Parallelism",
+      "url": "https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/",
+      "host": "developers.googleblog.com",
+      "summary": "Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: A2A"
+      ],
+      "also": []
+    },
+    {
+      "id": "ozo6a2bz64",
+      "title": "Which Claude model should you build with?",
+      "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+      "host": "claude.dev",
+      "summary": "How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "hnb1f8r6l8",
+      "title": "Toward the Era of Agentic Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2611.09124",
+      "host": "huggingface.co",
+      "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 25.5,
+      "reasons": [
+        "46 upvotes on Hugging Face",
+        "Matched: Agentic, Foundation models, multi-agent"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 46,
+        "arxivId": "2611.09124"
+      }
+    },
+    {
+      "id": "giavfrk25l",
+      "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores",
+      "url": "https://thenewstack.io/anthropic-fable-coding-upgrade/",
+      "host": "thenewstack.io",
+      "summary": "On Monday, Anthropic launched Claude Fable 5.2 and Mythos 5.2, the latest versions of its duo of flagship models. Like before,",
+      "publishedAt": "2026-11-09T19:08:20.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.3,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "g2tio83e4b",
+      "title": "Meta launches Muse Ember to take on Claude Haiku and GPT-6 Luna",
+      "url": "https://thenewstack.io/meta-muse-ember-launch/",
+      "host": "thenewstack.io",
+      "summary": "Meta on Monday debuted Muse Ember, a smaller, more efficient multimodal member of its Muse model family. The company is",
+      "publishedAt": "2026-11-09T18:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25,
+      "reasons": [
+        "Matched: Claude, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "p5myn60jsv",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "publishedAt": "2026-11-09T16:56:54.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ghlqjbcmzv",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "host": "theverge.com",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to…",
+      "publishedAt": "2026-11-10T00:28:49.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4pofnpo9yu",
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "host": "theverge.com",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about…",
+      "publishedAt": "2026-11-09T23:51:58.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ewnj820kr5",
+      "title": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
+      "url": "https://www.infoq.com/news/2026/11/google-gemini-argon/",
+      "host": "infoq.com",
+      "summary": "Google has released Gemini 4 Argon framing it as a general-purpose physical-reasoning model for robot control, Real2Sim scene construction, multimodal labeling of robot video, and iterative policy improvement, rather than as a single end-effector policy.",
+      "publishedAt": "2026-11-09T15:44:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 24.5,
+      "reasons": [
+        "Matched: Gemini, reasoning model"
+      ],
+      "also": []
+    },
+    {
+      "id": "2ji5kemqmq",
+      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "host": "theverge.com",
+      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huang (no relation) as not only the exec for an AI compute company renting access to…",
+      "publishedAt": "2026-11-09T23:07:59.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "n3izd1h64q",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-09T15:05:57.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 24.3,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "m7uuif6sb7",
+      "title": "Your agent harness shouldn’t be a black box",
+      "url": "https://temporal.io/blog/your-agent-harness-shouldnt-be-a-black-box",
+      "host": "temporal.io",
+      "summary": "Understand the choices inside your AI agent harness, from memory and tool access to failure recovery, with Amazon Bedrock AgentCore and Temporal.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 24,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "67ycrg1g7o",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "host": "techcrunch.com",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "publishedAt": "2026-11-09T20:09:06.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.6,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "mzkdyeo6qb",
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "host": "technologyreview.com",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where…",
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "a4cn2wo4n7",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "publishedAt": "2026-11-09T19:24:51.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.4,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "8p1mqd5vwt",
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "host": "theverge.com",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set…",
+      "publishedAt": "2026-11-09T19:09:58.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hup8viyde9",
+      "title": "Fable 5.2 and Jagged AGI",
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "host": "oneusefulthing.org",
+      "summary": "General, often expert, and sometimes jagged",
+      "publishedAt": "2026-11-09T19:04:26.000Z",
+      "source": {
+        "id": "one-useful-thing",
+        "name": "One Useful Thing (Ethan Mollick)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 23.3,
+      "reasons": [
+        "From a followed writer",
+        "Matched: AGI"
+      ],
+      "also": []
+    },
+    {
+      "id": "sy5wz18o00",
+      "title": "Claude Code 2.1.322",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "host": "github.com",
+      "summary": "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
+      "publishedAt": "2026-11-10T02:29:43.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 23.2,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.322"
+      }
+    },
+    {
+      "id": "fej2tqsyok",
+      "title": "Google claims its new AI software cuts inference latency by over 90% — but there’s a catch",
+      "url": "https://thenewstack.io/google-tpu-sync-inference/",
+      "host": "thenewstack.io",
+      "summary": "Google’s eighth-generation TPU announcement on Monday included more than new chips, introducing TPU Sync, an open-source system designed to speed",
+      "publishedAt": "2026-11-09T18:40:01.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "t9z2sc5wz7",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "host": "techcrunch.com",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "publishedAt": "2026-11-09T18:09:52.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "idpklc096t",
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "host": "theverge.com",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style…",
+      "publishedAt": "2026-11-09T18:07:23.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "iqjpfaoe02",
+      "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "host": "theverge.com",
+      "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang -…",
+      "publishedAt": "2026-11-09T17:36:08.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "3or1m7co1b",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "host": "arstechnica.com",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "publishedAt": "2026-11-09T17:24:26.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 22.9,
+      "reasons": [
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "ev8qeygiyp",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "host": "technologyreview.com",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+      "publishedAt": "2026-11-09T17:05:43.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "poidgnywaw",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "host": "techcrunch.com",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "publishedAt": "2026-11-09T16:12:28.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "b1gfbaagux",
+      "title": "AI and Irontown",
+      "url": "https://lucumr.pocoo.org/2026/11/9/irontown/",
+      "host": "lucumr.pocoo.org",
+      "summary": "For our last movie night we watched Princess Mononoke. I remembered loving that movie when I was younger, but watching it as an adult made me once again realize how Miyazaki has a way of expressing diverging sides without picking one. The film shows people, animals and spirits with legitimate and largely incompatible needs, and each faction is further engaged in infighting.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "armin-ronacher",
+        "name": "Armin Ronacher"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 22,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "ddg3d0ckda",
+      "title": "How I built an AI prospecting agent on Temporal to take the admin off BDRs",
+      "url": "https://temporal.io/blog/ai-prospecting-agent-temporal-kepler",
+      "host": "temporal.io",
+      "summary": "Jeff Long, former BDR, built Kepler, an AI prospecting agent on Temporal that spots signals, vets contacts, and drafts outreach for reps to edit and send.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 22,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6carku6pk2",
+      "title": "Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+      "host": "theregister.com",
+      "summary": "Post-quantum handshake and Triple Ratchet get a formal security check",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 21.6,
+      "reasons": [
+        "Matched: DeepMind, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "24tb5mceta",
+      "title": "Microsoft is giving Claude the keys to UK Copilot tenants by default",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/10/microsoft-is-giving-claude-the-keys-to-uk-copilot-tenants-by-default/5308693",
+      "host": "theregister.com",
+      "summary": "Admins have until December 9 to review access settings as Anthropic processes data in the US",
+      "publishedAt": "2026-11-10T11:30:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 21.5,
+      "reasons": [
+        "Matched: Claude, Copilot, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "5oc7itokh4",
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "url": "https://huggingface.co/papers/2611.06043",
+      "host": "huggingface.co",
+      "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.5,
+      "reasons": [
+        "86 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 86,
+        "arxivId": "2611.06043"
+      }
+    },
+    {
+      "id": "9y3kxgt97l",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "host": "arstechnica.com",
+      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "publishedAt": "2026-11-09T15:23:20.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mriaiuqzdb",
+      "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+      "url": "https://huggingface.co/papers/2611.03953",
+      "host": "huggingface.co",
+      "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 19.9,
+      "reasons": [
+        "49 upvotes on Hugging Face",
+        "Matched: Distillation"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 49,
+        "arxivId": "2611.03953"
+      }
+    },
+    {
+      "id": "bo306imxge",
+      "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "url": "https://huggingface.co/papers/2611.08264",
+      "host": "huggingface.co",
+      "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 19.8,
+      "reasons": [
+        "67 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 67,
+        "arxivId": "2611.08264"
+      }
+    },
+    {
+      "id": "gp742xki6l",
+      "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
+      "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is kicking off its IPO roadshow, targeting a valuation of up to $1.02 trillion. Beyond the public offering of up to $64.4 billion, the company is securing $26 billion through a private placement with Google, Nvidia, Microsoft, and other major tech firms as anchor investors. The IPO comes at a time when investors are growing increasingly skeptical of AI investments.",
+      "publishedAt": "2026-11-10T12:13:03.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "nnazylge1p",
+      "title": "n8n 3.2.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.2.0",
+      "host": "github.com",
+      "summary": "ai-builder: Return the raw body when fetch-url reads JSON, XML, CSV or YAML (#42949) (6640010)",
+      "publishedAt": "2026-11-10T09:32:27.000Z",
+      "source": {
+        "id": "gh-n8n",
+        "name": "n8n releases"
+      },
+      "section": "releases",
+      "topic": "automation",
+      "score": 19,
+      "reasons": [
+        "New release",
+        "Matched: n8n"
+      ],
+      "also": [],
+      "release": {
+        "repo": "n8n-io/n8n",
+        "version": "3.2.0"
+      }
+    },
+    {
+      "id": "2uqj3thmht",
+      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "url": "https://huggingface.co/papers/2611.08175",
+      "host": "huggingface.co",
+      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution.",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18.4,
+      "reasons": [
+        "37 upvotes on Hugging Face",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 37,
+        "arxivId": "2611.08175"
+      }
+    },
+    {
+      "id": "c4rluyb2yy",
+      "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+      "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+      "host": "the-decoder.com",
+      "summary": "Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic's Claude often block too aggressively.",
+      "publishedAt": "2026-11-09T15:44:53.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 16.5,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "fwqb52hd2s",
+      "title": "opencode 2.2.7",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7",
+      "host": "github.com",
+      "summary": "GitHub Copilot Auto: Pick Auto in the model picker when your Copilot account has an Auto pool, and Copilot's router chooses the model for each session at the Auto discount. If routing fails, OpenCode falls back to the account's default chat model.",
+      "publishedAt": "2026-11-10T10:37:15.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 15.3,
+      "reasons": [
+        "New release",
+        "Matched: opencode, Copilot"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.2.7"
+      }
+    },
+    {
+      "id": "64193uqmtm",
+      "title": "Playwright MCP 0.0.85",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.85",
+      "host": "github.com",
+      "summary": "🌙 Keep the browser in the background (microsoft/playwright#42973) — connecting through the extension activated the tab and focused the browser window, taking the screen from the app you were working in. Pass --background alongside --extension (config background: true, env PLAYWRIGHT_MCP_BACKGROUND=1) to leave the connected tab inactive and its window unfocused, and to open the client's new tabs in the background.",
+      "publishedAt": "2026-11-09T18:28:53.000Z",
+      "source": {
+        "id": "gh-playwright-mcp",
+        "name": "Playwright MCP releases"
+      },
+      "section": "releases",
+      "topic": "automation",
+      "score": 15.2,
+      "reasons": [
+        "New release",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "release": {
+        "repo": "microsoft/playwright-mcp",
+        "version": "0.0.85"
+      }
+    },
+    {
+      "id": "5jrhpl651q",
+      "title": "How to migrate JMeter tests to Postman",
+      "url": "https://blog.postman.com/how-to-migrate-jmeter-tests-to-postman/",
+      "host": "blog.postman.com",
+      "summary": "Migrate a JMeter .jmx test plan to Postman with your coding agent: reuse requests, auth and assertions, then run load tests in CI.",
+      "publishedAt": "2026-11-10T00:12:00.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 14.6,
+      "reasons": [
+        "Matched: coding agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "orc5siwbe3",
+      "title": "Anthropic's super bug-finding Mythos model is going into Cisco and IBM products",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616",
+      "host": "theregister.com",
+      "summary": "Enterprise security tools will offer its capabilities without handing customers the model itself",
+      "publishedAt": "2026-11-10T00:00:20.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 14.6,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "f1br69gaqk",
+      "title": "Postman Plugin for Claude Code: A Hands-On Guide",
+      "url": "https://blog.postman.com/postman-plugin-for-claude-code-a-hands-on-guide/",
+      "host": "blog.postman.com",
+      "summary": "Install the Postman plugin for Claude Code, then build, mock, test, and gate an AI-native API with copy-paste prompts, hooks, and /goal.",
+      "publishedAt": "2026-11-09T16:00:00.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 14.5,
+      "reasons": [
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "ekyhy3xomk",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "host": "blogs.nvidia.com",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in…",
+      "publishedAt": "2026-11-09T14:00:01.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 14,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "nea4r9g99v",
+      "title": "LangSmith: Coding agents track GitHub pull request outcomes",
+      "url": "https://docs.langchain.com/langsmith/changelog#november-2-9-2026",
+      "host": "docs.langchain.com",
+      "summary": "Coding agents track GitHub pull request outcomes: Coding agents now show GitHub pull request outcomes and spend on the agent overview. You can set an agent's type to Coding when you create it or from the agent actions menu, then open the GitHub connections dialog from the overview header to connect GitHub accounts, add another account, choose repository access, or reuse an installation already linked to another…",
+      "publishedAt": "2026-11-09T18:53:23.000Z",
+      "source": {
+        "id": "langsmith-changelog",
+        "name": "LangSmith changelog"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 13.3,
+      "reasons": [
+        "Matched: Coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "fvelb0e7c1",
+      "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+      "host": "the-decoder.com",
+      "summary": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in realism. A Pro version is planned.",
+      "publishedAt": "2026-11-09T18:50:01.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "automation",
+      "score": 13.2,
+      "reasons": [
+        "Matched: GPT-Image"
+      ],
+      "also": []
+    },
+    {
+      "id": "noe3puuw6k",
+      "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+      "host": "the-decoder.com",
+      "summary": "Disney and Adobe are building custom AI tools together for the entertainment giant's productions. The article Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire appeared first on The Decoder.",
+      "publishedAt": "2026-11-09T16:54:16.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "q68eodocsc",
+      "title": "Ollama 0.40.16",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "host": "github.com",
+      "summary": "Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding.",
+      "publishedAt": "2026-11-09T23:45:36.000Z",
+      "source": {
+        "id": "gh-ollama",
+        "name": "Ollama releases"
+      },
+      "section": "releases",
+      "topic": "infra",
+      "score": 12.5,
+      "reasons": [
+        "New release",
+        "Matched: Ollama, agentic"
+      ],
+      "also": [],
+      "release": {
+        "repo": "ollama/ollama",
+        "version": "0.40.16"
+      }
+    },
+    {
+      "id": "r9dtcjehgr",
+      "title": "The AI bubble can wait, but your exit plan can't",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/09/the-ai-bubble-can-wait-but-your-exit-plan-cant/5308415",
+      "host": "theregister.com",
+      "summary": "Infrastructure spending outruns measurable returns, with supplier finances key to judging when trouble arrives",
+      "publishedAt": "2026-11-09T14:02:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "e8k5v5ymqp",
+      "title": "OpenHands 1.38.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0",
+      "host": "github.com",
+      "summary": "feat: edit executable plugin configuration in automation help",
+      "publishedAt": "2026-11-10T05:10:01.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 11.9,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.38.0"
+      }
+    },
+    {
+      "id": "ipw6f2yc0x",
+      "title": "Insight about how 'nature makes no leaps' promises better robot predictions",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/09/insight-about-how-nature-makes-no-leaps-promises-better-robot-predictions/5308301",
+      "host": "theregister.com",
+      "summary": "Leibniz lives!",
+      "publishedAt": "2026-11-09T17:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 10.8,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    }
+  ]
+}
