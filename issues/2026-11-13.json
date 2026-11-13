@@ -1,0 +1,1713 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T13:10:28.724Z",
+  "window": {
+    "from": "2026-11-12T13:48:55.772Z",
+    "to": "2026-11-13T13:10:25.605Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "jpzlhbfxbt",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "host": "deepmind.google",
+      "summary": "",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "source": {
+        "id": "google-deepmind",
+        "name": "Google DeepMind blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 79.4,
+      "reasons": [
+        "542 points · 339 comments on Hacker News",
+        "Covered by 2 outlets",
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": [
+        {
+          "source": "Google Keyword - Gemini",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+        },
+        {
+          "source": "antigravity.google",
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50471431",
+        "points": 542,
+        "comments": 339
+      }
+    },
+    {
+      "id": "81jeqewke6",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "host": "status.claude.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T10:18:13.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.3,
+      "reasons": [
+        "287 points · 235 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50481187",
+        "points": 287,
+        "comments": 235
+      }
+    },
+    {
+      "id": "amxdmdqnd8",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "host": "openai.com",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 39.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI, coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "qxm4kj9piv",
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-12T15:23:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 37.4,
+      "reasons": [
+        "402 points · 148 comments on Hacker News",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50468888",
+        "points": 402,
+        "comments": 148
+      }
+    },
+    {
+      "id": "27ovfohexj",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "host": "latent.space",
+      "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+      "publishedAt": "2026-11-13T09:04:13.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "infra",
+      "score": 36.9,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "od5n4ltayk",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "host": "unemploymentlabs.com",
+      "summary": "",
+      "publishedAt": "2026-11-12T21:56:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 36.5,
+      "reasons": [
+        "312 points · 119 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50474883",
+        "points": 312,
+        "comments": 119
+      }
+    },
+    {
+      "id": "1t1gf6wesh",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "host": "latent.space",
+      "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "publishedAt": "2026-11-13T04:17:25.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 35.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "t57lbch3t0",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "host": "edge0.ai",
+      "summary": "",
+      "publishedAt": "2026-11-12T23:06:17.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 35.1,
+      "reasons": [
+        "284 points · 83 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50475713",
+        "points": 284,
+        "comments": 83
+      }
+    },
+    {
+      "id": "422ua7i6sp",
+      "title": "Claude Is Down",
+      "url": "https://status.claude.com/history",
+      "host": "status.claude.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T10:20:09.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.5,
+      "reasons": [
+        "146 points · 125 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50481220",
+        "points": 146,
+        "comments": 125
+      }
+    },
+    {
+      "id": "ikt9loykrz",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "host": "simonwillison.net",
+      "summary": "Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme:",
+      "publishedAt": "2026-11-12T22:55:19.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 34.3,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "1y3g2d9so2",
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "host": "synthanatomy.com",
+      "summary": "",
+      "publishedAt": "2026-11-12T21:09:49.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 34.3,
+      "reasons": [
+        "184 points · 206 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50474311",
+        "points": 184,
+        "comments": 206
+      }
+    },
+    {
+      "id": "4dr8fdgom9",
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "Also: native mobile and frontend jobs are disappearing, how trust helps an “AI-native” engineering team to succeed, Carta starts selling a coding harness, and more",
+      "publishedAt": "2026-11-12T18:53:19.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 33.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "l00r2yhoy9",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "host": "brave.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T03:08:08.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 32.3,
+      "reasons": [
+        "162 points · 88 comments on Hacker News",
+        "Matched: agentic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50477649",
+        "points": 162,
+        "comments": 88
+      }
+    },
+    {
+      "id": "8fbkcdukpu",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+      "host": "blog.google",
+      "summary": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 31.1,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "2lc3aabs72",
+      "title": "South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs on robots and drones, targeting fall 2027 for mass production",
+      "url": "http://www.eetimes.com/",
+      "host": "eetimes.com",
+      "summary": "DeepX is targeting edge markets including robotics with its second-generation AI accelerator, which can run large LLMs on device in under 5 W.",
+      "publishedAt": "2026-11-13T12:15:19.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 29.8,
+      "reasons": [
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "t3zu4m3l1z",
+      "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+      "url": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/",
+      "host": "infoq.com",
+      "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.7,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "2gw4ijn70y",
+      "title": "AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO; filing: the company aims to raise ~$1.2B by issuing up to 220M shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/server-maker-xfusion-gets-shenzhen-nod-for-1-2-billion-listing",
+      "host": "bloomberg.com",
+      "summary": "Artificial intelligence server maker xFusion Digital Technologies Co. received approval from the Shenzhen Stock Exchange on Thursday…",
+      "publishedAt": "2026-11-13T09:35:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5wofa0bqm9",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "host": "theverge.com",
+      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of…",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 28.8,
+      "reasons": [
+        "Matched: ChatGPT, Gemini, Perplexity"
+      ],
+      "also": []
+    },
+    {
+      "id": "at5iy27ciq",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "host": "techcrunch.com",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "publishedAt": "2026-11-12T17:36:40.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28.2,
+      "reasons": [
+        "21 points · 2 comments on Hacker News",
+        "Matched: Hugging Face"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50471673",
+        "points": 21,
+        "comments": 2
+      }
+    },
+    {
+      "id": "i91bvsg06r",
+      "title": "How Agent Anomaly Detection scores on benchmarks we didn't write",
+      "url": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
+      "host": "developers.googleblog.com",
+      "summary": "Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "s8ugbaw4ci",
+      "title": "Securing persistent agents like OpenClaw at OpenAI",
+      "url": "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai",
+      "host": "developers.openai.com",
+      "summary": "How OpenAI combines trusted control-plane services, Codex sandboxing, auto-review, agent identity, and observability to run persistent agents.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "openai-developers",
+        "name": "OpenAI Developers blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: OpenAI, Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "q67ixi3no3",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "host": "techcrunch.com",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "publishedAt": "2026-11-13T12:52:19.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "r8c0is1jyo",
+      "title": "A review of Chinese contracts, disclosures, and other documents identifies $3.2B+ in compute projects built or planned around Nvidia GPUs restricted by the US",
+      "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/",
+      "host": "reuters.com",
+      "summary": "Nvidia has said US export controls have effectively shut it out of China's AI data-centre market, but a Reuters review has identified…",
+      "publishedAt": "2026-11-13T10:50:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "jorrpnr7j8",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-12T19:07:35.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "6nrb77dvd9",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "host": "techcrunch.com",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "publishedAt": "2026-11-12T18:39:23.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 27.2,
+      "reasons": [
+        "Matched: Hugging Face, open-weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "s93u92atnc",
+      "title": "New in n8n: Public API rate limits that keep every team on your instance running",
+      "url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running/",
+      "host": "blog.n8n.io",
+      "summary": "Cap public API requests per API key in n8n, with 429 headers that tell clients when to retry and idempotency keys for safe retries.",
+      "publishedAt": "2026-11-13T09:29:35.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 27.1,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "k93jgp8f66",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "host": "blog.google",
+      "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27.1,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "g6plfa7k6a",
+      "title": "Get quick answers from Gemini on any website.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+      "host": "blog.google",
+      "summary": "Get quick answers with Gemini in Chrome. Summarize articles, compare products, and explain complex topics directly in your side panel. Try it now.",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "dhqjgfxoe6",
+      "title": "OpenAI launches Daybreak Red Team in early access to test web apps for flaws and Daybreak Defense Factory to automate finding, validating, and fixing them",
+      "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+      "host": "theregister.com",
+      "summary": "OpenAI has launched two new security products, one for penetration testing and another for defense, and warned organizations…",
+      "publishedAt": "2026-11-13T07:25:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.5,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "dikh3wsfl7",
+      "title": "Filing: Nscale says it needs more funding for its 2027 commitments after ordering Nvidia chips for a $45B Anthropic deal, casting doubt on its planned $35B IPO",
+      "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+      "host": "ft.com",
+      "summary": "Nvidia-backed ‘neocloud’ tells investors it must obtain additional financing to fulfil Anthropic contracts",
+      "publishedAt": "2026-11-13T06:01:16.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "1wbojed2cb",
+      "title": "J. Crew brings its signature approach to styling to life with Claude",
+      "url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+      "host": "claude.com",
+      "summary": "J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "3xl644ftme",
+      "title": "Introducing Claude Meetings",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "host": "claude.com",
+      "summary": "Add Claude to your video call and get the work started while you talk",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "6z2ov3e35b",
+      "title": "Temporal is named to the 2026 AI 100 as teams ask more of their AI infrastructure",
+      "url": "https://temporal.io/blog/temporal-named-to-2026-ai-100",
+      "host": "temporal.io",
+      "summary": "Temporal joins the inaugural 2026 AI 100. Why reliability and Durable Execution matter as AI agents run for weeks and must survive failures in production.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 26,
+      "reasons": [
+        "Matched: Durable Execution, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "a58ohe52yn",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Fine-Tuning"
+      ],
+      "also": []
+    },
+    {
+      "id": "ao5bxqv6b3",
+      "title": "Operate Claude Managed Agents inside your security perimeter",
+      "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+      "host": "claude.com",
+      "summary": "Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "cjhuu0ja1k",
+      "title": "Introducing Claude for Manufacturing",
+      "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+      "host": "claude.com",
+      "summary": "A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "automation",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "ki9t7fk8tb",
+      "title": "Catch Go bugs that fuzzing misses with Gemini and a constraint solver",
+      "url": "https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/",
+      "host": "developers.googleblog.com",
+      "summary": "How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "ozz9c717iw",
+      "title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+      "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+      "host": "claude.com",
+      "summary": "Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "r66bn9kjm1",
+      "title": "The Claude Tag guide for startups",
+      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+      "host": "claude.com",
+      "summary": "How leading startups use Claude Tag to ship faster and scale operations",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "industry",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "cci8ox9p1a",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "host": "techcrunch.com",
+      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "publishedAt": "2026-11-13T12:28:23.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "das6fxxp00",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "host": "theverge.com",
+      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If…",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6ybg4rjw41",
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "host": "theverge.com",
+      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a…",
+      "publishedAt": "2026-11-12T19:42:40.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.5,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "ft49jf739n",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "host": "techcrunch.com",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "publishedAt": "2026-11-12T19:27:45.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25.5,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "oqhhurjgcp",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "host": "techcrunch.com",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "publishedAt": "2026-11-12T19:11:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.4,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "f5kju35jpg",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "host": "arstechnica.com",
+      "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+      "publishedAt": "2026-11-12T18:57:45.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 25.3,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "job8097ycw",
+      "title": "Sources: Nvidia faced pressure to boost its 25% residual value support backstop on a planned $500B AI financing vehicle with asset managers before Huang's exit",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-faced-pressure-to-boost-its-ai-backstop-before-huang-exit",
+      "host": "bloomberg.com",
+      "summary": "Before Nvidia Corp. was thrown into turmoil by the ouster of longtime chief executive Jensen Huang, a major initiative…",
+      "publishedAt": "2026-11-13T02:11:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5v1iemd8n6",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "host": "techcrunch.com",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "publishedAt": "2026-11-12T17:17:58.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 24.9,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "r91xehv2su",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "host": "arstechnica.com",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "publishedAt": "2026-11-12T22:28:47.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fa93vy4bnp",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "host": "techcrunch.com",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "publishedAt": "2026-11-12T22:22:28.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "62q1b0k9gq",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "host": "theverge.com",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google…",
+      "publishedAt": "2026-11-12T21:55:32.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 24.1,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "fpwx6vougd",
+      "title": "Google’s coding agents now /swarm for one developer. Cursor’s go multiplayer so teammates’ agents can talk.",
+      "url": "https://thenewstack.io/cursor-google-multiplayer-swarm/",
+      "host": "thenewstack.io",
+      "summary": "Coding agents are pretty good at working in parallel: one writes a new API endpoint, another updates the tests, while",
+      "publishedAt": "2026-11-12T21:22:46.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 23.9,
+      "reasons": [
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "jg4ue0bfwb",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "host": "arstechnica.com",
+      "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "publishedAt": "2026-11-12T19:23:03.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 23.4,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "k2i1ncxh5s",
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.39671",
+      "host": "huggingface.co",
+      "summary": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 23.4,
+      "reasons": [
+        "30 upvotes on Hugging Face",
+        "Matched: Large Language Models, LLMs, retrieval-augmented"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 30,
+        "arxivId": "2610.39671"
+      }
+    },
+    {
+      "id": "hl16o8gta9",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "host": "theverge.com",
+      "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'est moi. Then…",
+      "publishedAt": "2026-11-12T17:44:33.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7pv81uwy68",
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "host": "theverge.com",
+      "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that…",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "t5g7r6jf42",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "host": "arstechnica.com",
+      "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "publishedAt": "2026-11-12T14:50:17.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.3,
+      "reasons": [
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "3ioabpbr4h",
+      "title": "Claude Code 2.1.323",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "host": "github.com",
+      "summary": "Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization",
+      "publishedAt": "2026-11-12T22:12:13.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 22.2,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.323"
+      }
+    },
+    {
+      "id": "3cx1z99qtv",
+      "title": "Bliki: Generated Glossary",
+      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "host": "martinfowler.com",
+      "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain.",
+      "publishedAt": "2026-11-12T14:15:00.000Z",
+      "source": {
+        "id": "martin-fowler",
+        "name": "Martin Fowler (martinfowler.com)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 22.1,
+      "reasons": [
+        "From a followed writer",
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "nyh2oha6q9",
+      "title": "Mirendil, founded by former Anthropic researchers to build tools for frontier AI R&D, raised a $1B Series A led by Kleiner Perkins and Clearlake Capital",
+      "url": "https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59",
+      "host": "wsj.com",
+      "summary": "The fundraise comes six months after Mirendil, founded by Anthropic alumni, announced a $200 million seed round",
+      "publishedAt": "2026-11-13T04:45:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.8,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ohur3slclh",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "host": "technologyreview.com",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+      "publishedAt": "2026-11-12T20:16:24.000Z",
+      "source": {
+        "id": "mit-tr-ai",
+        "name": "MIT Technology Review - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "l82auyowfn",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+      "host": "arstechnica.com",
+      "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+      "publishedAt": "2026-11-12T19:59:59.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "owuvinp3gu",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "host": "theverge.com",
+      "summary": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a problem for all the wannabe fash founders who had tied their political fortunes to a \"vibe shift\"…",
+      "publishedAt": "2026-11-12T18:06:54.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "3ek57095hq",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "host": "theverge.com",
+      "summary": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with an alleged Chinese spy, threatened to engulf…",
+      "publishedAt": "2026-11-12T16:30:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "lnl22czlzb",
+      "title": "A third of US AI chatters are hot at bots, hurling insults at LLMs",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/12/a-third-of-us-ai-chatters-are-hot-at-bots-hurling-insults-at-llms/5309506",
+      "host": "theregister.com",
+      "summary": "Anthropic sets behavior standards to protect Claude from rough treatment",
+      "publishedAt": "2026-11-12T21:33:58.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20,
+      "reasons": [
+        "Matched: LLMs, Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "33ipow1yi8",
+      "title": "Microsoft Research Focus – Edition #98",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/",
+      "host": "microsoft.com",
+      "summary": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient.",
+      "publishedAt": "2026-11-12T21:31:57.000Z",
+      "source": {
+        "id": "microsoft-research",
+        "name": "Microsoft Research blog"
+      },
+      "section": "labs",
+      "topic": "research",
+      "score": 20,
+      "reasons": [
+        "Official announcement",
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "9kq905ohxa",
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "url": "https://huggingface.co/papers/2611.13410",
+      "host": "huggingface.co",
+      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 20,
+      "reasons": [
+        "34 upvotes on Hugging Face",
+        "Matched: LLM, quantization"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 34,
+        "arxivId": "2611.13410"
+      }
+    },
+    {
+      "id": "927bbsbw6m",
+      "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+      "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
+      "host": "the-decoder.com",
+      "summary": "Google's Gemini 4 Hydrogen replaces the Flash series, but benchmarks suggest it also makes the pricier Argon obsolete. On the independent Artificial Analysis Intelligence Index, Hydrogen nearly matches Claude Sonnet 5.5 for less money but costs about 2.5 times more per task than GPT-6.1 Sol and still falls short on agentic coding.",
+      "publishedAt": "2026-11-12T19:58:43.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 19.6,
+      "reasons": [
+        "Matched: Gemini, Claude, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "g1peiya5rt",
+      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+      "url": "https://huggingface.co/papers/2608.22237",
+      "host": "huggingface.co",
+      "summary": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18,
+      "reasons": [
+        "21 upvotes on Hugging Face",
+        "Matched: AI Agents"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 21,
+        "arxivId": "2608.22237"
+      }
+    },
+    {
+      "id": "nf88becrr4",
+      "title": "Claude Meetings lets Anthropic's AI join your video calls",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later.",
+      "publishedAt": "2026-11-12T20:26:50.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.7,
+      "reasons": [
+        "Matched: Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "6nuf440pji",
+      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "url": "https://huggingface.co/papers/2610.40394",
+      "host": "huggingface.co",
+      "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured…",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.2,
+      "reasons": [
+        "43 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 43,
+        "arxivId": "2610.40394"
+      }
+    },
+    {
+      "id": "nj21071lj5",
+      "title": "Alibaba's Qwen3.8 re-educated with a more Western worldview",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/alibabas-qwen38-re-educated-with-a-more-western-worldview/5309555",
+      "host": "theregister.com",
+      "summary": "Open weight model can now say things Chinese authorities don't like",
+      "publishedAt": "2026-11-13T01:25:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 17,
+      "reasons": [
+        "Matched: Qwen3, Open weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "a0m2xj870r",
+      "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss of transparency is not a law of nature but also reflects tradeoffs around capability and cost.",
+      "publishedAt": "2026-11-12T16:58:11.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 16.8,
+      "reasons": [
+        "Matched: OpenAI, frontier models, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "t0tuzdwzny",
+      "title": "Codex CLI 0.169.0",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-443990865",
+      "host": "developers.openai.com",
+      "summary": "The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 16.6,
+      "reasons": [
+        "New release",
+        "Matched: Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/codex",
+        "version": "0.169.0"
+      }
+    },
+    {
+      "id": "mq0g4nmsgq",
+      "title": "United Airlines wants you to check in, not your chatbot",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373",
+      "host": "theregister.com",
+      "summary": "AI agents face restrictions over safety checks that require a human touch",
+      "publishedAt": "2026-11-12T15:37:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 14.5,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "9p6sfsr4pi",
+      "title": "opencode 2.3.0",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.0",
+      "host": "github.com",
+      "summary": "Background Subagents by Default: Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently.",
+      "publishedAt": "2026-11-13T08:55:07.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 12.9,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.3.0"
+      }
+    },
+    {
+      "id": "bq78dan0pt",
+      "title": "Sharing API Simulations Across Coding Agent Sessions",
+      "url": "https://blog.postman.com/sharing-api-simulations-across-coding-agent-sessions/",
+      "host": "blog.postman.com",
+      "summary": "How to use Postman simulations so coding agents stop rebuilding the same mocks and troubleshooting the same dependencies. Try it with the Postman CLI.",
+      "publishedAt": "2026-11-12T16:00:26.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 12.6,
+      "reasons": [
+        "Matched: Coding Agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "766s0j1kmo",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "host": "github.blog",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "publishedAt": "2026-11-12T22:54:52.000Z",
+      "source": {
+        "id": "github-blog-ai",
+        "name": "GitHub Blog - AI & ML"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 12.3,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "srozwumi64",
+      "title": "Jensen Huang's self-sabotage sends Nvidia into a midlife crisis",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/12/jensen-huangs-self-sabotage-sends-nvidia-into-a-midlife-crisis/5309480",
+      "host": "theregister.com",
+      "summary": "The competition is circling like vultures",
+      "publishedAt": "2026-11-12T20:06:29.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 11.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ekwuh4pp1f",
+      "title": "OpenHands 1.40.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0",
+      "host": "github.com",
+      "summary": "feat: improve Codex subscription authentication guidance",
+      "publishedAt": "2026-11-12T14:32:59.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 10.2,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands, Codex"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.40.0"
+      }
+    },
+    {
+      "id": "accr01nnno",
+      "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+      "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+      "host": "the-decoder.com",
+      "summary": "Jensen Huang resigned as CEO, president, and board member of Nvidia effective immediately, according to a statement on November 12, 2026. The article Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value appeared first on The Decoder.",
+      "publishedAt": "2026-11-12T14:11:40.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 10.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "oq04axhqhf",
+      "title": "crewAI 1.15.41",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+      "host": "github.com",
+      "summary": "Allow approved private URL hosts.",
+      "publishedAt": "2026-11-12T18:42:07.000Z",
+      "source": {
+        "id": "gh-crewai",
+        "name": "crewAI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 9.3,
+      "reasons": [
+        "New release",
+        "Matched: crewAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "crewAIInc/crewAI",
+        "version": "1.15.41"
+      }
+    },
+    {
+      "id": "n4ejl571rs",
+      "title": "Google ADK (Python) 2.14.1",
+      "url": "https://github.com/google/adk-python/releases/tag/v2.14.1",
+      "host": "github.com",
+      "summary": "tracing: turn off FastAPI's native tracing on Agent Engine (87e5399)",
+      "publishedAt": "2026-11-12T21:30:11.000Z",
+      "source": {
+        "id": "gh-adk-python",
+        "name": "Google ADK (Python) releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 8,
+      "reasons": [
+        "New release"
+      ],
+      "also": [],
+      "release": {
+        "repo": "google/adk-python",
+        "version": "2.14.1"
+      }
+    }
+  ]
+}
