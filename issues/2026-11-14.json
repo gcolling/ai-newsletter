@@ -1,0 +1,1299 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T12:14:32.480Z",
+  "window": {
+    "from": "2026-11-13T13:10:25.605Z",
+    "to": "2026-11-14T12:14:29.582Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "m8deg8utrb",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "host": "latent.space",
+      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+      "publishedAt": "2026-11-14T08:31:02.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 56.4,
+      "reasons": [
+        "202 points · 121 comments on Hacker News",
+        "From a followed writer"
+      ],
+      "also": [
+        {
+          "source": "slopmanifesto.com",
+          "title": "No AI Slop: A Manifesto",
+          "url": "https://www.slopmanifesto.com/"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50488769",
+        "points": 202,
+        "comments": 121
+      }
+    },
+    {
+      "id": "n7yif1rlqi",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "host": "techpowerup.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T02:52:59.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 48.1,
+      "reasons": [
+        "675 points · 389 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50493251",
+        "points": 675,
+        "comments": 389
+      }
+    },
+    {
+      "id": "99pl1d2wh0",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "host": "youtube.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 39.7,
+      "reasons": [
+        "323 points · 428 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50484658",
+        "points": 323,
+        "comments": 428
+      }
+    },
+    {
+      "id": "94x3k6i6p2",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "host": "techcrunch.com",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "publishedAt": "2026-11-13T16:00:12.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 38.7,
+      "reasons": [
+        "Covered by 2 outlets",
+        "Matched: ChatGPT, AI agents"
+      ],
+      "also": [
+        {
+          "source": "The Verge - AI",
+          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+        }
+      ]
+    },
+    {
+      "id": "aqovj0aem8",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "host": "openai.com",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 38.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: ChatGPT, Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "f10dnbgp40",
+      "title": "AI's impact on math is a preview of what AI will do to AI research, with AI matching top human researchers potentially just a couple of years away",
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "host": "dwarkesh.com",
+      "summary": "Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significant parts of writing and researching this essay.",
+      "publishedAt": "2026-11-14T01:55:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 37.3,
+      "reasons": [
+        "63 points · 105 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50487854",
+        "points": 63,
+        "comments": 105
+      }
+    },
+    {
+      "id": "ecbcod3o5z",
+      "title": "AI is destroying the trust between writers and readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "host": "theatlantic.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T11:13:46.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 37,
+      "reasons": [
+        "344 points · 210 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50481870",
+        "points": 344,
+        "comments": 210
+      }
+    },
+    {
+      "id": "r8vnvtwpcc",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "host": "theguardian.com",
+      "summary": "",
+      "publishedAt": "2026-11-13T17:30:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 36.9,
+      "reasons": [
+        "396 points · 101 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50486748",
+        "points": 396,
+        "comments": 101
+      }
+    },
+    {
+      "id": "b3xr4kiix8",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "host": "text.npr.org",
+      "summary": "",
+      "publishedAt": "2026-11-13T15:29:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 32.6,
+      "reasons": [
+        "187 points · 176 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50484960",
+        "points": 187,
+        "comments": 176
+      }
+    },
+    {
+      "id": "juatr12nz8",
+      "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "url": "https://claude.com/resources/articles/projects-redesigned",
+      "host": "claude.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T00:28:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 32.1,
+      "reasons": [
+        "90 points · 85 comments on Hacker News",
+        "Matched: Anthropic, Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50492141",
+        "points": 90,
+        "comments": 85
+      }
+    },
+    {
+      "id": "7kxpqt9tkj",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 31.6,
+      "reasons": [
+        "22 points · 3 comments on Hacker News",
+        "Official announcement",
+        "Matched: llama.cpp"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50492877",
+        "points": 22,
+        "comments": 3
+      }
+    },
+    {
+      "id": "r6tm0w2fwe",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "host": "github.blog",
+      "summary": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction…",
+      "publishedAt": "2026-11-13T18:23:48.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 31.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini, Copilot, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "1yjbk6i1mg",
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "host": "unsloth.ai",
+      "summary": "",
+      "publishedAt": "2026-11-14T00:06:04.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 30.5,
+      "reasons": [
+        "166 points · 50 comments on Hacker News",
+        "Matched: Qwen3"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50491980",
+        "points": 166,
+        "comments": 50
+      }
+    },
+    {
+      "id": "ib5hfsvpfr",
+      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software",
+      "url": "https://thenewstack.io/self-hosted-claude-managed-agents/",
+      "host": "thenewstack.io",
+      "summary": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as",
+      "publishedAt": "2026-11-13T21:29:30.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30.2,
+      "reasons": [
+        "Matched: Anthropic, Claude, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "4h07tdky8q",
+      "title": "Building strong safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "host": "anthropic.com",
+      "summary": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-engineering",
+        "name": "Anthropic Engineering"
+      },
+      "section": "essays",
+      "topic": "policy",
+      "score": 30,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "o0nagwbria",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "host": "theverge.com",
+      "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple…",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 28.2,
+      "reasons": [
+        "Matched: Claude, Anthropic, AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "8qjw43qgec",
+      "title": "Analysis: Sam Bankman-Fried's $500M Anthropic investment in 2021 would be worth ~$37B if Anthropic lists at ~$1.5T; he relinquished his stake in 2024 for ~$1.3B",
+      "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?accessToken=zwAAAaHXmcQWkc8O9ArJbQFCj9OYyKUr9bmnhw.MEUCIQChqOl_k9HApdPHOKLDMT_XgOSL9uzUNp5vNQx_0RjyjwIgKpngmKzpF9b6-aERSa1zq2_8NXAvr8S-I-gZ6-r8rSE&sharetype=gift&token=b0dedc93-80dc-4cab-9250-cec64180d7fc&syn-25a6b1a6=1",
+      "host": "ft.com",
+      "summary": "Jailed cryptocurrency mogul loses out on windfall from early investment in the AI lab",
+      "publishedAt": "2026-11-14T04:25:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "lz1qxh2otq",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "host": "github.blog",
+      "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date…",
+      "publishedAt": "2026-11-13T20:40:05.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 27.9,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "6lecpeee7k",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "host": "techcrunch.com",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.7,
+      "reasons": [
+        "Matched: AI agent, LangChain"
+      ],
+      "also": []
+    },
+    {
+      "id": "2vlxnweu81",
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "host": "github.blog",
+      "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This…",
+      "publishedAt": "2026-11-13T18:27:13.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 27.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "mvdhiv9pll",
+      "title": "Doc: Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites",
+      "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
+      "host": "reuters.com",
+      "summary": "Amazon (AMZN.O) has a secret plan to ensure shoppers never need to leave its site: own the world's product information.",
+      "publishedAt": "2026-11-14T01:15:03.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 27.1,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "h72ldzqqn1",
+      "title": "Connect Google Wallet to Gemini for personal finance insights",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "host": "blog.google",
+      "summary": "All Gemini app users in the U.S. can connect Google Wallet to get responses informed by their spending habits.",
+      "publishedAt": "2026-11-13T17:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 27,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "15mfwnwjks",
+      "title": "Kitesurf is now open source",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+      "host": "blog.cloudflare.com",
+      "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "publishedAt": "2026-11-13T20:20:21.000Z",
+      "source": {
+        "id": "cloudflare-ai",
+        "name": "Cloudflare blog - AI tag"
+      },
+      "section": "automation",
+      "topic": "tools",
+      "score": 25.9,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "6h3vzb9xer",
+      "title": "The context problem: It’s what’s really breaking AI agents at scale",
+      "url": "https://thenewstack.io/elastic-ai-context-gap/",
+      "host": "thenewstack.io",
+      "summary": "AI models are getting smarter, tokens are getting cheaper, and agents are improving. But the context gap sits between the",
+      "publishedAt": "2026-11-13T18:15:22.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.3,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "481fol8gj8",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 25.3,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "mtvtig995h",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "host": "arstechnica.com",
+      "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+      "publishedAt": "2026-11-13T17:25:45.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.1,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ff3k1l05z5",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-13T17:02:35.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 25,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "88rmx4qz9w",
+      "title": "Sources: despite Nvidia's 20+ years of business in China, Jensen Huang struggled to gain access to policymakers driving Beijing's chip self-sufficiency campaign",
+      "url": "https://www.ft.com/content/3efa9733-fbb4-47c2-83ba-b01e548ef277",
+      "host": "ft.com",
+      "summary": "Former Nvidia chief executive facing intense scrutiny over ties to Beijing",
+      "publishedAt": "2026-11-14T07:30:08.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "k94wpohvf8",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "host": "techcrunch.com",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "53xa7rb28c",
+      "title": "ML Modules for Mere Mortals",
+      "url": "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro/",
+      "host": "thunderseethe.dev",
+      "summary": "",
+      "publishedAt": "2026-11-13T11:33:56.470Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 24.5,
+      "reasons": [
+        "29 points · 6 comments on Lobsters"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/mgiv0i/ml_modules_for_mere_mortals",
+        "points": 29,
+        "comments": 6
+      }
+    },
+    {
+      "id": "32azqc86ys",
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/",
+      "host": "infoq.com",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omissions from seven to zero after prompt changes.",
+      "publishedAt": "2026-11-13T13:53:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 24.2,
+      "reasons": [
+        "Matched: AI Agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "97f175tu5b",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "host": "arstechnica.com",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "publishedAt": "2026-11-13T21:20:47.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hsgf1myhbh",
+      "title": "Building always-on agents",
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "host": "claude.com",
+      "summary": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "claude-blog",
+        "name": "Claude blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "h8fv6p5q2l",
+      "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "host": "the-decoder.com",
+      "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitors can catch up and human-level AI can become a commodity.",
+      "publishedAt": "2026-11-14T11:21:41.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.8,
+      "reasons": [
+        "Matched: Anthropic, OpenAI, frontier model"
+      ],
+      "also": []
+    },
+    {
+      "id": "s7ev7c5gmz",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "host": "techcrunch.com",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "publishedAt": "2026-11-13T18:40:30.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "csy5005xas",
+      "title": "How to find meaning in large tech companies",
+      "url": "https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies/",
+      "host": "seangoedecke.com",
+      "summary": "Why do many people hate working in large tech companies? The obvious answer is “because organizational dysfunction stops them from doing the things they want to do”. Engineers like to write code and ship things, and if their company’s dysfunction is preventing that, it’ll make them unhappy. Right?",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 22.8,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "hprjq9aadj",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "host": "theverge.com",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their…",
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "a39ei1qg2a",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "host": "techcrunch.com",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "publishedAt": "2026-11-13T15:58:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 22.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "icnh10tpmo",
+      "title": "WhiteMatter, which builds \"guardian\" AI agents to oversee file access, software use, decision making, and actions of existing AI agents, raised a $20M Series A",
+      "url": "https://www.businessinsider.com/whitematter-startup-ai-agent-cybersecurity-funding-pitch-deck-2026-11",
+      "host": "businessinsider.com",
+      "summary": "A startup using AI agents to keep rogue AI in line has raised $20 million.",
+      "publishedAt": "2026-11-14T06:55:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.6,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "bi5e8nrgfs",
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "host": "theverge.com",
+      "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness…",
+      "publishedAt": "2026-11-13T14:47:16.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7gtezexnuv",
+      "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts.",
+      "publishedAt": "2026-11-14T11:40:51.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.9,
+      "reasons": [
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": []
+    },
+    {
+      "id": "68uwi51p53",
+      "title": "Claude Code 2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+      "host": "github.com",
+      "summary": "Fixed a security issue in how zstd-compressed responses are decoded",
+      "publishedAt": "2026-11-13T20:40:01.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 21.9,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.325"
+      }
+    },
+    {
+      "id": "ed7j3dvygk",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "url": "https://huggingface.co/papers/2611.15777",
+      "host": "huggingface.co",
+      "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.4,
+      "reasons": [
+        "84 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 84,
+        "arxivId": "2611.15777"
+      }
+    },
+    {
+      "id": "3z80kuemeb",
+      "title": "Operand, which offers AI-powered due diligence tools for PE firms, raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation",
+      "url": "https://www.axios.com/pro/all-deals/2026/11/10/private-equity-due-diligence-ai-operand-31m",
+      "host": "axios.com",
+      "summary": "Operand, which uses AI to do due diligence for private equity firms, raised $31 million in seed and Series A funding, CEO Ram Gorthi tells Axios Pro exclusively.",
+      "publishedAt": "2026-11-14T07:02:17.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "qzyvlmw8p6",
+      "title": "Charta Health, which offers AI-powered tools to automate medical chart review, billing, and coding workflows, raised a $55M Series B led by Insight Partners",
+      "url": "https://www.mobihealthnews.com/news/charta-health-raises-55m-launches-new-ai-coding-tools",
+      "host": "mobihealthnews.com",
+      "summary": "The round is the company's third in less than two years and brings its total funding to $85 million.",
+      "publishedAt": "2026-11-14T06:35:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "automation",
+      "score": 20.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "11yozbdrgq",
+      "title": "Luminal, which provides an inference cloud and develops inference compiler software to test running AI models on different chips, raised a $25M Series A",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/11/12/luminal-inference-standard-software",
+      "host": "axios.com",
+      "summary": "Luminal, a search compiler and inference cloud provider, raised a $25 million Series A led by Standard Capital, CEO Joe Fioti tells Axios Pro exclusively.",
+      "publishedAt": "2026-11-14T06:30:09.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 20.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9w8w8h1ojr",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "host": "techcrunch.com",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "publishedAt": "2026-11-13T14:44:48.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 20.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "lczt3155gk",
+      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as Anthropic, Meta, and xAI already have their agents making purchases.",
+      "publishedAt": "2026-11-13T18:55:21.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 19.5,
+      "reasons": [
+        "Matched: OpenAI, ChatGPT, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ehfcy4u6bh",
+      "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "host": "the-decoder.com",
+      "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though.",
+      "publishedAt": "2026-11-14T09:45:45.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 19.4,
+      "reasons": [
+        "Matched: open weights"
+      ],
+      "also": []
+    },
+    {
+      "id": "icv8b2ebjn",
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "url": "https://huggingface.co/papers/2611.16748",
+      "host": "huggingface.co",
+      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 19.3,
+      "reasons": [
+        "44 upvotes on Hugging Face",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 44,
+        "arxivId": "2611.16748"
+      }
+    },
+    {
+      "id": "o1nyq48uax",
+      "title": "Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+      "host": "theregister.com",
+      "summary": "Forensic report finds Blackwell's fingerprint in DeepSeek, Moonshot AI, MiniMax and Ant Group models",
+      "publishedAt": "2026-11-13T21:16:22.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 18.1,
+      "reasons": [
+        "Matched: OpenAI, DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "niwfqb2nbq",
+      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "url": "https://huggingface.co/papers/2611.14815",
+      "host": "huggingface.co",
+      "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.9,
+      "reasons": [
+        "49 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 49,
+        "arxivId": "2611.14815"
+      }
+    },
+    {
+      "id": "jy49vdep34",
+      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "url": "https://huggingface.co/papers/2611.13004",
+      "host": "huggingface.co",
+      "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.2,
+      "reasons": [
+        "43 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 43,
+        "arxivId": "2611.13004"
+      }
+    },
+    {
+      "id": "budqktcsg1",
+      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet, but Anthropic is separately developing the Model Hardware Standard for that.",
+      "publishedAt": "2026-11-13T16:37:01.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "automation",
+      "score": 16.9,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "4l307iig20",
+      "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "url": "https://huggingface.co/papers/2611.15131",
+      "host": "huggingface.co",
+      "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world.",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 16.7,
+      "reasons": [
+        "39 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 39,
+        "arxivId": "2611.15131"
+      }
+    },
+    {
+      "id": "80kt67qpkj",
+      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "host": "the-decoder.com",
+      "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars.",
+      "publishedAt": "2026-11-13T15:21:04.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 16.6,
+      "reasons": [
+        "Matched: OpenAI, DeepSeek"
+      ],
+      "also": []
+    },
+    {
+      "id": "5hvkg59y9a",
+      "title": "Meatbags suck at spotting lying LLMs, so let AI narc on itself",
+      "url": "https://www.theregister.com/offbeat/2026/11/13/meatbags-suck-at-spotting-lying-llms-so-let-ai-narc-on-itself/5309876",
+      "host": "theregister.com",
+      "summary": "What, you didn't actually want to fact-check it yourself, did you?",
+      "publishedAt": "2026-11-13T20:27:31.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.9,
+      "reasons": [
+        "Matched: LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "akgzqcdusn",
+      "title": "Playwright 1.65.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+      "host": "github.com",
+      "summary": "[Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false",
+      "publishedAt": "2026-11-13T21:46:58.000Z",
+      "source": {
+        "id": "gh-playwright",
+        "name": "Playwright releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 14.2,
+      "reasons": [
+        "New release"
+      ],
+      "also": [],
+      "release": {
+        "repo": "microsoft/playwright",
+        "version": "1.65.1"
+      }
+    },
+    {
+      "id": "erowfmdjky",
+      "title": "What’s new in Postman: Kafka, MCP tests, RAML",
+      "url": "https://blog.postman.com/whats-new-in-postman-kafka-mcp-tests-raml/",
+      "host": "blog.postman.com",
+      "summary": "Postman now supports Kafka requests, MCP scripts and tests, RAML 1.0, and OpenAPI 3.2. See what shipped and try it in the Collection Runner.",
+      "publishedAt": "2026-11-13T16:20:26.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 12.8,
+      "reasons": [
+        "Matched: MCP"
+      ],
+      "also": []
+    },
+    {
+      "id": "iin06bluo4",
+      "title": "Another Linux kernel developer steps back from some duties due to overload",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628",
+      "host": "theregister.com",
+      "summary": "You can probably guess what he blames for the excessive workload",
+      "publishedAt": "2026-11-13T15:28:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 10.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "n9gtn9p3zp",
+      "title": "HF Transformers 5.23.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "host": "github.com",
+      "summary": "Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and other languages and across multiple coding languages. Its language backbone has 48 mixture-of-experts decoder layers, each routing tokens to 8 of 384 experts, for 594B total and 17B active parameters.",
+      "publishedAt": "2026-11-13T14:10:57.000Z",
+      "source": {
+        "id": "gh-transformers",
+        "name": "HF Transformers releases"
+      },
+      "section": "releases",
+      "topic": "models",
+      "score": 8.3,
+      "reasons": [
+        "New release",
+        "Matched: multimodal model"
+      ],
+      "also": [],
+      "release": {
+        "repo": "huggingface/transformers",
+        "version": "5.23.0"
+      }
+    }
+  ]
+}
