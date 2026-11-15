@@ -1,0 +1,787 @@
+{
+  "version": 1,
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T12:47:02.411Z",
+  "window": {
+    "from": "2026-11-14T12:14:29.582Z",
+    "to": "2026-11-15T12:46:59.349Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "d6r5r35x3v",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "host": "techspot.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T22:26:30.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 39.3,
+      "reasons": [
+        "427 points · 218 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50501631",
+        "points": 427,
+        "comments": 218
+      }
+    },
+    {
+      "id": "t5s9rtr1yx",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "host": "simonwillison.net",
+      "summary": "datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.",
+      "publishedAt": "2026-11-14T23:59:28.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 36.9,
+      "reasons": [
+        "From a followed writer",
+        "Matched: LLMs, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "j254tnsjrm",
+      "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-review/",
+      "host": "infoq.com",
+      "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents.",
+      "publishedAt": "2026-11-15T09:55:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 33.3,
+      "reasons": [
+        "Matched: Anthropic, Claude, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "cnya9wrl23",
+      "title": "The Claude Delusion",
+      "url": "https://www.netmeister.org/blog/claude-delusion.html",
+      "host": "netmeister.org",
+      "summary": "",
+      "publishedAt": "2026-11-14T13:36:17.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.1,
+      "reasons": [
+        "148 points · 195 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50496921",
+        "points": 148,
+        "comments": 195
+      }
+    },
+    {
+      "id": "her2e9pizp",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "host": "magazine.sebastianraschka.com",
+      "summary": "The Methods Behind How LLMs Represent Token Positions",
+      "publishedAt": "2026-11-15T12:10:37.000Z",
+      "source": {
+        "id": "ahead-of-ai",
+        "name": "Ahead of AI (Sebastian Raschka)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 29.9,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Embeddings, LLMs"
+      ],
+      "also": []
+    },
+    {
+      "id": "k9sc331hcn",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T15:04:15.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 29.7,
+      "reasons": [
+        "246 points · 23 comments on Hacker News",
+        "Matched: DeepSeek"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50497589",
+        "points": 246,
+        "comments": 23
+      }
+    },
+    {
+      "id": "nlpquhtgfz",
+      "title": "Inside the first AI Music Awards in Los Angeles, featuring AI announcers, lip-syncing, and human stand-ins, as the ceremony was mired in technical issues",
+      "url": "https://variety.com/2026/music/features/inside-first-ai-music-awards-sonic-intelligence-academy-1236947847/",
+      "host": "variety.com",
+      "summary": "I knew things were a little off when the first thing I heard on my walk to the AI Music Awards was “the winner...” followed by the sweet voice of Kelly Clarkson.",
+      "publishedAt": "2026-11-15T12:02:16.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "gq3dqkwn5k",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "host": "developer.nvidia.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T14:09:25.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 27.7,
+      "reasons": [
+        "139 points · 68 comments on Hacker News",
+        "Matched: vLLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50497155",
+        "points": 139,
+        "comments": 68
+      }
+    },
+    {
+      "id": "eodkgkhfb8",
+      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+      "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/",
+      "host": "infoq.com",
+      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+      "publishedAt": "2026-11-15T02:42:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 27.5,
+      "reasons": [
+        "Matched: Open-Weight, Qwen3"
+      ],
+      "also": []
+    },
+    {
+      "id": "6i62db6ycp",
+      "title": "Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn’t mean a lower bill",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-gpt-6-astra/",
+      "host": "thenewstack.io",
+      "summary": "Anthropic is positioning its new model, Claude Fable 5.2, for demanding coding and technical work. Anthropic launched Fable 5.2 on",
+      "publishedAt": "2026-11-14T14:00:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 26.4,
+      "reasons": [
+        "Matched: Claude, GPT-6, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "cwv1ezimju",
+      "title": "How Jensen Huang built a multibillion-dollar business to let Chinese companies access Nvidia AI chips in SE Asian data centers, exploiting a gap in US sanctions",
+      "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d?st=geQhk5",
+      "host": "wsj.com",
+      "summary": "Massive data centers in Southeast Asia exploited a gap in U.S. sanctions, providing crucial computing power for Chinese companies and a cover for alleged chip smuggling",
+      "publishedAt": "2026-11-15T05:55:03.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 26.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "fh38it10me",
+      "title": "Open-source AI without Jensen",
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "host": "interconnects.ai",
+      "summary": "A decapitation. It’s time to rebuild.",
+      "publishedAt": "2026-11-14T12:23:15.000Z",
+      "source": {
+        "id": "interconnects",
+        "name": "Interconnects (Nathan Lambert)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 26.2,
+      "reasons": [
+        "26 points · 7 comments on Hacker News",
+        "From a followed writer"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50496590",
+        "points": 26,
+        "comments": 7
+      }
+    },
+    {
+      "id": "58558wtudi",
+      "title": "The Nvidia scandal presents a political challenge for the White House by tying together data centers, China, and corruption, all key voter issues in midterms",
+      "url": "https://www.washingtonpost.com/politics/2026/11/14/nvidia-scandal-hits-trumps-political-vulnerabilities-after-democratic-sweep/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzk0NjMyNDAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzk2MDE0Nzk5LCJpYXQiOjE3OTQ2MzI0MDAsImp0aSI6ImVjYmZmMGQyLTdiZGEtNDNjOS1iMzViLTVlMzZiMTFhMzlkNyIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9wb2xpdGljcy8yMDI2LzExLzE0L252aWRpYS1zY2FuZGFsLWhpdHMtdHJ1bXBzLXBvbGl0aWNhbC12dWxuZXJhYmlsaXRpZXMtYWZ0ZXItZGVtb2NyYXRpYy1zd2VlcC8ifQ.RnLIqxnR82OE4UaovEWu2ATiORrkV7A6UVgwGsg-1xQ&itid=gfta",
+      "host": "washingtonpost.com",
+      "summary": "The scandal connects to voter concerns over AI, data centers, China and corruption.",
+      "publishedAt": "2026-11-15T04:15:42.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kmfi1hr95s",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "host": "techcrunch.com",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.3,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "kl333e225j",
+      "title": "Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
+      "host": "bloomberg.com",
+      "summary": "Tech giants chasing the infinite promise of AI are finding themselves increasingly on the hook for something far earthier",
+      "publishedAt": "2026-11-15T00:05:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rrbtnxooi0",
+      "title": "Joy & Curiosity #106",
+      "url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-106",
+      "host": "registerspill.thorstenball.com",
+      "summary": "Interesting & joyful things from the previous week",
+      "publishedAt": "2026-11-15T07:39:14.000Z",
+      "source": {
+        "id": "thorsten-ball",
+        "name": "Register Spill (Thorsten Ball)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 24.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "564cc6u666",
+      "title": "Anthropic wants you to build on Claude. There’s a catch.",
+      "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
+      "host": "thenewstack.io",
+      "summary": "Anthropic wants developers to build businesses on Claude, but its expansion into enterprise software is raising concerns among founders that",
+      "publishedAt": "2026-11-14T15:15:00.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.7,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "ot9k7we7vk",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "host": "theverge.com",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on…",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 24.7,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "1dc1bfvvz9",
+      "title": "A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy",
+      "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+      "host": "ft.com",
+      "summary": "The chip company has only itself to blame for a long list of adversaries",
+      "publishedAt": "2026-11-15T07:01:35.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "kvzgt1bg6k",
+      "title": "TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying \"we also want to support the future's Nvidia\"",
+      "url": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
+      "host": "asia.nikkei.com",
+      "summary": "TOKYO",
+      "publishedAt": "2026-11-15T06:45:46.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ewnoraruv0",
+      "title": "Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company",
+      "url": "https://www.forbes.com/sites/aliciapark/2026/11/13/why-jensen-huangs-firing-couldnt-happen-to-mark-zuckerberg-or-many-other-tech-titans/",
+      "host": "forbes.com",
+      "summary": "This voice experience is generated by AI. Learn more.",
+      "publishedAt": "2026-11-14T22:05:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rrrwsofc8t",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "host": "arxiv.org",
+      "summary": "",
+      "publishedAt": "2026-11-14T04:51:14.032Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "research",
+      "score": 23.9,
+      "reasons": [
+        "12 points · 0 comments on Lobsters"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/0aungk/little_book_generative_ai_foundations",
+        "points": 12,
+        "comments": 0
+      }
+    },
+    {
+      "id": "9000fdgagx",
+      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "url": "https://news.ycombinator.com/item?id=50494696",
+      "host": "news.ycombinator.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T06:56:42.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 23.6,
+      "reasons": [
+        "85 points · 51 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50494696",
+        "points": 85,
+        "comments": 51
+      }
+    },
+    {
+      "id": "o229kek8wf",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "host": "techcrunch.com",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rl9v86qlcu",
+      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "host": "tomshardware.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T17:51:13.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 22.9,
+      "reasons": [
+        "48 points · 67 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50499114",
+        "points": 48,
+        "comments": 67
+      }
+    },
+    {
+      "id": "5xy2yupuu2",
+      "title": "DuckLake 1.1 solves the absurd complexity of data lakes at AI scale",
+      "url": "https://thenewstack.io/ducklake-sql-lakehouse-metadata/",
+      "host": "thenewstack.io",
+      "summary": "How much simpler could a data lakehouse get if an ordinary SQL database kept track of its files? That’s the",
+      "publishedAt": "2026-11-14T15:45:04.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "271g2235vj",
+      "title": "Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A",
+      "url": "https://tech.eu/2026/11/12/nebuly-raises-21m-series-a-to-turn-ai-investments-into-measurable-results/",
+      "host": "tech.eu",
+      "summary": "Nebuly develops a platform that helps enterprises measure the business value of AI agents by analysing their impact on productivity…",
+      "publishedAt": "2026-11-15T06:40:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.5,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "i1hvd5l6jd",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "host": "techcrunch.com",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 22.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "g5etu5gykc",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "host": "tomshardware.com",
+      "summary": "",
+      "publishedAt": "2026-11-14T15:58:57.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 22.2,
+      "reasons": [
+        "59 points · 39 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50498051",
+        "points": 59,
+        "comments": 39
+      }
+    },
+    {
+      "id": "t94t7djlhd",
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-15T04:09:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "automation",
+      "score": 21.5,
+      "reasons": [
+        "39 points · 8 comments on Hacker News",
+        "Matched: MCP"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50503930",
+        "points": 39,
+        "comments": 8
+      }
+    },
+    {
+      "id": "d21ibd8li9",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "host": "the-decoder.com",
+      "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs.",
+      "publishedAt": "2026-11-15T10:06:06.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.3,
+      "reasons": [
+        "Matched: AI agents, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "4xca8hyd7d",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "host": "techcrunch.com",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dsi7nb50jk",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "host": "the-decoder.com",
+      "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers.",
+      "publishedAt": "2026-11-15T10:45:58.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.5,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "p92cz3kufr",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "host": "the-decoder.com",
+      "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task.",
+      "publishedAt": "2026-11-14T16:48:01.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 19.1,
+      "reasons": [
+        "Matched: Gemini, GPT-6, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "t7r5cmf3st",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "host": "the-decoder.com",
+      "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent.",
+      "publishedAt": "2026-11-15T11:35:12.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 15.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "jdhde0d96o",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder.",
+      "publishedAt": "2026-11-14T16:42:56.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 15.1,
+      "reasons": [
+        "Matched: Anthropic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "6ta3w66fy2",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "host": "the-decoder.com",
+      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty.",
+      "publishedAt": "2026-11-14T19:05:17.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 13.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    }
+  ]
+}
