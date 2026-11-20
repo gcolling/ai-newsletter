@@ -1,0 +1,1608 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T14:04:35.246Z",
+  "window": {
+    "from": "2026-11-19T14:28:32.490Z",
+    "to": "2026-11-20T14:04:31.751Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "s4oiaugpp3",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "host": "reuters.com",
+      "summary": "",
+      "publishedAt": "2026-11-19T17:02:40.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 56.3,
+      "reasons": [
+        "1,104 points · 2,207 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50562754",
+        "points": 1104,
+        "comments": 2207
+      }
+    },
+    {
+      "id": "5xmdy66u2p",
+      "title": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "host": "ounapuu.ee",
+      "summary": "",
+      "publishedAt": "2026-11-19T16:30:18.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.8,
+      "reasons": [
+        "571 points · 229 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50562262",
+        "points": 571,
+        "comments": 229
+      }
+    },
+    {
+      "id": "24exn0p68s",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "host": "anthropic.com",
+      "summary": "",
+      "publishedAt": "2026-11-19T17:30:44.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 41.5,
+      "reasons": [
+        "518 points · 244 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50563148",
+        "points": 518,
+        "comments": 244
+      }
+    },
+    {
+      "id": "3c5ilnlvmz",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "host": "architectlabs.com",
+      "summary": "",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 40.2,
+      "reasons": [
+        "284 points · 191 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50572503",
+        "points": 284,
+        "comments": 191
+      }
+    },
+    {
+      "id": "rpgybb7wqs",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "url": "https://git-aarvin.github.io/mei/",
+      "host": "git-aarvin.github.io",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:35:35.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 39.8,
+      "reasons": [
+        "356 points · 226 comments on Hacker News",
+        "Matched: Gemini"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50568130",
+        "points": 356,
+        "comments": 226
+      }
+    },
+    {
+      "id": "i3sbma85id",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "host": "anthropic.com",
+      "summary": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-news",
+        "name": "Anthropic News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 38.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "qp039ad1db",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "host": "simonwillison.net",
+      "summary": "Claire Vo runs ChatPRD, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.",
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "models",
+      "score": 37.1,
+      "reasons": [
+        "From a followed writer",
+        "Matched: GPT-4"
+      ],
+      "also": []
+    },
+    {
+      "id": "21ggz81uor",
+      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+      "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "host": "latent.space",
+      "summary": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "publishedAt": "2026-11-20T07:12:24.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 36.3,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "qgx1d2vy89",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "host": "openai.com",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 36,
+      "reasons": [
+        "Official announcement",
+        "Matched: Codex"
+      ],
+      "also": []
+    },
+    {
+      "id": "fhncidhx4i",
+      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "host": "thedataexchange.media",
+      "summary": "",
+      "publishedAt": "2026-11-19T15:38:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 35.6,
+      "reasons": [
+        "263 points · 231 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50561508",
+        "points": 263,
+        "comments": 231
+      }
+    },
+    {
+      "id": "kejliyn3t6",
+      "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "publishedAt": "2026-11-19T17:08:59.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 34.7,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "3zo4draj1d",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://latent.space/p/linear-scaling/",
+      "host": "latent.space",
+      "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+      "publishedAt": "2026-11-19T23:58:21.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 34.4,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "8rjbk069xd",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "host": "openai.com",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "policy",
+      "score": 34,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "j1d5zuekjt",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "host": "openai.com",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 34,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "ns6m49y210",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "host": "openai.com",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "automation",
+      "score": 34,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "dyztb2coxr",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "host": "theverge.com",
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president…",
+      "publishedAt": "2026-11-20T12:30:47.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 33.6,
+      "reasons": [
+        "Matched: Gemini, AI agents, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "88dsxxoj38",
+      "title": "Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs",
+      "url": "https://developers.googleblog.com/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/",
+      "host": "developers.googleblog.com",
+      "summary": "This post walks developers through training a multi-turn, tool-using LLM agent using Tunix and Gemma 4 on Cloud TPUs. By leveraging agentic Group Relative Policy Optimization (GRPO) and asynchronous vLLM rollouts, the approach significantly improves complex reasoning and tool compliance in interactive environments.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 32,
+      "reasons": [
+        "Official announcement",
+        "Matched: Agentic, Gemma, LLM"
+      ],
+      "also": []
+    },
+    {
+      "id": "h6ox9fy4mv",
+      "title": "What Comes After AGI?",
+      "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+      "host": "institute.deepmind.com",
+      "summary": "",
+      "publishedAt": "2026-11-20T02:44:13.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 31.8,
+      "reasons": [
+        "101 points · 207 comments on Hacker News",
+        "Matched: AGI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50569519",
+        "points": 101,
+        "comments": 207
+      }
+    },
+    {
+      "id": "5gv6bqxi0z",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "host": "techcrunch.com",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 30.7,
+      "reasons": [
+        "Matched: AI agent, Claude, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "g971xylwj3",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "host": "youtube.com",
+      "summary": "",
+      "publishedAt": "2026-11-19T18:47:16.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 30.5,
+      "reasons": [
+        "110 points · 224 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50564366",
+        "points": 110,
+        "comments": 224
+      }
+    },
+    {
+      "id": "hkl8dy0kwc",
+      "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/",
+      "host": "infoq.com",
+      "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance.",
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.5,
+      "reasons": [
+        "Matched: AI Agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "ie0obtdcuw",
+      "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+      "host": "blog.google",
+      "summary": "Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.",
+      "publishedAt": "2026-11-19T20:30:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 29.5,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "bmzfubu8s3",
+      "title": "Signal says it will restrict screenshots by default to stop AI agents from reading private chats on phones but warns its new protections are \"incomplete\"",
+      "url": "https://www.reuters.com/legal/litigation/signal-restricts-screenshots-block-ai-agents-reading-messages-2026-11-20/",
+      "host": "reuters.com",
+      "summary": "Encrypted messaging service Signal said on Friday it would restrict screenshots to stop AI agents from reading private chats on phones…",
+      "publishedAt": "2026-11-20T11:00:39.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.2,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "iw9a6jd8l9",
+      "title": "Let Gemini tackle repetitive chores on your Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "host": "blog.google",
+      "summary": "The Gemini app for Mac now has computer use to help you with repetitive tasks.",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "source": {
+        "id": "google-gemini",
+        "name": "Google Keyword - Gemini"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: Gemini, computer use"
+      ],
+      "also": []
+    },
+    {
+      "id": "fvmmpw0sah",
+      "title": "A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work together",
+      "url": "https://thenewstack.io/vercel-board-agent-swarms/",
+      "host": "thenewstack.io",
+      "summary": "For AI agents to work together effectively, they need a way to communicate and divvy up tasks — much as",
+      "publishedAt": "2026-11-19T16:58:48.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 28.6,
+      "reasons": [
+        "Matched: Claude, Codex, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "gyhpl0fxmv",
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "host": "techcrunch.com",
+      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "publishedAt": "2026-11-20T14:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ixyzvnhm0w",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "host": "theverge.com",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant.",
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 28,
+      "reasons": [
+        "Matched: AI agent, agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "8shhhznaij",
+      "title": "Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText",
+      "url": "https://developers.googleblog.com/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/",
+      "host": "developers.googleblog.com",
+      "summary": "Streaming DiLoCo in MaxText enables developers to efficiently train large language models across geographically distributed TPU slices by streaming parameter fragments instead of synchronizing full models at every step. This approach slashes cross-slice communication volume by over 60× and eliminates network stalls, allowing seamless multi-datacenter scaling without degrading model convergence or quality.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "google-developers",
+        "name": "Google Developers Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 28,
+      "reasons": [
+        "Official announcement",
+        "Matched: LLM, large language models"
+      ],
+      "also": []
+    },
+    {
+      "id": "i5vpf0zs9s",
+      "title": "Asian tech stocks plunge as Anthropic's record IPO fails to stem an AI sell-off; SoftBank falls ~15%, TSMC falls 5%+, and Samsung and SK Hynix fall 6%+",
+      "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b",
+      "host": "ft.com",
+      "summary": "Global technology stocks fell on Friday after Anthropic's blockbuster initial public offering failed to reignite the faltering AI trade…",
+      "publishedAt": "2026-11-20T05:45:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.9,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "wj2886nuwc",
+      "title": "Filing: SK Hynix will become Kioxia's largest shareholder with a ~14.1% stake after it converts Kioxia bonds into shares, expanding its clout in the NAND sector",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/sk-hynix-to-be-kioxia-s-top-shareholder-after-bond-conversion",
+      "host": "bloomberg.com",
+      "summary": "SK Hynix Inc. will become rival Kioxia Holdings Corp.'s largest shareholder, expanding its clout in the memory chip sector that's now critical to global AI development.",
+      "publishedAt": "2026-11-20T10:51:08.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 27.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "vmuvpwdxyj",
+      "title": "An analysis of 10M job ads in China between 2021 and 2025 finds a double-digit decline in listings for roles more exposed to AI than for less-exposed positions",
+      "url": "https://www.bloomberg.com/graphics/2026-china-ai-jobs-slump/",
+      "host": "bloomberg.com",
+      "summary": "A Bloomberg analysis finds a double-digit decline in hiring for jobs most exposed to the technology.",
+      "publishedAt": "2026-11-20T09:45:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cs2sghrb13",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "host": "techcrunch.com",
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "publishedAt": "2026-11-19T18:09:11.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.9,
+      "reasons": [
+        "Matched: Gemini, AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "3vajuuej7m",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.4,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "9r1uuk6y7e",
+      "title": "Google is rolling out a collapsible sidebar on its desktop Search homepage, letting users easily find and resume recent AI searches",
+      "url": "https://www.seroundtable.com/",
+      "host": "seroundtable.com",
+      "summary": "Google is now officially rolling out what it calls the “collapsible sidebar” within Google Search.…",
+      "publishedAt": "2026-11-20T07:25:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "93ap0l3k22",
+      "title": "Sources: Singapore-based DayOne pauses its US IPO plans to raise up to $5B as soon as Q4 amid market volatility and valuation concerns around AI infrastructure",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/dayone-singapore-us-ipo-plans-data-center-market-chip-curbs-bytedance-tiktok-firmus",
+      "host": "bloomberg.com",
+      "summary": "DayOne Data Centers Ltd. has put plans for its multibillion-dollar US initial public offering on hold, people familiar with the matter said…",
+      "publishedAt": "2026-11-20T07:00:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "28snyctu53",
+      "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+      "url": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/",
+      "host": "infoq.com",
+      "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain all of the code and publishes per-release fidelity scores. The docs say it does not evaluate IAM, and practitioners are split on trusting an emulator nobody reviewed.",
+      "publishedAt": "2026-11-20T06:53:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 26.2,
+      "reasons": [
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "8if9mjyaz9",
+      "title": "Sources: Nscale must seek a US license to provide ByteDance remote access to Nvidia GPUs under new rules; ByteDance made up ~73% of Nscale's 2025 revenue",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/nscale-s-bytedance-deal-faces-scrutiny-under-us-chip-curbs",
+      "host": "bloomberg.com",
+      "summary": "Nscale Plc's agreement to sell artificial intelligence computing capacity to ByteDance Ltd. will come under greater regulatory scrutiny…",
+      "publishedAt": "2026-11-20T06:15:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 26,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2nszej7ikh",
+      "title": "Prompting GPT-Live for languages and regional accents",
+      "url": "https://developers.openai.com/blog/prompting-multilingual-voice-agents",
+      "host": "developers.openai.com",
+      "summary": "Design a regional voice, test pronunciation and local conventions, and customize prompts for multilingual voice agents.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "openai-developers",
+        "name": "OpenAI Developers blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 26,
+      "reasons": [
+        "Official announcement",
+        "Matched: GPT-Live"
+      ],
+      "also": []
+    },
+    {
+      "id": "6oby5xf8jv",
+      "title": "Building Durable Execution into the production AI ecosystem",
+      "url": "https://temporal.io/blog/temporal-ai-partner-ecosystem",
+      "host": "temporal.io",
+      "summary": "The Temporal AI Partner Ecosystem brings Durable Execution to the tools you use to build AI agents that recover from failures and wait for human review.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 26,
+      "reasons": [
+        "Matched: Durable Execution, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "9mhm91tdwu",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "host": "techcrunch.com",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "publishedAt": "2026-11-19T21:42:31.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25.8,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "kkyyudw65u",
+      "title": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "host": "theverge.com",
+      "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but…",
+      "publishedAt": "2026-11-19T20:22:17.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.5,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "j7fig9lq4m",
+      "title": "“Be ready for change”: AAIF’s CTO on why the agent stack won’t settle",
+      "url": "https://thenewstack.io/agentic-ai-foundation-projects/",
+      "host": "thenewstack.io",
+      "summary": "If you’ve spent any time over the past year trying to get AI agents to talk to each other without",
+      "publishedAt": "2026-11-19T18:24:12.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "jeqgqvaeqo",
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "host": "theverge.com",
+      "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will…",
+      "publishedAt": "2026-11-19T18:21:13.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 25,
+      "reasons": [
+        "Matched: Gemini, computer use"
+      ],
+      "also": []
+    },
+    {
+      "id": "pfzstxlo12",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "host": "techcrunch.com",
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "publishedAt": "2026-11-19T17:38:40.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 24.8,
+      "reasons": [
+        "Matched: AI agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "8q0xjlhg0q",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "host": "techcrunch.com",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.6,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "g2ohaohpt3",
+      "title": "Meet the New Docker: Built to Run on Trust",
+      "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+      "host": "docker.com",
+      "summary": "Docker launches a new brand built on trust. Learn why Docker is evolving for AI agents, what stays the same, and how to run agents securely with Docker.",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "source": {
+        "id": "docker-blog",
+        "name": "Docker blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 24.6,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "7a92f5wzok",
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "host": "techcrunch.com",
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "publishedAt": "2026-11-19T16:19:41.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.5,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "rivrlrvh3v",
+      "title": "Jeveration: System One Models Now Generate",
+      "url": "https://huggingface.co/papers/2611.24738",
+      "host": "huggingface.co",
+      "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 24.4,
+      "reasons": [
+        "124 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 124,
+        "arxivId": "2611.24738"
+      }
+    },
+    {
+      "id": "f7ys6t27kd",
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "publishedAt": "2026-11-19T14:54:39.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.1,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "qw8v5woqyf",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "host": "arstechnica.com",
+      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "publishedAt": "2026-11-19T20:19:28.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "c9k8adoz4s",
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "host": "theverge.com",
+      "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the…",
+      "publishedAt": "2026-11-19T20:05:06.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "f0urlxmgby",
+      "title": "Sources: Shanghai-based Pragmatik Labs, founded by ex-Qwen AI head Junyang Lin, raised tens of millions of dollars at a $5B valuation, up from $2B in August",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ex-alibaba-star-s-ai-startup-doubles-valuation-to-5-billion",
+      "host": "bloomberg.com",
+      "summary": "A startup founded by Alibaba Group Holding Ltd.'s former AI chief has closed new funding at a valuation of $5 billion…",
+      "publishedAt": "2026-11-20T11:10:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.3,
+      "reasons": [
+        "Matched: Qwen"
+      ],
+      "also": []
+    },
+    {
+      "id": "8uf7e1n92z",
+      "title": "IDrive wants to back up your coding agents, too",
+      "url": "https://thenewstack.io/idrive-ai-agents-backup/",
+      "host": "thenewstack.io",
+      "summary": "Coding agents need backups, too, or at least that’s what IDrive is arguing. Backup and storage service IDrive on Thursday",
+      "publishedAt": "2026-11-19T17:31:44.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 22.8,
+      "reasons": [
+        "Matched: coding agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "od4bop9g1u",
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "host": "theverge.com",
+      "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing…",
+      "publishedAt": "2026-11-19T16:52:01.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.6,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "iet2jfyxq6",
+      "title": "How to aggregate test results across teams with Temporal Nexus",
+      "url": "https://temporal.io/blog/how-to-aggregate-test-results-across-teams-with-temporal-nexus",
+      "host": "temporal.io",
+      "summary": "How Temporal’s Release Engineering team used a Nexus Operation and a shared report format to collect test results from many teams in one place.",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 22.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4ft0wuj4ll",
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "host": "theverge.com",
+      "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or…",
+      "publishedAt": "2026-11-19T15:16:45.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 22.2,
+      "reasons": [
+        "Matched: ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "gzfhgqtl99",
+      "title": "Claude Code 2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "host": "github.com",
+      "summary": "Added a trust dialog warning that says where a folder's hooks are declared",
+      "publishedAt": "2026-11-19T22:14:41.000Z",
+      "source": {
+        "id": "gh-claude-code",
+        "name": "Claude Code releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 22,
+      "reasons": [
+        "New release",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anthropics/claude-code",
+        "version": "2.1.329"
+      }
+    },
+    {
+      "id": "dnj31l2cex",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "host": "theverge.com",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings…",
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ft0o0p3ro5",
+      "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+      "url": "https://huggingface.co/papers/2611.14848",
+      "host": "huggingface.co",
+      "summary": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.7,
+      "reasons": [
+        "32 upvotes on Hugging Face",
+        "Matched: Large language model, LLM"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 32,
+        "arxivId": "2611.14848"
+      }
+    },
+    {
+      "id": "3jvs32bmgh",
+      "title": "ALIVE: Making Streaming Video Models Interactive",
+      "url": "https://huggingface.co/papers/2611.21366",
+      "host": "huggingface.co",
+      "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 18.7,
+      "reasons": [
+        "39 upvotes on Hugging Face",
+        "Matched: LLMs"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 39,
+        "arxivId": "2611.21366"
+      }
+    },
+    {
+      "id": "1zs8enpu5g",
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "host": "blogs.nvidia.com",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through…",
+      "publishedAt": "2026-11-19T17:00:35.000Z",
+      "source": {
+        "id": "nvidia-blog",
+        "name": "NVIDIA Blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 18.6,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI Agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "a6e84nb7gq",
+      "title": "Codex CLI 0.171.0",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-452122665",
+      "host": "developers.openai.com",
+      "summary": "Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection.",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "source": {
+        "id": "openai-codex-changelog",
+        "name": "OpenAI Codex changelog"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 18.4,
+      "reasons": [
+        "New release",
+        "Matched: Codex, GPT-6"
+      ],
+      "also": [],
+      "release": {
+        "repo": "openai/codex",
+        "version": "0.171.0"
+      }
+    },
+    {
+      "id": "tkxlpj22p8",
+      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+      "host": "the-decoder.com",
+      "summary": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the feature should make it easier for users to continue longer web research.",
+      "publishedAt": "2026-11-20T13:19:31.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 17.8,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7zl2r7l9xq",
+      "title": "AI could open wallets where ERP upgrade pitches can't, says PwC",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
+      "host": "theregister.com",
+      "summary": "Consultancy argues a 'clean core' makes agents easier to deploy – but Kingfisher is taking a different route",
+      "publishedAt": "2026-11-20T12:47:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 17.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "s103puctxa",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "host": "the-decoder.com",
+      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder.",
+      "publishedAt": "2026-11-20T09:59:51.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cassqyg5lq",
+      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "url": "https://huggingface.co/papers/2611.23068",
+      "host": "huggingface.co",
+      "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 16.3,
+      "reasons": [
+        "36 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 36,
+        "arxivId": "2611.23068"
+      }
+    },
+    {
+      "id": "4muy3duu3t",
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+      "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "host": "the-decoder.com",
+      "summary": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause.",
+      "publishedAt": "2026-11-19T21:15:01.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 15.7,
+      "reasons": [
+        "Matched: OpenAI, prompt injection"
+      ],
+      "also": []
+    },
+    {
+      "id": "f6927rovak",
+      "title": "Gemini CLI 0.70.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+      "host": "github.com",
+      "summary": "Changelog for v0.69.0-preview.0",
+      "publishedAt": "2026-11-19T21:08:05.000Z",
+      "source": {
+        "id": "gh-gemini-cli",
+        "name": "Gemini CLI releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 15.7,
+      "reasons": [
+        "New release",
+        "Matched: Gemini"
+      ],
+      "also": [],
+      "release": {
+        "repo": "google-gemini/gemini-cli",
+        "version": "0.70.0"
+      }
+    },
+    {
+      "id": "93tio76s5o",
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "host": "the-decoder.com",
+      "summary": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing, but revenue momentum is cooling.",
+      "publishedAt": "2026-11-19T19:28:19.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15.3,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "ex834u8t2t",
+      "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+      "url": "https://huggingface.co/papers/2611.24154",
+      "host": "huggingface.co",
+      "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes.",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 15,
+      "reasons": [
+        "27 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 27,
+        "arxivId": "2611.24154"
+      }
+    },
+    {
+      "id": "sp4xu9wnbj",
+      "title": "US let Nvidia and AMD sell bucketloads of chips to military-linked Chinese companies",
+      "url": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+      "host": "theregister.com",
+      "summary": "Not many of the deals went through, but Chinese clouds no longer care about importing GPUs",
+      "publishedAt": "2026-11-20T04:04:56.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 13.5,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9t3c5e9x21",
+      "title": "Palo Alto Networks opens wallet for open-weight training biz",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
+      "host": "theregister.com",
+      "summary": "Security shop buys the hand that feeds it",
+      "publishedAt": "2026-11-19T20:00:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 13.4,
+      "reasons": [
+        "Matched: open-weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "96ocn930ls",
+      "title": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+      "host": "theregister.com",
+      "summary": "Company still has to contend with massive compute obligations and the threat of open models, neither of which Dario Amodei is worried about, he claims",
+      "publishedAt": "2026-11-19T17:09:45.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "7nb71svok5",
+      "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "host": "the-decoder.com",
+      "summary": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers through a web of front companies.",
+      "publishedAt": "2026-11-19T17:02:41.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 12.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "jv8zineqpb",
+      "title": "European Commission scrambles to contain AI-assisted cyberattack",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+      "host": "theregister.com",
+      "summary": "Staff HR and medical reimbursement systems taken offline as officials investigate whether personal data was compromised",
+      "publishedAt": "2026-11-19T15:14:54.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 12.2,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9c0ekii0yp",
+      "title": "Give developers and agents API access with Postman Passport",
+      "url": "https://blog.postman.com/give-developers-and-agents-api-access-with-postman-passport/",
+      "host": "blog.postman.com",
+      "summary": "Learn how Postman Passport gives developers and agents scoped API access with secret references, so nobody has to share the underlying API key.",
+      "publishedAt": "2026-11-19T16:00:01.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 10.4,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "4k6d3m7k15",
+      "title": "Google ADK (Python) 2.15.0",
+      "url": "https://github.com/google/adk-python/releases/tag/v2.15.0",
+      "host": "github.com",
+      "summary": "This release keeps voice streams and agent turns responsive under slow tools and session storage, measures multi-run reliability and partial tool-call accuracy, isolates sandboxes per user or session, adds Google Maps and project-wide BigQuery table discovery, and speeds up RAG memory search up to 6x. It also removes the interactive Visual Agent Builder from ADK Web.",
+      "publishedAt": "2026-11-19T22:59:36.000Z",
+      "source": {
+        "id": "gh-adk-python",
+        "name": "Google ADK (Python) releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 10.2,
+      "reasons": [
+        "New release",
+        "Matched: RAG"
+      ],
+      "also": [],
+      "release": {
+        "repo": "google/adk-python",
+        "version": "2.15.0"
+      }
+    },
+    {
+      "id": "kxifenpn9l",
+      "title": "crewAI 1.15.44",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+      "host": "github.com",
+      "summary": "Add capability to save files as versioned, shareable artifacts.",
+      "publishedAt": "2026-11-19T17:59:49.000Z",
+      "source": {
+        "id": "gh-crewai",
+        "name": "crewAI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 8.9,
+      "reasons": [
+        "New release",
+        "Matched: crewAI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "crewAIInc/crewAI",
+        "version": "1.15.44"
+      }
+    }
+  ]
+}
