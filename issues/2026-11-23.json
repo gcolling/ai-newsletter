@@ -1,0 +1,1000 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T16:03:26.917Z",
+  "window": {
+    "from": "2026-11-22T13:24:22.507Z",
+    "to": "2026-11-23T16:03:22.081Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "pz2uyonrlk",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "host": "openai.com",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "source": {
+        "id": "openai-news",
+        "name": "OpenAI News"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 70.6,
+      "reasons": [
+        "652 points · 423 comments on Hacker News",
+        "Official announcement",
+        "Matched: Perplexity"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50601525",
+        "points": 652,
+        "comments": 423
+      }
+    },
+    {
+      "id": "14qg0vt6lr",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "host": "theverge.com",
+      "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board…",
+      "publishedAt": "2026-11-23T14:04:24.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 61.6,
+      "reasons": [
+        "Covered by 4 outlets"
+      ],
+      "also": [
+        {
+          "source": "Ars Technica - AI",
+          "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        },
+        {
+          "source": "Techmeme",
+          "title": "Nvidia's board says it voted to reinstate Jensen Huang after receiving input from \"senior levels\" of the US government; a probe into his conduct is ongoing",
+          "url": "https://www.ft.com/content/08914b05-bbfa-478d-b38a-549acfc1aae6"
+        }
+      ]
+    },
+    {
+      "id": "98gdbc27ug",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "host": "gpupartner.com",
+      "summary": "",
+      "publishedAt": "2026-11-22T21:01:16.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 46.6,
+      "reasons": [
+        "654 points · 264 comments on Hacker News",
+        "Matched: Qwen"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50603845",
+        "points": 654,
+        "comments": 264
+      }
+    },
+    {
+      "id": "71m4ess9hb",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-22T13:56:58.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 34.4,
+      "reasons": [
+        "350 points · 84 comments on Hacker News",
+        "Matched: LLM"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50599762",
+        "points": 350,
+        "comments": 84
+      }
+    },
+    {
+      "id": "p6u0vk8gqj",
+      "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
+      "url": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/",
+      "host": "infoq.com",
+      "summary": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision records for people and agents, added a review agent that posts only verified blockers, and serves per-domain GraphRAG context through a single MCP tool.",
+      "publishedAt": "2026-11-23T14:58:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 31.8,
+      "reasons": [
+        "Matched: Coding Agents, MCP"
+      ],
+      "also": []
+    },
+    {
+      "id": "y6lbp6yxwc",
+      "title": "Amazon agrees to acquire much of startup Decart, including the Decart Optimization Stack and its founding team and AI researchers, a source says for ~$7.5B",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech",
+      "host": "bloomberg.com",
+      "summary": "Amazon.com Inc. has agreed to acquire much of startup Decart AI, buying tools to bolster the cloud-computing company's artificial intelligence infrastructure.",
+      "publishedAt": "2026-11-23T14:50:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "1vtft9r9qg",
+      "title": "Oregon and Virginia sue SpaceX, alleging Grok Imagine's \"spicy mode\" violated consumer laws by creating 1.8M+ sexualized images of women and 65+ of children",
+      "url": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html",
+      "host": "nytimes.com",
+      "summary": "The states accused Elon Musk's company of violating consumer protection laws with its Grok Imagine artificial intelligence tool, which created the images.",
+      "publishedAt": "2026-11-23T13:55:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 29.5,
+      "reasons": [
+        "Matched: Grok"
+      ],
+      "also": []
+    },
+    {
+      "id": "d9trlhv1iy",
+      "title": "Q&A with Bret Taylor on his long career, co-founding Sierra, working with ex-Googlers, X's influence, AI call center agents, working as OpenAI chair, and more",
+      "url": "https://colossus.com/article/bret-taylor-founder-guy/",
+      "host": "colossus.com",
+      "summary": "A conversation with Bret Taylor, who has achieved nearly every feat in business except the one he says matters most",
+      "publishedAt": "2026-11-23T13:10:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.3,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "45x9bui0zl",
+      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-mode/",
+      "host": "infoq.com",
+      "summary": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
+      "publishedAt": "2026-11-23T12:17:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 29.2,
+      "reasons": [
+        "Matched: Claude, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "mklk8c0jpt",
+      "title": "Bret Taylor's customer service AI startup Sierra says it's finalizing a $1.75B+ round led by Lightspeed and Greenoaks at a $30B valuation, up from $15.8B in May",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/bret-taylor-s-sierra-finalizing-more-than-1-75-billion-round",
+      "host": "bloomberg.com",
+      "summary": "Sierra Technologies Inc., a startup that makes artificial intelligence software to automate customer service…",
+      "publishedAt": "2026-11-23T12:10:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2r5ehaqqqf",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+      "host": "arstechnica.com",
+      "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 29.1,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "d29sxxcw69",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "rw6b79flck",
+      "title": "Palo Alto and Elastic snap up AI startups. The prize? Enterprise trust and control.",
+      "url": "https://thenewstack.io/palo-alto-applied-computer-elastic-honeyhive/",
+      "host": "thenewstack.io",
+      "summary": "They say that to understand where an industry is heading, you have to follow the money. And two acquisitions announced",
+      "publishedAt": "2026-11-23T15:22:07.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "klb2r8mc5z",
+      "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "host": "theverge.com",
+      "summary": "",
+      "publishedAt": "2026-11-23T12:41:14.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "industry",
+      "score": 27.8,
+      "reasons": [
+        "61 points · 67 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50610830",
+        "points": 61,
+        "comments": 67
+      }
+    },
+    {
+      "id": "2n4cyu21ji",
+      "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "host": "techcrunch.com",
+      "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round.",
+      "publishedAt": "2026-11-23T14:43:03.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "pbxwtjk8fo",
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+      "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/",
+      "host": "jack-clark.net",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built and released AscendGYM…",
+      "publishedAt": "2026-11-23T14:11:17.000Z",
+      "source": {
+        "id": "import-ai",
+        "name": "Import AI (Jack Clark)"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 27.6,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "ttutk0jfjd",
+      "title": "The Monday morning incident: your “Lead Routing” workflow stopped routing",
+      "url": "https://blog.n8n.io/the-monday-morning-incident-your-lead-routing-workflow-stopped-routing/",
+      "host": "blog.n8n.io",
+      "summary": "This post covers an incident with a lead routing workflow and how n8n’s access controls help: projects and roles, SSO, and 2FA enforcement. Each one stops the incident at a different point.",
+      "publishedAt": "2026-11-23T14:02:02.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 27.5,
+      "reasons": [
+        "Matched: n8n"
+      ],
+      "also": []
+    },
+    {
+      "id": "ryclkb3cim",
+      "title": "Sources: Jensen Huang developed a close relationship with Trump and made lobbying calls to secure AI chip sales to China, which he called a $50B per year market",
+      "url": "https://www.washingtonpost.com/technology/2026/11/23/how-nvidia-fought-years-washington-sell-its-prized-chips-china/",
+      "host": "washingtonpost.com",
+      "summary": "Jensen Huang wooed the president and pushed back against lawmakers as Nvidia sought a foothold in the vast Chinese market.",
+      "publishedAt": "2026-11-23T11:40:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "522r7esd0a",
+      "title": "A conversation with ZoomInfo: how Temporal helps keep customer AI requests first in line",
+      "url": "https://temporal.io/blog/a-conversation-with-zoominfo",
+      "host": "temporal.io",
+      "summary": "See how ZoomInfo uses Temporal to coordinate tens of thousands of concurrent AI agents, prioritize customer work, and manage retries at scale.",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "source": {
+        "id": "temporal-blog",
+        "name": "Temporal blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 26.4,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "qms45lwv35",
+      "title": "Notes on OpenAI's perplexity reveal",
+      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal/",
+      "host": "seangoedecke.com",
+      "summary": "OpenAI have just released a fascinating graph showing the perplexity over time of all their released models: This is the most visibility we’ve ever had into the internal training metrics at a frontier lab Releasing training metrics in the name of safety is a very Anthropic move, and it’s surprising OpenAI was the one to do it first",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "policy",
+      "score": 26.4,
+      "reasons": [
+        "From a followed writer",
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "a9m0uk8awp",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "host": "techcrunch.com",
+      "summary": "The president cited the U.S. Attorney General in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "publishedAt": "2026-11-23T15:04:01.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mxp1lt0ug7",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "host": "techcrunch.com",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "publishedAt": "2026-11-22T21:14:07.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25.8,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "gyzwvvm5jj",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "host": "techcrunch.com",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "publishedAt": "2026-11-23T01:25:53.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.7,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "rhug1qpnmh",
+      "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
+      "url": "https://www.infoq.com/news/2026/11/harness-new-operating-system/",
+      "host": "infoq.com",
+      "summary": "At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what an agent can do and how safely it does it. The keynote mapped the parts of a harness, including context, tools, state, permissions and feedback loops, onto jobs that operating systems already perform.",
+      "publishedAt": "2026-11-22T22:44:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "p715en021c",
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "url": "https://0rwx.com/",
+      "host": "0rwx.com",
+      "summary": "",
+      "publishedAt": "2026-11-22T23:53:00.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 23,
+      "reasons": [
+        "67 points · 17 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50605445",
+        "points": 67,
+        "comments": 17
+      }
+    },
+    {
+      "id": "4hbd2ckkfa",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "host": "theverge.com",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to…",
+      "publishedAt": "2026-11-22T17:25:20.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 22.9,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ccf1ni4qep",
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "url": "https://github.com/mjwsolo/localcode",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-22T22:18:48.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 22.7,
+      "reasons": [
+        "66 points · 19 comments on Hacker News",
+        "Matched: agentic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50604540",
+        "points": 66,
+        "comments": 19
+      }
+    },
+    {
+      "id": "nkuknh6xtr",
+      "title": "When in doubt, flail about",
+      "url": "https://seangoedecke.com/when-in-doubt-flail-about/",
+      "host": "seangoedecke.com",
+      "summary": "When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding of what’s going on? Typically not.",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 22.4,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "qzjs6ylqeg",
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "host": "theverge.com",
+      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be…",
+      "publishedAt": "2026-11-22T22:48:02.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "dwl4aiplxg",
+      "title": "Harvard CS 2881R AI Safety",
+      "url": "https://boazbk.github.io/mltheoryseminar/",
+      "host": "boazbk.github.io",
+      "summary": "",
+      "publishedAt": "2026-11-22T18:01:54.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 21.6,
+      "reasons": [
+        "75 points · 8 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50602153",
+        "points": 75,
+        "comments": 8
+      }
+    },
+    {
+      "id": "m0c9m25bca",
+      "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+      "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI's GPT-6.2 Astra independently produced a machine-verifiable Lean proof of Smoktunowicz's gap theorem, the first of its kind according to Vals AI. The model chose its own approach because key foundations were missing from Mathlib. On Autoform-Hard, Astra now leads the leaderboard with 49 of 56 tasks solved.",
+      "publishedAt": "2026-11-23T12:17:01.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 21.2,
+      "reasons": [
+        "Matched: GPT-6, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "g0wn8ig6s8",
+      "title": "Marlowe, which develops cloud infrastructure and performance tools to optimize non-Nvidia AI chips, raised a $277M seed led by Accel at a $1.15B valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/marlowe-raises-277-million-to-bolster-alternatives-to-nvidia-chips",
+      "host": "bloomberg.com",
+      "summary": "Marlowe, a six-month-old startup co-founded by two Microsoft Corp. vice presidents, has raised $277 million to pursue ways…",
+      "publishedAt": "2026-11-23T12:15:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 21.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "maje8fms26",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "host": "techcrunch.com",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "publishedAt": "2026-11-22T18:08:43.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hw6w3ajuqr",
+      "title": "Agentic SDLC Part 1: Design with the Context Graph",
+      "url": "https://blog.postman.com/agentic-sdlc-part-1-design-with-the-context-graph/",
+      "host": "blog.postman.com",
+      "summary": "Use the Postman Context Graph to design an API feature before Claude writes code. Watch the design phase of the agentic SDLC, then try it.",
+      "publishedAt": "2026-11-23T16:00:22.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 20,
+      "reasons": [
+        "Matched: Agentic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "6351dlse6q",
+      "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+      "url": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+      "host": "the-decoder.com",
+      "summary": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder.",
+      "publishedAt": "2026-11-23T13:59:36.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 19.5,
+      "reasons": [
+        "Matched: superintelligence"
+      ],
+      "also": []
+    },
+    {
+      "id": "3atzcism5w",
+      "title": "“I’m not going to remove the repository”",
+      "url": "https://www.404media.co/im-not-going-to-remove-the-repository/",
+      "host": "404media.co",
+      "summary": "ARTEX, an AI hacking framework causing havoc, is free, and Jensen Huang is back.",
+      "publishedAt": "2026-11-23T15:35:22.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 17.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mgvdiy5zdd",
+      "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+      "url": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+      "host": "the-decoder.com",
+      "summary": "Z.ai is moving its flagship GLM-5.4 model to a loop architecture in which 28 layers run twice, which the company says lets the 750-billion-parameter model match models with 2 to 3 trillion parameters. Benchmark scores are only available for a smaller 30B test model so far, and Z.ai is positioning GLM-5.4 as the start of \"Generalized Coding,\" where code also generates videos, games, and CAD models.",
+      "publishedAt": "2026-11-23T15:13:03.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.8,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "beot1wabvf",
+      "title": "What Happened in Fall 2026: AI and P vs. NP",
+      "url": "https://cacm.acm.org/blogcacm/what-happened-in-fall-2026-ai-and-p-vs-np",
+      "host": "cacm.acm.org",
+      "summary": "",
+      "publishedAt": "2026-11-22T19:50:36.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 17.8,
+      "reasons": [
+        "29 points · 5 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50603219",
+        "points": 29,
+        "comments": 5
+      }
+    },
+    {
+      "id": "mz0qdznqoh",
+      "title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
+      "url": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
+      "host": "the-decoder.com",
+      "summary": "Chinese military researchers fear that AI advances could give the US an edge in the nuclear balance of power. The article Chinese military fears AI could let the US find and destroy its nuclear missiles appeared first on The Decoder.",
+      "publishedAt": "2026-11-23T14:43:23.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 17.7,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "nj6xy17fp1",
+      "title": "‘The Code Is Already Copied Everywhere’: The AI Hacking Tool Causing Havoc Around the World",
+      "url": "https://www.404media.co/the-code-is-already-copied-everywhere-the-ai-hacking-tool-causing-havoc-around-the-world-artex-github/",
+      "host": "404media.co",
+      "summary": "The original author of AI hacking framework ARTEX may have taken the tool down. But 404 Media spoke to multiple people who are distributing it for anyone to download.",
+      "publishedAt": "2026-11-23T14:16:47.000Z",
+      "source": {
+        "id": "404media",
+        "name": "404 Media"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 17.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "8bjcbzg62g",
+      "title": "US spies tracked Nvidia scandal figure's ties to Chinese intelligence for over a year",
+      "url": "https://the-decoder.com/us-spies-tracked-nvidia-scandal-figures-ties-to-chinese-intelligence-for-over-a-year/",
+      "host": "the-decoder.com",
+      "summary": "US intelligence agencies tracked contacts between Alice Huang and China's Ministry of State Security for over a year, the New York Times reports. The surveillance ran parallel to her secret affair with then-Nvidia CEO Jensen Huang. Federal investigators are now looking into whether a network of companies in Southeast Asia was used to smuggle AI chips into China in violation of US export controls.",
+      "publishedAt": "2026-11-23T13:45:32.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 17.5,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mrr8bp4fnn",
+      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+      "host": "bridgewater.com",
+      "summary": "",
+      "publishedAt": "2026-11-22T03:28:48.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 16.8,
+      "reasons": [
+        "29 points · 11 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50595940",
+        "points": 29,
+        "comments": 11
+      }
+    },
+    {
+      "id": "sszqwsbs8v",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "url": "https://huggingface.co/papers/2611.26595",
+      "host": "huggingface.co",
+      "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting.",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 16.7,
+      "reasons": [
+        "39 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 39,
+        "arxivId": "2611.26595"
+      }
+    },
+    {
+      "id": "i1lkc8cvwx",
+      "title": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
+      "url": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+      "host": "theregister.com",
+      "summary": "PLUS: Lenovo's infra group finally makes big profit; Indonesia’s glaciers are gone; Australian bank releases its AI bug-finder; and more!",
+      "publishedAt": "2026-11-23T00:23:31.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 16.5,
+      "reasons": [
+        "Matched: GPT-5"
+      ],
+      "also": []
+    },
+    {
+      "id": "gt4e4kzxht",
+      "title": "Nvidia tried life without Jensen Huang and it lasted about two weeks",
+      "url": "https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/",
+      "host": "the-decoder.com",
+      "summary": "Nvidia's board of directors has reinstated Jensen Huang as president, CEO, and board member, effective immediately. The article Nvidia tried life without Jensen Huang and it lasted about two weeks appeared first on The Decoder.",
+      "publishedAt": "2026-11-23T14:24:47.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 15.6,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "32l6kovecp",
+      "title": "opencode 2.4.1",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.1",
+      "host": "github.com",
+      "summary": "macOS 12 Session Fix: OpenCode can save assistant messages again on the older SQLite version included with macOS 12.",
+      "publishedAt": "2026-11-23T15:58:38.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 14,
+      "reasons": [
+        "New release",
+        "Matched: opencode"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.4.1"
+      }
+    },
+    {
+      "id": "e1tzj6a5pj",
+      "title": "OpenHands 1.44.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.44.0",
+      "host": "github.com",
+      "summary": "feat(chat): conversation mentions, behind the conversation_mentions flag",
+      "publishedAt": "2026-11-23T15:39:58.000Z",
+      "source": {
+        "id": "gh-openhands",
+        "name": "OpenHands releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 13.9,
+      "reasons": [
+        "New release",
+        "Matched: OpenHands"
+      ],
+      "also": [],
+      "release": {
+        "repo": "OpenHands/OpenHands",
+        "version": "1.44.0"
+      }
+    }
+  ]
+}
