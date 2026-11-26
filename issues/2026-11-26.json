@@ -1,0 +1,1283 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T15:22:35.332Z",
+  "window": {
+    "from": "2026-11-25T15:40:36.795Z",
+    "to": "2026-11-26T15:22:31.495Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "msckrvi7ac",
+      "title": "Sources: leading AI labs are sitting on major, unreleased algorithmic breakthroughs that could break deployed cryptosystems, but their exact nature is unknown",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "host": "scottaaronson.blog",
+      "summary": "I feel like my previous posts (and post titles), and podcasts, and talks, have failed to do full justice to the magnitude of what's now happening, so I'm trying again.",
+      "publishedAt": "2026-11-26T09:50:19.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 72.9,
+      "reasons": [
+        "1,778 points · 1,619 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50646108",
+        "points": 1778,
+        "comments": 1619
+      }
+    },
+    {
+      "id": "7i16q5qnsh",
+      "title": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster",
+      "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster",
+      "host": "techradar.com",
+      "summary": "Too little, too late?…",
+      "publishedAt": "2026-11-26T13:01:08.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 55.3,
+      "reasons": [
+        "385 points · 214 comments on Hacker News",
+        "Matched: OpenAI, GPT-6"
+      ],
+      "also": [
+        {
+          "source": "twitter.com",
+          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+        }
+      ],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50651117",
+        "points": 385,
+        "comments": 214
+      }
+    },
+    {
+      "id": "srip4a85vw",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-25T21:48:10.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 42.9,
+      "reasons": [
+        "498 points · 314 comments on Hacker News",
+        "Matched: Anthropic"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50648050",
+        "points": 498,
+        "comments": 314
+      }
+    },
+    {
+      "id": "ruowgn3u5v",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "host": "simonwillison.net",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine…",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 39.9,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "gbonrd97lk",
+      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "host": "newsletter.pragmaticengineer.com",
+      "summary": "Katelyn Lesse explains how Anthropic rewrote Claude’s API in Rust and how AI agents are changing engineering at the company.",
+      "publishedAt": "2026-11-25T17:31:32.000Z",
+      "source": {
+        "id": "pragmatic-engineer",
+        "name": "The Pragmatic Engineer"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 38.5,
+      "reasons": [
+        "From a followed writer",
+        "Matched: Anthropic, Claude, AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "i6jahn7v5m",
+      "title": "Jev is probably Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "host": "modaic.dev",
+      "summary": "",
+      "publishedAt": "2026-11-25T22:57:04.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 35.8,
+      "reasons": [
+        "326 points · 90 comments on Hacker News",
+        "Matched: Qwen3"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50648823",
+        "points": 326,
+        "comments": 90
+      }
+    },
+    {
+      "id": "nclzxy4xff",
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+      "host": "latent.space",
+      "summary": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+      "publishedAt": "2026-11-25T22:28:01.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "industry",
+      "score": 35.7,
+      "reasons": [
+        "From a followed writer",
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "ii2cpiay69",
+      "title": "Migrating our Messages API to Rust",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "host": "anthropic.com",
+      "summary": "How we migrated our Messages API from Python to Rust.",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "anthropic-engineering",
+        "name": "Anthropic Engineering"
+      },
+      "section": "essays",
+      "topic": "automation",
+      "score": 34.9,
+      "reasons": [
+        "30 points · 10 comments on Hacker News",
+        "From a followed writer"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50646357",
+        "points": 30,
+        "comments": 10
+      }
+    },
+    {
+      "id": "blsf37my5s",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "host": "theverge.com",
+      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency…",
+      "publishedAt": "2026-11-25T17:44:51.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 34.5,
+      "reasons": [
+        "Covered by 2 outlets"
+      ],
+      "also": [
+        {
+          "source": "The Decoder",
+          "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
+          "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/"
+        }
+      ]
+    },
+    {
+      "id": "d0iwztn9h1",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "host": "techstackups.com",
+      "summary": "",
+      "publishedAt": "2026-11-26T09:44:23.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "agents",
+      "score": 34.2,
+      "reasons": [
+        "89 points · 101 comments on Hacker News",
+        "Matched: AI Agents, MCP"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50653477",
+        "points": 89,
+        "comments": 101
+      }
+    },
+    {
+      "id": "6o7zwhrj3m",
+      "title": "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell",
+      "url": "https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/",
+      "host": "infoq.com",
+      "summary": "Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss training on H100 GPUs, automated hyperparameter tuning, and production evaluation using LLM-as-a-judge.",
+      "publishedAt": "2026-11-26T11:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 32.9,
+      "reasons": [
+        "Matched: Finetuning, Embedding, Agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "jls93hv4e0",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "host": "simonwillison.net",
+      "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars.",
+      "publishedAt": "2026-11-25T23:26:32.000Z",
+      "source": {
+        "id": "simon-willison-ai",
+        "name": "Simon Willison - ai tag"
+      },
+      "section": "essays",
+      "topic": "research",
+      "score": 32,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "nc4c8kwzny",
+      "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+      "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+      "host": "latent.space",
+      "summary": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+      "publishedAt": "2026-11-25T22:23:41.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 31.7,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "b1pfdsrqek",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-26T11:37:17.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 31,
+      "reasons": [
+        "Official announcement",
+        "Matched: llama.cpp"
+      ],
+      "also": []
+    },
+    {
+      "id": "eyht2volr1",
+      "title": "Thariq Shihipar joins OpenAI after leaving Anthropic in October, saying he felt he could \"personally contribute the most\" to bringing AI to the world at OpenAI",
+      "url": "https://x.com/trq212",
+      "host": "x.com",
+      "summary": "I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue to root for my former colleagues. Both companies have important roles to play in the future. There is a tremendous amount of work ahead of us to bring AI to the world, and it will demand the very best of a...",
+      "publishedAt": "2026-11-26T11:10:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 30.9,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "itwxynh2xs",
+      "title": "Bare Metal Qwen",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "host": "github.com",
+      "summary": "",
+      "publishedAt": "2026-11-25T22:15:34.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 30.2,
+      "reasons": [
+        "197 points · 43 comments on Hacker News",
+        "Matched: Qwen"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50648365",
+        "points": 197,
+        "comments": 43
+      }
+    },
+    {
+      "id": "oq3ergi5ag",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-26T05:05:36.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 29.4,
+      "reasons": [
+        "Official announcement",
+        "Matched: Fine-Tuning"
+      ],
+      "also": []
+    },
+    {
+      "id": "b3buki51ir",
+      "title": "Sources: Z.ai's 3T-parameter flagship GLM-5.5 missed its November release and could be delayed to Q1 2027 or later due to US rules and labs' distillation curbs",
+      "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+      "host": "reuters.com",
+      "summary": "China's Z.AI has fallen behind schedule on its next flagship AI model, while rival Moonshot AI expects the interval between major releases…",
+      "publishedAt": "2026-11-26T11:20:18.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 29,
+      "reasons": [
+        "Matched: distillation"
+      ],
+      "also": []
+    },
+    {
+      "id": "6i9stmgvnt",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28.8,
+      "reasons": [
+        "Official announcement",
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "3tz9n3iiru",
+      "title": "Prove your AI agent guardrails work",
+      "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+      "host": "docker.com",
+      "summary": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+      "publishedAt": "2026-11-25T16:57:00.000Z",
+      "source": {
+        "id": "docker-blog",
+        "name": "Docker blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 28.3,
+      "reasons": [
+        "Matched: AI agent, Coding agents, MCP"
+      ],
+      "also": []
+    },
+    {
+      "id": "mfrd549xxj",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "agents",
+      "score": 28.1,
+      "reasons": [
+        "Official announcement",
+        "Matched: multi-agent"
+      ],
+      "also": []
+    },
+    {
+      "id": "1ojzvmqaff",
+      "title": "AI Test Case Generation for Production QA Pipelines",
+      "url": "https://blog.n8n.io/ai-test-case-generation/",
+      "host": "blog.n8n.io",
+      "summary": "Learn how AI test case generation improves test coverage and speeds testing across systems. Discover how orchestration enhances QA processes.",
+      "publishedAt": "2026-11-26T14:40:39.000Z",
+      "source": {
+        "id": "n8n-blog",
+        "name": "n8n blog"
+      },
+      "section": "automation",
+      "topic": "automation",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "jjc3k9p1qu",
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/",
+      "host": "infoq.com",
+      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azure HorizonDB, a continuous improvement loop in Foundry, Microsoft IQ, a standalone Azure AI Gateway, and Windows Server 2028.",
+      "publishedAt": "2026-11-26T06:45:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 27.8,
+      "reasons": [
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "mivr4k1dxq",
+      "title": "Copilot code review billing will default to the organization",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "host": "github.blog",
+      "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep…",
+      "publishedAt": "2026-11-25T22:18:03.000Z",
+      "source": {
+        "id": "github-copilot-changelog",
+        "name": "GitHub Changelog - Copilot"
+      },
+      "section": "labs",
+      "topic": "tools",
+      "score": 27.7,
+      "reasons": [
+        "Official announcement",
+        "Matched: Copilot"
+      ],
+      "also": []
+    },
+    {
+      "id": "b2ntobqc70",
+      "title": "Analysis: institutional investors are selling stakes in older VC funds from the 2021 investment boom peak at steep discounts and rushing to back new AI funds",
+      "url": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11",
+      "host": "ft.com",
+      "summary": "Pension funds and endowments ditch legacy stakes at knockdown prices to free up cash for next-generation tech start-ups",
+      "publishedAt": "2026-11-26T12:35:21.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cploitobhn",
+      "title": "An algebraic quantization of gravity from the null cone",
+      "url": "https://arxiv.org/abs/2611.34924",
+      "host": "arxiv.org",
+      "summary": "",
+      "publishedAt": "2026-11-26T05:37:51.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 27.1,
+      "reasons": [
+        "103 points · 28 comments on Hacker News",
+        "Matched: quantization"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50651863",
+        "points": 103,
+        "comments": 28
+      }
+    },
+    {
+      "id": "mjdz33ygyp",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "host": "theverge.com",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts -…",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "sv2r2uihfc",
+      "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "url": "https://huggingface.co/papers/2611.32884",
+      "host": "huggingface.co",
+      "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers.",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 26.5,
+      "reasons": [
+        "98 upvotes on Hugging Face",
+        "Matched: AI agents"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 98,
+        "arxivId": "2611.32884"
+      }
+    },
+    {
+      "id": "mhrrjang2c",
+      "title": "Dragos says unidentified parties accessed confidential data submitted to MiniMax, even after users requested that the company not store or retain their data",
+      "url": "https://www.reuters.com/world/data-chinese-ai-firm-minimax-accessed-by-unidentified-parties-researcher-says-2026-11-26/",
+      "host": "reuters.com",
+      "summary": "Confidential data submitted to Chinese AI startup MiniMax (0100.HK) was accessed by unidentified parties, a cybersecurity researcher told Reuters…",
+      "publishedAt": "2026-11-26T09:15:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ldy5ozjqn7",
+      "title": "Q&A with Signal's Moxie Marlinspike on AI and cryptography, his privacy-focused AI chat service Confer, surveilling AI models rather than users, and more",
+      "url": "https://conversationswithtyler.com/episodes/moxie-marlinspike/",
+      "host": "conversationswithtyler.com",
+      "summary": "Moxie Marlinspike built Signal and designed the encryption protocol underneath it",
+      "publishedAt": "2026-11-26T08:55:02.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 26.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "adaa5geygg",
+      "title": "Browser tabs as a container runtime",
+      "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
+      "host": "fzakaria.com",
+      "summary": "",
+      "publishedAt": "2026-11-26T04:57:04.708Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 25.7,
+      "reasons": [
+        "15 points · 1 comment on Lobsters"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
+        "points": 15,
+        "comments": 1
+      }
+    },
+    {
+      "id": "8wq4bkxqnz",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "host": "techcrunch.com",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "publishedAt": "2026-11-25T20:03:27.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 25.1,
+      "reasons": [
+        "Matched: OpenAI, ChatGPT"
+      ],
+      "also": []
+    },
+    {
+      "id": "juc4xslrt1",
+      "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+      "url": "https://huggingface.co/papers/2611.25403",
+      "host": "huggingface.co",
+      "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route.",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 25.1,
+      "reasons": [
+        "106 upvotes on Hugging Face",
+        "Matched: Foundation Model"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 106,
+        "arxivId": "2611.25403"
+      }
+    },
+    {
+      "id": "6fzlktquo0",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "host": "techcrunch.com",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "publishedAt": "2026-11-25T19:44:24.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 25,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "nwwip4f64i",
+      "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+      "url": "https://huggingface.co/papers/2611.28947",
+      "host": "huggingface.co",
+      "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a…",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 24.7,
+      "reasons": [
+        "100 upvotes on Hugging Face",
+        "Matched: Computer-Use"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 100,
+        "arxivId": "2611.28947"
+      }
+    },
+    {
+      "id": "tp8xm0hh3t",
+      "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+      "url": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/",
+      "host": "infoq.com",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world environments.",
+      "publishedAt": "2026-11-25T17:00:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 24.3,
+      "reasons": [
+        "Matched: DeepMind, Gemini"
+      ],
+      "also": []
+    },
+    {
+      "id": "b84r6pudft",
+      "title": "Memory chip shortages prompt companies worldwide to set up procurement war rooms; some chip prices have risen 10x in a year, driving up electronics prices",
+      "url": "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a?st=Rx7QaC",
+      "host": "wsj.com",
+      "summary": "A global shortage has companies scrambling—and it's sent prices on electronics soaring",
+      "publishedAt": "2026-11-26T07:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 24,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "pbuh20xfsg",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "infra",
+      "score": 24,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "o65wuam8o2",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "host": "theverge.com",
+      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come…",
+      "publishedAt": "2026-11-25T21:51:26.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 23.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "mocpfjnxaz",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "host": "techcrunch.com",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "publishedAt": "2026-11-25T18:11:46.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 22.6,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "h31bvhrqd1",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "host": "techcrunch.com",
+      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "publishedAt": "2026-11-25T17:35:58.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "cif60gh4yw",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "host": "theverge.com",
+      "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you…",
+      "publishedAt": "2026-11-25T16:00:59.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "ssdanpkp0g",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "host": "techcrunch.com",
+      "summary": "Nvidia has made clear it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. Anita Verma-Lallian has been selling exactly that.",
+      "publishedAt": "2026-11-25T15:41:43.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 22,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "crl4xqa8rg",
+      "title": "Rewirable Circuits in Transformers with Loom Attention",
+      "url": "https://huggingface.co/papers/2611.30634",
+      "host": "huggingface.co",
+      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens.",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 22,
+      "reasons": [
+        "92 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 92,
+        "arxivId": "2611.30634"
+      }
+    },
+    {
+      "id": "sbq9bx7n6l",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "host": "techcrunch.com",
+      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "hhm6xxi30n",
+      "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+      "url": "https://huggingface.co/papers/2611.31205",
+      "host": "huggingface.co",
+      "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents.",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 21.5,
+      "reasons": [
+        "64 upvotes on Hugging Face",
+        "Matched: Coding Agents"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 64,
+        "arxivId": "2611.31205"
+      }
+    },
+    {
+      "id": "js50vq4o2p",
+      "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
+      "url": "https://danprice.ai/blog/opus-symphony",
+      "host": "danprice.ai",
+      "summary": "",
+      "publishedAt": "2026-11-25T19:57:08.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 21.3,
+      "reasons": [
+        "57 points · 67 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50646662",
+        "points": 57,
+        "comments": 67
+      }
+    },
+    {
+      "id": "r2xz2b4811",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "host": "techcrunch.com",
+      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "publishedAt": "2026-11-25T19:54:57.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 21.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "k906gzh60c",
+      "title": "JetBrains’ latest Mellum coding model uses 45% fewer tokens. It got there by not thinking.",
+      "url": "https://thenewstack.io/jetbrains-mellum2-1-instruct-coding-model/",
+      "host": "thenewstack.io",
+      "summary": "JetBrains has launched a new variant of its open source coding model, one designed to tackle quick code edits, tool",
+      "publishedAt": "2026-11-25T17:23:47.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 20.4,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "efadkyk1b7",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "host": "arstechnica.com",
+      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "publishedAt": "2026-11-25T16:47:14.000Z",
+      "source": {
+        "id": "arstechnica-ai",
+        "name": "Ars Technica - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 20.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "2o9qior55p",
+      "title": "New York bans AI toys, including those using internet to talk to children",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+      "host": "theguardian.com",
+      "summary": "",
+      "publishedAt": "2026-11-25T17:27:05.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "policy",
+      "score": 19.7,
+      "reasons": [
+        "53 points · 13 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50644909",
+        "points": 53,
+        "comments": 13
+      }
+    },
+    {
+      "id": "radfv2xb54",
+      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+      "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+      "host": "the-decoder.com",
+      "summary": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening.",
+      "publishedAt": "2026-11-25T20:51:02.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "research",
+      "score": 17.3,
+      "reasons": [
+        "Matched: distillation, Deepseek"
+      ],
+      "also": []
+    },
+    {
+      "id": "hk7bua2wch",
+      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+      "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+      "host": "the-decoder.com",
+      "summary": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\" The article Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\" appeared first on The Decoder.",
+      "publishedAt": "2026-11-25T20:15:50.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 17.2,
+      "reasons": [
+        "Matched: Anthropic, superintelligent"
+      ],
+      "also": []
+    },
+    {
+      "id": "t82n1q1rcg",
+      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+      "host": "the-decoder.com",
+      "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system.",
+      "publishedAt": "2026-11-26T11:30:06.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 17,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "31ac3veq5e",
+      "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "host": "the-decoder.com",
+      "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes \"chaos\", Loans and major deals are now on the line for Southeast Asia's data centers.",
+      "publishedAt": "2026-11-26T11:21:16.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 15,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "sfj3rdymnn",
+      "title": "India’s government ponders cradle to grave AI oversight",
+      "url": "https://www.theregister.com/public-sector/2026/11/26/indias-government-ponders-cradle-to-grave-ai-oversight/5312275",
+      "host": "theregister.com",
+      "summary": "Machines of loving grace to turn social media grumps into services, finger painting into career advice",
+      "publishedAt": "2026-11-26T03:42:56.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 15,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "6sfh5ghmls",
+      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "host": "the-decoder.com",
+      "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all agentic shopping orders.",
+      "publishedAt": "2026-11-25T16:44:37.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 14.3,
+      "reasons": [
+        "Matched: agentic"
+      ],
+      "also": []
+    },
+    {
+      "id": "gdptqpws5r",
+      "title": "Agentic SDLC Part 3: Verify Behavior, Keep the Evidence",
+      "url": "https://blog.postman.com/agentic-sdlc-part-3-verify-behavior-keep-the-evidence/",
+      "host": "blog.postman.com",
+      "summary": "Test an API feature independently with datasets, mocks, load tests, and a CI workflow. See the test phase of the agentic SDLC with Postman and Claude.",
+      "publishedAt": "2026-11-25T16:00:23.000Z",
+      "source": {
+        "id": "postman-blog",
+        "name": "Postman blog"
+      },
+      "section": "automation",
+      "topic": "agents",
+      "score": 14.1,
+      "reasons": [
+        "Matched: Agentic, Claude"
+      ],
+      "also": []
+    },
+    {
+      "id": "1ft6mxofag",
+      "title": "opencode 2.4.2",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+      "host": "github.com",
+      "summary": "GPT-6.2 System Prompt: GPT-6.2 Sol and Astra, and the gpt-latest aliases, use a system prompt written for GPT-6.2.",
+      "publishedAt": "2026-11-26T01:00:12.000Z",
+      "source": {
+        "id": "gh-opencode",
+        "name": "opencode releases"
+      },
+      "section": "releases",
+      "topic": "tools",
+      "score": 12.4,
+      "reasons": [
+        "New release",
+        "Matched: opencode, GPT-6"
+      ],
+      "also": [],
+      "release": {
+        "repo": "anomalyco/opencode",
+        "version": "2.4.2"
+      }
+    },
+    {
+      "id": "28k84fjlbu",
+      "title": "Pydantic AI 2.75.0",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0",
+      "host": "github.com",
+      "summary": "Keep workspace files below 'operator' authority out of the instructions in RepoContext, Skills and Memory, and add lowest_authority_under",
+      "publishedAt": "2026-11-25T18:21:00.000Z",
+      "source": {
+        "id": "gh-pydantic-ai",
+        "name": "Pydantic AI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 10.7,
+      "reasons": [
+        "New release",
+        "Matched: Pydantic AI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "pydantic/pydantic-ai",
+        "version": "2.75.0"
+      }
+    }
+  ]
+}
