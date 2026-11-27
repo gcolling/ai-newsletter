@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T15:10:10.394Z",
+  "window": {
+    "from": "2026-11-26T15:22:31.495Z",
+    "to": "2026-11-27T15:10:06.588Z"
+  },
+  "sources": {
+    "total": 72,
+    "ok": 72,
+    "failed": []
+  },
+  "stories": [
+    {
+      "id": "30rj7egdlq",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "host": "janlukas.blog",
+      "summary": "",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 48.9,
+      "reasons": [
+        "894 points · 438 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50660180",
+        "points": 894,
+        "comments": 438
+      }
+    },
+    {
+      "id": "8hogmvn8l4",
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "host": "construct22.com",
+      "summary": "",
+      "publishedAt": "2026-11-27T06:44:34.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 43.6,
+      "reasons": [
+        "485 points · 212 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50663595",
+        "points": 485,
+        "comments": 212
+      }
+    },
+    {
+      "id": "f9bosw0lul",
+      "title": "OpenAI may be in cost control mode",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "host": "micjm.com",
+      "summary": "",
+      "publishedAt": "2026-11-26T07:33:12.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 38.9,
+      "reasons": [
+        "345 points · 351 comments on Hacker News",
+        "Matched: OpenAI"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50652527",
+        "points": 345,
+        "comments": 351
+      }
+    },
+    {
+      "id": "4ogtiaa7w8",
+      "title": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "host": "diseasescuredbyai.com",
+      "summary": "",
+      "publishedAt": "2026-11-26T17:16:41.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 36.5,
+      "reasons": [
+        "314 points · 190 comments on Hacker News"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50657307",
+        "points": 314,
+        "comments": 190
+      }
+    },
+    {
+      "id": "2ydm8icbkb",
+      "title": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTc2NzIxOCwiZXhwIjoxNzk2MzcyMDE4LCJhcnRpY2xlSWQiOiJUUDNNNTNUOTZPU0kwMCIsImJjb25uZWN0SWQiOiIyQjM1RjE2RDc1RTU0RTUxQjJFOEEyQkYyQjZDRDhCRiJ9.hYzC51tOUhg7VeYouYj5-6c97qgB7NNSSimalKOpqHI",
+      "host": "bloomberg.com",
+      "summary": "SAP SE is preparing a plan to eliminate at least 10,000 positions to transform its software business for the artificial intelligence era…",
+      "publishedAt": "2026-11-26T16:50:28.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 36.4,
+      "reasons": [
+        "Covered by 2 outlets"
+      ],
+      "also": [
+        {
+          "source": "The Decoder",
+          "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+          "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/"
+        }
+      ]
+    },
+    {
+      "id": "3f3dzn1c5a",
+      "title": "AMD-specific fork of llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "host": "devnull.land",
+      "summary": "",
+      "publishedAt": "2026-11-26T17:11:29.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "infra",
+      "score": 36.3,
+      "reasons": [
+        "406 points · 98 comments on Hacker News",
+        "Matched: llama.cpp"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50657265",
+        "points": 406,
+        "comments": 98
+      }
+    },
+    {
+      "id": "2a8eefacqm",
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "host": "twitter.com",
+      "summary": "",
+      "publishedAt": "2026-11-27T08:28:08.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "research",
+      "score": 34.4,
+      "reasons": [
+        "180 points · 106 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50664325",
+        "points": 180,
+        "comments": 106
+      }
+    },
+    {
+      "id": "n0yxik9cgb",
+      "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+      "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/",
+      "host": "infoq.com",
+      "summary": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval while keeping humans on risky changes.",
+      "publishedAt": "2026-11-27T14:36:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 33.9,
+      "reasons": [
+        "Matched: LLM, OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "32rt6x4frq",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "host": "latent.space",
+      "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+      "publishedAt": "2026-11-26T23:02:48.000Z",
+      "source": {
+        "id": "latent-space",
+        "name": "Latent Space (incl. AINews)"
+      },
+      "section": "essays",
+      "topic": "agents",
+      "score": 33.9,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "qkmtezc2mq",
+      "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+      "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/",
+      "host": "infoq.com",
+      "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed.",
+      "publishedAt": "2026-11-27T06:58:00.000Z",
+      "source": {
+        "id": "infoq-ai",
+        "name": "InfoQ - AI, ML & Data Engineering"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 29.9,
+      "reasons": [
+        "Matched: Mistral, Open-Weight"
+      ],
+      "also": []
+    },
+    {
+      "id": "4918ofht99",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "host": "theverge.com",
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and…",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "source": {
+        "id": "verge-ai",
+        "name": "The Verge - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 29.7,
+      "reasons": [
+        "Matched: vibe-coding"
+      ],
+      "also": []
+    },
+    {
+      "id": "9u1g8ugsye",
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "host": "herecomesthemoon.net",
+      "summary": "",
+      "publishedAt": "2026-11-27T04:56:18.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 29.2,
+      "reasons": [
+        "102 points · 80 comments on Hacker News",
+        "Matched: Claude"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50662933",
+        "points": 102,
+        "comments": 80
+      }
+    },
+    {
+      "id": "p2vzczoro9",
+      "title": "Kimi for Science: More scientific ideas, made possible",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "host": "kimi.ai",
+      "summary": "",
+      "publishedAt": "2026-11-27T12:03:11.000Z",
+      "source": {
+        "id": "hacker-news",
+        "name": "Hacker News"
+      },
+      "section": "community",
+      "topic": "models",
+      "score": 28.7,
+      "reasons": [
+        "90 points · 41 comments on Hacker News",
+        "Matched: Kimi"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50665920",
+        "points": 90,
+        "comments": 41
+      }
+    },
+    {
+      "id": "hyirj85dy6",
+      "title": "Interviews with Huawei CEO Ren Zhengfei and others on how Trump's restrictions pushed Huawei toward self-reliance, making it central to China's AI ambitions",
+      "url": "https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html?unlocked_article_code=1.TlE.eHV_.2f70GvuLgZxe&smid=nytcore-ios-share",
+      "host": "nytimes.com",
+      "summary": "As China's access to Nvidia's advanced chips shrinks, Huawei is becoming increasingly indispensable to Beijing despite a wide technological gap with its American rival.",
+      "publishedAt": "2026-11-27T14:20:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 27.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "rg5oe83l83",
+      "title": "A look at proposals for vertical data centers, often the only option where land is limited in places like Taiwan; Kansas City recently rejected a 20-story tower",
+      "url": "https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html",
+      "host": "nytimes.com",
+      "summary": "The facilities that power A.I. and other big data needs are in high demand but widely despised. Some developers are trying to build them up instead of out.",
+      "publishedAt": "2026-11-27T10:25:08.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 26.8,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "7dn3nk5chy",
+      "title": "Bipartisan efforts in Congress to regulate AI are gaining momentum, but they face an uphill climb due to the slow pace of legislative work and turf battles",
+      "url": "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html",
+      "host": "nytimes.com",
+      "summary": "Members of both parties say they want to tackle artificial intelligence policy, but the slow pace of legislating and turf battles could stand in the way.",
+      "publishedAt": "2026-11-27T00:30:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 26.3,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "5bbumf5b4n",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "host": "huggingface.co",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "source": {
+        "id": "huggingface-blog",
+        "name": "Hugging Face blog"
+      },
+      "section": "labs",
+      "topic": "models",
+      "score": 26.2,
+      "reasons": [
+        "Official announcement"
+      ],
+      "also": []
+    },
+    {
+      "id": "i9sdnbb91b",
+      "title": "Foreign investors sold a record net $33.1B of Taiwanese stocks in November, topping October's record outflow amid AI valuation fears and a broader tech sell-off",
+      "url": "https://www.bloomberg.com/",
+      "host": "bloomberg.com",
+      "summary": "Foreign investors dumped a record amount of Taiwanese stocks so far in November, underscoring how heavily the global AI bellwether…",
+      "publishedAt": "2026-11-27T07:30:00.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 26.1,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "jjkzgg4dnx",
+      "title": "Serial numbers in Chinese filings reveal that Nvidia's restricted Blackwell chips were installed at a Shanghai data center linked to Alice Huang and Megaspeed",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTc4ODgyMywiZXhwIjoxNzk2MzkzNjIzLCJhcnRpY2xlSWQiOiJUUDFVMFJUOU5KTFMwMCIsImJjb25uZWN0SWQiOiI3QTcxRTEyQjY2RTM0RkI3ODlCQTA5NEZBQzVGMkE0OSJ9.tcyYBUyKr7A_4Qyf4S69z95uT1ZiyuOyOOZi73bhQ7Q",
+      "host": "bloomberg.com",
+      "summary": "A pair of Chinese firms installed Nvidia Corp.'s powerful Blackwell semiconductors in a Shanghai data center linked to Alice Huang…",
+      "publishedAt": "2026-11-27T13:05:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 25.5,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "89qnax3uyj",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "host": "blainehansen.me",
+      "summary": "",
+      "publishedAt": "2026-11-26T20:06:50.248Z",
+      "source": {
+        "id": "lobsters-ai",
+        "name": "Lobsters - ai / ml / vibecoding tags"
+      },
+      "section": "community",
+      "topic": "tools",
+      "score": 25.1,
+      "reasons": [
+        "17 points · 18 comments on Lobsters"
+      ],
+      "also": [],
+      "discussion": {
+        "site": "Lobsters",
+        "url": "https://lobste.rs/s/byfdgn/need_for_formally_verifiable_mainstream",
+        "points": 17,
+        "comments": 18
+      }
+    },
+    {
+      "id": "94zq63d3jn",
+      "title": "Cloudflare now lets websites add search for AI agents with a single toggle. Site owners foot the query bill.",
+      "url": "https://thenewstack.io/cloudflare-agent-search-endpoint/",
+      "host": "thenewstack.io",
+      "summary": "Cloudflare has announced a new feature that makes it easier for AI agents to find and retrieve relevant information from",
+      "publishedAt": "2026-11-26T18:46:47.000Z",
+      "source": {
+        "id": "thenewstack-ai",
+        "name": "The New Stack - AI"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 24.9,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "p2z2198w6v",
+      "title": "Who gets to decide if something is written by AI?",
+      "url": "https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai/",
+      "host": "seangoedecke.com",
+      "summary": "Every day there’s some new argument about whether something was written by AI: a writing prize where the winning story was supposedly AI-generated, or an author who lost her contract after the manuscript lit up Pangram1, or a dispute about whether a tweet was written by a human or not.",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "source": {
+        "id": "sean-goedecke",
+        "name": "Sean Goedecke"
+      },
+      "section": "essays",
+      "topic": "tools",
+      "score": 24.2,
+      "reasons": [
+        "From a followed writer"
+      ],
+      "also": []
+    },
+    {
+      "id": "bfrj8kc399",
+      "title": "A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K",
+      "url": "https://aftermath.site/n3on-impersonator-ai-prison-260000-dollars-kick-stream/",
+      "host": "aftermath.site",
+      "summary": "What goes around comes around, I suppose. Earlier this year, Kick streamer N3on, a weasly little twig person who spends…",
+      "publishedAt": "2026-11-26T22:10:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "policy",
+      "score": 23.7,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "nf6amhuge8",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "host": "techcrunch.com",
+      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 23.2,
+      "reasons": [
+        "Solid source"
+      ],
+      "also": []
+    },
+    {
+      "id": "c1iov03bnb",
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "url": "https://huggingface.co/papers/2611.34575",
+      "host": "huggingface.co",
+      "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 23,
+      "reasons": [
+        "80 upvotes on Hugging Face",
+        "Matched: large language models"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 80,
+        "arxivId": "2611.34575"
+      }
+    },
+    {
+      "id": "rmcj2p6jgp",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "host": "techcrunch.com",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "source": {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch - AI"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 22.2,
+      "reasons": [
+        "Matched: Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "1ey46zqcen",
+      "title": "Dante Security, which has developed a platform for monitoring the activity of AI agents within organizations, raised a $10M seed led by NFX",
+      "url": "https://www.calcalistech.com/ctechnews/article/h18nob7kml",
+      "host": "calcalistech.com",
+      "summary": "Dante Security is developing a platform that gives organizations visibility into the actions of autonomous AI agents and connects their activity to the employees responsible for them.",
+      "publishedAt": "2026-11-27T03:15:01.000Z",
+      "source": {
+        "id": "techmeme",
+        "name": "Techmeme"
+      },
+      "section": "news",
+      "topic": "agents",
+      "score": 21,
+      "reasons": [
+        "Matched: AI agents"
+      ],
+      "also": []
+    },
+    {
+      "id": "qo1h0rvz7c",
+      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2611.34237",
+      "host": "huggingface.co",
+      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind.",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 20.8,
+      "reasons": [
+        "57 upvotes on Hugging Face",
+        "Matched: coding agent"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 57,
+        "arxivId": "2611.34237"
+      }
+    },
+    {
+      "id": "exbbyeri75",
+      "title": "Mixture-of-Loops Transformer",
+      "url": "https://huggingface.co/papers/2611.34923",
+      "host": "huggingface.co",
+      "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops?",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 20.4,
+      "reasons": [
+        "73 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 73,
+        "arxivId": "2611.34923"
+      }
+    },
+    {
+      "id": "cp517f0oii",
+      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+      "url": "https://huggingface.co/papers/2611.33144",
+      "host": "huggingface.co",
+      "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 19,
+      "reasons": [
+        "42 upvotes on Hugging Face",
+        "Matched: Coding Agents"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 42,
+        "arxivId": "2611.33144"
+      }
+    },
+    {
+      "id": "e7v873ksvw",
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+      "url": "https://huggingface.co/papers/2611.34941",
+      "host": "huggingface.co",
+      "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos?",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "source": {
+        "id": "hf-papers",
+        "name": "Hugging Face Papers"
+      },
+      "section": "papers",
+      "topic": "research",
+      "score": 17.5,
+      "reasons": [
+        "46 upvotes on Hugging Face"
+      ],
+      "also": [],
+      "paper": {
+        "upvotes": 46,
+        "arxivId": "2611.34941"
+      }
+    },
+    {
+      "id": "rywuh294fu",
+      "title": "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+      "host": "theregister.com",
+      "summary": "Datacenter spending is booming but the models, the chips, and the clout all live in US and Asia",
+      "publishedAt": "2026-11-27T11:32:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 17.1,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "3b2uvz44me",
+      "title": "AI boom leaves network operators waiting up to 18 months for kit",
+      "url": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+      "host": "theregister.com",
+      "summary": "Optical equipment prices up around 50% this year as telcos compete with datacenters for components, says RETN",
+      "publishedAt": "2026-11-27T10:45:00.000Z",
+      "source": {
+        "id": "register-ai",
+        "name": "The Register - AI + ML"
+      },
+      "section": "news",
+      "topic": "infra",
+      "score": 16.9,
+      "reasons": [
+        "Useful source"
+      ],
+      "also": []
+    },
+    {
+      "id": "9pkmt3jh7c",
+      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+      "host": "the-decoder.com",
+      "summary": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder.",
+      "publishedAt": "2026-11-26T15:45:08.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "tools",
+      "score": 16.1,
+      "reasons": [
+        "Matched: OpenAI, Anthropic"
+      ],
+      "also": []
+    },
+    {
+      "id": "1bz7i5o4yq",
+      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+      "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+      "host": "the-decoder.com",
+      "summary": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography.",
+      "publishedAt": "2026-11-26T19:31:46.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "industry",
+      "score": 15,
+      "reasons": [
+        "Matched: OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "4o00sqj18k",
+      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+      "host": "the-decoder.com",
+      "summary": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger.",
+      "publishedAt": "2026-11-26T17:28:56.000Z",
+      "source": {
+        "id": "the-decoder",
+        "name": "The Decoder"
+      },
+      "section": "news",
+      "topic": "models",
+      "score": 14.5,
+      "reasons": [
+        "Matched: GPT-6, OpenAI"
+      ],
+      "also": []
+    },
+    {
+      "id": "9zlperzhna",
+      "title": "Pydantic AI 2.76.0",
+      "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+      "host": "github.com",
+      "summary": "Reveal tools mid-session in realtime sessions on models that take tool updates, via RealtimeModelProfile.supports_tool_updates and UpdateTools",
+      "publishedAt": "2026-11-26T23:49:06.000Z",
+      "source": {
+        "id": "gh-pydantic-ai",
+        "name": "Pydantic AI releases"
+      },
+      "section": "releases",
+      "topic": "agents",
+      "score": 12.1,
+      "reasons": [
+        "New release",
+        "Matched: Pydantic AI"
+      ],
+      "also": [],
+      "release": {
+        "repo": "pydantic/pydantic-ai",
+        "version": "2.76.0"
+      }
+    }
+  ]
+}
